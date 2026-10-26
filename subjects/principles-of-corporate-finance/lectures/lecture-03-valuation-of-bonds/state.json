@@ -3,7 +3,7 @@
   "subject": "principles-of-corporate-finance",
   "lecture": "lecture-03-valuation-of-bonds",
   "html_path": "subjects/principles-of-corporate-finance/lectures/lecture-03-valuation-of-bonds/study.html",
-  "stage": 1,
+  "stage": 2,
   "completed_topics": {
     "1": [
       "topic-t01",
@@ -28,14 +28,36 @@
       "topic-t20",
       "topic-t21"
     ],
-    "2": [],
+    "2": [
+      "topic-t01",
+      "topic-t02",
+      "topic-t03",
+      "topic-t04",
+      "topic-t05",
+      "topic-t06",
+      "topic-t07",
+      "topic-t08",
+      "topic-t09",
+      "topic-t10",
+      "topic-t11",
+      "topic-t12",
+      "topic-t13",
+      "topic-t14",
+      "topic-t15",
+      "topic-t16",
+      "topic-t17",
+      "topic-t18",
+      "topic-t19",
+      "topic-t20",
+      "topic-t21"
+    ],
     "3": [],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "S02: lecture-wide teaching structure",
+  "next_topic": "S03: topic-t01",
   "source_complete": true,
   "issues": [
     "Slide 13 Japanese example conflicts on dates and reported price (¥243.57 versus calculated ≈ ¥230.73 using displayed cash flows)",
@@ -50,9 +72,10 @@
     "Slide 39 'Fischer' spelling differs from Irving Fisher on slide 41; approximate real ≈ nominal − inflation formula shown with equality sign",
     "Slide 49 says dollar borrowing causes default, but foreign-currency exposure alone does not mechanically cause default",
     "Slide 52 bibliographic name 'Allan' transcribed as printed; textbook and Moodle articles not independently supplied/verified",
-    "Slide 51 names liquidity-preference theory, liquidity premium, promised yield and realized return without dedicated slide explanations"
+    "Slide 51 names liquidity-preference theory, liquidity premium, promised yield and realized return without dedicated slide explanations",
+    "S02 architecture complete, but deep conceptual explanations and applied practice are pending S03–S05; slide inconsistencies remain flagged for S06."
   ],
-  "updated_at": "2026-10-26T12:53:00+01:00",
+  "updated_at": "2026-10-26T12:59:00+01:00",
   "source_page_count": 52,
   "extracted_pages": 52,
   "source_ledger_entries": 102,
@@ -62,7 +85,7 @@
       "title": "What the bond lecture covers",
       "slides": "1-3",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -72,7 +95,7 @@
       "title": "French government bond: cash flows and present value",
       "slides": "4-5",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -82,7 +105,7 @@
       "title": "Yield to maturity: solving in reverse",
       "slides": "6",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -92,7 +115,7 @@
       "title": "General bond valuation formulas",
       "slides": "7-9",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -102,7 +125,7 @@
       "title": "Practice cases: IBM and Japanese government bond",
       "slides": "10-13",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -112,7 +135,7 @@
       "title": "Semiannual payments: the U.S. government note",
       "slides": "14-15",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -122,7 +145,7 @@
       "title": "Bond yields, price sensitivity and maturity",
       "slides": "16-18",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -132,7 +155,7 @@
       "title": "Duration and modified duration: definitions",
       "slides": "19,21",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -142,7 +165,7 @@
       "title": "Coupon rate and the worked duration table",
       "slides": "20,22-23",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -152,7 +175,7 @@
       "title": "Duration across half-year periods and curved price sensitivity",
       "slides": "24-25",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -162,7 +185,7 @@
       "title": "Term structure, spot rates and the law of one price",
       "slides": "26-28",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -172,7 +195,7 @@
       "title": "Government-bond term-structure calculations and yield-curve shapes",
       "slides": "29-30",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -182,7 +205,7 @@
       "title": "Spot-rate curves and competing term-structure theories",
       "slides": "31-35",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -192,7 +215,7 @@
       "title": "Historical inflation, deflation and international differences",
       "slides": "36-37",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -202,7 +225,7 @@
       "title": "Real versus nominal cash flows and the Fisher relation",
       "slides": "38-39",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -212,7 +235,7 @@
       "title": "Historical UK nominal/real yields and capital-market equilibrium",
       "slides": "40-41",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -222,7 +245,7 @@
       "title": "Treasury-bill yields and inflation in the UK, U.S. and Germany",
       "slides": "42-44",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -232,7 +255,7 @@
       "title": "Rating discussion: opening breakout questions",
       "slides": "45",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -242,7 +265,7 @@
       "title": "Corporate-bond default risk, rating grades and yield differences",
       "slides": "46-48",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -252,7 +275,7 @@
       "title": "Sovereign default risk: own-currency, foreign-currency and Eurozone debt",
       "slides": "49-50",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
@@ -262,10 +285,81 @@
       "title": "Lecture key terms and required reading",
       "slides": "51-52",
       "stage01": "extracted",
-      "stage02": "pending",
+      "stage02": "structured",
       "stage03": "pending",
       "stage04": "pending",
       "stage05": "pending"
+    }
+  ],
+  "teaching_order": [
+    "topic-t01",
+    "topic-t02",
+    "topic-t04",
+    "topic-t03",
+    "topic-t05",
+    "topic-t06",
+    "topic-t07",
+    "topic-t08",
+    "topic-t09",
+    "topic-t10",
+    "topic-t11",
+    "topic-t12",
+    "topic-t14",
+    "topic-t15",
+    "topic-t16",
+    "topic-t17",
+    "topic-t13",
+    "topic-t18",
+    "topic-t19",
+    "topic-t20",
+    "topic-t21"
+  ],
+  "teaching_parts": [
+    {
+      "anchor": "part-cash-flows",
+      "topics": [
+        "topic-t01",
+        "topic-t02",
+        "topic-t04",
+        "topic-t03",
+        "topic-t05",
+        "topic-t06"
+      ]
+    },
+    {
+      "anchor": "part-interest-rate-risk",
+      "topics": [
+        "topic-t07",
+        "topic-t08",
+        "topic-t09",
+        "topic-t10"
+      ]
+    },
+    {
+      "anchor": "part-spot-structure",
+      "topics": [
+        "topic-t11",
+        "topic-t12"
+      ]
+    },
+    {
+      "anchor": "part-inflation-theories",
+      "topics": [
+        "topic-t14",
+        "topic-t15",
+        "topic-t16",
+        "topic-t17",
+        "topic-t13"
+      ]
+    },
+    {
+      "anchor": "part-default",
+      "topics": [
+        "topic-t18",
+        "topic-t19",
+        "topic-t20",
+        "topic-t21"
+      ]
     }
   ]
 }
