@@ -1,0 +1,9 @@
+STUDY PIPELINE STAGE S07 • FINAL HTML EDITORIAL POLISH AND RELEASE
+
+Read current committed state and HTML. Stage 6 corrections must be present; refuse final completion if unresolved critical/major defects require fixing.
+
+Make only surgical editorial/design edits to SAME study.html: continuous textbook flow, meaningful headings, ToC links, consistent notation and units, restrained boxes, clear formula displays, readable diagrams, responsive tables, keyboard accessible <details> answers, mobile reading width, sufficient contrast and sensible print styles. Remove genuine repetitive wording but NEVER delete unique taught substance or compress derivations into unexplained answers. Preserve L-identifiers, teacher statements, sources, examples, calculations, all questions/solutions and the collapsed source/build/audit logs.
+
+Check valid HTML, unique IDs, working anchors, figure labels, citations, notes/answer placement, print visibility, and all source-mapped content still present. Do not introduce new external claims or invented research. If browser renderer tools exist, inspect desktop/mobile/print layout; otherwise don't pretend rendered visual testing happened.
+
+Commit updated study.html with current blob SHA, fetch it from GitHub and confirm saved content/structure; update/re-fetch state.json with state.stage=7 and final path. Give user final study chapter location and a short factual description, then end EXACTLY [[STUDY_FINAL_READY]] on standalone final line. If only partial polish completed: [[STUDY_STEP_MORE:S07]]. If GitHub or artifact verification cannot complete, explain blocker and end [[STUDY_WAIT_FOR_HUMAN]].
