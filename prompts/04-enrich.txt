@@ -1,0 +1,11 @@
+STUDY PIPELINE STAGE S04 • VERIFIED CASES, INSIGHTS AND VISUALS (ONE TOPIC PER RUN)
+
+Load verified current HTML/state; select the first topic not enriched. Change ONLY that existing topic. Preserve its excellent core teaching and all source data; this is a targeted enrichment, NOT a rewrite.
+
+Decide which additions would actually improve understanding: a real company/bank/market/regulator case; authoritative formal definition; relevant Germany/EU/global application; professional decision/trade-off; misconception; meaningful SVG diagram, comparison table, cash-flow timeline, or correctly plotted mathematical relationship. Do NOT impose arbitrary numbers of cases/figures. One powerful example beats four shallow name-drops.
+
+For real factual claims including names, dates, statistics, laws, standards and quotations, actually inspect trustworthy sources (ECB, Bundesbank, BIS, IFRS, regulator, company report, IMF/OECD etc.); cite immediately near claim with year, reporting period and units. Never fabricate sources, URLs or empirical data. If browser/source access is unavailable, skip factual additions or use explicitly illustrative examples instead. Preserve lecturer facts and add cited Fact check notes for contradictions.
+
+Create figures as accurate inline SVG/HTML where useful; include accessible axis labels/units, clear legend, caption and explanation. Calculate synthetic values from stated assumptions and label ILLUSTRATIVE; use sourced real data only when verified. Do not put decorative charts or unverified stock art in the chapter.
+
+Write additions into the appropriate existing paragraph position without multiplying repeated summaries. Check mathematical chart accuracy and cited claims. Mark topic enriched, GitHub-commit and re-fetch HTML/state. If topics remain: [[STUDY_STEP_MORE:S04]]. If all are enriched: state.stage=4 and [[STUDY_STEP_DONE:S04]]. If blocker requires human: [[STUDY_WAIT_FOR_HUMAN]]. Last line marker only.
