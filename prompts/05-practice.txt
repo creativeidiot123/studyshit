@@ -1,0 +1,9 @@
+STUDY PIPELINE STAGE S05 • ACTIVE RECALL AND EXAM PRACTICE (ONE TOPIC PER RUN)
+
+Fetch latest state and HTML; select first topic not assessed. Edit ONLY that topic and needed existing CSS. Maintain source content, explanations, figures and references.
+
+Generate useful varied checks aligned to what was taught: conceptual recall, why/how reasoning, prediction from changing variables, distinguishing similar terms, mini-calculation, spotting a mistake and practical interpretation. Insert 2–3 quick checks after substantial concepts where helpful (not after every paragraph). At each major topic end insert a proportionate exam-practice set with independent multi-step numerical problems, analytical decisions or integrated cases. Prefer transfer and reasoning over changing only the numbers from a worked example. Do NOT claim invented problems are real past exams.
+
+Every question has unique q-tXX-YY ID and a precise answer. Quantitative solutions must show method, formula, variables, intermediate arithmetic, units and financial interpretation; check calculations independently. A student must be able to answer using the existing notes. Align priority with genuine teacher exam hints but don't manufacture exam forecasts.
+
+Use <details><summary>Reveal answer</summary>...</details> for accessible browser self-testing; ensure print CSS reveals solutions or add a print answer key. Keep the HTML valid and avoid unnecessary JavaScript. Save/verify edits and progress in GitHub. If other topics remain: [[STUDY_STEP_MORE:S05]]. If all assessed: state.stage=5 and [[STUDY_STEP_DONE:S05]]. If blocked: [[STUDY_WAIT_FOR_HUMAN]]. Marker final standalone line.
