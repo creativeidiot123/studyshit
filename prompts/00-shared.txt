@@ -1,6 +1,6 @@
 STUDYSHIT • INCREMENTAL HTML PIPELINE • SHARED RULES
 
-GOAL: An MA International Business and Finance student (THA Augsburg, Germany) wants to KNOW the lecture and pass the exam without wading through theory. Build notes that are short, accurate, complete and genuinely enjoyable to work through: a hook, a clear idea, a worked example, something to see, something to try, a question to test yourself. Everything the lecture taught is covered; nothing beyond it is padded in. Correct at master's level, never a research text. If a sentence does not help the student understand or answer an exam question, cut it.
+GOAL: An MA International Business and Finance student (THA Augsburg, Germany) wants to KNOW the lecture and pass the exam without wading through theory. Build notes that are short, accurate, complete and genuinely enjoyable to work through: a hook, a clear idea, a worked example, something to see, something to try, a question to test yourself. Everything the lecture taught is covered; beyond that, only a small, clearly labelled extra (about 5%) of closely related ideas that genuinely matter. Correct at master's level, never a research text. If a sentence does not help the student understand or answer an exam question, cut it.
 
 THREE NON-NEGOTIABLES:
 1. COMPLETE: every concept, formula, number, lecturer example and warning from the sources appears somewhere (tracked by source IDs).
@@ -13,17 +13,19 @@ Each topic is one <section id="topic-tNN" data-format="compact-v2"> built from t
 2. Hook (class "hook"): ONE short line that makes the student curious: a concrete question, a surprising fact from the lecture, or a decision ("Would you pay 125 for a bond that pays you 125 in total? You shouldn't.").
 3. Concept blocks (h3), 1-4 per topic. Each block:
    - the idea in plain words, max ~80 words. Define a term only where it first appears, in one short clause or sentence, in bold. No separate definitions lists, no definitions of words the lecture does not use;
-   - the lecture's formula if there is one, then each symbol in a few words (no derivation unless the lecturer derived it);
+   - the lecture's formula if there is one, then each symbol in a few words, plus a 1-3 line "why it works" intuition when that makes it click (no formal derivation unless the lecturer derived it);
    - a worked example (class "example") using the lecturer's numbers where possible, shown as numbered steps revealed one at a time (see INTERACTIVE PARTS); invented numbers are labelled ILLUSTRATIVE;
    - a visual (class "visual") whenever the idea involves numbers, time, a process or a relationship;
    - one quick check (class "quick-check") as an instant-feedback question (see INTERACTIVE PARTS).
 4. "Try it" (class "try-it", optional, max 1 per topic): a small calculator or slider for a formula worth playing with (for example change the yield and watch the bond price move). Only where playing with it builds intuition.
-5. Remember (class "takeaways"): 3-4 one-line bullets, including the most common mistake ("Watch out: ...").
-6. Practice (added in S05, class "practice").
+5. Beyond the slides (class "beyond", optional, max 1 per topic): see BEYOND THE SLIDES.
+6. Remember (class "takeaways"): 3-4 one-line bullets, including the most common mistake ("Watch out: ...").
+7. Practice (added in S05, class "practice").
 
 LIMITS:
 - Prose per topic: target 200-450 words, hard cap 550. Formulas, tables, visuals, example steps, interactive parts and questions do NOT count, so they are never squeezed; prose is.
 - Visuals: at least one per topic whenever the topic has numbers, time, a process or a relationship; at most 3 per topic. Small inline SVG or HTML tables (no external images, no stock art, no decoration), computed from the stated numbers, labelled axes and units, one-line caption. Keep each SVG roughly under 4 KB.
+- BEYOND THE SLIDES (about 5%): a little related theory is welcome when it is important and connected to the topic, for example something every finance student is expected to know next to this lecture (clean vs dirty price next to bond pricing, convexity next to duration, credit spreads next to ratings). Rules: at most one box per topic, max ~80 words, labelled "Beyond the slides", written in the same engaging way (a hook, an example or a tiny visual), standard textbook knowledge stated accurately (cite the textbook or source for specific facts), never contradicting the lecture, and never presented as lecture content. Whole chapter: all Beyond boxes together stay around 5% of the chapter's prose. Skip it when nothing important is missing.
 - Real-world example (optional, class "real-world"): at most one per topic, max ~60 words, with an inspected citation, or labelled ILLUSTRATIVE.
 - Slide pictures: describe only exam-relevant content, in at most 2 sentences; ignore decorative images. Redraw an important chart instead of describing it.
 - Lecturer errors: keep the statement and add a 1-2 sentence "Fact check" (class "fact-check").
@@ -37,7 +39,7 @@ INTERACTIVE PARTS (vanilla JavaScript, no libraries, no network requests; the pa
 - Progress: each topic ends with a "Got it" checkbox; the shared script stores it in localStorage (wrapped in try/catch) and updates a progress bar at the top. Without storage it simply does not persist.
 - Print CSS shows every answer and every example step and hides buttons.
 
-PAGE DESIGN: One inline stylesheet styling these classes once, simply and attractively (light tinted cards, clear headings, readable on mobile, good contrast, print-friendly): hook, example, visual, quick-check, try-it, takeaways, fact-check, real-world, practice, cheat-sheet, flashcard, progress. Add missing styles the first time a stage needs them; do not restyle the whole page.
+PAGE DESIGN: One inline stylesheet styling these classes once, simply and attractively (light tinted cards, clear headings, readable on mobile, good contrast, print-friendly): hook, example, visual, quick-check, try-it, beyond, takeaways, fact-check, real-world, practice, cheat-sheet, flashcard, progress. Add missing styles the first time a stage needs them; do not restyle the whole page.
 
 ONE FILE: Each lecture has ONE evolving HTML document at subjects/<subject-slug>/lectures/<lecture-slug>/study.html. Edit it incrementally, never regenerate from scratch. Maintain the source ledger with L001... identifiers, stable topic-t01... IDs, data-source-ids, and a collapsed build log. Keep all unique taught information.
 

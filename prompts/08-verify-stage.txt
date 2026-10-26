@@ -33,7 +33,7 @@ S02 TOPIC MAP:
 - Topics are small (one main idea, usually 1-4 slides), ordered basics first, with plain-language titles.
 - A "How to use these notes" box exists; parts, headings, ToC links and stable topic IDs are consistent.
 
-THE THREE NON-NEGOTIABLES in /prompts/00-shared.txt apply to every stage: COMPLETE, ACCURATE, LESS. Too much prose or theory is a defect, just like missing coverage or a wrong number.
+THE THREE NON-NEGOTIABLES in /prompts/00-shared.txt apply to every stage: COMPLETE, ACCURATE, LESS. Too much prose or theory is a defect, just like missing coverage or a wrong number. Extra theory is allowed only inside labelled "Beyond the slides" boxes (max 1 per topic, ~80 words, about 5% of the chapter in total), and it must be accurate, important and connected.
 
 S03 COMPACT TEACHING:
 - EACH and EVERY source-bearing topic is data-progress=taught AND data-format="compact-v2". One compact topic out of six is NOT completion.
@@ -46,7 +46,7 @@ S04 VISUALS, TRY-IT AND EXAMPLES:
 - Every topic is marked enriched. Ideas with numbers, time, a process or a relationship have a helpful visual (max 3 per topic) with labelled axes/units and a caption; plotted values are correct (spot-check by recalculating).
 - Each "Try it" calculator reproduces the lecturer's example at its default inputs and gives correct outputs at two other inputs you compute yourself.
 - At most one real-world example per topic (~60 words), with an actually supporting citation or an ILLUSTRATIVE label.
-- No decorative visuals, extra theory or unverified citations; S03 teaching is intact and within limits.
+- No decorative visuals, unlabelled extra theory or unverified citations; Beyond the slides boxes stay within limits; S03 teaching is intact and within limits.
 
 S05 INTERACTIVE PRACTICE:
 - Every topic has a Practice block of 3-5 questions (a numeric calculation where the topic has numbers, a multiple-choice concept question with instant feedback, a what-happens-if question) plus 1-2 common questions; the chapter ends with a Mixed exam practice section of 8-10 questions with a running score.
@@ -56,7 +56,7 @@ S05 INTERACTIVE PRACTICE:
 
 S06 COMPLETE, ACCURATE, COMPACT:
 - Source coverage, maths, chart values, calculators, quiz answers, real-world claims and practice solutions have actually been checked.
-- Every topic is in the compact format and within limits; terms are consistent; no theory beyond the lecture.
+- Every topic is in the compact format and within limits; terms are consistent; extra theory only in accurate, labelled Beyond the slides boxes totalling about 5% of the chapter.
 - The shared script exists once (under ~8 KB); interactive parts work and the page remains usable without JavaScript; print shows answers.
 - Known critical or major mistakes are fixed or clearly blocked; unresolved source limitations remain honestly documented. Verify specific edits are present in the HTML; no blanket "verified" claims.
 

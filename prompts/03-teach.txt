@@ -2,13 +2,14 @@ STUDY PIPELINE STAGE S03 • TEACH ONE TOPIC IN THE COMPACT FORMAT (ONE TOPIC PE
 
 Load current state.json and study.html from GitHub. Select ONLY the first topic (in chapter order) that is not BOTH data-progress=taught AND data-format="compact-v2". A topic taught earlier in any older format counts as not done: rewrite it into the compact format from its existing content and sources. Edit ONLY that topic, directly related cross-references, and missing PAGE DESIGN styles or shared script parts.
 
-Build the topic exactly as LEARNING FORMAT and INTERACTIVE PARTS in /prompts/00-shared.txt describe: title, hook, 1-4 concept blocks (plain idea with inline one-line definitions, formula with symbols, step-by-step example, visual where useful, instant-feedback quick check), optional "Try it" calculator, Remember bullets, "Got it" checkbox. Write for a student who missed the lecture and wants to get it fast:
+Build the topic exactly as LEARNING FORMAT and INTERACTIVE PARTS in /prompts/00-shared.txt describe: title, hook, 1-4 concept blocks (plain idea with inline one-line definitions, formula with symbols, step-by-step example, visual where useful, instant-feedback quick check), optional "Try it" calculator, optional Beyond the slides box, Remember bullets, "Got it" checkbox. Write for a student who missed the lecture and wants to get it fast:
 - lead with the hook and the intuition; bring in the formula only once the idea is clear;
 - show, then let them try: an example, a picture and a question beat another paragraph;
 - redraw an exam-relevant slide chart or table as a clean SVG or HTML table rather than describing it;
 - define only terms the lecture uses, once, inline; never a list of definitions;
 - keep all lecturer numbers, notation, formulas, warnings and source IDs (data-source-ids); when condensing an older long topic, cut explanation, never source facts;
-- no derivations, proofs or limitation essays unless the lecturer covered them; no external research yet.
+- no formal derivations, proofs or limitation essays unless the lecturer covered them; a short "why it works" intuition is fine;
+- add one "Beyond the slides" box only if an important closely related idea is missing (see BEYOND THE SLIDES); no external research yet.
 Prose 200-450 words, hard cap 550 (see LIMITS for what counts). Recalculate every number in examples, visuals, quick checks and the calculator; a "Try it" calculator must reproduce the lecturer's example result at its default inputs.
 
 On completion set the topic to data-progress=taught and data-format="compact-v2", record it in state.json completed_topics["3"], persist both files to GitHub and re-fetch them. If more topics still need compact teaching: [[STUDY_STEP_MORE:S03]]. If every source-bearing topic is taught in the compact format: state.stage=3 and [[STUDY_STEP_DONE:S03]]. If blocked: [[STUDY_WAIT_FOR_HUMAN]]. Last line is the marker only.
