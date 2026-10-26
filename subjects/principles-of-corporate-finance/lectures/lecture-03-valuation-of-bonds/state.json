@@ -13,18 +13,22 @@
     "6": [],
     "7": []
   },
-  "next_topic": "S01: slides 16-30",
+  "next_topic": "S01: slides 31-45",
   "source_complete": false,
   "issues": [
-    "Slides 16-52 pending S01 extraction",
+    "S01 source coverage partial: slides 31-52 pending",
     "Slide 13 Japanese example conflicts on dates and reported price (¥243.57 versus calculated ≈ ¥230.73 using displayed cash flows)",
     "Slide 15 US bond example shows conflicting $1,331.40 and $1334 (formula computes approximately $1,331.41)",
-    "No lecture transcript supplied"
+    "No lecture transcript supplied",
+    "Slide 17 US bond at 4% semiannual YTM prints ~$1,204/$1,203.05 but stated discounting gives ~$1,085.18",
+    "Slide 19 omits negative sign and percent-price scale in sensitivity expression",
+    "Slide 23 prints 2.687%+2.687%=5.47% (actual sum 5.374%; modified-duration estimate for 0.5pp ≈2.735%)",
+    "Slide 24 printed rounded PV cells sum to 152.11 but literal payments discounted at 2% per year imply ≈152.18; Macaulay duration approximately 4.83"
   ],
-  "updated_at": "2026-10-26T12:35:00+01:00",
+  "updated_at": "2026-10-26T12:44:00+01:00",
   "source_page_count": 52,
-  "extracted_pages": 15,
-  "source_ledger_entries": 20,
+  "extracted_pages": 30,
+  "source_ledger_entries": 51,
   "topics": [
     {
       "id": "topic-t01",
@@ -80,6 +84,66 @@
       "id": "topic-t06",
       "title": "Semiannual payments: the U.S. government note",
       "slides": "14-15",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t07",
+      "title": "Bond yields, price sensitivity and maturity",
+      "slides": "16-18",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t08",
+      "title": "Duration and modified duration: definitions",
+      "slides": "19,21",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t09",
+      "title": "Coupon rate and the worked duration table",
+      "slides": "20,22-23",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t10",
+      "title": "Duration across half-year periods and curved price sensitivity",
+      "slides": "24-25",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t11",
+      "title": "Term structure, spot rates and the law of one price",
+      "slides": "26-28",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t12",
+      "title": "Government-bond term-structure calculations and yield-curve shapes",
+      "slides": "29-30",
       "stage01": "extracted",
       "stage02": "pending",
       "stage03": "pending",
