@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "principles-of-corporate-finance",
+  "lecture": "lecture-03-valuation-of-bonds",
+  "html_path": "subjects/principles-of-corporate-finance/lectures/lecture-03-valuation-of-bonds/study.html",
+  "stage": 0,
+  "completed_topics": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": []
+  },
+  "next_topic": "S01: slides 16-30",
+  "source_complete": false,
+  "issues": [
+    "Slides 16-52 pending S01 extraction",
+    "Slide 13 Japanese example conflicts on dates and reported price (¥243.57 versus calculated ≈ ¥230.73 using displayed cash flows)",
+    "Slide 15 US bond example shows conflicting $1,331.40 and $1334 (formula computes approximately $1,331.41)",
+    "No lecture transcript supplied"
+  ],
+  "updated_at": "2026-10-26T12:35:00+01:00",
+  "source_page_count": 52,
+  "extracted_pages": 15,
+  "source_ledger_entries": 20,
+  "topics": [
+    {
+      "id": "topic-t01",
+      "title": "What the bond lecture covers",
+      "slides": "1-3",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t02",
+      "title": "French government bond: cash flows and present value",
+      "slides": "4-5",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t03",
+      "title": "Yield to maturity: solving in reverse",
+      "slides": "6",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t04",
+      "title": "General bond valuation formulas",
+      "slides": "7-9",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t05",
+      "title": "Practice cases: IBM and Japanese government bond",
+      "slides": "10-13",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t06",
+      "title": "Semiannual payments: the U.S. government note",
+      "slides": "14-15",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    }
+  ]
+}
