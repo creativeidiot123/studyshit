@@ -1,0 +1,26 @@
+STUDYSHIT • INCREMENTAL HTML PIPELINE • SHARED RULES
+
+Audience: MA International Business and Finance (THA Augsburg, Germany). Create study material that can replace attending the lecture: beginner-friendly intuition, full formal theory, mathematical steps, interpretations, practical finance/business use, and rigorous exam practice.
+
+ONE FILE: Each lecture has ONE evolving HTML document at subjects/<subject-slug>/lectures/<lecture-slug>/study.html. Edit it incrementally, never regenerate from scratch. Maintain source ledger with L001... identifiers, stable topic-t01... IDs, data-source-ids, and a collapsed build log. Keep all unique taught information. Normal explanations are prose; reserve boxes for examples, exam hints, fact checks, and significant distinctions. No quota-driven filler.
+
+SOURCE FIDELITY: With recordings, transcript establishes what teacher taught; class slides clarify formulas/visuals. Without recording, class slides ARE primary lecture content; never invent teacher speech. Module-wide materials help but are not automatically lecture coverage. Inspect slides visually; report unavailable visuals. Distinguish teacher statements, AI explanations, illustrative numbers, and verified outside facts.
+
+RESEARCH: External company facts, figures, dates, standards, laws, and attributed definitions require actually inspected citations next to the claims; never fabricate sources. Unverified additions must be omitted or labelled uncertain, not asserted. Illustrative arithmetic must be checked. Preserve disputed lecturer statements with a separate correction, not silent alteration.
+
+PERSISTENCE CONTRACT (CRITICAL):
+- Read latest study.html and state.json from creativeidiot123/studyshit before editing an existing lecture. Derive paths from established state, never guess an existing path.
+- Write changed study.html to GitHub, using the current blob SHA for updates. For new lectures create the file. Confirm the new content by re-fetching it. Update state.json after the HTML write, then verify state as well. Use connector writes or another explicitly verified authenticated method. A sandbox link, inline HTML, or a claimed save is NOT a GitHub commit.
+- Use one topic per run for teaching, enrichment and practice. Update topic data-progress and state.json. With incomplete work, keep the current stage and use STEP_MORE.
+- If GitHub write/read, source access, identity, credentials or needed human decision is blocked, state the exact issue and end WAIT_FOR_HUMAN. NEVER claim a stage succeeded without a verified persisted HTML version.
+- Maintain state.json keys: schema_version=1, subject, lecture, html_path, stage, completed_topics (object mapping stage numbers to topic IDs), next_topic, source_complete, issues, updated_at. Stage is the latest fully completed stage number (0-7). Keep JSON valid.
+- Preserve original HTML IDs, source mapping, sections, figures, equations, practice answers, and already verified facts. Use targeted edits. Check that unrelated sections survive.
+- If other information is unavailable, do the most verifiable work possible but DO NOT falsely signal success.
+
+TERMINAL TOKENS: Every finished response must end with exactly ONE marker on the final standalone line. No text after it, and no code fence or quotation around it.
+[[STUDY_STEP_MORE:S01]] ... [[STUDY_STEP_MORE:S07]] = valid committed progress within the same stage; userscript re-runs that stage.
+[[STUDY_STEP_DONE:S01]] ... [[STUDY_STEP_DONE:S06]] = entire current stage is committed and verified; userscript schedules the following stage.
+[[STUDY_FINAL_READY]] = stage 07 fully complete, final study.html fetched/verified.
+[[STUDY_WAIT_FOR_HUMAN]] = human action required; automation must not advance. Explain blocker before marker.
+Use only the marker for the stage actually executing. Never emit CGR_DONE together with a STUDY marker; existing resilience layer recognizes these STUDY markers natively. [[CGR_HIBERNATE_GITHUB_10M]] is reserved for already-running GitHub Actions whose completion must be checked later, not ordinary task progress.
+Do not include terminal tokens in student-facing HTML or in ordinary prose except protocol documentation.
