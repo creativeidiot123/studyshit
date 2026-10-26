@@ -13,22 +13,25 @@
     "6": [],
     "7": []
   },
-  "next_topic": "S01: slides 31-45",
+  "next_topic": "S01: slides 46-52",
   "source_complete": false,
   "issues": [
-    "S01 source coverage partial: slides 31-52 pending",
+    "S01 source coverage partial: slides 46-52 pending",
     "Slide 13 Japanese example conflicts on dates and reported price (¥243.57 versus calculated ≈ ¥230.73 using displayed cash flows)",
     "Slide 15 US bond example shows conflicting $1,331.40 and $1334 (formula computes approximately $1,331.41)",
     "No lecture transcript supplied",
     "Slide 17 US bond at 4% semiannual YTM prints ~$1,204/$1,203.05 but stated discounting gives ~$1,085.18",
     "Slide 19 omits negative sign and percent-price scale in sensitivity expression",
     "Slide 23 prints 2.687%+2.687%=5.47% (actual sum 5.374%; modified-duration estimate for 0.5pp ≈2.735%)",
-    "Slide 24 printed rounded PV cells sum to 152.11 but literal payments discounted at 2% per year imply ≈152.18; Macaulay duration approximately 4.83"
+    "Slide 24 printed rounded PV cells sum to 152.11 but literal payments discounted at 2% per year imply ≈152.18; Macaulay duration approximately 4.83",
+    "Slide 36 annual US inflation caption says 2022 although plotted years end around 2008",
+    "Slide 37 headline cites US average inflation 1900–2020 but displayed global figure caption uses 1900–2011",
+    "Slide 39 'Fischer' spelling differs from Irving Fisher on slide 41; approximate real ≈ nominal − inflation formula shown with equality sign"
   ],
-  "updated_at": "2026-10-26T12:44:00+01:00",
+  "updated_at": "2026-10-26T12:52:00+01:00",
   "source_page_count": 52,
-  "extracted_pages": 30,
-  "source_ledger_entries": 51,
+  "extracted_pages": 45,
+  "source_ledger_entries": 80,
   "topics": [
     {
       "id": "topic-t01",
@@ -144,6 +147,66 @@
       "id": "topic-t12",
       "title": "Government-bond term-structure calculations and yield-curve shapes",
       "slides": "29-30",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t13",
+      "title": "Spot-rate curves and competing term-structure theories",
+      "slides": "31-35",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t14",
+      "title": "Historical inflation, deflation and international differences",
+      "slides": "36-37",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t15",
+      "title": "Real versus nominal cash flows and the Fisher relation",
+      "slides": "38-39",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t16",
+      "title": "Historical UK nominal/real yields and capital-market equilibrium",
+      "slides": "40-41",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t17",
+      "title": "Treasury-bill yields and inflation in the UK, U.S. and Germany",
+      "slides": "42-44",
+      "stage01": "extracted",
+      "stage02": "pending",
+      "stage03": "pending",
+      "stage04": "pending",
+      "stage05": "pending"
+    },
+    {
+      "id": "topic-t18",
+      "title": "Rating discussion: opening breakout questions",
+      "slides": "45",
       "stage01": "extracted",
       "stage02": "pending",
       "stage03": "pending",
