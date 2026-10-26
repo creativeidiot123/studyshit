@@ -1,19 +1,34 @@
 STUDYSHIT • INCREMENTAL HTML PIPELINE • SHARED RULES
 
-Audience: MA International Business and Finance (THA Augsburg, Germany). Create clear, exam-focused study notes that cover everything the lecture taught in the simplest correct way: small concepts, plain-language explanations, worked examples and practice questions. Correct at master's level, but NOT a research text: no theory beyond what the lecture needs.
+AUDIENCE AND GOAL: MA International Business and Finance student (THA Augsburg, Germany) who wants to KNOW the lecture content and pass the exam, quickly. Build compact, friendly study notes: simple words, clear definitions, worked examples, graphs and illustrations, and questions with answers. Correct at master's level, but never a research text: no theory, derivations or debates beyond what the lecture itself covers. If in doubt, leave it out.
 
-STYLE AND LIMITS (apply to every stage; they override any wording elsewhere that asks for more depth):
-- Break each topic into small concept blocks (h3), 2-5 per topic. Each block: what it is and why it matters in plain words (max ~120 words), the lecture's formula if there is one with every symbol explained in one short line, then ONE worked example with numbers (prefer the lecturer's own example).
-- Topic teaching text: target 350-700 words, hard cap 800, excluding tables, worked-example arithmetic and practice questions. Shorter is better when nothing is lost.
-- Whole chapter teaching text: aim for no more than ~250 words per source slide on average.
-- No derivations, proofs, sensitivity discussions or model-limitation essays unless the lecturer covered them; if a result is just used, say "you only need to apply this".
-- Describe a slide picture, chart or table only when it carries exam-relevant information, in at most 2 sentences. Ignore decorative images.
-- End each topic with "Key takeaways" (3-5 bullets) and "Common mistakes" (at most 3 bullets).
-- Lecturer errors: keep the lecturer's statement and add a 1-2 sentence "Fact check" note. Do not write long corrections.
-- Simple sentences, everyday words first, jargon introduced once with a short definition. No repetition across topics; link back instead.
-- Every topic that follows this format carries data-format="lean" on its section element. Older long-form topics without it must be rewritten into this format (keeping all source IDs, lecturer numbers and formulas) when their stage processes them.
+LEARNING FORMAT (every stage follows this; it overrides any wording elsewhere that asks for more depth):
+Each topic is one <section id="topic-tNN" data-format="compact-v2"> built from these parts, in this order:
+1. Plain title that says what the student can do (for example "Pricing a bond from its cash flows") and one line "After this topic you can: ...".
+2. Big idea: 2-3 short sentences in everyday words, including why it matters in real finance.
+3. Key terms box (class "key-terms"): 2-6 terms, each defined in ONE plain sentence. A term is defined once in the chapter; later topics link back to it.
+4. Concept blocks (h3), 2-5 per topic. Each block:
+   - explanation in plain words, max ~100 words;
+   - the lecture's formula if there is one, then each symbol explained in one short line (no derivation unless the lecturer derived it; otherwise say "you only need to apply this");
+   - a worked example (class "example") with every arithmetic step shown briefly, preferring the lecturer's own numbers; invented numbers are labelled ILLUSTRATIVE and checked;
+   - a visual (class "visual") whenever the idea involves numbers, time, a process or a relationship: cash-flow timeline, simple line or bar chart, flow diagram or comparison table;
+   - one quick check (class "quick-check") as <details><summary>Quick check: question</summary>answer</details>.
+5. Key takeaways (class "takeaways"): 3-5 bullets.
+6. Common mistakes (class "mistakes"): at most 3 bullets.
+7. Practice and common questions (added in S05, class "practice").
 
-ONE FILE: Each lecture has ONE evolving HTML document at subjects/<subject-slug>/lectures/<lecture-slug>/study.html. Edit it incrementally, never regenerate from scratch. Maintain source ledger with L001... identifiers, stable topic-t01... IDs, data-source-ids, and a collapsed build log. Keep all unique taught information. Normal explanations are prose; reserve boxes for examples, exam hints, fact checks, and significant distinctions. No quota-driven filler.
+LIMITS:
+- Teaching text per topic: target 300-600 words, hard cap 750. Key terms, formulas, tables, visuals, example arithmetic, quick checks and practice do NOT count, so they never need to be squeezed; prose does.
+- Visuals: at least one per topic whenever the topic has numbers, time, a process or a relationship; at most 3 per topic. Draw them as small inline SVG or HTML tables (no external images, no stock art, no decoration), computed from the stated numbers, with labelled axes and units and a one-sentence caption. Keep each SVG compact (roughly under 4 KB).
+- Real-world example (optional, class "real-world"): at most one per topic, max ~80 words, with an inspected citation, or clearly labelled ILLUSTRATIVE.
+- Slide pictures: describe only exam-relevant content, in at most 2 sentences; ignore decorative images.
+- Lecturer errors: keep the lecturer's statement and add a 1-2 sentence "Fact check" note (class "fact-check").
+- Simple sentences, everyday words first, one idea per paragraph, no repetition across topics (link back instead), no filler.
+- Topics without data-format="compact-v2" are in an older format. When their stage processes them, rewrite them into this format from their existing content and sources, keeping every lecturer fact, number, formula and source ID; cut only explanation.
+
+PAGE DESIGN: The page has one inline stylesheet. Make sure it styles these classes once, simply and readably (light tinted boxes, clear headings, mobile-friendly width, print shows answers): key-terms, example, visual, quick-check, takeaways, mistakes, fact-check, real-world, practice, cheat-sheet. Add missing styles the first time a stage needs them; do not restyle the whole page.
+
+ONE FILE: Each lecture has ONE evolving HTML document at subjects/<subject-slug>/lectures/<lecture-slug>/study.html. Edit it incrementally, never regenerate from scratch. Maintain the source ledger with L001... identifiers, stable topic-t01... IDs, data-source-ids, and a collapsed build log. Keep all unique taught information.
 
 SOURCE FIDELITY: With recordings, transcript establishes what teacher taught; class slides clarify formulas/visuals. Without recording, class slides ARE primary lecture content; never invent teacher speech. Module-wide materials help but are not automatically lecture coverage. Inspect slides visually; report unavailable visuals. Distinguish teacher statements, AI explanations, illustrative numbers, and verified outside facts.
 
@@ -23,7 +38,7 @@ PERSISTENCE CONTRACT (CRITICAL):
 - Read latest study.html and state.json from creativeidiot123/studyshit before editing an existing lecture. Derive paths from established state, never guess an existing path.
 - Under the same lecture folder, maintain inputs/source-manifest.json with original filenames, source types, file sizes when known, and ChatGPT attachment provenance. The studyshit repository is PUBLIC. Do not upload original copyrighted PPT/PDF/transcript bytes, personal student details, or confidential source documents to this public repository by default. Only copy originals under inputs/ when destination access/privacy and permission to share are confirmed and a binary-safe upload succeeds. Never imply a chat attachment was copied to GitHub unless the transfer was verified.
 - Write changed study.html to GitHub, using the current blob SHA for updates. For new lectures create the file. Confirm the new content by re-fetching it. Update state.json after the HTML write, then verify state as well. Use connector writes or another explicitly verified authenticated method. A sandbox link, inline HTML, or a claimed save is NOT a GitHub commit.
-- Process one topic per run for teaching (S03), up to 4 for enrichment (S04) and up to 3 for practice (S05). The source manifest is metadata; it is NOT a substitute for reading the actual uploaded PPT or its rendered slide images. Update topic data-progress and state.json. With incomplete work, keep the current stage and use STEP_MORE.
+- Batch sizes: S03 one topic per run, S04 up to 4 topics per run, S05 up to 3 topics per run. The source manifest is metadata; it is NOT a substitute for reading the actual uploaded PPT or its rendered slide images. Update topic data-progress and state.json. With incomplete work, keep the current stage and use STEP_MORE.
 - If GitHub write/read, source access, identity, credentials or needed human decision is blocked, state the exact issue and end WAIT_FOR_HUMAN. NEVER claim a stage succeeded without a verified persisted HTML version.
 - Maintain state.json keys: schema_version=1, subject, lecture, html_path, stage, completed_topics (object mapping stage numbers to topic IDs), next_topic, source_complete, issues, updated_at. Stage is the latest fully completed stage number (0-7). Keep JSON valid.
 - Preserve original HTML IDs, source mapping, sections, figures, equations, practice answers, and already verified facts. Use targeted edits. Check that unrelated sections survive.
