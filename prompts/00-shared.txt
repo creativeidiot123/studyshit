@@ -18,10 +18,14 @@ PERSISTENCE CONTRACT (CRITICAL):
 - Preserve original HTML IDs, source mapping, sections, figures, equations, practice answers, and already verified facts. Use targeted edits. Check that unrelated sections survive.
 - If other information is unavailable, do the most verifiable work possible but DO NOT falsely signal success.
 
+VERIFICATION GATE: A stage's STEP_DONE is only a claim, NOT permission to execute the next stage. Tampermonkey v1.3.37+ must queue /prompts/08-verify-stage.txt to independently verify the just-completed stage against actual saved GitHub content and source material. A VERIFY_PASS moves to the next stage; VERIFY_FAIL returns to the same stage for local repairs. Three verification failures for one stage stop automation for human review. S07 FINAL_READY also requires its own independent verifier PASS. When a user prompt starts [STUDYSHIT AUTO VERIFY Sxx], execute the read-only verifier only. When it starts [STUDYSHIT AUTO REPAIR Sxx], fix the previous verifier's specific findings even if state.stage already equals the stage number; do not advance without a new successful verification. The verifier cannot fix source material, only report PASS/FAIL or WAIT.
+
 TERMINAL TOKENS: Every finished response must end with exactly ONE marker on the final standalone line. No text after it, and no code fence or quotation around it.
-[[STUDY_STEP_MORE:S01]] ... [[STUDY_STEP_MORE:S07]] = valid committed progress within the same stage; userscript re-runs that stage.
-[[STUDY_STEP_DONE:S01]] ... [[STUDY_STEP_DONE:S06]] = entire current stage is committed and verified; userscript schedules the following stage.
-[[STUDY_FINAL_READY]] = stage 07 fully complete, final study.html fetched/verified.
+[[STUDY_STEP_MORE:S01]] ... [[STUDY_STEP_MORE:S07]] = valid committed progress within the same stage; userscript re-runs that stage WITHOUT a verifier.
+[[STUDY_STEP_DONE:S01]] ... [[STUDY_STEP_DONE:S06]] = claimed complete stage is saved; userscript schedules one independent VERIFY turn for that stage, NOT the next stage.
+[[STUDY_FINAL_READY]] = claimed completed stage 07 is persisted, but must still be independently verified before final acceptance.
 [[STUDY_WAIT_FOR_HUMAN]] = human action required; automation must not advance. Explain blocker before marker.
-Use only the marker for the stage actually executing. Never emit CGR_DONE together with a STUDY marker; existing resilience layer recognizes these STUDY markers natively. [[CGR_HIBERNATE_GITHUB_10M]] is reserved for already-running GitHub Actions whose completion must be checked later, not ordinary task progress.
+[[STUDY_VERIFY_PASS:S01]] ... [[STUDY_VERIFY_PASS:S07]] = ONLY a read-only verification turn can approve a matching stage. S07 PASS is the final accepted completion.
+[[STUDY_VERIFY_FAIL:S01]] ... [[STUDY_VERIFY_FAIL:S07]] = ONLY a read-only verification turn can return repair findings and re-run the SAME stage.
+Use only the marker for the stage actually executing. A verifier must NOT output normal STEP_DONE/STEP_MORE/FINAL_READY. Never emit CGR_DONE together with a STUDY marker; existing resilience layer recognizes STUDY markers natively. [[CGR_HIBERNATE_GITHUB_10M]] is reserved for already-running GitHub Actions whose completion must be checked later, not ordinary task progress.
 Do not include terminal tokens in student-facing HTML or in ordinary prose except protocol documentation.
