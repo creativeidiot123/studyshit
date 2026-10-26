@@ -1,32 +1,43 @@
 STUDYSHIT • INCREMENTAL HTML PIPELINE • SHARED RULES
 
-AUDIENCE AND GOAL: MA International Business and Finance student (THA Augsburg, Germany) who wants to KNOW the lecture content and pass the exam, quickly. Build compact, friendly study notes: simple words, clear definitions, worked examples, graphs and illustrations, and questions with answers. Correct at master's level, but never a research text: no theory, derivations or debates beyond what the lecture itself covers. If in doubt, leave it out.
+GOAL: An MA International Business and Finance student (THA Augsburg, Germany) wants to KNOW the lecture and pass the exam without wading through theory. Build notes that are short, accurate, complete and genuinely enjoyable to work through: a hook, a clear idea, a worked example, something to see, something to try, a question to test yourself. Everything the lecture taught is covered; nothing beyond it is padded in. Correct at master's level, never a research text. If a sentence does not help the student understand or answer an exam question, cut it.
+
+THREE NON-NEGOTIABLES:
+1. COMPLETE: every concept, formula, number, lecturer example and warning from the sources appears somewhere (tracked by source IDs).
+2. ACCURATE: every number in text, examples, visuals, calculators and answers is recalculated and correct; lecturer errors get a short "Fact check".
+3. LESS: the shortest version that still teaches it. Show and let the student try rather than explain at length.
 
 LEARNING FORMAT (every stage follows this; it overrides any wording elsewhere that asks for more depth):
 Each topic is one <section id="topic-tNN" data-format="compact-v2"> built from these parts, in this order:
-1. Plain title that says what the student can do (for example "Pricing a bond from its cash flows") and one line "After this topic you can: ...".
-2. Big idea: 2-3 short sentences in everyday words, including why it matters in real finance.
-3. Key terms box (class "key-terms"): 2-6 terms, each defined in ONE plain sentence. A term is defined once in the chapter; later topics link back to it.
-4. Concept blocks (h3), 2-5 per topic. Each block:
-   - explanation in plain words, max ~100 words;
-   - the lecture's formula if there is one, then each symbol explained in one short line (no derivation unless the lecturer derived it; otherwise say "you only need to apply this");
-   - a worked example (class "example") with every arithmetic step shown briefly, preferring the lecturer's own numbers; invented numbers are labelled ILLUSTRATIVE and checked;
-   - a visual (class "visual") whenever the idea involves numbers, time, a process or a relationship: cash-flow timeline, simple line or bar chart, flow diagram or comparison table;
-   - one quick check (class "quick-check") as <details><summary>Quick check: question</summary>answer</details>.
-5. Key takeaways (class "takeaways"): 3-5 bullets.
-6. Common mistakes (class "mistakes"): at most 3 bullets.
-7. Practice and common questions (added in S05, class "practice").
+1. Plain title that says what the student can do (for example "Pricing a bond from its cash flows").
+2. Hook (class "hook"): ONE short line that makes the student curious: a concrete question, a surprising fact from the lecture, or a decision ("Would you pay 125 for a bond that pays you 125 in total? You shouldn't.").
+3. Concept blocks (h3), 1-4 per topic. Each block:
+   - the idea in plain words, max ~80 words. Define a term only where it first appears, in one short clause or sentence, in bold. No separate definitions lists, no definitions of words the lecture does not use;
+   - the lecture's formula if there is one, then each symbol in a few words (no derivation unless the lecturer derived it);
+   - a worked example (class "example") using the lecturer's numbers where possible, shown as numbered steps revealed one at a time (see INTERACTIVE PARTS); invented numbers are labelled ILLUSTRATIVE;
+   - a visual (class "visual") whenever the idea involves numbers, time, a process or a relationship;
+   - one quick check (class "quick-check") as an instant-feedback question (see INTERACTIVE PARTS).
+4. "Try it" (class "try-it", optional, max 1 per topic): a small calculator or slider for a formula worth playing with (for example change the yield and watch the bond price move). Only where playing with it builds intuition.
+5. Remember (class "takeaways"): 3-4 one-line bullets, including the most common mistake ("Watch out: ...").
+6. Practice (added in S05, class "practice").
 
 LIMITS:
-- Teaching text per topic: target 300-600 words, hard cap 750. Key terms, formulas, tables, visuals, example arithmetic, quick checks and practice do NOT count, so they never need to be squeezed; prose does.
-- Visuals: at least one per topic whenever the topic has numbers, time, a process or a relationship; at most 3 per topic. Draw them as small inline SVG or HTML tables (no external images, no stock art, no decoration), computed from the stated numbers, with labelled axes and units and a one-sentence caption. Keep each SVG compact (roughly under 4 KB).
-- Real-world example (optional, class "real-world"): at most one per topic, max ~80 words, with an inspected citation, or clearly labelled ILLUSTRATIVE.
-- Slide pictures: describe only exam-relevant content, in at most 2 sentences; ignore decorative images.
-- Lecturer errors: keep the lecturer's statement and add a 1-2 sentence "Fact check" note (class "fact-check").
-- Simple sentences, everyday words first, one idea per paragraph, no repetition across topics (link back instead), no filler.
+- Prose per topic: target 200-450 words, hard cap 550. Formulas, tables, visuals, example steps, interactive parts and questions do NOT count, so they are never squeezed; prose is.
+- Visuals: at least one per topic whenever the topic has numbers, time, a process or a relationship; at most 3 per topic. Small inline SVG or HTML tables (no external images, no stock art, no decoration), computed from the stated numbers, labelled axes and units, one-line caption. Keep each SVG roughly under 4 KB.
+- Real-world example (optional, class "real-world"): at most one per topic, max ~60 words, with an inspected citation, or labelled ILLUSTRATIVE.
+- Slide pictures: describe only exam-relevant content, in at most 2 sentences; ignore decorative images. Redraw an important chart instead of describing it.
+- Lecturer errors: keep the statement and add a 1-2 sentence "Fact check" (class "fact-check").
+- Tone: direct, friendly, confident; short sentences; one idea per paragraph; no filler, no repetition across topics (link back instead), no childish jokes.
 - Topics without data-format="compact-v2" are in an older format. When their stage processes them, rewrite them into this format from their existing content and sources, keeping every lecturer fact, number, formula and source ID; cut only explanation.
 
-PAGE DESIGN: The page has one inline stylesheet. Make sure it styles these classes once, simply and readably (light tinted boxes, clear headings, mobile-friendly width, print shows answers): key-terms, example, visual, quick-check, takeaways, mistakes, fact-check, real-world, practice, cheat-sheet. Add missing styles the first time a stage needs them; do not restyle the whole page.
+INTERACTIVE PARTS (vanilla JavaScript, no libraries, no network requests; the page must still be fully usable without JavaScript):
+- One shared script at the end of the page, <script id="study-js">, kept under ~8 KB, provides: step-by-step reveal for examples (button "Next step", all steps visible without JS), instant-feedback questions, flashcards, and a progress bar. Add it the first time a stage needs it; extend it, never duplicate it.
+- Instant-feedback question markup: a container with data-quiz, options as buttons with data-correct="true" on the right one, and a short "why" explanation shown after any click (right: green + why; wrong: red + why + the right answer). Numeric questions use data-answer="112.11" and data-tolerance="0.01" with an input and a Check button. Always include a <details> fallback with the answer for no-JS and print.
+- "Try it" calculators: inputs and output inside their own container, driven by a small inline script (max ~40 lines) that only touches that container. Its default inputs MUST be the lecturer's example and its default output MUST equal the example's printed result (state both in the build log).
+- Progress: each topic ends with a "Got it" checkbox; the shared script stores it in localStorage (wrapped in try/catch) and updates a progress bar at the top. Without storage it simply does not persist.
+- Print CSS shows every answer and every example step and hides buttons.
+
+PAGE DESIGN: One inline stylesheet styling these classes once, simply and attractively (light tinted cards, clear headings, readable on mobile, good contrast, print-friendly): hook, example, visual, quick-check, try-it, takeaways, fact-check, real-world, practice, cheat-sheet, flashcard, progress. Add missing styles the first time a stage needs them; do not restyle the whole page.
 
 ONE FILE: Each lecture has ONE evolving HTML document at subjects/<subject-slug>/lectures/<lecture-slug>/study.html. Edit it incrementally, never regenerate from scratch. Maintain the source ledger with L001... identifiers, stable topic-t01... IDs, data-source-ids, and a collapsed build log. Keep all unique taught information.
 

@@ -1,15 +1,16 @@
-STUDY PIPELINE STAGE S07 • CHEAT SHEET, POLISH AND RELEASE
+STUDY PIPELINE STAGE S07 • CHEAT SHEET, FLASHCARDS, POLISH AND RELEASE
 
 Read current committed state and HTML. Stage 6 corrections must be present; refuse final completion if unresolved critical/major defects require fixing.
 
 1. Add a "Cheat sheet" section (class "cheat-sheet") right after the "How to use these notes" box, linked from the ToC:
-   - Formula sheet: every lecture formula with a one-line meaning of each symbol and a link to its topic.
-   - Key terms A-Z: every key term with its one-sentence definition (reuse the topic definitions; do not write new ones).
+   - Formula sheet: every lecture formula with a few words per symbol and a link to its topic.
+   - Flashcards (class "flashcard"): the 15-25 terms and formulas most worth memorising, front = term or "What is the formula for ...?", back = the one-line definition already used in the topic. Tap to flip via the shared script; without JavaScript, show front and back.
    - The 10 most important takeaways of the lecture, one line each.
-   Keep it to what fits on about two printed pages.
-2. Polish the SAME study.html with surgical edits only: consistent notation, units and terms; working ToC and anchors; readable visuals and tables on mobile; keyboard-accessible answer toggles; good contrast; print styles that show answers and keep visuals. Remove repetitive wording, but NEVER delete unique taught substance, worked examples, visuals or questions. Preserve L-identifiers, teacher statements, sources, and the collapsed source/build/audit logs.
+   Keep it to what fits on about two printed pages (flashcards print as a compact two-column list).
+2. Make sure the progress bar at the top counts the "Got it" boxes of every topic.
+3. Polish the SAME study.html with surgical edits only: consistent notation, units and terms; working ToC and anchors; readable visuals, tables and calculators on mobile; keyboard-accessible buttons and toggles; good contrast; print styles that show answers and steps and hide buttons. Remove repetitive wording, but NEVER delete unique taught substance, examples, visuals, calculators or questions. Preserve L-identifiers, teacher statements, sources, and the collapsed source/build/audit logs.
 
-Check valid HTML, unique IDs, working anchors, figure captions, citations, answer placement, print visibility, and that all source-mapped content is still present. Do not introduce new external claims. If browser renderer tools exist, inspect desktop/mobile/print layout; otherwise don't pretend rendered visual testing happened.
+Check valid HTML, unique IDs, working anchors, figure captions, citations, that every interactive part works and degrades gracefully without JavaScript, print visibility, and that all source-mapped content is still present. Do not introduce new external claims. If browser renderer tools exist, inspect desktop/mobile/print layout and click through a few quizzes and calculators; otherwise don't pretend rendered testing happened.
 
 Commit updated study.html with current blob SHA, fetch it from GitHub and confirm saved content/structure; update/re-fetch state.json with state.stage=7 and final path. Give the user the final study chapter location and a short factual description, then end EXACTLY [[STUDY_FINAL_READY]] on standalone final line. If only partial polish completed: [[STUDY_STEP_MORE:S07]]. If GitHub or artifact verification cannot complete, explain blocker and end [[STUDY_WAIT_FOR_HUMAN]].
 INDEPENDENT VERIFIER REPAIR MODE:

@@ -5,8 +5,8 @@ Load current study.html and state.json from their established repository paths, 
 Turn the extracted notes into a clear learning path:
 - Small topics: one main idea each, usually 1-4 slides. Split topics that mix unrelated ideas; merge tiny fragments that cannot stand alone.
 - Order: basics first, then the formulas and applications that build on them. Group scattered references to the same concept.
-- Each topic gets a plain-language title that says what the student can do, an "After this topic you can: ..." line, and its source IDs.
-- Group topics into a few parts with one-sentence part intros, and add a short "How to use these notes" box at the top (read the big idea, try the quick checks, then the practice).
+- Each topic gets a plain-language title that says what the student can do, and its source IDs.
+- Group topics into a few parts with one-sentence part intros, and add a short "How to use these notes" box at the top (read the hook, step through the example, answer the quick checks, tick "Got it", then do the practice).
 - Update the ToC to match.
 
 Preserve the COMPLETE source ledger and one primary teaching location for each L-identifier. Keep original examples, warnings, numbers, formulas, equations, graphs and factual qualifications. When relocating content preserve data-source-ids and stable anchors; only add or rename an anchor when necessary. Mark sections structured.
