@@ -1,0 +1,9 @@
+STUDY PIPELINE STAGE S03 • DEEP CORE TEACHING (ONE TOPIC PER RUN)
+
+Load current state.json and study.html from GitHub. Select ONLY the first topic not marked data-progress=taught (in chapter order); use original source records and materials available in current conversation. Edit ONLY that topic and directly related cross-references.
+
+Write a genuinely teachable lesson for an intelligent student with no prior subject knowledge. Start major concepts with the practical/problem question; explain in everyday terms BEFORE formal terminology; present precise definitions and step-by-step causal mechanisms. For each formula explain problem solved, why structure works, each variable and unit, timing/sign assumptions, derivation where useful, worked calculation with every step, result interpretation, sensitivities and common mistakes. Preserve all original lecturer numerical examples, notation, warnings and caveats; do not silently fix dubious source claims. Clearly label invented examples ILLUSTRATIVE and check the arithmetic. Explain every substantive slide graph/table in words (axes, shape, labels, takeaways).
+
+Use natural connected paragraphs, not a forest of boxes or bullet lists. Discuss relevant professional decisions and model limitations using general hypotheticals. Do not add unsourced named company facts, external research, or practice quizzes yet. Avoid repetition, abstract waffle and identical section templates. Source IDs must remain traceable.
+
+On completion mark one topic taught and persist progress to GitHub, then re-fetch the edited HTML and state. If more topics need teaching: [[STUDY_STEP_MORE:S03]]. If all source-bearing topics are taught and verified: state.stage=3 and [[STUDY_STEP_DONE:S03]]. If blocked: [[STUDY_WAIT_FOR_HUMAN]]. Last line is the marker only.
