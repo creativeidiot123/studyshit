@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "subject": "principles-of-corporate-finance",
+  "lecture": "lecture-03-valuation-of-bonds",
+  "repository_visibility": "public",
+  "source_access": "ChatGPT-conversation-attachment-only",
+  "originals_uploaded_to_github": false,
+  "inputs": [
+    {
+      "filename": "IBF 1 Principles in CF LECTURE 3.pdf",
+      "role": "slides",
+      "media_type": "application/pdf",
+      "page_count": 52,
+      "size_bytes": 3286169,
+      "sha256": "3dff43a60b73d7f7bf83e4283e797a4fda0365e91544ce3ecb9aa4be52af4b16",
+      "attachment_id": "file_00000000e7f4820aaa25ed63be72871e",
+      "location": "ChatGPT conversation attachment (not copied to GitHub)",
+      "binary_uploaded": false
+    }
+  ],
+  "transcript_provided": false,
+  "notes": "Original lecture attachment retained only in conversation. The public repository contains no copyrighted source PDF bytes. Slide visual inspections relied on the uploaded PDF.",
+  "updated_at": "2026-10-26T12:35:00+01:00"
+}
