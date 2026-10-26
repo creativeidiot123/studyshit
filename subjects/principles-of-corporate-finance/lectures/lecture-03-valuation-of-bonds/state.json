@@ -64,14 +64,15 @@
       "topic-t10",
       "topic-t11",
       "topic-t12",
-      "topic-t14"
+      "topic-t14",
+      "topic-t15"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "S03: topic-t15",
+  "next_topic": "S03: topic-t16",
   "source_complete": true,
   "issues": [
     "Slide 13 Japanese source: rendered slide visibly prints Yen231 (rounded result of five-period PV ≈ ¥230.73) while PDF text extraction includes ¥243.57; slide 12 July 2023–2028 versus slide 13 July 2025–2029 conflicts with a five-period formula. Do not reconcile without source clarification.",
@@ -83,7 +84,7 @@
     "Slide 24 source uses eleven 5.63 coupons and a final 105.63 payment discounted at 2% effective annual yield with fractional-year exponents. Its printed PV cells sum to 152.11 and final PV cell is 93.74, whereas direct evaluation gives price 152.183049 (~152.18), last PV 93.796417, Macaulay duration 4.830028 years. The price mismatch is not explained solely by rounding the same exact displayed inputs; original rows are preserved and discussed in topic-t10.",
     "Slide 36 annual US inflation caption says 2022 although plotted years end around 2008",
     "Slide 37 headline cites US average inflation 1900–2020 but displayed global figure caption uses 1900–2011",
-    "Slide 39 'Fischer' spelling differs from Irving Fisher on slide 41; approximate real ≈ nominal − inflation formula shown with equality sign",
+    "Slide 39 titles the theoretical effect 'Fischer' (slide 41 correctly says Irving Fisher), while its rule-of-thumb real = nominal − inflation is printed with an equals sign. It is an approximation; the exact slide-38/39 formula uses (1+r_nominal)/(1+π). Nominal and real rate calculations and the theoretical expected-inflation assumption are explicitly taught in topic-t15.",
     "Slide 49 says dollar borrowing causes default, but foreign-currency exposure alone does not mechanically cause default",
     "Slide 52 bibliographic name 'Allan' transcribed as printed; textbook and Moodle articles not independently supplied/verified",
     "Slide 51 names liquidity-preference theory, liquidity premium, promised yield and realized return without dedicated slide explanations",
@@ -92,7 +93,7 @@
     "Slide 27 spot/YTM precision: r1=3%, r2=4% imply unrounded P=$1.895429999 and single YTM ≈3.65609% (source 3.66%); treating the slide's rounded $1.895 as exact gives ≈3.67187%. Topic-t11 distinguishes both.",
     "Slide 37 original S01 source ledger L065 transcription lists standalone Germany before Sweden, but rendered chart shows no standalone Germany bar; exact visible order has Canada after U.S. and only 'Germany ex 1922/23'. Taught t14 uses the visual sequence; retain ledger for audit in S06."
   ],
-  "updated_at": "2026-10-26T15:12:00+01:00",
+  "updated_at": "2026-10-26T15:18:00+01:00",
   "source_page_count": 52,
   "extracted_pages": 52,
   "source_ledger_entries": 102,
@@ -243,7 +244,7 @@
       "slides": "38-39",
       "stage01": "extracted",
       "stage02": "structured",
-      "stage03": "pending",
+      "stage03": "taught",
       "stage04": "pending",
       "stage05": "pending"
     },
