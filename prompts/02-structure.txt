@@ -2,7 +2,7 @@ STUDY PIPELINE STAGE S02 • TEACHING ARCHITECTURE
 
 Load current study.html and state.json from their established repository paths, then surgically EDIT the same HTML file. Never replace it with a new summary.
 
-Audit conceptual dependencies and reorganize source content into optimal beginner-to-master's learning order. Group scattered references by concept; introduce prerequisites before technical models; arrange meaningful headings and smooth transitions. Prefer problem → intuition → definitions → formulas/mechanisms → interpretation → practical consequences and limitations, but do NOT force rigid templates.
+Audit conceptual dependencies and reorganize source content into a simple learning order: basics first, then the formulas that build on them. Group scattered references by concept. Prefer small, focused topics (usually 1-4 slides, one main idea each) over large mixed ones; split a topic that mixes several unrelated ideas. Give each topic a plain-language title that says what the student will be able to do (for example "Pricing a bond from its cash flows"). Follow STYLE AND LIMITS in /prompts/00-shared.txt.
 
 Preserve the COMPLETE source ledger and one primary teaching location for each L-identifier. Keep original examples, warnings, numbers, formulas, equations, graphs and factual qualifications. When relocating content preserve data-source-ids and stable anchors; only add or rename an anchor when necessary. Update the navigation/ToC and provide learning objectives. Mark sections structured, with content needing deeper explanations noted in collapsed build metadata.
 

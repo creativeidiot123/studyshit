@@ -34,20 +34,22 @@ S02 STRUCTURE:
 - Headings, ToC links, stable topic IDs and bridges are consistent.
 - Every significant source ID maps to a teaching location. No orphaned/duplicated coverage disappearing through reorganization.
 
-S03 DEEP TEACHING:
-- EACH and EVERY topic has received full beginner-to-master's-level explanations, intuition, causal mechanisms, definitions and relevant mathematical derivation/calculation steps.
-- Original examples, notation, figures and lecturer warnings remain.
-- State/progress flags and the ACTUAL HTML substantiate that every topic is taught. One deeply taught topic out of six is NOT completion.
-- Text must genuinely teach, not merely list formulas or repeat the slides.
+STYLE AND LIMITS: /prompts/00-shared.txt defines the required lean format and length limits. Too much depth is a defect, just like missing coverage: FAIL a stage whose topics exceed the limits or drift into theory the lecture did not cover.
+
+S03 SIMPLE TEACHING:
+- EACH and EVERY source-bearing topic is data-progress=taught AND data-format="lean". One lean topic out of six is NOT completion.
+- Each topic has 2-5 small concept blocks, a plain-language explanation, at least one worked example with numbers where the topic has numbers, a quick check with a revealable answer, Key takeaways and Common mistakes.
+- Teaching text is within the 800-word hard cap per topic (excluding tables, example arithmetic and quick checks). Spot-count the longest-looking topics.
+- Original lecturer examples, numbers, notation, formulas, warnings and source IDs remain; condensing must not have dropped source facts.
+- Explanations are correct and actually understandable, not just a list of formulas or copied slides.
 
 S04 ENRICHMENT:
-- All topics have been reviewed for useful research, practical cases, implications and visuals.
-- New real-world figures, events, company facts, laws and attributed definitions have reliable citations actually supporting them; lack of new research alone is not a failure if no useful verified addition is warranted.
-- Illustrative graphs, units and captions are correct. Previously taught explanations remain intact.
-- No decorative examples or mass of unverified citations.
+- Every topic is marked enriched; each has at most ONE addition (example, timeline, table or diagram) of about 150 words or less, or a recorded "no enrichment needed".
+- Real-world facts have reliable citations actually supporting them. Graphs, units and captions are correct. Teaching from S03 remains intact and within limits.
+- No decorative examples, extra theory or unverified citations.
 
 S05 PRACTICE:
-- All substantial topics have meaningful questions suitable for their content, including application/interpretation and calculation where relevant.
+- Every topic has a Practice block of 3-5 questions (a calculation where the topic has numbers, an explain question and a what-happens-if question) with short solutions, and the chapter ends with a Mixed exam practice section of 8-10 questions.
 - Check existence and correctness of worked solutions; verify a representative sample and all conspicuously suspicious arithmetic.
 - Questions are answerable from taught content and solutions can be revealed or found accessibly.
 - No topics falsely marked assessed while lacking useful practice.

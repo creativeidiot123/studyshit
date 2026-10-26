@@ -10,7 +10,7 @@ One uploaded lecture deck (plus optional transcript) becomes one versioned, rigo
 5. The userscript detects final study markers and loads the appropriate next prompt from /prompts/, queuing it through the existing durable Resilience queue. Every completed stage is independently verified once before advancing.
 
 ## Stages
-01 source inventory + initial HTML; 02 teaching order; 03 one-topic deep teaching; 04 one-topic research/visuals; 05 one-topic exam questions; 06 audit/repair; 07 polish/release.
+01 source inventory + initial HTML; 02 teaching order; 03 simple teaching, one topic per run (350-700 words each, worked example and quick check); 04 at most one example or visual per topic; 05 3-5 practice questions per topic plus a mixed exam set; 06 audit/repair; 07 polish/release.
 
 The read-only independent reviewer is [08-verify-stage.txt](prompts/08-verify-stage.txt). Prompts are standalone .txt files in [prompts/](prompts/). [00-shared.txt](prompts/00-shared.txt) sets the invariant rules.
 
