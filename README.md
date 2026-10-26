@@ -19,6 +19,8 @@ subjects/<subject-slug>/lectures/<lecture-slug>/study.html
 subjects/<subject-slug>/lectures/<lecture-slug>/state.json
 subjects/<subject-slug>/lectures/<lecture-slug>/inputs/source-manifest.json
 
+**Privacy:** This repository is public. The generated HTML and source manifest will also be public, potentially exposing coursework or personal data. Prefer a separate private repository for lecture outputs if the materials are not intended for public sharing. Original slide or transcript bytes should not be published here by default.
+
 The HTML, state and source manifest are versioned through GitHub. A chat-uploaded PPT is **not automatically** a repository upload: input/ contains the provenance manifest; copying original binary sources requires a verified authenticated binary-safe upload method.
 
 ## Protocol
