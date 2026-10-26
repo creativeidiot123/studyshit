@@ -65,14 +65,15 @@
       "topic-t11",
       "topic-t12",
       "topic-t14",
-      "topic-t15"
+      "topic-t15",
+      "topic-t16"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "S03: topic-t16",
+  "next_topic": "S03: topic-t17",
   "source_complete": true,
   "issues": [
     "Slide 13 Japanese source: rendered slide visibly prints Yen231 (rounded result of five-period PV ≈ ¥230.73) while PDF text extraction includes ¥243.57; slide 12 July 2023–2028 versus slide 13 July 2025–2029 conflicts with a five-period formula. Do not reconcile without source clarification.",
@@ -93,7 +94,7 @@
     "Slide 27 spot/YTM precision: r1=3%, r2=4% imply unrounded P=$1.895429999 and single YTM ≈3.65609% (source 3.66%); treating the slide's rounded $1.895 as exact gives ≈3.67187%. Topic-t11 distinguishes both.",
     "Slide 37 original S01 source ledger L065 transcription lists standalone Germany before Sweden, but rendered chart shows no standalone Germany bar; exact visible order has Canada after U.S. and only 'Germany ex 1922/23'. Taught t14 uses the visual sequence; retain ledger for audit in S06."
   ],
-  "updated_at": "2026-10-26T15:18:00+01:00",
+  "updated_at": "2026-10-26T15:25:00+01:00",
   "source_page_count": 52,
   "extracted_pages": 52,
   "source_ledger_entries": 102,
@@ -254,7 +255,7 @@
       "slides": "40-41",
       "stage01": "extracted",
       "stage02": "structured",
-      "stage03": "pending",
+      "stage03": "taught",
       "stage04": "pending",
       "stage05": "pending"
     },
