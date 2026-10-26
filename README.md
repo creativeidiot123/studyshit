@@ -17,8 +17,9 @@ Prompts are standalone .txt files in [prompts/](prompts/). [00-shared.txt](promp
 ## Subject structure
 subjects/<subject-slug>/lectures/<lecture-slug>/study.html
 subjects/<subject-slug>/lectures/<lecture-slug>/state.json
+subjects/<subject-slug>/lectures/<lecture-slug>/inputs/source-manifest.json
 
-Both files are versioned through GitHub. The chat-uploaded PPT is *not* automatically stored under subjects/: GitHub persistence of binary source files requires its own upload mechanism.
+The HTML, state and source manifest are versioned through GitHub. A chat-uploaded PPT is **not automatically** a repository upload: input/ contains the provenance manifest; copying original binary sources requires a verified authenticated binary-safe upload method.
 
 ## Protocol
 - `[[STUDY_STEP_MORE:S03]]`: same stage must process another topic
