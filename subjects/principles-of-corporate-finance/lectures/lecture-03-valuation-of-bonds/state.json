@@ -54,14 +54,15 @@
     "3": [
       "topic-t01",
       "topic-t02",
-      "topic-t04"
+      "topic-t04",
+      "topic-t03"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "S03: topic-t03",
+  "next_topic": "S03: topic-t05",
   "source_complete": true,
   "issues": [
     "Slide 13 Japanese example conflicts on dates and reported price (¥243.57 versus calculated ≈ ¥230.73 using displayed cash flows)",
@@ -80,7 +81,7 @@
     "S02 architecture complete, but deep conceptual explanations and applied practice are pending S03–S05; slide inconsistencies remain flagged for S06.",
     "Slide 5 rounds coupon PV €23.30 and principal PV €88.82 separately (visually totals €112.12); unrounded components total €112.114 and the printed final result €112.11 is correct."
   ],
-  "updated_at": "2026-10-26T14:11:00+01:00",
+  "updated_at": "2026-10-26T14:17:00+01:00",
   "source_page_count": 52,
   "extracted_pages": 52,
   "source_ledger_entries": 102,
@@ -111,7 +112,7 @@
       "slides": "6",
       "stage01": "extracted",
       "stage02": "structured",
-      "stage03": "pending",
+      "stage03": "taught",
       "stage04": "pending",
       "stage05": "pending"
     },
