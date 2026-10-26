@@ -1,1 +1,1 @@
-Subject lecture outputs are generated here as subjects/<subject-slug>/lectures/<lecture-slug>/study.html and state.json. PPT uploads remain in their ChatGPT conversation unless separately committed.
+Subject lecture outputs are generated here as subjects/<subject-slug>/lectures/<lecture-slug>/study.html and state.json. Each lecture also maintains inputs/source-manifest.json with provenance of uploaded files. Original PPT/PDF bytes remain in their ChatGPT conversation unless separately copied to GitHub using a verified binary-safe upload.
