@@ -61,14 +61,15 @@
       "topic-t07",
       "topic-t08",
       "topic-t09",
-      "topic-t10"
+      "topic-t10",
+      "topic-t11"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "S03: topic-t11",
+  "next_topic": "S03: topic-t12",
   "source_complete": true,
   "issues": [
     "Slide 13 Japanese source: rendered slide visibly prints Yen231 (rounded result of five-period PV ≈ ¥230.73) while PDF text extraction includes ¥243.57; slide 12 July 2023–2028 versus slide 13 July 2025–2029 conflicts with a five-period formula. Do not reconcile without source clarification.",
@@ -85,9 +86,10 @@
     "Slide 52 bibliographic name 'Allan' transcribed as printed; textbook and Moodle articles not independently supplied/verified",
     "Slide 51 names liquidity-preference theory, liquidity premium, promised yield and realized return without dedicated slide explanations",
     "S02 architecture complete, but deep conceptual explanations and applied practice are pending S03–S05; slide inconsistencies remain flagged for S06.",
-    "Slide 5 rounds coupon PV €23.30 and principal PV €88.82 separately (visually totals €112.12); unrounded components total €112.114 and the printed final result €112.11 is correct."
+    "Slide 5 rounds coupon PV €23.30 and principal PV €88.82 separately (visually totals €112.12); unrounded components total €112.114 and the printed final result €112.11 is correct.",
+    "Slide 27 spot/YTM precision: r1=3%, r2=4% imply unrounded P=$1.895429999 and single YTM ≈3.65609% (source 3.66%); treating the slide's rounded $1.895 as exact gives ≈3.67187%. Topic-t11 distinguishes both."
   ],
-  "updated_at": "2026-10-26T13:50:45.486Z",
+  "updated_at": "2026-10-26T14:56:00+01:00",
   "source_page_count": 52,
   "extracted_pages": 52,
   "source_ledger_entries": 102,
@@ -198,7 +200,7 @@
       "slides": "26-28",
       "stage01": "extracted",
       "stage02": "structured",
-      "stage03": "pending",
+      "stage03": "taught",
       "stage04": "pending",
       "stage05": "pending"
     },
