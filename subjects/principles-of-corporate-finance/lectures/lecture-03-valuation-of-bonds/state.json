@@ -58,21 +58,22 @@
       "topic-t03",
       "topic-t05",
       "topic-t06",
-      "topic-t07"
+      "topic-t07",
+      "topic-t08"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "S03: topic-t08",
+  "next_topic": "S03: topic-t09",
   "source_complete": true,
   "issues": [
     "Slide 13 Japanese source: rendered slide visibly prints Yen231 (rounded result of five-period PV ≈ ¥230.73) while PDF text extraction includes ¥243.57; slide 12 July 2023–2028 versus slide 13 July 2025–2029 conflicts with a five-period formula. Do not reconcile without source clarification.",
     "Slide 15 US note: rendered slide visibly prints $1334 while extractable text includes $1,331.40; literal six-period formula at 0.085% semiannual return computes $1,331.413347 (~$1,331.41). Preserve both source figures and review during S06.",
     "No lecture transcript supplied",
     "Slide 17 U.S. note: rendered slide visibly prints $1204, while PDF text layer includes $1,203.05. Stated six cash flows at 4.0% yield per half-year produce $1,085.1847 (~$1,085.18), so both source results conflict; teach source claim separately from checked math.",
-    "Slide 19 omits negative sign and percent-price scale in sensitivity expression",
+    "Slide 19 price-change expression omits the negative sign and confuses signed absolute price change with fractional price change; literal slide statement is preserved in topic-t08 alongside correctly derived ΔP/P≈−D_mod Δy and ΔP≈−P D_mod Δy.",
     "Slide 23 prints 2.687%+2.687%=5.47% (actual sum 5.374%; modified-duration estimate for 0.5pp ≈2.735%)",
     "Slide 24 printed rounded PV cells sum to 152.11 but literal payments discounted at 2% per year imply ≈152.18; Macaulay duration approximately 4.83",
     "Slide 36 annual US inflation caption says 2022 although plotted years end around 2008",
@@ -84,7 +85,7 @@
     "S02 architecture complete, but deep conceptual explanations and applied practice are pending S03–S05; slide inconsistencies remain flagged for S06.",
     "Slide 5 rounds coupon PV €23.30 and principal PV €88.82 separately (visually totals €112.12); unrounded components total €112.114 and the printed final result €112.11 is correct."
   ],
-  "updated_at": "2026-10-26T14:38:00+01:00",
+  "updated_at": "2026-10-26T14:43:00+01:00",
   "source_page_count": 52,
   "extracted_pages": 52,
   "source_ledger_entries": 102,
@@ -165,7 +166,7 @@
       "slides": "19,21",
       "stage01": "extracted",
       "stage02": "structured",
-      "stage03": "pending",
+      "stage03": "taught",
       "stage04": "pending",
       "stage05": "pending"
     },
