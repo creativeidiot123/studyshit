@@ -10,8 +10,9 @@ RESEARCH: External company facts, figures, dates, standards, laws, and attribute
 
 PERSISTENCE CONTRACT (CRITICAL):
 - Read latest study.html and state.json from creativeidiot123/studyshit before editing an existing lecture. Derive paths from established state, never guess an existing path.
+- Under the same lecture folder, maintain inputs/source-manifest.json with original filenames, source types, file sizes when known, and ChatGPT attachment provenance. Where an authenticated binary-safe GitHub upload method is available, also preserve the original PPT/PDF under inputs/ and verify it. Never imply a chat attachment was copied to GitHub unless that transfer succeeded.
 - Write changed study.html to GitHub, using the current blob SHA for updates. For new lectures create the file. Confirm the new content by re-fetching it. Update state.json after the HTML write, then verify state as well. Use connector writes or another explicitly verified authenticated method. A sandbox link, inline HTML, or a claimed save is NOT a GitHub commit.
-- Use one topic per run for teaching, enrichment and practice. Update topic data-progress and state.json. With incomplete work, keep the current stage and use STEP_MORE.
+- Use one topic per run for teaching, enrichment and practice. The source manifest is metadata; it is NOT a substitute for reading the actual uploaded PPT or its rendered slide images. Update topic data-progress and state.json. With incomplete work, keep the current stage and use STEP_MORE.
 - If GitHub write/read, source access, identity, credentials or needed human decision is blocked, state the exact issue and end WAIT_FOR_HUMAN. NEVER claim a stage succeeded without a verified persisted HTML version.
 - Maintain state.json keys: schema_version=1, subject, lecture, html_path, stage, completed_topics (object mapping stage numbers to topic IDs), next_topic, source_complete, issues, updated_at. Stage is the latest fully completed stage number (0-7). Keep JSON valid.
 - Preserve original HTML IDs, source mapping, sections, figures, equations, practice answers, and already verified facts. Use targeted edits. Check that unrelated sections survive.
