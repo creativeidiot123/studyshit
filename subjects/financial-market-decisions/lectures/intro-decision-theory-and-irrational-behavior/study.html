@@ -328,7 +328,7 @@
 </div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t03"> Got it</label>
 </section>
-<section class="topic" id="topic-t18" data-format="compact-v2" data-progress="taught" data-enriched="true" data-source-ids="L015">
+<section class="topic" id="topic-t18" data-format="compact-v2" data-progress="taught" data-enriched="true" data-assessed="true" data-source-ids="L015">
 <p class="pages">Slide 13 · L015 · compact teaching</p>
 <h2>Balance liquidity, return and risk</h2>
 <p class="hook">Would you choose an investment with high returns if the cash arrives after your bills are due?</p>
@@ -410,11 +410,42 @@
 <li>The slide links higher <strong>expected</strong> returns of efficient portfolios with higher market risk.</li>
 <li><strong>Watch out:</strong> neither fixed cash flows nor variable cash flows automatically remove all risk.</li>
 </ul></div>
+<div class="practice" data-practice-topic="topic-t18" aria-labelledby="practice-t18-title">
+<h3 id="practice-t18-title">Practice · liquidity, return and risk</h3>
+<p class="small">Exam-style practice, not past-exam questions. All cash amounts are ILLUSTRATIVE, not lecturer data.</p>
+<div class="practice-q" id="q-t18-01" data-quiz data-why="The magic triangle on slide 13 links the three targets liquidity, return and risk.">
+<p><strong>1 · Concept:</strong> Which three target variables form the lecturer's magic triangle?</p>
+<button type="button" data-correct="false" data-feedback="Dividend, coupon and principal are cash-flow components, not the lecture's three management targets.">Dividend, coupon and principal</button>
+<button type="button" data-correct="true">Liquidity, return and risk</button>
+<button type="button" data-correct="false" data-feedback="Inflation, taxes and exchange rates can influence decisions but are not the three labels in slide 13's triangle.">Inflation, taxes and exchange rates</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>Liquidity, return and risk.</strong> Slide 13 connects cash available when bills fall due, investment gain and unfavorable outcome uncertainty. The three goals interact; none is guaranteed by the others.</p></details>
+</div>
+<div class="practice-q" id="q-t18-02" data-quiz data-answer="150" data-tolerance="0.01" data-why="The first bill is €400 but the first receipt is €250: €400 − €250 = €150 that must be funded.">
+<p><strong>2 · Calculation (ILLUSTRATIVE):</strong> Start at €0 cash. An investment pays €250 in period 1 and €750 in period 2. A €400 bill is due each period. What is the <em>first-period cash shortfall</em> in euros?</p>
+<label>Shortfall (€) <input type="number" step="any" inputmode="decimal" aria-label="First-period liquidity shortfall in euros"></label>
+<button type="button" data-check-numeric>Check answer</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>€150 shortage.</strong> Period 1 balance = €250 receipt − €400 bill = −€150. The funding gap is €400 − €250 = €150. Although the two receipts total €1,000 and bills €800, later income cannot pay the first bill on time without financing.</p></details>
+</div>
+<div class="practice-q" id="q-t18-03" data-quiz data-why="Shifting receipts to the second period increases the immediate funding gap despite unchanged total cash inflows.">
+<p><strong>3 · What happens if:</strong> You shift another €100 of receipts from period 1 to period 2 without changing total receipts or bills. What happens to liquidity in period 1?</p>
+<button type="button" data-correct="false" data-feedback="Unchanged total cash inflow does not ensure bills are paid on time; first-period receipts fall by €100.">Nothing changes because total receipts are unchanged.</button>
+<button type="button" data-correct="true">The first-period funding shortfall increases by €100.</button>
+<button type="button" data-correct="false" data-feedback="Moving €100 out of the first period reduces cash available at that date, so the immediate shortfall grows instead of shrinking.">The first-period funding shortfall decreases by €100.</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>The shortfall grows by €100.</strong> First receipts fall from €250 to €150; the €400 bill remains. New shortfall = €400 − €150 = €250, versus €150 before. Total two-period net receipts remain €200 assuming temporary funding at zero cost.</p></details>
+</div>
+<div class="common-questions"><strong>Common questions</strong>
+<details><summary>Why can an investment be profitable but illiquid?</summary><p>Profit measures the overall financial gain, whereas liquidity requires cash on specific due dates. A positive later receipt cannot settle an earlier bill unless financing is available.</p></details>
+<details><summary>Does variable cash flow eliminate market risk?</summary><p>No. Although slide 13 contains wording to that effect, variable cash flows can still face market-price and valuation risk. The topic's Fact check preserves and qualifies that lecturer claim.</p></details>
+</div>
+</div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t18"> Got it</label>
 </section>
 </section>
 <section class="part" id="part-2" aria-labelledby="part-2-title"><header class="part-header"><h2 id="part-2-title">Part 2 · Formal rules and markets</h2><p>Build preference-based decisions, strategic interactions, and the information assumptions behind efficient markets.</p></header>
-<section class="topic" id="topic-t05" data-format="compact-v2" data-progress="taught" data-enriched="true" data-source-ids="L018 L019 L020">
+<section class="topic" id="topic-t05" data-format="compact-v2" data-progress="taught" data-enriched="true" data-assessed="true" data-source-ids="L018 L019 L020">
 <p class="pages">Slides 16–17 · L018, L019, L020 · compact teaching</p>
 <h2>Compare risky choices using preference axioms</h2>
 <p class="hook">Would you choose a certain €36 or a 60% chance of €100?</p>
@@ -490,9 +521,40 @@
 <li>Under all four axioms, <strong>expected utility</strong> can represent individual preferences and risk appetite.</li>
 <li><strong>Watch out:</strong> equality of utility or indifference is not equality of possible cash payouts.</li>
 </ul></div>
+<div class="practice" data-practice-topic="topic-t05" aria-labelledby="practice-t05-title">
+<h3 id="practice-t05-title">Practice · preference axioms and expected utility</h3>
+<p class="small">Exam-style practice with ILLUSTRATIVE utility and payouts; the slides give axioms and notation, not these numerical outcomes.</p>
+<div class="practice-q" id="q-t05-01" data-quiz data-why="Independence says mixing the same third alternative C into A and B with the same probability cannot reverse their preference ordering.">
+<p><strong>1 · Concept:</strong> If A ≥ B, which axiom says the same lottery mixture with C preserves that ranking?</p>
+<button type="button" data-correct="false" data-feedback="Completeness allows comparing any two choices; it does not guarantee preservation of a ranking after mixing with C.">Completeness</button>
+<button type="button" data-correct="false" data-feedback="Continuity establishes a lottery equivalent to an intermediate option, not preservation of order after mixing both options with C.">Continuity</button>
+<button type="button" data-correct="true">Independence</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>Independence.</strong> With A ≥ B, the lecture writes p·A + (1−p)·C ≥ p·B + (1−p)·C for 0 &lt; p &lt; 1. Adding the same lottery component C cannot reverse the original ranking.</p></details>
+</div>
+<div class="practice-q" id="q-t05-02" data-quiz data-answer="7" data-tolerance="0.001" data-why="For u(x)=√x, the €100 payout has utility 10 and €0 has utility 0; E[u]=0.70×10+0.30×0=7 utility points.">
+<p><strong>2 · Calculation (ILLUSTRATIVE):</strong> Your utility is u(x)=√x with x in euros. Lottery A pays €100 with probability 70% and €0 otherwise. What is <em>E[u(A)]</em> in utility points?</p>
+<label>Expected utility (points) <input type="number" step="any" inputmode="decimal" aria-label="Expected utility in points"></label>
+<button type="button" data-check-numeric>Check answer</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>7 utility points.</strong> u(€100)=√100=10 and u(€0)=0. E[u(A)]=0.70×10+0.30×0=7. Certain €36 gives √36=6 utility points, so this investor prefers A under the stated assumptions.</p></details>
+</div>
+<div class="practice-q" id="q-t05-03" data-quiz data-why="Reducing the chance of €100 from 70% to 50% lowers expected utility from 7 to 5, below the sure €36 utility score of 6.">
+<p><strong>3 · What happens if:</strong> The chance of €100 falls from 70% to 50%, with u(x)=√x unchanged. Compare the lottery with certain €36.</p>
+<button type="button" data-correct="false" data-feedback="The lottery's utility falls when the chance of €100 falls: E[u] becomes 5, less than the sure option's utility of 6.">The investor still strictly prefers the lottery.</button>
+<button type="button" data-correct="true">The investor now prefers the certain €36.</button>
+<button type="button" data-correct="false" data-feedback="Indifference occurs at 60% because 0.60×10=6; a 50% chance gives 5, not 6, utility points.">The investor is now indifferent.</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>Prefer certain €36.</strong> New lottery expected utility = 0.50×√100+0.50×√0=5 points. The certainty gives u(36)=6 points. Expected-utility preference therefore switches from lottery (7 &gt; 6) to certainty (5 &lt; 6).</p></details>
+</div>
+<div class="common-questions"><strong>Common questions</strong>
+<details><summary>Does equal expected utility imply equal euro payouts?</summary><p>No. Utility measures the individual's preferences, and different cash outcomes or lotteries can give equal utility.</p></details>
+<details><summary>Why not compare only expected euros?</summary><p>Because the von Neumann–Morgenstern model accounts for risk appetite through the utility function. Expected utility and expected euros need not rank uncertain alternatives in the same order.</p></details>
+</div>
+</div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t05"> Got it</label>
 </section>
-<section class="topic" id="topic-t04" data-format="compact-v2" data-progress="taught" data-enriched="true" data-source-ids="L016 L017">
+<section class="topic" id="topic-t04" data-format="compact-v2" data-progress="taught" data-enriched="true" data-assessed="true" data-source-ids="L016 L017">
 <p class="pages">Slides 14–15 · L016, L017 · compact teaching</p>
 <h2>Distinguish cooperative games and minimax choices</h2>
 <p class="hook">If your opponent gets to react, which choice keeps your worst possible loss under control?</p>
@@ -568,6 +630,37 @@
 <li><strong>Minimax</strong> protects against a worst-case opponent in a zero-sum setting.</li>
 <li><strong>Watch out:</strong> the original minimax theorem does not automatically solve every multiplayer game.</li>
 </ul></div>
+<div class="practice" data-practice-topic="topic-t04" aria-labelledby="practice-t04-title">
+<h3 id="practice-t04-title">Practice · co-operation and minimax</h3>
+<p class="small">Exam-style practice, not a past exam. All matrix payoffs below are ILLUSTRATIVE points, not lecturer data.</p>
+<div class="practice-q" id="q-t04-01" data-quiz data-why="Co-operative games permit binding agreements in the lecture's distinction; non-cooperative models analyze choices without enforceable coordination.">
+<p><strong>1 · Concept:</strong> Which feature separates the lecture's co-operative and non-cooperative game models?</p>
+<button type="button" data-correct="false" data-feedback="The players can behave politely or help one another in either model; the key distinction is the possibility of binding agreements.">Whether the players like each other</button>
+<button type="button" data-correct="true">Whether binding agreements between players are possible</button>
+<button type="button" data-correct="false" data-feedback="Both co-operative and non-cooperative games can have competing interests; they are distinguished by enforceable agreements, not whether all interests match.">Whether all players have identical interests</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>Binding agreements.</strong> In co-operative models players can form enforceable deals; non-cooperative models analyze their strategic choices without such coordination. This does not mean helpful actions are impossible.</p></details>
+</div>
+<div class="practice-q" id="q-t04-02" data-quiz data-answer="2" data-tolerance="0.001" data-why="Player A's row minima are min(3,2)=2 for Safe and min(5,−2)=−2 for Bold. A's maximin is max(2,−2)=2 points.">
+<p><strong>2 · Calculation (ILLUSTRATIVE):</strong> In a zero-sum game, A receives <strong>Safe</strong> payoffs (+3,+2) and <strong>Bold</strong> payoffs (+5,−2) against B's Left and Right. What is A's <em>maximin payoff</em> in points?</p>
+<label>Maximin (points) <input type="number" step="any" inputmode="decimal" aria-label="A's maximin payoff in points"></label>
+<button type="button" data-check-numeric>Check answer</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>+2 points.</strong> Safe guarantees min(+3,+2)=+2; Bold guarantees min(+5,−2)=−2. A chooses max(+2,−2)=+2, using Safe. B's column maxima are +5 (Left) and +2 (Right), so the pure-strategy saddle is (Safe,Right).</p></details>
+</div>
+<div class="practice-q" id="q-t04-03" data-quiz data-why="Raising Bold's worst payoff from −3 to +3 makes Bold's guarantee +3, above Safe's +1. A would switch to Bold.">
+<p><strong>3 · What happens if:</strong> In the chapter's original <em>ILLUSTRATIVE</em> matrix (Safe: +2,+1; Bold: +4,−3), A's Bold/Right payoff increases from −3 to +3. Which maximin strategy does A choose now?</p>
+<button type="button" data-correct="false" data-feedback="Safe still guarantees only +1, while the revised Bold row now guarantees min(+4,+3)=+3 points.">Safe, because it was optimal before</button>
+<button type="button" data-correct="true">Bold, because its worst possible payoff rises to +3</button>
+<button type="button" data-correct="false" data-feedback="The revised rows have different worst payoffs: Safe +1, Bold +3. They are not tied.">Either strategy, since their worst payoffs are equal</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>Bold.</strong> Safe row minimum = min(+2,+1)=+1. Revised Bold row minimum = min(+4,+3)=+3. Maximin = max(+1,+3)=+3, so A changes to Bold. This demonstrates how a payoff change can alter optimal worst-case strategy.</p></details>
+</div>
+<div class="common-questions"><strong>Common questions</strong>
+<details><summary>Is maximin always the same as minimax?</summary><p>Not for every pure-strategy payoff matrix. The values can differ, meaning there is no pure saddle point; two-player zero-sum minimax analysis can then involve mixed strategies.</p></details>
+<details><summary>Does minimax solve any game with three or more players?</summary><p>No. The classical theorem has specific two-player zero-sum assumptions, as the topic's Fact check notes. Other games need additional analysis.</p></details>
+</div>
+</div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t04"> Got it</label>
 </section>
 <section class="topic" id="topic-t06" data-format="compact-v2" data-progress="taught" data-enriched="true" data-source-ids="L021">
@@ -1463,7 +1556,9 @@
 <tr id="L039"><td>L039</td><td>36</td><td>Discussion prompts: models and theory</td><td>6 prompts: explain one-step; explain multi-step; magic triangle of financial controlling; independent exogenous scenario assumption &amp; endogenous dependence; math vs psychological decision theory; non-cooperative prisoner’s dilemma difficulty. Prisoner's dilemma has no explicit payoff matrix on slides.</td><td><a href="#topic-t17">topic-t17</a></td></tr>
 <tr id="L040"><td>L040</td><td>37</td><td>Discussion prompts: biases</td><td>6 explain-with-example prompts: representativeness, availability, anchoring, gambler’s fallacy, overconfidence, overreaction.</td><td><a href="#topic-t17">topic-t17</a></td></tr>
 <tr id="L041"><td>L041</td><td>38</td><td>Discussion prompts: biases</td><td>2 explain-with-example prompts: herd behavior and regret aversion.</td><td><a href="#topic-t17">topic-t17</a></td></tr></tbody></table></div></details>
-<details id="build-log"><summary>Build log and source limitations</summary><ul><li>S05 first batch topic-t01 (L001–L007): Added 3 clearly ILLUSTRATIVE exam-style practice questions, per-choice feedback and no-JS worked solutions, plus 2 short common questions. Verified baker exercise: selling for €6 at €3 cost earns €3; selling for €5 at the same cost earns €2; net difference €1. Goal-change item stays consistent with subjective rational optimization, and experiment uncertainty is preserved. Original S03 checks intact.</li>
+<details id="build-log"><summary>Build log and source limitations</summary><ul><li>S05 topic-t18 (L015, slide 13): Added three exam-style practice questions (magic triangle, cash-shortfall numeric, shifted-receipt what-if), with specific distractor feedback, complete no-JS worked solutions and two common questions. Independently checked illustrative period-1 funding: €400−€250=€150; shift €100 later changes first receipt to €150 and funding gap to €250 while €1,000 receipts−€800 bills=€200 net overall assuming zero-cost funding. Preserved lecturer's unusual variable-flow risk claim and its Fact check.</li>
+<li>S05 topic-t05 (L018–L020, slides 16–17): Added independence identification, numeric E[u] and lower-winning-probability what-if, plus 2 common questions. ILLUSTRATIVE utility u(x)=√x: P(€100)=70% gives E[u]=0.7×10+0.3×0=7 utility points; 50% gives 5; sure €36 gives 6. Keeps lecture preference notation and risk-appetite distinction. All 3 questions have no-JS worked solutions and misconception-specific distractor feedback.</li>
+<li>S05 topic-t04 (L016–L017, slides 14–15): Added cooperative-games identification, 2×2 zero-sum maximin numeric, and changed-payoff what-if, plus two common questions. ILLUSTRATIVE matrix Safe=(+3,+2) and Bold=(+5,−2): row minima +2 and −2, maximin +2; B's column maxima +5 and +2, pure saddle (Safe,Right). Original matrix modified Bold/Right −3→+3: revised Bold guarantee min(+4,+3)=+3 &gt; Safe +1; strategy becomes Bold. Kept original theorem scope Fact check and calculator unchanged.</li><li>S05 first batch topic-t01 (L001–L007): Added 3 clearly ILLUSTRATIVE exam-style practice questions, per-choice feedback and no-JS worked solutions, plus 2 short common questions. Verified baker exercise: selling for €6 at €3 cost earns €3; selling for €5 at the same cost earns €2; net difference €1. Goal-change item stays consistent with subjective rational optimization, and experiment uncertainty is preserved. Original S03 checks intact.</li>
 <li>S05 topic-t02 (L008–L011): Added symbolic e₁₂ recognition, rainy forest numerical comparison and uncertainty what-if, plus 2 common questions. Recalculated e₁₂=40 min and e₂₂=30 min, so action a₂ saves 10 min under z₂. Wrong options specifically distinguish an outcome, a probability and an action; no scenario probabilities invented for source slide.</li>
 <li>S05 topic-t03 (L012–L014): Added 3 exam-style questions and 2 common questions, with explicit no-JS worked solutions and instant feedback. Recalculated ILLUSTRATIVE successive trade: €150 − €60 + €45 = €135 cash, a €15 loss compared with keeping €150; explained no-buy consequence when short-selling prohibited. Preserved prior time diagram, examples and cash calculator.</li><li>S04 topic-t16 (L037, slide 34): Reviewed the existing omission-versus-commission comparison table, kept both kinds of regret distinct and verified the hypothetical €100→€130 missed gain (€30, 30%) and €100→€70 investment loss (€30, 30%). No enrichment needed: the two-path visual, four-step example and quick checks are already clear. Neither numerical value comes from the lecturer; no meaningful formula requiring a calculator, no extra real-world fact or Beyond box.</li>
 <li>S04 topic-t17 (L038–L041, slides 35–38): Reviewed the qualitative feedback-loop SVG with external information, emotions, investors' choices and later market conditions; diagram remains labelled ILLUSTRATIVE rather than evidence of measured causality. Rechecked invented 10-investor sequence: 2 independent buyers + 6 followers = 8/10 = 80%, 5 sellers among those 8 = 62.5%, 3 hold. The exact 14 source discussion questions remain intact (6 on slide 36, 6 on slide 37, 2 on slide 38), and the lecture's greed/fear claims stay attributed. No enrichment needed: existing picture and step-by-step example show the relationship; there is no lecturer price or formula to reproduce in a calculator. No Beyond or unsupported external fact.</li><li>S04 topic-t12 (L032, slide 29): Preserved the lecturer's essential independence qualification, existing probability table, four-step coin example and all questions. Added a single ILLUSTRATIVE fair-coin streak Try-it slider; the slide gives no numeric tossing example. Calculations checked: n=5 => 100×0.5^5=3.125% probability of that specified all-heads streak before tossing; n=1 =>50%; n=6 =>1.5625%. The next independent head remains 50% for all n. One pre-existing visual remains; no Beyond box or external claims.</li>
