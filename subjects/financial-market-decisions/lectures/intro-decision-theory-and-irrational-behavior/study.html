@@ -1082,16 +1082,66 @@
 </ul></div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t15"> Got it</label>
 </section>
-<section class="topic" id="topic-t16" data-format="compact-v2" data-progress="structured" data-source-ids="L037">
-<p class="pages">Source slides 34 · L037 · structured draft</p>
+<section class="topic" id="topic-t16" data-format="compact-v2" data-progress="taught" data-source-ids="L037">
+<p class="pages">Slide 34 · L037 · compact teaching</p>
 <h2>Distinguish regret from action and inaction</h2>
-<p class="hook">Is the regret of buying a loser different from missing a winner?</p>
-<h3>What the slides establish</h3>
-<p><strong>Regret aversion</strong> is fear of learning later that a decision was wrong. The slides contrast an <strong>error of omission</strong> (not buying an asset that turns out to be right) with an <strong>error of commission</strong> (buying the wrong asset). Both can change investment behavior before the outcome is known.</p>
+<p class="hook">Which decision might you regret more tomorrow: not buying a winner, or buying a loser?</p>
 
+<h3>1. The fear comes before you know the result</h3>
+<p><strong>Regret aversion</strong> is the <strong>fear that a decision will turn out to be wrong in hindsight</strong>, as slide 34 puts it. <em>Hindsight</em> means looking back after the outcome is known. When investing, you must act before knowing whether a stock will rise or fall. Worrying about the future feeling of “I should have done the opposite” can influence what you choose today. The lecturer does not say that every regretted choice was unreasonable at the time. The point is that the <strong>anticipated emotion</strong> may affect decision-making even while the future remains uncertain.</p>
+<div class="quick-check" data-quiz data-why="The slide defines regret aversion as fear that a decision will later look wrong, not as a method of predicting actual returns.">
+<p><strong>Quick check:</strong> When can regret aversion influence an investment choice?</p>
+<button type="button" data-correct="true">Before the outcome, through fear of later regret</button>
+<button type="button" data-correct="false">Only after the stock price is already known</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details><summary>Answer without JavaScript</summary><p><strong>Before the outcome.</strong> Fear of judging your decision negatively in hindsight can influence the choice itself.</p></details>
+</div>
 
+<h3>2. Separate an omitted trade from a mistaken trade</h3>
+<p>The slide contrasts two ways a decision can look wrong later. An <strong>error of omission</strong> is <strong>not buying the right asset</strong>: you stayed out, and later discover that buying would have paid off. An <strong>error of commission</strong> is <strong>buying the wrong asset</strong>: you acted, and later wish you had not bought. In both cases, hindsight creates an unfavorable comparison with an alternative choice. They differ in whether you <strong>failed to act</strong> or <strong>took an action</strong>. Slide 34 supplies these distinctions but no claim that one always feels worse.</p>
+<div class="visual">
+<strong>Slide 34, redrawn: two paths to regret</strong>
+<table aria-label="Difference between omission and commission in an investment decision">
+<thead><tr><th scope="col">Kind of error</th><th scope="col">What you did</th><th scope="col">Later realization</th></tr></thead>
+<tbody>
+<tr><th scope="row">Omission</th><td>Did not buy</td><td>“The asset I skipped was the right one.”</td></tr>
+<tr><th scope="row">Commission</th><td>Bought</td><td>“The asset I bought was the wrong one.”</td></tr>
+</tbody></table>
+<p class="small">A qualitative comparison of action and inaction from slide 34. The lecture includes no amounts, probabilities or ranking of which regret is stronger.</p>
+</div>
+<div class="quick-check" data-quiz data-why="The lecture calls missing a profitable purchase an error of omission, because the investor did not take the buying action.">
+<p><strong>Quick check:</strong> You decided not to buy a stock, and it subsequently rose. What does the slide call this?</p>
+<button type="button" data-correct="false">Error of commission</button>
+<button type="button" data-correct="true">Error of omission</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details><summary>Answer without JavaScript</summary><p><strong>Error of omission.</strong> You missed a purchase that would have turned out well.</p></details>
+</div>
 
-
+<h3>3. Compare the chosen path with the missed alternative</h3>
+<p>Here are two separate <strong>ILLUSTRATIVE</strong> stories. In both, an investor starts with €100 and there are no fees, dividends or interest. The examples measure how much better the alternative would have been <em>after the fact</em>. That difference helps you identify the regret, but it does not prove the person should have known the outcome beforehand. At the decision date, each stock's future was unknown. The useful study question is therefore not “Who should have predicted the future?” but “<strong>Was the painful hindsight about not acting or acting?</strong>”</p>
+<div class="example" data-steps>
+<strong>Worked example · ILLUSTRATIVE (not lecturer stock prices)</strong>
+<ol>
+<li class="step"><strong>Step 1, omission.</strong> Investor A keeps <strong>€100</strong> cash instead of buying one €100 share. The share later trades at <strong>€130</strong>. Cash stays at €100, while buying would have produced a €130 asset.</li>
+<li class="step"><strong>Step 2.</strong> The missed gain is <strong>€130 − €100 = €30</strong>, or <strong>30%</strong> of the €100 starting amount. Not buying the winner is the <strong>omission</strong>.</li>
+<li class="step"><strong>Step 3, commission.</strong> In a separate case, investor B uses <strong>€100</strong> to buy one share. It later trades at <strong>€70</strong>; simply keeping the original cash would have left €100.</li>
+<li class="step"><strong>Step 4.</strong> The share is worth <strong>€100 − €70 = €30</strong> less than the cash alternative, a <strong>30%</strong> loss relative to the purchase price. Buying the loser is the <strong>commission</strong>.</li>
+</ol>
+<button type="button" data-next-step>Next step</button>
+</div>
+<div class="quick-check" data-quiz data-answer="30" data-tolerance="0.01" data-why="Omitting the €100 share purchase misses a rise to €130: the forgone gain is €130 − €100 = €30. These prices are illustrative.">
+<p><strong>Quick check:</strong> In the omission example, how many euros of gain did the investor miss by not buying the share?</p>
+<label>Missed gain (€) <input type="number" step="any" inputmode="decimal" aria-label="Missed gain in euros" placeholder="Enter euros"></label>
+<button type="button" data-check-numeric>Check answer</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details><summary>Answer without JavaScript</summary><p><strong>€30.</strong> The forgone gain is €130 − €100 = €30.</p></details>
+</div>
+<div class="takeaways"><strong>Remember</strong><ul>
+<li><strong>Regret aversion:</strong> fear that a choice will look wrong in hindsight.</li>
+<li><strong>Omission:</strong> failing to buy an asset that later proves right.</li>
+<li><strong>Commission:</strong> buying an asset that later proves wrong.</li>
+<li><strong>Watch out:</strong> seeing the outcome afterward does not mean the right choice was knowable beforehand.</li>
+</ul></div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t16"> Got it</label>
 </section>
 <section class="topic" id="topic-t17" data-format="compact-v2" data-progress="structured" data-source-ids="L038 L039 L040 L041">
