@@ -3,7 +3,7 @@
   "subject": "financial-market-decisions",
   "lecture": "02-modeling-risk-and-uncertainty",
   "html_path": "subjects/financial-market-decisions/lectures/02-modeling-risk-and-uncertainty/study.html",
-  "stage": 5,
+  "stage": 6,
   "completed_topics": {
     "1": [
       "topic-t01",
@@ -78,11 +78,14 @@
       "topic-t09",
       "topic-t02",
       "topic-t11",
-      "topic-t04"
+      "topic-t04",
+      "topic-t07",
+      "topic-t08",
+      "topic-t10"
     ],
     "7": []
   },
-  "next_topic": "topic-t07",
+  "next_topic": null,
   "source_complete": true,
   "source_page_count": 27,
   "source_coverage": [
@@ -150,7 +153,7 @@
     "The original PDF remains in this ChatGPT conversation and has not been copied to the public repository.",
     "The Jonathan Jarvis video referenced on slide 4 was not supplied; its contents were not inferred."
   ],
-  "updated_at": "2026-10-27T14:13:19Z",
+  "updated_at": "2026-10-27T14:19:24Z",
   "extracted_pages": 27,
   "topic_order": [
     "topic-t01",
