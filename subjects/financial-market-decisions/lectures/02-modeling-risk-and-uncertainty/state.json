@@ -44,12 +44,17 @@
       "topic-t08",
       "topic-t10"
     ],
-    "4": [],
+    "4": [
+      "topic-t01",
+      "topic-t03",
+      "topic-t06",
+      "topic-t05"
+    ],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": null,
+  "next_topic": "topic-t09",
   "source_complete": true,
   "source_page_count": 27,
   "source_coverage": [
@@ -117,7 +122,7 @@
     "The original PDF remains in this ChatGPT conversation and has not been copied to the public repository.",
     "The Jonathan Jarvis video referenced on slide 4 was not supplied; its contents were not inferred."
   ],
-  "updated_at": "2026-10-27T13:15:48Z",
+  "updated_at": "2026-10-27T13:23:54Z",
   "extracted_pages": 27,
   "topic_order": [
     "topic-t01",
