@@ -3,7 +3,7 @@
   "subject": "financial-market-decisions",
   "lecture": "intro-decision-theory-and-irrational-behavior",
   "html_path": "subjects/financial-market-decisions/lectures/intro-decision-theory-and-irrational-behavior/study.html",
-  "stage": 1,
+  "stage": 2,
   "completed_topics": {
     "1": [
       "topic-t01",
@@ -24,7 +24,26 @@
       "topic-t16",
       "topic-t17"
     ],
-    "2": [],
+    "2": [
+      "topic-t01",
+      "topic-t02",
+      "topic-t03",
+      "topic-t18",
+      "topic-t05",
+      "topic-t04",
+      "topic-t06",
+      "topic-t07",
+      "topic-t08",
+      "topic-t09",
+      "topic-t10",
+      "topic-t11",
+      "topic-t12",
+      "topic-t13",
+      "topic-t14",
+      "topic-t15",
+      "topic-t16",
+      "topic-t17"
+    ],
     "3": [],
     "4": [],
     "5": [],
@@ -35,13 +54,13 @@
   "source_complete": true,
   "source_pdf_pages": 38,
   "source_records": 41,
-  "topics_total": 17,
+  "topics_total": 18,
   "issues": [
     "The classroom PINGO experiments on slide 4 have no questions or responses in the PDF.",
     "No lecture transcript/audio provided; classroom explanations cannot be reconstructed.",
     "Certain lecturer formulations (minimax scope, mixture notation, efficient-market performance) require careful attribution or fact-check during teaching."
   ],
-  "updated_at": "2026-10-27T11:11:05.848Z",
+  "updated_at": "2026-10-27T11:16:15.232Z",
   "source_page_count": 38,
   "extracted_pages": 38
 }
