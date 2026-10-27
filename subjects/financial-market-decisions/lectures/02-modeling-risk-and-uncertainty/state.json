@@ -92,5 +92,6 @@
     "The original PDF remains in this ChatGPT conversation and has not been copied to the public repository.",
     "The Jonathan Jarvis video referenced on slide 4 was not supplied; its contents were not inferred."
   ],
-  "updated_at": "2026-10-27T12:58:00+01:00"
+  "updated_at": "2026-10-27T12:58:00+01:00",
+  "extracted_pages": 27
 }
