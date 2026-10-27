@@ -953,7 +953,7 @@
 </div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t08"> Got it</label>
 </section>
-<section class="topic" id="topic-t09" data-format="compact-v2" data-progress="taught" data-enriched="true" data-source-ids="L027 L028 L029">
+<section class="topic" id="topic-t09" data-format="compact-v2" data-progress="taught" data-enriched="true" data-assessed="true" data-source-ids="L027 L028 L029">
 <p class="pages">Slides 24–26 · L027, L028, L029 · compact teaching</p>
 <h2>Spot representativeness and ignored base rates</h2>
 <p class="hook">Someone sounds exactly like a librarian. Does that make librarian their most likely occupation?</p>
@@ -1027,9 +1027,40 @@
 <li>The lecturer’s five-occupation puzzle does <strong>not</strong> provide enough figures for a definitive numerical answer.</li>
 <li><strong>Watch out:</strong> a stereotypical match may feel convincing even when the more common category is likelier.</li>
 </ul></div>
+<div class="practice" data-practice-topic="topic-t09" aria-labelledby="practice-t09-title">
+<h3 id="practice-t09-title">Practice · representativeness and base rates</h3>
+<p class="small">Exam-style practice, not real past-exam questions. All population counts and matching rates are ILLUSTRATIVE; slide 25 supplies no numerical base rates.</p>
+<div class="practice-q" id="q-t09-01" data-quiz data-why="Representativeness substitutes resemblance to a familiar category for measured probabilities; the lecturer's five-occupation puzzle gives no base rates or matching rates.">
+<p><strong>1 · Concept:</strong> What makes the lecturer's shy-and-tidy occupation puzzle a test of representativeness?</p>
+<button type="button" data-correct="false" data-feedback="The occupation profile does not include measured frequencies or conditional matching rates, so a stereotypical description cannot guarantee the job.">The description proves the person must be a librarian.</button>
+<button type="button" data-correct="true">A familiar occupational stereotype may be mistaken for statistical likelihood.</button>
+<button type="button" data-correct="false" data-feedback="Past event frequency and recall ease are different from the resemblance shortcut used in this occupational description.">The exercise tests how easily market crashes can be recalled.</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>Resemblance can mislead.</strong> The profile may resemble a librarian, but slide 25 does not give how many people hold each job or how frequently the traits occur within jobs. That prevents a justified numerical ranking of the five occupations.</p></details>
+</div>
+<div class="practice-q" id="q-t09-02" data-quiz data-answer="33.33" data-tolerance="0.01" data-why="Of 80 farmers, 25% match (20 people). Of 20 librarians, 50% match (10 people). Librarians represent 10 of 30 matching people, or 33.33% rounded.">
+<p><strong>2 · Calculation (ILLUSTRATIVE):</strong> In a made-up group of 80 farmers and 20 librarians, 25% of farmers and 50% of librarians match a description. What percentage <em>of matching people</em> are librarians? Round to two decimals.</p>
+<label>Librarians among matches (%) <input type="number" step="any" inputmode="decimal" aria-label="Percentage of matches who are librarians"></label>
+<button type="button" data-check-numeric>Check answer</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>33.33%.</strong> Matching farmers: 80 × 0.25 = 20. Matching librarians: 20 × 0.50 = 10. Total matches: 20 + 10 = 30 people. Librarian share = (10 ÷ 30) × 100 = 33.333…%, or 33.33%. Here farmers remain the more numerous matching occupation.</p></details>
+</div>
+<div class="practice-q" id="q-t09-03" data-quiz data-why="With unchanged 20% farmer and 60% librarian matching rates, making the two occupations equally common raises the librarian share among matches from 25% to 75%.">
+<p><strong>3 · What happens if:</strong> In the chapter's ILLUSTRATIVE example, change the population from 90 farmers and 10 librarians to 50 of each; keep matching rates at 20% and 60%. What happens to the librarian share among people who match?</p>
+<button type="button" data-correct="false" data-feedback="The 60% matching rate is the share of librarians with the trait, not the share of matching people who are librarians; the latter must account for both group sizes.">It stays at 60% because 60% of librarians match.</button>
+<button type="button" data-correct="true">It rises from 25% to 75%.</button>
+<button type="button" data-correct="false" data-feedback="Equal-sized groups do not imply equal numbers of matching people when their matching rates differ: 10 farmers and 30 librarians match.">It becomes 50% because the groups are equally large.</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>75%.</strong> Matching farmers = 50 × 20% = 10; matching librarians = 50 × 60% = 30. Among 40 matches, librarian share = 30 ÷ 40 × 100 = 75%, compared with 25% before. Base rates matter even when within-group matching rates stay fixed.</p></details>
+</div>
+<div class="common-questions"><strong>Common questions</strong>
+<details><summary>Is “librarian” the lecturer's statistically correct answer?</summary><p>No statistically unique answer follows from the slide alone. The five occupational base rates and trait frequencies were not supplied; the stereotype is the point of the exercise.</p></details>
+<details><summary>Why isn't the 60% matching rate the answer by itself?</summary><p>It is the percentage of librarians fitting the description, not the percentage of all matching people who are librarians. The latter must include the number of matching people from every candidate category.</p></details>
+</div>
+</div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t09"> Got it</label>
 </section>
-<section class="topic" id="topic-t10" data-format="compact-v2" data-progress="taught" data-enriched="true" data-source-ids="L030">
+<section class="topic" id="topic-t10" data-format="compact-v2" data-progress="taught" data-enriched="true" data-assessed="true" data-source-ids="L030">
 <p class="pages">Slide 27 · L030 · compact teaching</p>
 <h2>Recognize the availability shortcut</h2>
 <p class="hook">A dramatic stock-market crash fills your news feed. Does remembering it vividly mean crashes have become more likely?</p>
@@ -1089,9 +1120,40 @@
 <li>Check <strong>distinct events and observation periods</strong> rather than headline volume.</li>
 <li><strong>Watch out:</strong> a memorable episode is not proof that its probability is high or rising.</li>
 </ul></div>
+<div class="practice" data-practice-topic="topic-t10" aria-labelledby="practice-t10-title">
+<h3 id="practice-t10-title">Practice · availability heuristic</h3>
+<p class="small">Exam-style practice, not a past-exam question set. All news counts and historical observation periods are ILLUSTRATIVE.</p>
+<div class="practice-q" id="q-t10-01" data-quiz data-why="Availability relies on how readily comparable events come to mind; memorable headlines are not the same as measured event probabilities.">
+<p><strong>1 · Concept:</strong> Which statement correctly illustrates the availability heuristic?</p>
+<button type="button" data-correct="true">“That recent crash is vivid, so crashes must now be common.”</button>
+<button type="button" data-correct="false" data-feedback="Using an opening price as a reference point is anchoring, not the availability shortcut based on ease of recall.">“I estimate the car's value from its initial asking price.”</button>
+<button type="button" data-correct="false" data-feedback="Expecting a random losing streak to reverse is gambler's fallacy, not the recall-ease shortcut.">“Five coin losses mean a win is due next.”</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>The vivid-crash claim.</strong> The investor substitutes ease of remembering an event for evidence about its frequency. The other examples concern anchoring and gambler's fallacy, both introduced elsewhere in the lecture.</p></details>
+</div>
+<div class="practice-q" id="q-t10-02" data-quiz data-answer="12.5" data-tolerance="0.01" data-why="Six months with the specified event in 48 observed months give 6 ÷ 48 × 100 = 12.5% observed event-months.">
+<p><strong>2 · Calculation (ILLUSTRATIVE):</strong> In a made-up sample of 48 months, six months contain a specified crash event. What percentage of observed months contain the event?</p>
+<label>Observed event-month frequency (%) <input type="number" step="any" inputmode="decimal" aria-label="Observed share of event months as a percentage"></label>
+<button type="button" data-check-numeric>Check answer</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>12.5% of months.</strong> Observed sample frequency = (event-months ÷ months observed) × 100 = (6 ÷ 48) × 100 = 12.5%. This describes the invented sample and does not establish next month's crash probability.</p></details>
+</div>
+<div class="practice-q" id="q-t10-03" data-quiz data-why="Ten articles discussing the same crash still describe one distinct crash; attention may rise while the observed event count and its historical sample frequency stay unchanged.">
+<p><strong>3 · What happens if:</strong> Reports about one crash grow from five articles to ten, but no other crash occurs and the historical observation period is unchanged. What changes?</p>
+<button type="button" data-correct="false" data-feedback="More articles about one event are repeated mentions, not additional independent crash observations.">The distinct number of crashes doubles.</button>
+<button type="button" data-correct="false" data-feedback="Coverage volume does not mechanically double the observed crash-month fraction because neither the event count nor the observation period changed.">The historical crash frequency automatically doubles.</button>
+<button type="button" data-correct="true">The crash may be easier to recall, but its counted historical frequency does not rise.</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>Memory salience can rise, not event frequency.</strong> Ten articles about one crash still refer to one event. If the original illustrative sample had 4 event-months in 40 months, it remains 4 ÷ 40 × 100 = 10%, regardless of article volume.</p></details>
+</div>
+<div class="common-questions"><strong>Common questions</strong>
+<details><summary>Is recent information always irrelevant?</summary><p>No. Recent facts can be genuinely informative. Availability becomes a problem when ease of recall substitutes for appropriate evidence about likelihood.</p></details>
+<details><summary>Does a historical 10% frequency imply a 10% probability next month?</summary><p>No. It is an observed sample share. A future prediction also depends on the event definition, stability of conditions and the relevance of the sample.</p></details>
+</div>
+</div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t10"> Got it</label>
 </section>
-<section class="topic" id="topic-t11" data-format="compact-v2" data-progress="taught" data-enriched="true" data-source-ids="L031">
+<section class="topic" id="topic-t11" data-format="compact-v2" data-progress="taught" data-enriched="true" data-assessed="true" data-source-ids="L031">
 <p class="pages">Slide 28 · L031 · compact teaching</p>
 <h2>Catch anchoring in prices and estimates</h2>
 <p class="hook">A used car is advertised at €18,000. Would your offer be different if the first price you saw were €14,000?</p>
@@ -1155,6 +1217,37 @@
 <li>Even a <strong>random wheel-of-fortune number</strong> may bias numerical estimates.</li>
 <li><strong>Watch out:</strong> moving away from an anchor does not prove you have reached an evidence-based value.</li>
 </ul></div>
+<div class="practice" data-practice-topic="topic-t11" aria-labelledby="practice-t11-title">
+<h3 id="practice-t11-title">Practice · anchoring bias</h3>
+<p class="small">Exam-style practice, not a past exam. All used-car amounts are ILLUSTRATIVE; the original slide supplies no euro prices.</p>
+<div class="practice-q" id="q-t11-01" data-quiz data-why="Anchoring means an initial, possibly irrelevant reference number influences a later estimate, even after some adjustment away from it.">
+<p><strong>1 · Concept:</strong> What is the role of the seller's initial used-car asking price in the lecturer's anchoring example?</p>
+<button type="button" data-correct="false" data-feedback="An opening ask may influence the buyer, but it does not establish the vehicle's objectively justified value.">It proves the car's fair market value.</button>
+<button type="button" data-correct="true">It may pull later price judgments toward an initial reference point.</button>
+<button type="button" data-correct="false" data-feedback="Availability concerns recall ease; a seller's opening price is an initial reference point, which is anchoring.">It makes previous car accidents easier to recall.</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>It provides a possible anchor.</strong> The first asking price can shape the buyer's estimate even when more relevant comparable-sale evidence points elsewhere. The price is not proof of fair value or psychological bias by itself.</p></details>
+</div>
+<div class="practice-q" id="q-t11-02" data-quiz data-answer="2500" data-tolerance="0.01" data-why="The illustrative offer is €16,500 and the independently estimated value is €14,000; the difference is €16,500 − €14,000 = €2,500.">
+<p><strong>2 · Calculation (ILLUSTRATIVE):</strong> A seller asks €18,000, comparable sales suggest €14,000, and a buyer offers €16,500. How many euros <em>above the independent assessment</em> is the offer?</p>
+<label>Difference above assessment (€) <input type="number" step="any" inputmode="decimal" aria-label="Euro amount by which proposed offer exceeds assessed value"></label>
+<button type="button" data-check-numeric>Check answer</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>€2,500 above assessment.</strong> Offer − independent assessment = €16,500 − €14,000 = €2,500. The offer is also €1,500 below the €18,000 asking price. This gap is consistent with possible anchoring but does not prove it.</p></details>
+</div>
+<div class="practice-q" id="q-t11-03" data-quiz data-why="Changing the seller's opening ask may alter the reference point and perhaps the buyer's estimate, but it does not itself change evidence about the car's condition or comparable sales.">
+<p><strong>3 · What happens if:</strong> The seller lowers the opening ask from €18,000 to €15,000, while the car's condition and comparable-sales evidence are unchanged. What can you conclude?</p>
+<button type="button" data-correct="false" data-feedback="The seller's opening ask is not proof of fundamental value, so a lower ask does not automatically lower the independent €14,000 assessment.">The independent assessment must fall by €3,000 too.</button>
+<button type="button" data-correct="true">The anchor changes, but the evidence-based assessment need not change.</button>
+<button type="button" data-correct="false" data-feedback="Anchoring can influence judgments, but the slide gives no numerical causal coefficient or deterministic rule for the buyer's next offer.">The buyer's offer must fall by exactly €3,000.</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>Reference point changes, not necessarily justified value.</strong> The opening ask falls by €18,000 − €15,000 = €3,000, but the independent assessment remains €14,000 under unchanged evidence. A buyer's reaction cannot be calculated from the slide's qualitative anchoring effect.</p></details>
+</div>
+<div class="common-questions"><strong>Common questions</strong>
+<details><summary>Does an offer above the independent valuation prove anchoring?</summary><p>No. It can be consistent with anchoring, but the buyer might have other information or preferences. The lecture does not supply a measured psychological effect for the euro gap.</p></details>
+<details><summary>Why can a random wheel number influence a later estimate?</summary><p>It can serve as an initial numerical reference even though it has no informational connection to the question. Slide 28 gives the qualitative effect but no numerical experiment results.</p></details>
+</div>
+</div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t11"> Got it</label>
 </section>
 <section class="topic" id="topic-t12" data-format="compact-v2" data-progress="taught" data-enriched="true" data-source-ids="L032">
@@ -1649,7 +1742,9 @@
 <tr id="L039"><td>L039</td><td>36</td><td>Discussion prompts: models and theory</td><td>6 prompts: explain one-step; explain multi-step; magic triangle of financial controlling; independent exogenous scenario assumption &amp; endogenous dependence; math vs psychological decision theory; non-cooperative prisoner’s dilemma difficulty. Prisoner's dilemma has no explicit payoff matrix on slides.</td><td><a href="#topic-t17">topic-t17</a></td></tr>
 <tr id="L040"><td>L040</td><td>37</td><td>Discussion prompts: biases</td><td>6 explain-with-example prompts: representativeness, availability, anchoring, gambler’s fallacy, overconfidence, overreaction.</td><td><a href="#topic-t17">topic-t17</a></td></tr>
 <tr id="L041"><td>L041</td><td>38</td><td>Discussion prompts: biases</td><td>2 explain-with-example prompts: herd behavior and regret aversion.</td><td><a href="#topic-t17">topic-t17</a></td></tr></tbody></table></div></details>
-<details id="build-log"><summary>Build log and source limitations</summary><ul><li>S05 topic-t06 (L021, slide 18): Added three practice questions covering the no-profitable-unilateral-deviation criterion, numerical deviation loss and change-of-payoff equilibrium test; 2 common questions and no-JS worked solutions. ILLUSTRATIVE matrix (Low,Low)=(2,2), A switching alone to High when B stays Low reduces A 2→0, loss 2 points. Revised A payoff High/Low=3 increases A from 2→3, so Low/Low is no longer Nash. Wrong answers explicitly explain misconceptions about total welfare, binding agreements and stable best responses.</li>
+<details id="build-log"><summary>Build log and source limitations</summary><ul><li>S05 topic-t09 (L027–L029, slides 24–26): Added practice for representativeness, correct use of base rates and a what-if population shift. Original five-occupation lecturer puzzle correctly remains numerically underdetermined. ILLUSTRATIVE figures independently calculated: 80 farmers×25%=20, 20 librarians×50%=10, librarian share 10/(20+10)×100=33.333…%=33.33%; equal populations 50/50 with matching rates 20%/60% yield 10 farmers +30 librarians matching, librarian share 75%. Three questions, misconception-specific feedback, no-JS worked solutions and two common questions; S03 teaching intact.</li>
+<li>S05 topic-t10 (L030, slide 27): Added availability-versus-other-heuristics identification, frequency calculation and a what-if case of repeated reporting. ILLUSTRATIVE count 6 specified event-months in 48 months yields 12.5% historical frequency; 4 in 40 remains 10% if reporting volume alone rises. Did not equate historical frequency with predictive probability. Three worked, accessible questions and two common questions.</li>
+<li>S05 topic-t11 (L031, slide 28): Added used-car anchor identification, revised euro-offer calculation and lowered-ask what-if, all ILLUSTRATIVE rather than lecturer prices. €16,500 offer − €14,000 assessed value = €2,500; initial €18,000 ask − offer = €1,500; change in ask €18,000−€15,000=€3,000 does not establish a new fundamental assessment or a measured psychological response. Preserved random wheel qualitative experiment with no fabricated numerical results. Three worked questions with specific wrong-option feedback and two common questions.</li><li>S05 topic-t06 (L021, slide 18): Added three practice questions covering the no-profitable-unilateral-deviation criterion, numerical deviation loss and change-of-payoff equilibrium test; 2 common questions and no-JS worked solutions. ILLUSTRATIVE matrix (Low,Low)=(2,2), A switching alone to High when B stays Low reduces A 2→0, loss 2 points. Revised A payoff High/Low=3 increases A from 2→3, so Low/Low is no longer Nash. Wrong answers explicitly explain misconceptions about total welfare, binding agreements and stable best responses.</li>
 <li>S05 topic-t07 (L022–L023, slides 19–20): Three practice questions test semi-strong EMH, percentage public-news move and failing the semi-strong form when published earnings are not reflected. ILLUSTRATIVE €50→€57.50 gives (€7.50/€50)×100=15%; bought only at €57.50, prior gain is unavailable. Preserved Fama attribution and conditional abnormal-return Fact check, with misconception feedback and no-JS worked solutions.</li>
 <li>S05 topic-t08 (L024–L026, slides 21–23): Three practice questions address rational-versus-psychological models, limited self-control and smaller purchase what-if. ILLUSTRATIVE €180−€90=€90, against €120 bill means €30 shortfall; original example reduced to €40 outlay gives €150−€40=€110, sufficient for €100 bill with €10 remaining. Added two common questions, precise wrong-option feedback and all no-JS worked solutions; retained Kahneman, Tversky, Thaler and actual lecturer framing.</li><li>S05 topic-t18 (L015, slide 13): Added three exam-style practice questions (magic triangle, cash-shortfall numeric, shifted-receipt what-if), with specific distractor feedback, complete no-JS worked solutions and two common questions. Independently checked illustrative period-1 funding: €400−€250=€150; shift €100 later changes first receipt to €150 and funding gap to €250 while €1,000 receipts−€800 bills=€200 net overall assuming zero-cost funding. Preserved lecturer's unusual variable-flow risk claim and its Fact check.</li>
 <li>S05 topic-t05 (L018–L020, slides 16–17): Added independence identification, numeric E[u] and lower-winning-probability what-if, plus 2 common questions. ILLUSTRATIVE utility u(x)=√x: P(€100)=70% gives E[u]=0.7×10+0.3×0=7 utility points; 50% gives 5; sure €36 gives 6. Keeps lecture preference notation and risk-appetite distinction. All 3 questions have no-JS worked solutions and misconception-specific distractor feedback.</li>
