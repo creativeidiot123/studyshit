@@ -3,7 +3,7 @@
   "subject": "financial-market-decisions",
   "lecture": "intro-decision-theory-and-irrational-behavior",
   "html_path": "subjects/financial-market-decisions/lectures/intro-decision-theory-and-irrational-behavior/study.html",
-  "stage": 3,
+  "stage": 4,
   "completed_topics": {
     "1": [
       "topic-t01",
@@ -80,13 +80,15 @@
       "topic-t12",
       "topic-t13",
       "topic-t14",
-      "topic-t15"
+      "topic-t15",
+      "topic-t16",
+      "topic-t17"
     ],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t16",
+  "next_topic": null,
   "source_complete": true,
   "source_pdf_pages": 38,
   "source_records": 41,
@@ -96,7 +98,7 @@
     "No lecture transcript/audio provided; classroom explanations cannot be reconstructed.",
     "Certain lecturer formulations (minimax scope, mixture notation, efficient-market performance) require careful attribution or fact-check during teaching."
   ],
-  "updated_at": "2026-10-27T12:48:34.766Z",
+  "updated_at": "2026-10-27T12:52:19.510Z",
   "source_page_count": 38,
   "extracted_pages": 38
 }
