@@ -3,7 +3,7 @@
   "subject": "financial-market-decisions",
   "lecture": "intro-decision-theory-and-irrational-behavior",
   "html_path": "subjects/financial-market-decisions/lectures/intro-decision-theory-and-irrational-behavior/study.html",
-  "stage": 5,
+  "stage": 6,
   "completed_topics": {
     "1": [
       "topic-t01",
@@ -117,21 +117,26 @@
       "topic-t09",
       "topic-t10",
       "topic-t11",
-      "topic-t12"
+      "topic-t12",
+      "topic-t13",
+      "topic-t14",
+      "topic-t15",
+      "topic-t16",
+      "topic-t17"
     ],
     "7": []
   },
-  "next_topic": "topic-t13",
+  "next_topic": null,
   "source_complete": true,
   "source_pdf_pages": 38,
   "source_records": 41,
   "topics_total": 18,
   "issues": [
-    "The classroom PINGO experiments on slide 4 have no questions or responses in the PDF.",
-    "No lecture transcript/audio provided; classroom explanations cannot be reconstructed.",
-    "Certain lecturer formulations (minimax scope, mixture notation, efficient-market performance) require careful attribution or fact-check during teaching."
+    "The classroom PINGO experiments on slide 4 provide no questions or responses in the original PDF; unknown outcomes cannot be reconstructed.",
+    "No transcript or audio was provided; classroom explanations cannot be independently checked or invented.",
+    "Original lecturer assertions on market risk (slide 13), minimax theorem scope (slide 15), systematic EMH outperformance (slide 19), and intrinsic-value convergence (slide 33) are preserved with explicit Fact check limitations; the preference-lottery equality on slide 16 is explained as indifference."
   ],
-  "updated_at": "2026-10-27T13:51:31.093Z",
+  "updated_at": "2026-10-27T14:00:38.440Z",
   "source_page_count": 38,
   "extracted_pages": 38
 }
