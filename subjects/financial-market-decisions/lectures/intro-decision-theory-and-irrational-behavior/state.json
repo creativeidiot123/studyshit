@@ -155,9 +155,10 @@
     "No transcript or audio was provided; classroom explanations cannot be independently checked or invented.",
     "Original lecturer assertions on market risk (slide 13), minimax theorem scope (slide 15), systematic EMH outperformance (slide 19), and intrinsic-value convergence (slide 33) are preserved with explicit Fact check limitations; the preference-lottery equality on slide 16 is explained as indifference."
   ],
-  "updated_at": "2026-10-27T14:17:33.386Z",
+  "updated_at": "2026-10-27T14:29:33.130Z",
   "source_page_count": 38,
   "extracted_pages": 38,
   "released_html_path": "subjects/financial-market-decisions/lectures/intro-decision-theory-and-irrational-behavior/study.html",
-  "released_at": "2026-10-27T14:17:33.386Z"
+  "released_at": "2026-10-27T14:17:33.386Z",
+  "s07_repair_status": "Awaiting independent re-verification of corrected slide-16 formula sheet and top-of-page progress placement"
 }
