@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "subject": "Financial Market Decisions",
+  "lecture": "1 Introduction to Decision Theory and Irrational Behavior",
+  "repository_visibility": "public",
+  "original_files_uploaded_to_repository": false,
+  "inputs": [
+    {
+      "filename": "2026W IBF1 FMD 1 Intro Decision Theory and Irrational Behavior.pdf",
+      "role": "slides",
+      "format": "application/pdf",
+      "pages": 38,
+      "size_bytes": 7885730,
+      "provenance": "Uploaded directly by the user to this ChatGPT Study project conversation on 2026-10-27",
+      "attachment_location": "ChatGPT conversation attachment; original bytes retained there only; not published to GitHub",
+      "rights_note": "No public redistribution of original PDF was authorized"
+    }
+  ],
+  "transcript": {
+    "provided": false
+  },
+  "classroom_experiments": {
+    "slide": 4,
+    "question_content_available": false,
+    "results_available": false
+  },
+  "updated_at": "2026-10-27T11:05:39.237Z"
+}
