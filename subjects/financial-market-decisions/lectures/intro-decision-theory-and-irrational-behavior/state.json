@@ -51,14 +51,15 @@
       "topic-t18",
       "topic-t05",
       "topic-t04",
-      "topic-t06"
+      "topic-t06",
+      "topic-t07"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t07",
+  "next_topic": "topic-t08",
   "source_complete": true,
   "source_pdf_pages": 38,
   "source_records": 41,
@@ -68,7 +69,7 @@
     "No lecture transcript/audio provided; classroom explanations cannot be reconstructed.",
     "Certain lecturer formulations (minimax scope, mixture notation, efficient-market performance) require careful attribution or fact-check during teaching."
   ],
-  "updated_at": "2026-10-27T11:44:33.407Z",
+  "updated_at": "2026-10-27T11:47:25.954Z",
   "source_page_count": 38,
   "extracted_pages": 38
 }
