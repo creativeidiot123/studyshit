@@ -663,7 +663,7 @@
 </div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t04"> Got it</label>
 </section>
-<section class="topic" id="topic-t06" data-format="compact-v2" data-progress="taught" data-enriched="true" data-source-ids="L021">
+<section class="topic" id="topic-t06" data-format="compact-v2" data-progress="taught" data-enriched="true" data-assessed="true" data-source-ids="L021">
 <p class="pages">Slide 18 · L021 · compact teaching</p>
 <h2>Explain Nash equilibrium in non-cooperative games</h2>
 <p class="hook">Two firms could both earn more by keeping prices high. Why might both cut prices anyway?</p>
@@ -724,9 +724,40 @@
 <li>A stable equilibrium may be <strong>worse for both players</strong> than another outcome.</li>
 <li><strong>Watch out:</strong> Nash equilibrium does not mean maximum total payoff or a binding agreement.</li>
 </ul></div>
+<div class="practice" data-practice-topic="topic-t06" aria-labelledby="practice-t06-title">
+<h3 id="practice-t06-title">Practice · Nash equilibrium</h3>
+<p class="small">Exam-style practice, not a past exam. All firm payoff points below are ILLUSTRATIVE.</p>
+<div class="practice-q" id="q-t06-01" data-quiz data-why="At a Nash equilibrium, keeping the other players' choices fixed, no one can gain by changing their own strategy.">
+<p><strong>1 · Concept:</strong> What is the defining test for Nash equilibrium?</p>
+<button type="button" data-correct="false" data-feedback="Maximizing total payoffs is not the Nash test; the correct test is that no player can profit by changing strategy alone.">The total payoff of all players is as large as possible.</button>
+<button type="button" data-correct="true">No player can improve by switching strategy alone.</button>
+<button type="button" data-correct="false" data-feedback="Binding agreements are not required; a Nash equilibrium means no profitable unilateral change given others' choices.">Everyone must agree to a binding contract.</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>No profitable unilateral change.</strong> Hold one firm's choice fixed, then compare the other's payoff from each available strategy. Repeat for every firm. A Nash equilibrium passes every such test, even if another outcome would benefit everyone.</p></details>
+</div>
+<div class="practice-q" id="q-t06-02" data-quiz data-answer="2" data-tolerance="0.001" data-why="With Firm B choosing Low, A earns 2 points by keeping Low and 0 points by switching to High; switching loses 2 − 0 = 2 points.">
+<p><strong>2 · Calculation (ILLUSTRATIVE):</strong> At the original matrix outcome (Low, Low), A earns 2 payoff points. If A alone switches to High while B stays Low, A earns 0. By how many points would A's payoff <em>fall</em>?</p>
+<label>Payoff decrease (points) <input type="number" step="any" inputmode="decimal" aria-label="A's payoff decrease in points"></label>
+<button type="button" data-check-numeric>Check answer</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>2 points.</strong> With B fixed at Low, A gets 2 from Low and 0 from High. The decrease is 2 − 0 = 2 points. Because changing alone hurts A, this deviation cannot break the (Low, Low) equilibrium.</p></details>
+</div>
+<div class="practice-q" id="q-t06-03" data-quiz data-why="If A would now earn 3 from High against B's Low, compared with 2 from Low, A could improve by switching; hence Low/Low fails the Nash test.">
+<p><strong>3 · What happens if:</strong> Suppose the payoff for A at (A High, B Low) changes from 0 to <strong>3 points</strong>; all other payoffs stay as in the illustration. Does (Low, Low) remain a Nash equilibrium?</p>
+<button type="button" data-correct="false" data-feedback="The original equilibrium no longer holds because A would earn 3 rather than 2 by switching alone to High.">Yes, because it was an equilibrium before the payoff changed.</button>
+<button type="button" data-correct="true">No, because A can improve from 2 to 3 by switching alone.</button>
+<button type="button" data-correct="false" data-feedback="Changing B's strategy is unnecessary; holding B at Low, A already gains 1 point by switching from Low to High.">Only if B changes strategy at the same time.</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>No longer an equilibrium.</strong> With B choosing Low, A's revised payoffs are 3 (High) versus 2 (Low). A's unilateral gain is 3 − 2 = 1 point, which violates the no-profitable-deviation condition. This modified payoff is invented for practice.</p></details>
+</div>
+<div class="common-questions"><strong>Common questions</strong>
+<details><summary>Can Nash equilibrium be worse for both players than another outcome?</summary><p>Yes. In the illustrative matrix, both firms earn (2,2) at equilibrium but would earn (4,4) at High/High. High/High invites unilateral price cutting, so it is not stable.</p></details>
+<details><summary>Is Nash equilibrium the same as a zero-sum minimax solution?</summary><p>No. Nash equilibrium tests unilateral incentives across games; the minimax topic focuses on opposing payoffs in a two-player zero-sum game. The pricing matrix here is not zero-sum.</p></details>
+</div>
+</div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t06"> Got it</label>
 </section>
-<section class="topic" id="topic-t07" data-format="compact-v2" data-progress="taught" data-enriched="true" data-source-ids="L022 L023">
+<section class="topic" id="topic-t07" data-format="compact-v2" data-progress="taught" data-enriched="true" data-assessed="true" data-source-ids="L022 L023">
 <p class="pages">Slides 19–20 · L022, L023 · compact teaching</p>
 <h2>Distinguish three forms of market efficiency</h2>
 <p class="hook">If everyone knows yesterday’s prices and today’s news, why would they pay you for that information?</p>
@@ -790,11 +821,42 @@
 <li><strong>Strong:</strong> even insider information is assumed to be priced in.</li>
 <li><strong>Watch out:</strong> market efficiency does not mean everyone earns the same return or no trader ever beats a benchmark.</li>
 </ul></div>
+<div class="practice" data-practice-topic="topic-t07" aria-labelledby="practice-t07-title">
+<h3 id="practice-t07-title">Practice · forms of market efficiency</h3>
+<p class="small">Exam-style practice, not a past exam. The price figures are ILLUSTRATIVE.</p>
+<div class="practice-q" id="q-t07-01" data-quiz data-why="Semi-strong efficiency incorporates all publicly released information, including historic trading data; strong efficiency additionally incorporates private insider information.">
+<p><strong>1 · Concept:</strong> If a stock price already reflects public earnings announcements as well as past prices, which is the weakest EMH form compatible with that information set?</p>
+<button type="button" data-correct="false" data-feedback="Weak-form efficiency requires historic trading information only; semi-strong form adds public earnings announcements.">Weak form only</button>
+<button type="button" data-correct="true">Semi-strong form</button>
+<button type="button" data-correct="false" data-feedback="Strong-form efficiency additionally includes non-public insider information; public announcements alone are covered by the semi-strong form.">Strong form only</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>Semi-strong.</strong> Weak efficiency covers trading history; semi-strong additionally covers all published information. Strong-form efficiency also requires private insider information to be reflected. The information sets are nested.</p></details>
+</div>
+<div class="practice-q" id="q-t07-02" data-quiz data-answer="15" data-tolerance="0.01" data-why="An illustrative price rise from €50 to €57.50 is €7.50; dividing €7.50 by the starting €50 and multiplying by 100 gives 15%.">
+<p><strong>2 · Calculation (ILLUSTRATIVE):</strong> A share costs €50 before a public earnings announcement and €57.50 immediately after. What is the price change as a percentage of its <em>original €50 price</em>?</p>
+<label>Price increase (%) <input type="number" step="any" inputmode="decimal" aria-label="Percentage increase from fifty to fifty-seven fifty"></label>
+<button type="button" data-check-numeric>Check answer</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>15%.</strong> Price gain = €57.50 − €50 = €7.50. Return = (€7.50 ÷ €50) × 100 = 15%. If the news is already incorporated and you buy only at €57.50, this past €7.50 rise is not a profit you can capture afterward.</p></details>
+</div>
+<div class="practice-q" id="q-t07-03" data-quiz data-why="A market reflecting historic prices but failing to incorporate public financial statements is compatible with weak-form efficiency, not semi-strong efficiency.">
+<p><strong>3 · What happens if:</strong> Past trading data are already priced in, but newly published earnings information is <em>not</em> reflected promptly. Which conclusion follows about the EMH forms?</p>
+<button type="button" data-correct="false" data-feedback="The semi-strong form requires all public earnings information to be reflected; not pricing it in contradicts that stronger assumption.">The semi-strong form must still hold.</button>
+<button type="button" data-correct="true">Weak-form efficiency could still hold, but semi-strong would fail.</button>
+<button type="button" data-correct="false" data-feedback="If the semi-strong information set is not fully priced in, strong-form efficiency, which includes that information, cannot hold either.">The strong form would still necessarily hold.</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>Only weak form remains possible.</strong> The weak-form information set covers past trading data. Semi-strong additionally requires published earnings information, and strong form includes still more. Failing the public-information condition rules out both stronger forms in this illustration.</p></details>
+</div>
+<div class="common-questions"><strong>Common questions</strong>
+<details><summary>Does EMH say stock prices never change after news?</summary><p>No. New information can prompt price changes. Semi-strong efficiency concerns its incorporation once it is public, rather than prices being constant.</p></details>
+<details><summary>Can a trader beat the market in one lucky year if EMH holds?</summary><p>Yes. The lecture's claim concerns systematic information-based abnormal performance, not the impossibility of isolated lucky returns. Real tests must also consider risk and trading costs.</p></details>
+</div>
+</div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t07"> Got it</label>
 </section>
 </section>
 <section class="part" id="part-3" aria-labelledby="part-3-title"><header class="part-header"><h2 id="part-3-title">Part 3 · Shortcuts in probability judgments</h2><p>Learn why quick mental estimates can misread stereotypes, vivid news, initial numbers and random streaks.</p></header>
-<section class="topic" id="topic-t08" data-format="compact-v2" data-progress="taught" data-enriched="true" data-source-ids="L024 L025 L026">
+<section class="topic" id="topic-t08" data-format="compact-v2" data-progress="taught" data-enriched="true" data-assessed="true" data-source-ids="L024 L025 L026">
 <p class="pages">Slides 21–23 · L024, L025, L026 · compact teaching</p>
 <h2>Explain why finance needs psychology</h2>
 <p class="hook">You know the sensible financial choice. Why might you still do something else?</p>
@@ -858,6 +920,37 @@
 <li><strong>Thaler</strong> received the 2017 prize and studied limited rationality, fairness and self-control.</li>
 <li><strong>Watch out:</strong> an unexpected choice is not automatically irrational; assess the person's stated goals and constraints.</li>
 </ul></div>
+<div class="practice" data-practice-topic="topic-t08" aria-labelledby="practice-t08-title">
+<h3 id="practice-t08-title">Practice · financial decisions and psychology</h3>
+<p class="small">Exam-style practice, not past-exam questions. All cash amounts are ILLUSTRATIVE.</p>
+<div class="practice-q" id="q-t08-01" data-quiz data-why="Psychological decision theory studies how people actually judge and choose, including departures from the idealized rational benchmark.">
+<p><strong>1 · Concept:</strong> What is the psychological decision approach mainly adding to mathematical rational-choice models?</p>
+<button type="button" data-correct="false" data-feedback="The psychological approach does not assume everyone makes the objectively correct choice; it investigates real deviations from the rational benchmark.">A guarantee that real people always choose optimally</button>
+<button type="button" data-correct="true">An account of real judgments and behavior, including deviations from rational models</button>
+<button type="button" data-correct="false" data-feedback="Rational-choice models already allow individuals to have their own goals; psychology focuses on judgment and decision processes.">A rule that all investors must have identical goals</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>Observed judgment and behavior.</strong> The rational model serves as a benchmark. Psychology explores how limitations, fairness judgments or self-control issues influence choices, as discussed on slides 21–23.</p></details>
+</div>
+<div class="practice-q" id="q-t08-02" data-quiz data-answer="30" data-tolerance="0.01" data-why="The investor keeps €180 − €90 = €90 after buying the share, but owes €120 tomorrow, giving a €120 − €90 = €30 shortfall.">
+<p><strong>2 · Calculation (ILLUSTRATIVE):</strong> An investor holds €180 cash and has a non-negotiable €120 bill tomorrow. They spend €90 impulsively on a share they cannot resell before the bill. How many euros are missing for the bill?</p>
+<label>Shortfall (€) <input type="number" step="any" inputmode="decimal" aria-label="Euro cash shortfall for the bill"></label>
+<button type="button" data-check-numeric>Check answer</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>€30 shortfall.</strong> Remaining cash = €180 − €90 = €90. Funding gap = €120 − €90 = €30. If the stated priority was to meet the bill, the impulsive purchase conflicts with that goal and illustrates a possible self-control failure.</p></details>
+</div>
+<div class="practice-q" id="q-t08-03" data-quiz data-why="Reducing the impulsive purchase to €40 leaves €110 cash from the original €150, enough to pay the €100 bill.">
+<p><strong>3 · What happens if:</strong> In the chapter's original example (€150 cash, €100 bill), the investor spends €40 instead of €80 on the share. What happens to the bill-paying shortfall?</p>
+<button type="button" data-correct="false" data-feedback="At €40 spending the investor retains €110, enough for the €100 bill; the earlier €30 shortage disappears.">The €30 shortfall remains unchanged.</button>
+<button type="button" data-correct="true">There is no shortfall; €110 cash remains for the €100 bill.</button>
+<button type="button" data-correct="false" data-feedback="The available cash is €150 − €40 = €110, so the investor does not need €10 of outside borrowing.">A new €10 borrowing need appears.</button>
+<p class="quiz-feedback" aria-live="polite" hidden></p>
+<details class="worked-solution"><summary>Worked solution · available without JavaScript</summary><p><strong>No shortfall.</strong> Cash after the smaller purchase = €150 − €40 = €110. After paying €100, €10 remains. This removes the immediate liquidity conflict; it does not prove whether the share purchase is otherwise wise.</p></details>
+</div>
+<div class="common-questions"><strong>Common questions</strong>
+<details><summary>Does a surprising investment choice automatically prove irrationality?</summary><p>No. The rational benchmark depends on individual goals and constraints. Check those first, then ask whether psychological influences explain a genuine departure.</p></details>
+<details><summary>Were Kahneman and Tversky joint recipients of the 2002 Economics Nobel?</summary><p>No. The lecture names Kahneman as a 2002 recipient alongside Vernon L. Smith; Tversky was an influential collaborator but not a co-recipient.</p></details>
+</div>
+</div>
 <label class="got-it"><input type="checkbox" class="topic-done" data-topic="topic-t08"> Got it</label>
 </section>
 <section class="topic" id="topic-t09" data-format="compact-v2" data-progress="taught" data-enriched="true" data-source-ids="L027 L028 L029">
@@ -1556,7 +1649,9 @@
 <tr id="L039"><td>L039</td><td>36</td><td>Discussion prompts: models and theory</td><td>6 prompts: explain one-step; explain multi-step; magic triangle of financial controlling; independent exogenous scenario assumption &amp; endogenous dependence; math vs psychological decision theory; non-cooperative prisoner’s dilemma difficulty. Prisoner's dilemma has no explicit payoff matrix on slides.</td><td><a href="#topic-t17">topic-t17</a></td></tr>
 <tr id="L040"><td>L040</td><td>37</td><td>Discussion prompts: biases</td><td>6 explain-with-example prompts: representativeness, availability, anchoring, gambler’s fallacy, overconfidence, overreaction.</td><td><a href="#topic-t17">topic-t17</a></td></tr>
 <tr id="L041"><td>L041</td><td>38</td><td>Discussion prompts: biases</td><td>2 explain-with-example prompts: herd behavior and regret aversion.</td><td><a href="#topic-t17">topic-t17</a></td></tr></tbody></table></div></details>
-<details id="build-log"><summary>Build log and source limitations</summary><ul><li>S05 topic-t18 (L015, slide 13): Added three exam-style practice questions (magic triangle, cash-shortfall numeric, shifted-receipt what-if), with specific distractor feedback, complete no-JS worked solutions and two common questions. Independently checked illustrative period-1 funding: €400−€250=€150; shift €100 later changes first receipt to €150 and funding gap to €250 while €1,000 receipts−€800 bills=€200 net overall assuming zero-cost funding. Preserved lecturer's unusual variable-flow risk claim and its Fact check.</li>
+<details id="build-log"><summary>Build log and source limitations</summary><ul><li>S05 topic-t06 (L021, slide 18): Added three practice questions covering the no-profitable-unilateral-deviation criterion, numerical deviation loss and change-of-payoff equilibrium test; 2 common questions and no-JS worked solutions. ILLUSTRATIVE matrix (Low,Low)=(2,2), A switching alone to High when B stays Low reduces A 2→0, loss 2 points. Revised A payoff High/Low=3 increases A from 2→3, so Low/Low is no longer Nash. Wrong answers explicitly explain misconceptions about total welfare, binding agreements and stable best responses.</li>
+<li>S05 topic-t07 (L022–L023, slides 19–20): Three practice questions test semi-strong EMH, percentage public-news move and failing the semi-strong form when published earnings are not reflected. ILLUSTRATIVE €50→€57.50 gives (€7.50/€50)×100=15%; bought only at €57.50, prior gain is unavailable. Preserved Fama attribution and conditional abnormal-return Fact check, with misconception feedback and no-JS worked solutions.</li>
+<li>S05 topic-t08 (L024–L026, slides 21–23): Three practice questions address rational-versus-psychological models, limited self-control and smaller purchase what-if. ILLUSTRATIVE €180−€90=€90, against €120 bill means €30 shortfall; original example reduced to €40 outlay gives €150−€40=€110, sufficient for €100 bill with €10 remaining. Added two common questions, precise wrong-option feedback and all no-JS worked solutions; retained Kahneman, Tversky, Thaler and actual lecturer framing.</li><li>S05 topic-t18 (L015, slide 13): Added three exam-style practice questions (magic triangle, cash-shortfall numeric, shifted-receipt what-if), with specific distractor feedback, complete no-JS worked solutions and two common questions. Independently checked illustrative period-1 funding: €400−€250=€150; shift €100 later changes first receipt to €150 and funding gap to €250 while €1,000 receipts−€800 bills=€200 net overall assuming zero-cost funding. Preserved lecturer's unusual variable-flow risk claim and its Fact check.</li>
 <li>S05 topic-t05 (L018–L020, slides 16–17): Added independence identification, numeric E[u] and lower-winning-probability what-if, plus 2 common questions. ILLUSTRATIVE utility u(x)=√x: P(€100)=70% gives E[u]=0.7×10+0.3×0=7 utility points; 50% gives 5; sure €36 gives 6. Keeps lecture preference notation and risk-appetite distinction. All 3 questions have no-JS worked solutions and misconception-specific distractor feedback.</li>
 <li>S05 topic-t04 (L016–L017, slides 14–15): Added cooperative-games identification, 2×2 zero-sum maximin numeric, and changed-payoff what-if, plus two common questions. ILLUSTRATIVE matrix Safe=(+3,+2) and Bold=(+5,−2): row minima +2 and −2, maximin +2; B's column maxima +5 and +2, pure saddle (Safe,Right). Original matrix modified Bold/Right −3→+3: revised Bold guarantee min(+4,+3)=+3 &gt; Safe +1; strategy becomes Bold. Kept original theorem scope Fact check and calculator unchanged.</li><li>S05 first batch topic-t01 (L001–L007): Added 3 clearly ILLUSTRATIVE exam-style practice questions, per-choice feedback and no-JS worked solutions, plus 2 short common questions. Verified baker exercise: selling for €6 at €3 cost earns €3; selling for €5 at the same cost earns €2; net difference €1. Goal-change item stays consistent with subjective rational optimization, and experiment uncertainty is preserved. Original S03 checks intact.</li>
 <li>S05 topic-t02 (L008–L011): Added symbolic e₁₂ recognition, rainy forest numerical comparison and uncertainty what-if, plus 2 common questions. Recalculated e₁₂=40 min and e₂₂=30 min, so action a₂ saves 10 min under z₂. Wrong options specifically distinguish an outcome, a probability and an action; no scenario probabilities invented for source slide.</li>
