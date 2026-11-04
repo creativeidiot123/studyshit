@@ -3,7 +3,7 @@
   "subject": "financial-economics",
   "lecture": "central-banks-instruments-of-monetary-policy",
   "html_path": "subjects/financial-economics/lectures/central-banks-instruments-of-monetary-policy/study.html",
-  "stage": 3,
+  "stage": 4,
   "completed_topics": {
     "1": [
       "topic-t01",
@@ -58,13 +58,14 @@
       "topic-t06",
       "topic-t07",
       "topic-t13",
-      "topic-t08"
+      "topic-t08",
+      "topic-t09"
     ],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t09",
+  "next_topic": null,
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -73,8 +74,8 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T10:07:29Z",
-  "current_stage_status": "S04_in_progress",
+  "updated_at": "2026-11-04T10:10:15Z",
+  "current_stage_status": "S04_completed_pending_independent_verification",
   "extraction": {
     "pages": 40,
     "ledger_records": 40,
@@ -108,15 +109,13 @@
   "enrichment": {
     "stage": "S04",
     "topics_total": 13,
-    "topics_enriched": 12,
+    "topics_enriched": 13,
     "last_batch": [
-      "topic-t06",
-      "topic-t07",
-      "topic-t13",
-      "topic-t08"
+      "topic-t09"
     ],
-    "last_batch_actions": "S04 batch 3: t06 receives illustrative 33% PSPP arithmetic calculator with explicit historical-rule caveat; t07 receives APP monthly-flow and holdings calculator; t13 receives 2007=100 indexed-balance-sheet calculator; t08 original QE aims/risks and moral-hazard figures are complete, no enrichment needed. No unsupported historical point or extra theory added. Full test cases in S04 batch 3 build log.",
-    "calculations": "t06 debt €300m → 33% €99m, rest €201m; €150m → €49.5m/€100.5m; €600m → €198m/€402m. t07 €3400bn+€15bn−€25bn=€3390bn, monthly −€10bn; 25/15→€3410bn (+10); 0/40→€3360bn (−40). t13 index 300→3x/+200%; 200→2x/+100%; 450→4.5x/+350%.",
-    "next_topic": "topic-t09"
+    "last_batch_actions": "S04 final batch: t09 retains three existing source-grounded visuals for HICP 2020–April 2025, European Commission component contributions and ECB policy milestones. Added one illustrative five-input component contribution calculator, preserving slide data, S03 content and all prior S04 features. No external claims or Beyond theory.",
+    "calculations": "t09 ILLUSTRATIVE default 4+1+1+2+2 = 10.00 pp, alternate −2+1+1+2+2=4.00 pp and 0+0.5+0.5+1+3=5.00 pp. All previous calculator default/alternate cases remain in S04 build logs. Shared script 3578 bytes.",
+    "next_topic": null,
+    "verification_status": "awaiting_independent_S04_check"
   }
 }
