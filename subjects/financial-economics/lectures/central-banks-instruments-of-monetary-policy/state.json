@@ -42,14 +42,15 @@
       "topic-t05",
       "topic-t06",
       "topic-t07",
-      "topic-t13"
+      "topic-t13",
+      "topic-t08"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t08",
+  "next_topic": "topic-t09",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -58,7 +59,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T09:46:33Z",
+  "updated_at": "2026-11-04T09:48:44Z",
   "current_stage_status": "S03_in_progress",
   "extraction": {
     "pages": 40,
@@ -78,14 +79,14 @@
   "teaching": {
     "stage": "S03",
     "topics_total": 13,
-    "topics_taught": 11,
-    "last_topic": "topic-t13",
+    "topics_taught": 12,
+    "last_topic": "topic-t08",
     "last_source_ids": [
-      "L032",
-      "L033",
-      "L034"
+      "L035",
+      "L036",
+      "L037"
     ],
-    "numerical_calculations": "Slide 32 axis EUR millions: 9,000,000 million = €9 trillion upper axis (not peak). Slide 33 USD millions: 8,000,000 million = $8 trillion illustrative tick. January 2007 index 100 to hypothetical 300: 3x baseline, +200%. No historical level fabricated.",
-    "next_topic": "topic-t08"
+    "numerical_calculations": "ILLUSTRATIVE default-risk scenario: €100 bond value falls to €70, implying €30 or 30% asset-value loss, not automatic taxpayer charge. QE benefits stated as aims, risks unquantified; slide 37 primary versus secondary wording conflict flagged.",
+    "next_topic": "topic-t09"
   }
 }
