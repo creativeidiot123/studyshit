@@ -46,7 +46,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T10:08:00+01:00",
+  "updated_at": "2026-11-04T09:14:15Z",
   "current_stage_status": "awaiting_independent_verification",
   "extraction": {
     "pages": 40,
@@ -60,6 +60,7 @@
     "source_pages": 40,
     "primary_source_ids": 40,
     "anchor_preservation": "original t01-t09 kept; new t10-t13",
-    "intro_slide_exception": "slides 1-5 agenda grouped with slides 6-7"
+    "intro_slide_exception": "slides 1-5 agenda grouped with slides 6-7",
+    "verification_repair": "S02: corrected source-ledger visible destination labels for L011-L016, L019-L020, L024-L026 and L032-L034; all 40 labels and links now agree."
   }
 }
