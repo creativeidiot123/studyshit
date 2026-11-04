@@ -89,7 +89,7 @@ export default {
         body:JSON.stringify({
           systemInstruction:{parts:[{text:INSTRUCTION}]},
           contents:[{role:"user",parts:[{text:prompt}]}],
-          generationConfig:{thinkingConfig:{thinkingLevel:"HIGH"},maxOutputTokens:16384}
+          generationConfig:{thinkingConfig:{thinkingLevel:"high"},maxOutputTokens:16384}
         }),
         signal:AbortSignal.timeout(115000)
       });
