@@ -32,14 +32,15 @@
       "topic-t09"
     ],
     "3": [
-      "topic-t01"
+      "topic-t01",
+      "topic-t02"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t02",
+  "next_topic": "topic-t10",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -48,7 +49,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T09:17:16Z",
+  "updated_at": "2026-11-04T09:20:19Z",
   "current_stage_status": "S03_in_progress",
   "extraction": {
     "pages": 40,
@@ -68,18 +69,14 @@
   "teaching": {
     "stage": "S03",
     "topics_total": 13,
-    "topics_taught": 1,
-    "last_topic": "topic-t01",
+    "topics_taught": 2,
+    "last_topic": "topic-t02",
     "last_source_ids": [
-      "L001",
-      "L002",
-      "L003",
-      "L004",
-      "L005",
-      "L006",
-      "L007"
+      "L008",
+      "L009",
+      "L010"
     ],
-    "numerical_calculations": "none in slides 1-7; illustrative examples qualitative",
-    "next_topic": "topic-t02"
+    "numerical_calculations": "ILLUSTRATIVE: 2.0% minus 1.8% = 0.2 percentage points; not an ECB decision rule",
+    "next_topic": "topic-t10"
   }
 }
