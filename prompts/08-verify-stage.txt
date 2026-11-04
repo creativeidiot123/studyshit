@@ -39,7 +39,7 @@ THE THREE NON-NEGOTIABLES in /prompts/00-shared.txt apply to every stage: COMPLE
 S03 COMPACT TEACHING:
 - EACH and EVERY source-bearing topic is data-progress=taught AND data-format="compact-v2". One compact topic out of six is NOT completion.
 - Each topic has its substantive slides mapped to a source-linked numbered slide-walkthrough location, with a concrete plain-English "What is going on here?" note per slide, or a clearly documented source-image placeholder. Do not PASS a topic with only a generic unrelated stock image, invented slide photograph, or unnumbered slide summary.
-- Each topic has: title, hook, 1-4 concept blocks, a step-by-step worked example where the topic has numbers, a visual where the idea has numbers/time/process/relationship, an instant-feedback quick check with a no-JS fallback, Remember bullets including a "Watch out", and a "Got it" checkbox.
+- Each topic has: title, hook, 1-4 concept blocks, a fully visible step-by-step worked example where the topic has numbers, a visual where the idea has numbers/time/process/relationship, an instant-feedback quick check with a no-JS fallback, Remember bullets including a "Watch out", and a "Got it" checkbox.
 - Terms are defined inline once; there are no definition lists. Prose is within the 550-word cap per topic (formulas, tables, visuals, example steps, interactive parts and questions do not count). Spot-count the longest-looking topics.
 - Lecturer examples, numbers, notation, formulas, warnings and source IDs remain; condensing must not have dropped source facts.
 - Recalculate a sample of example steps, quick-check answers and any calculator default output; the calculator default must equal the lecturer's example result.
@@ -47,7 +47,8 @@ S03 COMPACT TEACHING:
 S04 VISUALS, TRY-IT AND EXAMPLES:
 - Every substantive slide mapped to the topic has a correctly numbered annotated source-slide walkthrough, with 1-4 visible markers pointing to actual elements and matching readable, concrete side notes; published slide screenshots must match the source, have established public sharing rights and be verified committed assets. Missing screenshots must have a visible, honest placeholder and a manifest reason instead, never a dead link or an AI-fabricated image.
 - Every topic is marked enriched. Ideas with numbers, time, a process or a relationship have a helpful visual (max 3 per topic) with labelled axes/units and a caption; plotted values are correct (spot-check by recalculating).
-- Each "Try it" calculator reproduces the lecturer's example at its default inputs and gives correct outputs at two other inputs you compute yourself.
+- Each "Try it" calculator reproduces the lecturer's example at its default inputs and gives correct outputs at two other inputs you compute yourself. Meaningful models optionally use predict/explore/explain, with no forced guesses, and direction/explanations verified against the computation.
+- All processed worked examples are readable with no clicks; no "Next step" display/hide behavior remains in processed topics.
 - At most one real-world example per topic (~60 words), with an actually supporting citation or an ILLUSTRATIVE label.
 - No decorative visuals, unlabelled extra theory or unverified citations; Beyond the slides boxes stay within limits; S03 teaching is intact and within limits.
 
@@ -61,13 +62,14 @@ S06 COMPLETE, ACCURATE, COMPACT:
 - Source coverage, maths, chart values, calculators, quiz answers, real-world claims and practice solutions have actually been checked.
 - Every topic is in the compact format and within limits; terms are consistent; extra theory only in accurate, labelled Beyond the slides boxes totalling about 5% of the chapter.
 - Slide-image mapping, accessibility, correct annotations, publication permission, mobile/print fallback and image URLs have been checked; where source image unavailable, the source manifest and student-facing placeholder agree.
-- The shared script exists once (under ~8 KB); interactive parts work and the page remains usable without JavaScript; print shows answers.
+- The shared script exists once (under ~8 KB); interactive parts work and the page remains usable without JavaScript; print shows answers. Old click-to-reveal worked steps have been removed; no steps are hidden by CSS or JS. Test actual numeric gap answers, tolerances, feedback, hint availability, keyboard use and accessible live output.
 - Known critical or major mistakes are fixed or clearly blocked; unresolved source limitations remain honestly documented. Verify specific edits are present in the HTML; no blanket "verified" claims.
 
 S07 FINAL PUBLICATION:
 - state.stage=7 and final study.html is committed/re-fetchable from correct lecture directory.
 - A Cheat sheet exists near the top: formula sheet with symbol meanings and topic links, 15-25 flashcards reusing the topic definitions, and the 10 most important takeaways; it fits roughly two printed pages.
 - The progress bar counts every topic's "Got it" box.
+- Full worked examples are shown without a click marathon, all active prediction/completion/error-diagnosis feedback is correct and understandable, no-JS/print fallbacks expose solutions, and review controls never require personal data or external services.
 - All source-linked content, visuals, calculators, questions, explanations and citations are still present; previous audit corrections survive.
 - ToC/anchors, mobile layout, visuals, interactive parts and print presentation are structurally sound.
 - Source slides have a coherent image + beside-it explanation walkthrough: verify marker-label correspondence and accurate original slide numbers/L-IDs, published image URLs, alt text, and correct mobile stacking. No public lecturer screenshot was published without established rights. If actual photos could not be published, the HTML and manifest clearly reveal that limitation, and the final report does not claim photo inclusion.
