@@ -186,7 +186,7 @@ function linkFor(path){return "./?read="+encodeURIComponent(path)}
 function node(tag,cls,text){var el=document.createElement(tag);if(cls)el.className=cls;if(text!=null)el.textContent=text;return el}
 function saveRecent(entry){var h=readStore("studyshit_portal_recent",[]).filter(function(item){return item.path!==entry.path});h.unshift({path:entry.path,slug:entry.slug,subject:entry.subject});putStore("studyshit_portal_recent",h.slice(0,6))}
 function renderRecent(){var holder=document.getElementById("recent-list");holder.replaceChildren();var data=readStore("studyshit_portal_recent",[]).filter(function(item){return PATH_RULE.test(item.path)});if(!data.length){holder.appendChild(node("p","quiet","Open a chapter and it will appear here."));return}data.slice(0,4).forEach(function(item){var a=node("a","recent-item");a.href=linkFor(item.path);a.appendChild(node("strong","",getChapter(item.slug,item.path)));a.appendChild(node("span","",getSubject(item.subject)));a.addEventListener("click",function(){saveRecent(item)});holder.appendChild(a)})}
-function grouped(){var by={};entries.forEach(function(e){(by[e.subject]||(by[e.subject]=[])).push(e)});catalog.subjects.forEach(function(s){if(!by[s.slug])by[s.slug]=[]});function orderIn(list,key){var i=list.findIndex(function(x){return x[key]===this});return i<0?100000:i}return Object.keys(by).sort(function(a,b){var ai=catalog.subjects.findIndex(function(s){return s.slug===a}),bi=catalog.subjects.findIndex(function(s){return s.slug===b});return (ai<0?100000:ai)-(bi<0?100000:bi)||a.localeCompare(b)}).map(function(k){return {slug:k,chapters:by[k].sort(function(a,b){var ai=catalog.chapters.findIndex(function(c){return c.path===a.path}),bi=catalog.chapters.findIndex(function(c){return c.path===b.path});if(ai>=0&&bi>=0)return ai-bi;if(ai>=0)return -1;if(bi>=0)return 1;return sequence(a.slug)-sequence(b.slug)||a.slug.localeCompare(b.slug,undefined,{numeric:true})})}})}
+function grouped(){var by={};entries.forEach(function(e){(by[e.subject]||(by[e.subject]=[])).push(e)});catalog.subjects.forEach(function(s){if(!by[s.slug])by[s.slug]=[]});return Object.keys(by).sort(function(a,b){var ai=catalog.subjects.findIndex(function(s){return s.slug===a}),bi=catalog.subjects.findIndex(function(s){return s.slug===b});return (ai<0?100000:ai)-(bi<0?100000:bi)||a.localeCompare(b)}).map(function(k){return {slug:k,chapters:by[k].sort(function(a,b){var ai=catalog.chapters.findIndex(function(c){return c.path===a.path}),bi=catalog.chapters.findIndex(function(c){return c.path===b.path});if(ai>=0&&bi>=0)return ai-bi;if(ai>=0)return -1;if(bi>=0)return 1;return sequence(a.slug)-sequence(b.slug)||a.slug.localeCompare(b.slug,undefined,{numeric:true})})}})}
 function render(){
 var all=grouped(),q=search.value.trim().toLowerCase();
 var visible=all.map(function(s){return {slug:s.slug,chapters:s.chapters.filter(function(e){return getSubject(s.slug).toLowerCase().includes(q)||getChapter(e.slug,e.path).toLowerCase().includes(q)||e.slug.includes(q)})}}).filter(function(s){return s.chapters.length||(!q||getSubject(s.slug).toLowerCase().includes(q))});
@@ -237,16 +237,19 @@ render()
 }
 async function refresh(force){
 await loadCatalog();
-if(!force){try{var cached=JSON.parse(sessionStorage.getItem("studyshit_tree_cache")||"null");if(cached&&Date.now()-cached.time<5*60*1000&&Array.isArray(cached.paths)){entries=cached.paths.filter(function(p){return PATH_RULE.test(p)}).map(fromPath);sourceNote.textContent="Synced from GitHub · cached for a few minutes";render();updateStages();return}}catch(e){}}
+var known=catalog.chapters.filter(function(c){return c&&typeof c.path==="string"&&PATH_RULE.test(c.path)}).map(function(c){return c.path});
+var catalogKey=JSON.stringify(catalog);
+if(known.length){entries=known.map(fromPath);sourceNote.textContent="Showing saved library catalog while checking for additional chapters";render()}
+if(!force){try{var cached=JSON.parse(sessionStorage.getItem("studyshit_tree_cache")||"null");if(cached&&cached.catalogKey===catalogKey&&Date.now()-cached.time<5*60*1000&&Array.isArray(cached.paths)){entries=cached.paths.filter(function(p){return PATH_RULE.test(p)}).map(fromPath);sourceNote.textContent="Synced from GitHub · cached for a few minutes";render();updateStages();return}}catch(e){}}
 sourceNote.textContent="Syncing subjects and chapters from GitHub…";
 try{
 var response=await fetch(TREE_URL,{cache:"no-store"});if(!response.ok)throw new Error("GitHub returned "+response.status);
 var data=await response.json();if(!Array.isArray(data.tree)||data.truncated)throw new Error("Incomplete repository listing");
 var paths=data.tree.filter(function(item){return item.type==="blob"&&PATH_RULE.test(item.path)}).map(function(item){return item.path});
 entries=paths.map(fromPath);
-try{sessionStorage.setItem("studyshit_tree_cache",JSON.stringify({time:Date.now(),paths:paths}))}catch(e){}
+try{sessionStorage.setItem("studyshit_tree_cache",JSON.stringify({time:Date.now(),catalogKey:catalogKey,paths:paths}))}catch(e){}
 sourceNote.textContent="Live from GitHub · new chapters appear automatically";render();updateStages()
-}catch(error){sourceNote.textContent="GitHub sync unavailable; showing the chapters known when this portal was created.";entries=FALLBACK.map(fromPath);render();updateStages()}
+}catch(error){sourceNote.textContent=known.length?"GitHub listing unavailable; showing chapters from your saved GitHub catalog.":"GitHub listing and catalog unavailable; showing the original chapter links.";entries=(known.length?known:FALLBACK).map(fromPath);render();updateStages()}
 }
 document.getElementById("refresh-button").addEventListener("click",function(){refresh(true)});
 refresh(false);
