@@ -107,7 +107,7 @@ var newFiles=new Map(),removed=new Map();
 var root=document.getElementById("subjects"),msg=document.getElementById("message");
 function el(tag,cls,text){var n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n}
 function notice(message,type){msg.textContent=message;msg.className="status"+(type?" "+type:"")}
-function setBusy(flag){busy=flag;["connect","reload","save","disconnect","add-chapter"].forEach(function(id){var x=document.getElementById(id);if(x)x.disabled=flag||(id==="save"&&!dirty)})}
+function setBusy(flag){busy=flag;var editor=document.getElementById("editor");editor.inert=flag;editor.setAttribute("aria-busy",String(flag));["connect","reload","save","disconnect","add-chapter"].forEach(function(id){var x=document.getElementById(id);if(x)x.disabled=flag||(id==="save"&&!dirty)})}
 function mark(){dirty=true;document.getElementById("save").disabled=false;document.getElementById("counts").textContent=working.subjects.length+" subjects · "+working.chapters.length+" chapters · unsaved changes"}
 function slugify(str){return str.normalize("NFKD").toLowerCase().replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,70)}
 function subjectOf(path){return path.split("/")[1]}
