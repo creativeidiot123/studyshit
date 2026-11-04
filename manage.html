@@ -115,7 +115,7 @@ function chapterSlug(path){return path.split("/")[3]}
 function titlecase(str){return str.split("-").map(function(x){return x?x[0].toUpperCase()+x.slice(1):""}).join(" ")}
 function clone(x){return JSON.parse(JSON.stringify(x))}
 function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;")}
-function starter(title,subject){var t=esc(title),s=esc(subject);return '<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+t+' | '+s+'</title><style>body{font:17px/1.7 system-ui,Arial,sans-serif;max-width:780px;margin:auto;padding:30px 20px;color:#20313e;background:#f6f8f7}main{background:white;padding:26px;border-radius:15px;border:1px solid #deebe6}a{color:#087e77}</style></head><body><main><p>'+s+'</p><h1>'+t+'</h1><p>This chapter is a new draft. Add your study material to this file in GitHub when ready.</p><p><a href="../../../../../">Back to the study library</a></p></main></body></html>\n'}
+function starter(title,subject){var t=esc(title),s=esc(subject);return '<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+t+' | '+s+'</title><style>body{font:17px/1.7 system-ui,Arial,sans-serif;max-width:780px;margin:auto;padding:30px 20px;color:#20313e;background:#f6f8f7}main{background:white;padding:26px;border-radius:15px;border:1px solid #deebe6}a{color:#087e77}</style></head><body><main><p>'+s+'</p><h1>'+t+'</h1><p>This chapter is a new draft. Add your study material to this file in GitHub when ready.</p><p><a href="../../../../">Back to the study library</a></p></main></body></html>\n'}
 function decodeUtf8Base64(txt){var binary=atob(txt.replace(/\s/g,"")),bytes=new Uint8Array(binary.length);for(var i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);return new TextDecoder().decode(bytes)}
 async function request(path,method,body){
 var options={method:method||"GET",headers:{"Accept":"application/vnd.github+json","Authorization":"Bearer "+token,"X-GitHub-Api-Version":"2022-11-28"},cache:"no-store"};
@@ -238,6 +238,11 @@ if(latest.catalogSha!==original.catalogSha)throw new Error("Someone changed port
 var existing=new Set(latest.tree.filter(function(x){return x.type==="blob"}).map(function(x){return x.path}));
 for(var path of addList)if(existing.has(path))throw new Error("New chapter path already exists in GitHub: "+path);
 for(var path of deleteList)if(!existing.has(path))throw new Error("Chapter was already removed by another commit: "+path);
+for(var path of deleteList){var prefix=path.slice(0,-"study.html".length);
+var oldFiles=original.tree.filter(function(x){return x.type==="blob"&&x.path.startsWith(prefix)}).map(function(x){return x.path+" "+x.sha}).sort();
+var liveFiles=latest.tree.filter(function(x){return x.type==="blob"&&x.path.startsWith(prefix)}).map(function(x){return x.path+" "+x.sha}).sort();
+if(JSON.stringify(oldFiles)!==JSON.stringify(liveFiles))throw new Error("Files inside a chapter marked for deletion changed since you connected. Reload to review the current folder before deleting it.")
+}
 var changes=[{path:"portal/catalog.json",mode:"100644",type:"blob",content:JSON.stringify(working,null,2)+"\n"}];
 for(var path of addList)changes.push({path:path,mode:"100644",type:"blob",content:newFiles.get(path)});
 for(var path of deleteList){
