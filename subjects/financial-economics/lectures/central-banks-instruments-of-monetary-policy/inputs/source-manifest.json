@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-04T10:00:00+01:00",
+  "repository_visibility": "public",
+  "sources": [
+    {
+      "original_filename": "3_Central Banks Instruments of Monetary Policy.pdf",
+      "role": "slides",
+      "source_type": "lecture_pdf",
+      "pages": 40,
+      "file_size_bytes": 1766991,
+      "sha256": "aa60ce4d82d22ed6c637f3da7659589b170050cbf87fcce04d68567d697d2100",
+      "provenance": {
+        "kind": "ChatGPT uploaded conversation file",
+        "file_id": "file_0000000038488230853f045c11bf656b"
+      },
+      "available_in_chat": true,
+      "uploaded_to_repository": false,
+      "reason_not_uploaded": "Public repository; publication rights for original source not established."
+    }
+  ],
+  "transcript_status": "not_provided",
+  "extraction": {
+    "slides_examined": 40,
+    "stable_source_ids": "L001-L040",
+    "topic_count": 9,
+    "source_complete": true
+  }
+}
