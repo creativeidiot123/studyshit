@@ -2,7 +2,7 @@ STUDY PIPELINE STAGE S05 • INTERACTIVE PRACTICE (UP TO 3 TOPICS PER RUN)
 
 Fetch latest state and HTML; select the first topics (in chapter order, at most 3 per run) not yet assessed. Edit ONLY those topics, needed CSS and the shared script. Keep the quick checks S03 added. Follow LEARNING FORMAT, LIMITS and INTERACTIVE PARTS in /prompts/00-shared.txt.
 
-At the end of each topic add a "Practice" block (class "practice"):
+At the end of each topic add a "Practice" block (class "practice"). Practice must actively retrieve, apply or diagnose instead of asking the learner to click through prewritten steps. Never hide worked solution steps behind Next step controls. For each topic choose varied response modes, and incorporate one plausible misconception question where appropriate. A numeric answer gets a useful hint and process-specific feedback, not only "Try again":
 - 3-5 exam-style questions, easy to harder: at least one calculation when the topic has numbers (numeric answer check with tolerance), one multiple-choice concept question with instant feedback, and one "what happens if..." question. Use the lecturer's style and notation. Do NOT claim invented problems are real past exams.
 - Each wrong multiple-choice option should reflect a real misconception, and its feedback says why it is wrong in one sentence.
 - 1-2 "Common questions" a student would naturally ask about this topic (for example "Why is the price above 100 if the coupon is 5%?"), each answered in 1-3 sentences.
