@@ -46,12 +46,17 @@
       "topic-t08",
       "topic-t09"
     ],
-    "4": [],
+    "4": [
+      "topic-t01",
+      "topic-t02",
+      "topic-t10",
+      "topic-t03"
+    ],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": null,
+  "next_topic": "topic-t11",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -60,8 +65,8 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T09:57:15Z",
-  "current_stage_status": "S03_completed_pending_independent_reverification",
+  "updated_at": "2026-11-04T10:01:32Z",
+  "current_stage_status": "S04_in_progress",
   "extraction": {
     "pages": 40,
     "ledger_records": 40,
@@ -91,5 +96,19 @@
     "next_topic": null,
     "verification_status": "awaiting_independent_S03_recheck_after_repair",
     "verification_repair": "Addressed S03 verifier findings: L038/slide 38 and topic-t09 HICP x-axis is Jan 2020–Apr 2025, including SVG labels; L025/slide 25 and topic-t12 rate chart x-axis is Jan 1999–Jan 2029, with observations stopping around late 2026/early 2027. Other topics and source records preserved."
+  },
+  "enrichment": {
+    "stage": "S04",
+    "topics_total": 13,
+    "topics_enriched": 4,
+    "last_batch": [
+      "topic-t01",
+      "topic-t02",
+      "topic-t10",
+      "topic-t03"
+    ],
+    "last_batch_actions": "S04 first four topics reviewed against slide ledger. Existing 2–3 purposeful visuals per topic, accurate worked examples and complete quick checks; no enrichment needed. No changeable lecturer model formula, so no Try-it calculator. No invented real-world facts or additional theory.",
+    "calculations": "t02 2.0%−1.8%=0.2 percentage points; t10 6+21=27 members; t03 ECB 6+4+11=21 voting rights, top group 5−4=1, lower group 16−11=5 and Fed 7+5=12. No calculator inputs or outputs to test.",
+    "next_topic": "topic-t11"
   }
 }
