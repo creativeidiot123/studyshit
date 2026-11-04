@@ -50,13 +50,17 @@
       "topic-t01",
       "topic-t02",
       "topic-t10",
-      "topic-t03"
+      "topic-t03",
+      "topic-t11",
+      "topic-t04",
+      "topic-t12",
+      "topic-t05"
     ],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t11",
+  "next_topic": "topic-t06",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -65,7 +69,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T10:01:32Z",
+  "updated_at": "2026-11-04T10:04:03Z",
   "current_stage_status": "S04_in_progress",
   "extraction": {
     "pages": 40,
@@ -100,15 +104,15 @@
   "enrichment": {
     "stage": "S04",
     "topics_total": 13,
-    "topics_enriched": 4,
+    "topics_enriched": 8,
     "last_batch": [
-      "topic-t01",
-      "topic-t02",
-      "topic-t10",
-      "topic-t03"
+      "topic-t11",
+      "topic-t04",
+      "topic-t12",
+      "topic-t05"
     ],
-    "last_batch_actions": "S04 first four topics reviewed against slide ledger. Existing 2–3 purposeful visuals per topic, accurate worked examples and complete quick checks; no enrichment needed. No changeable lecturer model formula, so no Try-it calculator. No invented real-world facts or additional theory.",
-    "calculations": "t02 2.0%−1.8%=0.2 percentage points; t10 6+21=27 members; t03 ECB 6+4+11=21 voting rights, top group 5−4=1, lower group 16−11=5 and Fed 7+5=12. No calculator inputs or outputs to test.",
-    "next_topic": "topic-t11"
+    "last_batch_actions": "S04 batch 2: t11/t05 already complete with visual explanations; no new theory needed. t04 received one ILLUSTRATIVE pre-crisis MRO auction allocation calculator; t12 received rate-corridor calculator using the lecturer's three slide-25 rates. Two alternative scenarios per calculator are recorded in S04 build log. No additional real-world claims, citations or Beyond boxes.",
+    "calculations": "t04 supply €80m -> A €35m B €30m C €15m (default), €50m -> 35/15/0, €100m -> 35/30/35. t12 default 2.50/2.65/2.90% -> width 0.40 pp = 40bp, gap 0.15/0.25. Inputs 2.40/2.65/2.90 -> 0.50pp (50bp), 0.25/0.25; 2.50/2.70/3.10 -> 0.60pp (60bp), 0.20/0.40. Shared script 2525 bytes.",
+    "next_topic": "topic-t06"
   }
 }
