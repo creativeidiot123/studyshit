@@ -40,14 +40,15 @@
       "topic-t04",
       "topic-t12",
       "topic-t05",
-      "topic-t06"
+      "topic-t06",
+      "topic-t07"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t07",
+  "next_topic": "topic-t13",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -56,7 +57,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T09:39:30Z",
+  "updated_at": "2026-11-04T09:43:22Z",
   "current_stage_status": "S03_in_progress",
   "extraction": {
     "pages": 40,
@@ -76,13 +77,13 @@
   "teaching": {
     "stage": "S03",
     "topics_total": 13,
-    "topics_taught": 9,
-    "last_topic": "topic-t06",
+    "topics_taught": 10,
+    "last_topic": "topic-t07",
     "last_source_ids": [
-      "L028",
-      "L029"
+      "L030",
+      "L031"
     ],
-    "numerical_calculations": "ILLUSTRATIVE: Bank swaps €10m bonds for €10m ECB liquidity; slide's simplified PSPP 33% ceiling on illustrative €300m base = €99m; remaining €201m (67%). Slide 28 zero bound flagged versus negative deposit rates in L025.",
-    "next_topic": "topic-t07"
+    "numerical_calculations": "Illustrative monthly flow: €15bn purchases − €25bn matured without replacement = −€10bn net. Illustrative stock €3,400bn − €10bn = €3,390bn (ignoring valuation/accounting effects). Slide 30 net flow and slide 31 declining holdings separated; caption 'Cumulated Purchases' flagged.",
+    "next_topic": "topic-t13"
   }
 }
