@@ -9,6 +9,12 @@ One uploaded lecture deck (plus optional transcript) becomes one versioned, rigo
 4. In a NEW project chat, upload a PPT/PDF and any lecture transcript. ChatGPT bootstraps Stage 01.
 5. The userscript detects final study markers and loads the appropriate next prompt from /prompts/, queuing it through the existing durable Resilience queue. Every completed stage is independently verified once before advancing.
 
+## Interaction design (research-led)
+
+No more repeated "Next step" buttons. Every worked example is visible on load. New topics use one meaningful learner action instead: **fill the missing result**, **predict a change then manipulate a live model**, or **spot the misconception**. A native <details> hint and worked answer remain available without JavaScript; feedback explains the underlying reason, not just green/red. When useful, offer optional locally stored "review later" cards for spaced retrieval. Limit interactive widgets per topic to avoid fatigue; do not add decorative gamification. The pedagogical evidence is stronger for retrieval practice and distributed practice than for passive rereading (Dunlosky et al., 2013, https://www.psychologicalscience.org/publications/journals/pspi/learning-techniques.html); faded worked examples support movement into independent solving (Renkl & Atkinson, 2003, https://doi.org/10.1207/S15326985EP3801_3); meaningful task/process feedback matters (Hattie & Timperley, 2007, https://doi.org/10.3102/003465430298487). The exact UI designs are implementation choices, not independently validated products.
+
+See [interaction-lab.html](interaction-lab.html) for a functioning finance interaction prototype.
+
 ## Stages
 01 source inventory + initial notes; 02 small topics in learning order; 03 one topic per run in the compact interactive format (hook, short idea, step-by-step example, visual, instant-feedback check; 200-450 words of prose); 04 visuals, try-it calculators and real-world examples; 05 interactive practice and a scored mixed exam set; 06 complete/accurate/compact check; 07 cheat sheet, flashcards, polish and release.
 
