@@ -61,11 +61,15 @@
       "topic-t08",
       "topic-t09"
     ],
-    "5": [],
+    "5": [
+      "topic-t01",
+      "topic-t02",
+      "topic-t10"
+    ],
     "6": [],
     "7": []
   },
-  "next_topic": null,
+  "next_topic": "topic-t03",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -74,8 +78,8 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T10:14:34Z",
-  "current_stage_status": "S04_completed_pending_independent_reverification",
+  "updated_at": "2026-11-04T10:18:45Z",
+  "current_stage_status": "S05_in_progress",
   "extraction": {
     "pages": 40,
     "ledger_records": 40,
@@ -118,5 +122,20 @@
     "next_topic": null,
     "verification_status": "awaiting_independent_S04_recheck_after_repair",
     "verification_repair": "Resolved the independent S04 verifier's blocking shared-script syntax error by inserting a semicolon after flashcard initialization before const fmt. Script now parses; runtime simulation verified six calculators at defaults + two alternatives each, quick-check correct/incorrect feedback, example next-step reveal, flashcard flip, and Got-it progress with localStorage. All 13 topics and L001–L040 preserved; HTML commit 33ee0a247628a0e4ba0d6a0d12879148f938db2c."
+  },
+  "practice": {
+    "stage": "S05",
+    "topics_total": 13,
+    "topics_assessed": 3,
+    "last_batch": [
+      "topic-t01",
+      "topic-t02",
+      "topic-t10"
+    ],
+    "last_batch_question_count": 11,
+    "last_batch_numeric_checks": "q-t02-02: 2.0−1.8 = 0.2 percentage points; q-t10-02: 6+21=27 people. Answers confirmed with 0.001 tolerance.",
+    "last_batch_review": "11 practice questions across three topics. MC wrong-answer feedback explains each misconception; numeric wrong/correct answers tested. All have no-JS worked solutions and each topic has 1–2 common questions. No mixed practice before all topics assessed.",
+    "mixed_exam_practice_status": "not_started",
+    "next_topic": "topic-t03"
   }
 }
