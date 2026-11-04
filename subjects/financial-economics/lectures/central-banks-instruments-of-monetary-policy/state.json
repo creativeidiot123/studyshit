@@ -35,14 +35,15 @@
       "topic-t01",
       "topic-t02",
       "topic-t10",
-      "topic-t03"
+      "topic-t03",
+      "topic-t11"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t11",
+  "next_topic": "topic-t04",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -51,7 +52,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T09:25:35Z",
+  "updated_at": "2026-11-04T09:28:09Z",
   "current_stage_status": "S03_in_progress",
   "extraction": {
     "pages": 40,
@@ -71,13 +72,13 @@
   "teaching": {
     "stage": "S03",
     "topics_total": 13,
-    "topics_taught": 4,
-    "last_topic": "topic-t03",
+    "topics_taught": 5,
+    "last_topic": "topic-t11",
     "last_source_ids": [
-      "L017",
-      "L018"
+      "L019",
+      "L020"
     ],
-    "numerical_calculations": "ECB votes: 6+4+11=21; governors without a vote: (5-4)+(16-11)=6; Fed: 7+5=12; vote difference: 21-12=9. Slide 18 says 14 where slide 17 says 16; flagged in Fact check.",
-    "next_topic": "topic-t11"
+    "numerical_calculations": "Lecture states eight-year, non-renewable Executive Board terms; no arithmetic calculation required for slides 19–20.",
+    "next_topic": "topic-t04"
   }
 }
