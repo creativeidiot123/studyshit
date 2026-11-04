@@ -33,14 +33,15 @@
     ],
     "3": [
       "topic-t01",
-      "topic-t02"
+      "topic-t02",
+      "topic-t10"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t10",
+  "next_topic": "topic-t03",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -49,7 +50,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T09:20:19Z",
+  "updated_at": "2026-11-04T09:23:09Z",
   "current_stage_status": "S03_in_progress",
   "extraction": {
     "pages": 40,
@@ -69,14 +70,17 @@
   "teaching": {
     "stage": "S03",
     "topics_total": 13,
-    "topics_taught": 2,
-    "last_topic": "topic-t02",
+    "topics_taught": 3,
+    "last_topic": "topic-t10",
     "last_source_ids": [
-      "L008",
-      "L009",
-      "L010"
+      "L011",
+      "L012",
+      "L013",
+      "L014",
+      "L015",
+      "L016"
     ],
-    "numerical_calculations": "ILLUSTRATIVE: 2.0% minus 1.8% = 0.2 percentage points; not an ECB decision rule",
-    "next_topic": "topic-t10"
+    "numerical_calculations": "Slide 14: 6 ECB Executive Board members + 21 euro-area NCB governors = 27 Governing Council members; NOT 27 voting rights.",
+    "next_topic": "topic-t03"
   }
 }
