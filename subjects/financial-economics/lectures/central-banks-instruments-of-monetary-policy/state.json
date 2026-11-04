@@ -54,13 +54,17 @@
       "topic-t11",
       "topic-t04",
       "topic-t12",
-      "topic-t05"
+      "topic-t05",
+      "topic-t06",
+      "topic-t07",
+      "topic-t13",
+      "topic-t08"
     ],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t06",
+  "next_topic": "topic-t09",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -69,7 +73,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T10:04:03Z",
+  "updated_at": "2026-11-04T10:07:29Z",
   "current_stage_status": "S04_in_progress",
   "extraction": {
     "pages": 40,
@@ -104,15 +108,15 @@
   "enrichment": {
     "stage": "S04",
     "topics_total": 13,
-    "topics_enriched": 8,
+    "topics_enriched": 12,
     "last_batch": [
-      "topic-t11",
-      "topic-t04",
-      "topic-t12",
-      "topic-t05"
+      "topic-t06",
+      "topic-t07",
+      "topic-t13",
+      "topic-t08"
     ],
-    "last_batch_actions": "S04 batch 2: t11/t05 already complete with visual explanations; no new theory needed. t04 received one ILLUSTRATIVE pre-crisis MRO auction allocation calculator; t12 received rate-corridor calculator using the lecturer's three slide-25 rates. Two alternative scenarios per calculator are recorded in S04 build log. No additional real-world claims, citations or Beyond boxes.",
-    "calculations": "t04 supply €80m -> A €35m B €30m C €15m (default), €50m -> 35/15/0, €100m -> 35/30/35. t12 default 2.50/2.65/2.90% -> width 0.40 pp = 40bp, gap 0.15/0.25. Inputs 2.40/2.65/2.90 -> 0.50pp (50bp), 0.25/0.25; 2.50/2.70/3.10 -> 0.60pp (60bp), 0.20/0.40. Shared script 2525 bytes.",
-    "next_topic": "topic-t06"
+    "last_batch_actions": "S04 batch 3: t06 receives illustrative 33% PSPP arithmetic calculator with explicit historical-rule caveat; t07 receives APP monthly-flow and holdings calculator; t13 receives 2007=100 indexed-balance-sheet calculator; t08 original QE aims/risks and moral-hazard figures are complete, no enrichment needed. No unsupported historical point or extra theory added. Full test cases in S04 batch 3 build log.",
+    "calculations": "t06 debt €300m → 33% €99m, rest €201m; €150m → €49.5m/€100.5m; €600m → €198m/€402m. t07 €3400bn+€15bn−€25bn=€3390bn, monthly −€10bn; 25/15→€3410bn (+10); 0/40→€3360bn (−40). t13 index 300→3x/+200%; 200→2x/+100%; 450→4.5x/+350%.",
+    "next_topic": "topic-t09"
   }
 }
