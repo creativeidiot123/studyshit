@@ -70,12 +70,15 @@
       "topic-t04",
       "topic-t12",
       "topic-t05",
-      "topic-t06"
+      "topic-t06",
+      "topic-t07",
+      "topic-t13",
+      "topic-t08"
     ],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t07",
+  "next_topic": "topic-t09",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -84,7 +87,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T10:25:59Z",
+  "updated_at": "2026-11-04T10:29:43Z",
   "current_stage_status": "S05_in_progress",
   "extraction": {
     "pages": 40,
@@ -132,16 +135,16 @@
   "practice": {
     "stage": "S05",
     "topics_total": 13,
-    "topics_assessed": 9,
+    "topics_assessed": 12,
     "last_batch": [
-      "topic-t12",
-      "topic-t05",
-      "topic-t06"
+      "topic-t07",
+      "topic-t13",
+      "topic-t08"
     ],
     "last_batch_question_count": 12,
-    "last_batch_numeric_checks": "t12 q-t12-02: 2.90%-2.50%=0.40 pp =40 basis points; t05 q-t05-02 ILLUSTRATIVE €40m+€60m=€100m qualified full allotment; t06 q-t06-02 ILLUSTRATIVE 0.33×€300m=€99m, broad slide rule explicitly not current blanket legal cap. Other t12 2.70% illustrative deal yields 0.20 pp lender advantage/borrower saving.",
-    "last_batch_review": "S05 batch 3: 12 original exam-style questions across three topics (4 each: one 0.001-tolerance numeric, three MC with option-specific feedback); 12 no-JS worked solutions and two Common questions per topic. All twelve passed wrong/correct interactive behavior tests. No modifications to earlier topics, source ledger or shared script.",
+    "last_batch_numeric_checks": "ILLUSTRATIVE q-t07-02: €3,400bn + €15bn − €25bn = €3,390bn (net −€10bn); q-t13-02: (300−100)/100 × 100 = 200% indexed growth; q-t08-02: (€100−€70)/€100 × 100 = 30% loss.",
+    "last_batch_review": "Twelve new S05 practice questions, four per topic t07/t13/t08: one numeric with ±0.001 tolerance, three misconception-feedback MC including what-if, two Common questions, and four no-JS worked solutions per topic. Correct/incorrect feedback runtime tests all passed; original 39 quick checks and six calculators preserved.",
     "mixed_exam_practice_status": "not_started",
-    "next_topic": "topic-t07"
+    "next_topic": "topic-t09"
   }
 }
