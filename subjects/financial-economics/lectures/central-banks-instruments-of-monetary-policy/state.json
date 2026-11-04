@@ -36,14 +36,15 @@
       "topic-t02",
       "topic-t10",
       "topic-t03",
-      "topic-t11"
+      "topic-t11",
+      "topic-t04"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t04",
+  "next_topic": "topic-t12",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -52,7 +53,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T09:28:09Z",
+  "updated_at": "2026-11-04T09:31:11Z",
   "current_stage_status": "S03_in_progress",
   "extraction": {
     "pages": 40,
@@ -72,13 +73,14 @@
   "teaching": {
     "stage": "S03",
     "topics_total": 13,
-    "topics_taught": 5,
-    "last_topic": "topic-t11",
+    "topics_taught": 6,
+    "last_topic": "topic-t04",
     "last_source_ids": [
-      "L019",
-      "L020"
+      "L021",
+      "L022",
+      "L023"
     ],
-    "numerical_calculations": "Lecture states eight-year, non-renewable Executive Board terms; no arithmetic calculation required for slides 19–20.",
-    "next_topic": "topic-t04"
+    "numerical_calculations": "Illustrative one-week tender with 3.0% minimum bid, €80m available: A €35m at 3.4%, B €30m at 3.2%, C €15m of €45m request at 3.0%; €35m+€30m+€15m=€80m. No auction-pricing formula assumed.",
+    "next_topic": "topic-t12"
   }
 }
