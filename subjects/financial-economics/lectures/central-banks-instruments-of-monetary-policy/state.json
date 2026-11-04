@@ -34,14 +34,15 @@
     "3": [
       "topic-t01",
       "topic-t02",
-      "topic-t10"
+      "topic-t10",
+      "topic-t03"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t03",
+  "next_topic": "topic-t11",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -50,7 +51,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T09:23:09Z",
+  "updated_at": "2026-11-04T09:25:35Z",
   "current_stage_status": "S03_in_progress",
   "extraction": {
     "pages": 40,
@@ -70,17 +71,13 @@
   "teaching": {
     "stage": "S03",
     "topics_total": 13,
-    "topics_taught": 3,
-    "last_topic": "topic-t10",
+    "topics_taught": 4,
+    "last_topic": "topic-t03",
     "last_source_ids": [
-      "L011",
-      "L012",
-      "L013",
-      "L014",
-      "L015",
-      "L016"
+      "L017",
+      "L018"
     ],
-    "numerical_calculations": "Slide 14: 6 ECB Executive Board members + 21 euro-area NCB governors = 27 Governing Council members; NOT 27 voting rights.",
-    "next_topic": "topic-t03"
+    "numerical_calculations": "ECB votes: 6+4+11=21; governors without a vote: (5-4)+(16-11)=6; Fed: 7+5=12; vote difference: 21-12=9. Slide 18 says 14 where slide 17 says 16; flagged in Fact check.",
+    "next_topic": "topic-t11"
   }
 }
