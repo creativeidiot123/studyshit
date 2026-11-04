@@ -60,8 +60,8 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T09:51:01Z",
-  "current_stage_status": "S03_completed_pending_independent_verification",
+  "updated_at": "2026-11-04T09:57:15Z",
+  "current_stage_status": "S03_completed_pending_independent_reverification",
   "extraction": {
     "pages": 40,
     "ledger_records": 40,
@@ -89,6 +89,7 @@
     ],
     "numerical_calculations": "Approximate slide-38 inflation fall: 10% to 2% = 8 percentage points, not deflation. Illustrative HICP contributions: 4+1+1+2+2 = 10 pp; illustrative portfolio runoff €20bn matured without reinvestment = €20bn fall ignoring other changes. Slide-40 MRO 4.50% (09/2023) and undated 'currently 2.15%' preserved; slide-25 2.65% unreconciled.",
     "next_topic": null,
-    "verification_status": "awaiting_independent_S03_check"
+    "verification_status": "awaiting_independent_S03_recheck_after_repair",
+    "verification_repair": "Addressed S03 verifier findings: L038/slide 38 and topic-t09 HICP x-axis is Jan 2020–Apr 2025, including SVG labels; L025/slide 25 and topic-t12 rate chart x-axis is Jan 1999–Jan 2029, with observations stopping around late 2026/early 2027. Other topics and source records preserved."
   }
 }
