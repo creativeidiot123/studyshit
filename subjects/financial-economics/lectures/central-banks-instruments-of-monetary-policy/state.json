@@ -64,12 +64,15 @@
     "5": [
       "topic-t01",
       "topic-t02",
-      "topic-t10"
+      "topic-t10",
+      "topic-t03",
+      "topic-t11",
+      "topic-t04"
     ],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t03",
+  "next_topic": "topic-t12",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -78,7 +81,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T10:18:45Z",
+  "updated_at": "2026-11-04T10:22:50Z",
   "current_stage_status": "S05_in_progress",
   "extraction": {
     "pages": 40,
@@ -126,16 +129,16 @@
   "practice": {
     "stage": "S05",
     "topics_total": 13,
-    "topics_assessed": 3,
+    "topics_assessed": 6,
     "last_batch": [
-      "topic-t01",
-      "topic-t02",
-      "topic-t10"
+      "topic-t03",
+      "topic-t11",
+      "topic-t04"
     ],
-    "last_batch_question_count": 11,
-    "last_batch_numeric_checks": "q-t02-02: 2.0−1.8 = 0.2 percentage points; q-t10-02: 6+21=27 people. Answers confirmed with 0.001 tolerance.",
-    "last_batch_review": "11 practice questions across three topics. MC wrong-answer feedback explains each misconception; numeric wrong/correct answers tested. All have no-JS worked solutions and each topic has 1–2 common questions. No mixed practice before all topics assessed.",
+    "last_batch_question_count": 12,
+    "last_batch_numeric_checks": "q-t03-02: 5−4+16−11=6 nonvoting governors. q-t11-02: illustrative Jan 2024 + 8 years = Jan 2032. q-t04-02: €70m−€35m−€30m = €5m for C; €50m alternate gives €35m/€15m/€0m.",
+    "last_batch_review": "S05 batch 2: 12 exam-style questions across t03, t11, t04 with 4 questions each, one numeric (0.001 tolerance), three misconception-feedback choices, no-JS solutions, two Common questions per topic. Correct/wrong interaction tests passed for all 12. S03/S04 material preserved.",
     "mixed_exam_practice_status": "not_started",
-    "next_topic": "topic-t03"
+    "next_topic": "topic-t12"
   }
 }
