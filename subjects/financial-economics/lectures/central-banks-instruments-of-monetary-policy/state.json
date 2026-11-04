@@ -67,12 +67,15 @@
       "topic-t10",
       "topic-t03",
       "topic-t11",
-      "topic-t04"
+      "topic-t04",
+      "topic-t12",
+      "topic-t05",
+      "topic-t06"
     ],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t12",
+  "next_topic": "topic-t07",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -81,7 +84,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T10:22:50Z",
+  "updated_at": "2026-11-04T10:25:59Z",
   "current_stage_status": "S05_in_progress",
   "extraction": {
     "pages": 40,
@@ -129,16 +132,16 @@
   "practice": {
     "stage": "S05",
     "topics_total": 13,
-    "topics_assessed": 6,
+    "topics_assessed": 9,
     "last_batch": [
-      "topic-t03",
-      "topic-t11",
-      "topic-t04"
+      "topic-t12",
+      "topic-t05",
+      "topic-t06"
     ],
     "last_batch_question_count": 12,
-    "last_batch_numeric_checks": "q-t03-02: 5−4+16−11=6 nonvoting governors. q-t11-02: illustrative Jan 2024 + 8 years = Jan 2032. q-t04-02: €70m−€35m−€30m = €5m for C; €50m alternate gives €35m/€15m/€0m.",
-    "last_batch_review": "S05 batch 2: 12 exam-style questions across t03, t11, t04 with 4 questions each, one numeric (0.001 tolerance), three misconception-feedback choices, no-JS solutions, two Common questions per topic. Correct/wrong interaction tests passed for all 12. S03/S04 material preserved.",
+    "last_batch_numeric_checks": "t12 q-t12-02: 2.90%-2.50%=0.40 pp =40 basis points; t05 q-t05-02 ILLUSTRATIVE €40m+€60m=€100m qualified full allotment; t06 q-t06-02 ILLUSTRATIVE 0.33×€300m=€99m, broad slide rule explicitly not current blanket legal cap. Other t12 2.70% illustrative deal yields 0.20 pp lender advantage/borrower saving.",
+    "last_batch_review": "S05 batch 3: 12 original exam-style questions across three topics (4 each: one 0.001-tolerance numeric, three MC with option-specific feedback); 12 no-JS worked solutions and two Common questions per topic. All twelve passed wrong/correct interactive behavior tests. No modifications to earlier topics, source ledger or shared script.",
     "mixed_exam_practice_status": "not_started",
-    "next_topic": "topic-t12"
+    "next_topic": "topic-t07"
   }
 }
