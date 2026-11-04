@@ -21,7 +21,7 @@ button{cursor:pointer}
 .brand span:last-child span{color:var(--accent)}
 .top-actions{display:flex;align-items:center;gap:12px}
 .small-link{font-size:13px;font-weight:700;color:var(--muted);padding:10px}
-.small-link:hover{color:var(--accent)}
+.small-link:hover{color:var(--accent)}.manage-link{color:var(--accent);border:1px solid var(--line);border-radius:10px;padding:9px 12px;background:var(--paper)}.manage-link:hover{border-color:var(--accent)}
 .icon-button{border:1px solid var(--line);background:var(--paper);color:var(--ink);min-width:40px;height:40px;padding:0 12px;border-radius:12px;font-size:18px}
 .icon-button:hover{border-color:var(--accent)}
 .layout{max-width:1490px;margin:0 auto;display:grid;grid-template-columns:230px minmax(0,1fr);gap:54px;padding:36px clamp(18px,4vw,56px) 60px}
@@ -102,7 +102,7 @@ noscript a{color:var(--accent);text-decoration:underline}
 [data-theme=dark] .chapter-row .chapter-number{background:#263d41}
 [data-theme=dark] .search-area input::placeholder{color:#91a4ae}
 @media(max-width:1100px){.layout{gap:25px;grid-template-columns:190px minmax(0,1fr)}.subject-grid{grid-template-columns:1fr}.hero{min-height:240px}}
-@media(max-width:720px){.topbar{height:65px;padding:0 18px}.small-link{display:none}.layout{display:block;padding:20px 16px 45px}.sidebar{position:static;padding:0 0 20px}.sidebar-title,.sidebar-divider,.recent-list,.sidebar .quiet{display:none}.subject-nav{display:flex;overflow:auto;gap:8px;padding-bottom:3px;scrollbar-width:thin}.subject-nav a{white-space:nowrap;background:var(--paper);border:1px solid var(--line);padding:8px 11px}.subject-nav .nav-count{display:none}.hero{border-radius:18px;padding:30px 25px;min-height:235px}.hero:before{right:-280px}.hero:after{display:none}.hero h1{font-size:35px}.hero p{font-size:13px}.stats{gap:18px}.stat strong{font-size:22px}.content-heading{display:block;margin-top:30px}.search-area{max-width:none;margin-top:15px}.subject-card{padding:21px}.footer{padding:20px}.reader-mode .layout{padding:15px 10px}.reader-frame{height:calc(100dvh - 210px);min-height:360px;border-radius:10px}.reader-toolbar{padding:0 5px 12px}.reader-toolbar h1{font-size:16px}}
+@media(max-width:720px){.topbar{height:65px;padding:0 18px}.small-link:not(.manage-link){display:none}.manage-link{font-size:11px;padding:7px 9px}.layout{display:block;padding:20px 16px 45px}.sidebar{position:static;padding:0 0 20px}.sidebar-title,.sidebar-divider,.recent-list,.sidebar .quiet{display:none}.subject-nav{display:flex;overflow:auto;gap:8px;padding-bottom:3px;scrollbar-width:thin}.subject-nav a{white-space:nowrap;background:var(--paper);border:1px solid var(--line);padding:8px 11px}.subject-nav .nav-count{display:none}.hero{border-radius:18px;padding:30px 25px;min-height:235px}.hero:before{right:-280px}.hero:after{display:none}.hero h1{font-size:35px}.hero p{font-size:13px}.stats{gap:18px}.stat strong{font-size:22px}.content-heading{display:block;margin-top:30px}.search-area{max-width:none;margin-top:15px}.subject-card{padding:21px}.footer{padding:20px}.reader-mode .layout{padding:15px 10px}.reader-frame{height:calc(100dvh - 210px);min-height:360px;border-radius:10px}.reader-toolbar{padding:0 5px 12px}.reader-toolbar h1{font-size:16px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.topbar,.sidebar,.search-area,.refresh-row,.footer,.reader-view{display:none!important}.layout{display:block}.hero{color:#000;background:#fff;min-height:0;padding:0}.hero h1 em{color:#000}.hero p,.stat,.stat strong{color:#000}.subject-grid{display:block}.subject-card{break-inside:avoid;margin:15px 0;box-shadow:none}}
 </style>
@@ -110,7 +110,7 @@ noscript a{color:var(--accent);text-decoration:underline}
 <body>
 <header class="topbar">
  <a class="brand" href="./" aria-label="Studyshit home"><span class="brand-mark" aria-hidden="true">↗</span><span>study<span>shit</span><span style="font-weight:400">.</span></span></a>
- <div class="top-actions"><a class="small-link" href="https://github.com/creativeidiot123/studyshit" target="_blank" rel="noopener noreferrer">View repository ↗</a><button class="icon-button" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button></div>
+ <div class="top-actions"><a class="small-link manage-link" href="./manage.html">⚙ Manage</a><a class="small-link" href="https://github.com/creativeidiot123/studyshit" target="_blank" rel="noopener noreferrer">View repository ↗</a><button class="icon-button" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button></div>
 </header>
 <div class="layout">
  <aside class="sidebar" aria-label="Library navigation">
@@ -168,6 +168,7 @@ var SUBJECT_LABELS={"financial-economics":"Financial Economics","financial-marke
 var CHAPTER_LABELS={"central-banks-instruments-of-monetary-policy":"Central Banks: Instruments of Monetary Policy","intro-decision-theory-and-irrational-behavior":"Intro: Decision Theory and Irrational Behavior","02-modeling-risk-and-uncertainty":"Modeling Risk and Uncertainty","lecture-03-valuation-of-bonds":"Valuation of Bonds"};
 var PALETTES=[["#148679","#e7f6f0","◈"],["#526bb5","#ecf0ff","⌁"],["#bd7e37","#fff4e5","◇"],["#9571b5","#f4edfb","◎"],["#3184a7","#e7f4fa","✳"]];
 var entries=FALLBACK.map(fromPath);
+var catalog={version:1,subjects:[],chapters:[]};
 var statusByPath={};
 var search=document.getElementById("search");
 var grid=document.getElementById("subject-grid");
@@ -177,18 +178,18 @@ function readStore(key,fallback){try{return JSON.parse(localStorage.getItem(key)
 function putStore(key,val){try{localStorage.setItem(key,JSON.stringify(val))}catch(e){}}
 function titleCase(slug){return slug.split("-").map(function(word){return word?word[0].toUpperCase()+word.slice(1):""}).join(" ")}
 function fromPath(path){var p=path.split("/");return {path:path,subject:p[1],slug:p[3]}}
-function getSubject(slug){return SUBJECT_LABELS[slug]||titleCase(slug)}
-function getChapter(slug){return CHAPTER_LABELS[slug]||titleCase(slug.replace(/^lecture-\d+-/,"").replace(/^\d+-/,""))}
+function getSubject(slug){var named=catalog.subjects.find(function(s){return s.slug===slug});return named&&named.title||SUBJECT_LABELS[slug]||titleCase(slug)}
+function getChapter(slug,path){var named=catalog.chapters.find(function(c){return c.path===(path||entries.find(function(e){return e.slug===slug})?.path)});return named&&named.title||CHAPTER_LABELS[slug]||titleCase(slug.replace(/^lecture-\d+-/,"").replace(/^\d+-/,""))}
 function chapterNumber(slug){var match=slug.match(/^(?:lecture-)?(\d+)-/);return match?String(Number(match[1])).padStart(2,"0"):slug.indexOf("intro")===0?"01":"↗"}
 function sequence(slug){if(slug.indexOf("intro")===0)return 0;var match=slug.match(/^(?:lecture-)?(\d+)-/);return match?Number(match[1]):100}
 function linkFor(path){return "./?read="+encodeURIComponent(path)}
 function node(tag,cls,text){var el=document.createElement(tag);if(cls)el.className=cls;if(text!=null)el.textContent=text;return el}
 function saveRecent(entry){var h=readStore("studyshit_portal_recent",[]).filter(function(item){return item.path!==entry.path});h.unshift({path:entry.path,slug:entry.slug,subject:entry.subject});putStore("studyshit_portal_recent",h.slice(0,6))}
-function renderRecent(){var holder=document.getElementById("recent-list");holder.replaceChildren();var data=readStore("studyshit_portal_recent",[]).filter(function(item){return PATH_RULE.test(item.path)});if(!data.length){holder.appendChild(node("p","quiet","Open a chapter and it will appear here."));return}data.slice(0,4).forEach(function(item){var a=node("a","recent-item");a.href=linkFor(item.path);a.appendChild(node("strong","",getChapter(item.slug)));a.appendChild(node("span","",getSubject(item.subject)));a.addEventListener("click",function(){saveRecent(item)});holder.appendChild(a)})}
-function grouped(){var by={};entries.forEach(function(e){(by[e.subject]||(by[e.subject]=[])).push(e)});return Object.keys(by).sort().map(function(k){return {slug:k,chapters:by[k].sort(function(a,b){return sequence(a.slug)-sequence(b.slug)||a.slug.localeCompare(b.slug,undefined,{numeric:true})})}})}
+function renderRecent(){var holder=document.getElementById("recent-list");holder.replaceChildren();var data=readStore("studyshit_portal_recent",[]).filter(function(item){return PATH_RULE.test(item.path)});if(!data.length){holder.appendChild(node("p","quiet","Open a chapter and it will appear here."));return}data.slice(0,4).forEach(function(item){var a=node("a","recent-item");a.href=linkFor(item.path);a.appendChild(node("strong","",getChapter(item.slug,item.path)));a.appendChild(node("span","",getSubject(item.subject)));a.addEventListener("click",function(){saveRecent(item)});holder.appendChild(a)})}
+function grouped(){var by={};entries.forEach(function(e){(by[e.subject]||(by[e.subject]=[])).push(e)});catalog.subjects.forEach(function(s){if(!by[s.slug])by[s.slug]=[]});function orderIn(list,key){var i=list.findIndex(function(x){return x[key]===this});return i<0?100000:i}return Object.keys(by).sort(function(a,b){var ai=catalog.subjects.findIndex(function(s){return s.slug===a}),bi=catalog.subjects.findIndex(function(s){return s.slug===b});return (ai<0?100000:ai)-(bi<0?100000:bi)||a.localeCompare(b)}).map(function(k){return {slug:k,chapters:by[k].sort(function(a,b){var ai=catalog.chapters.findIndex(function(c){return c.path===a.path}),bi=catalog.chapters.findIndex(function(c){return c.path===b.path});if(ai>=0&&bi>=0)return ai-bi;if(ai>=0)return -1;if(bi>=0)return 1;return sequence(a.slug)-sequence(b.slug)||a.slug.localeCompare(b.slug,undefined,{numeric:true})})}})}
 function render(){
 var all=grouped(),q=search.value.trim().toLowerCase();
-var visible=all.map(function(s){return {slug:s.slug,chapters:s.chapters.filter(function(e){return getSubject(s.slug).toLowerCase().includes(q)||getChapter(e.slug).toLowerCase().includes(q)||e.slug.includes(q)})}}).filter(function(s){return s.chapters.length});
+var visible=all.map(function(s){return {slug:s.slug,chapters:s.chapters.filter(function(e){return getSubject(s.slug).toLowerCase().includes(q)||getChapter(e.slug,e.path).toLowerCase().includes(q)||e.slug.includes(q)})}}).filter(function(s){return s.chapters.length||(!q||getSubject(s.slug).toLowerCase().includes(q))});
 document.getElementById("subject-total").textContent=String(all.length);
 document.getElementById("chapter-total").textContent=String(entries.length);
 document.getElementById("listing-subtitle").textContent=q?visible.reduce(function(sum,s){return sum+s.chapters.length},0)+" matching chapters":"Browse the library, then open a chapter to start reading.";
@@ -200,12 +201,13 @@ var card=node("article","subject-card");card.id="subject-"+s.slug;card.style.set
 var top=node("div","card-top"),ic=node("div","subject-icon",p[2]);ic.setAttribute("aria-hidden","true");top.appendChild(ic);top.appendChild(node("span","subject-count",s.chapters.length+" "+(s.chapters.length===1?"chapter":"chapters")));card.appendChild(top);
 card.appendChild(node("h3","",getSubject(s.slug)));card.appendChild(node("p","subject-meta","Interactive lecture notes & practice"));
 var list=node("div","chapter-list");
+if(!s.chapters.length)list.appendChild(node("p","subject-meta","No chapters yet. Use Manage to add one."));
 s.chapters.forEach(function(ch){var row=node("div","chapter-row"),a=node("a","chapter-link");a.href=linkFor(ch.path);
 a.addEventListener("click",function(){saveRecent(ch)});
 a.appendChild(node("span","chapter-number",chapterNumber(ch.slug)));
-var info=node("span","chapter-info");info.appendChild(node("span","chapter-name",getChapter(ch.slug)));
+var info=node("span","chapter-info");info.appendChild(node("span","chapter-name",getChapter(ch.slug,ch.path)));
 var stage=statusByPath[ch.path];info.appendChild(node("span","chapter-note",stage===7?"Pipeline: stage 7 of 7":typeof stage==="number"?"Pipeline: stage "+stage+" of 7 complete":"Open interactive study chapter"));a.appendChild(info);row.appendChild(a);
-var standalone=node("a","open-plain","↗");standalone.href=ch.path;standalone.target="_blank";standalone.rel="noopener noreferrer";standalone.title="Open chapter as a standalone page";standalone.setAttribute("aria-label","Open "+getChapter(ch.slug)+" in a new tab");standalone.addEventListener("click",function(){saveRecent(ch)});row.appendChild(standalone);list.appendChild(row)});
+var standalone=node("a","open-plain","↗");standalone.href=ch.path;standalone.target="_blank";standalone.rel="noopener noreferrer";standalone.title="Open chapter as a standalone page";standalone.setAttribute("aria-label","Open "+getChapter(ch.slug,ch.path)+" in a new tab");standalone.addEventListener("click",function(){saveRecent(ch)});row.appendChild(standalone);list.appendChild(row)});
 card.appendChild(list);grid.appendChild(card)});
 }
 function showReader(){
@@ -213,11 +215,11 @@ var path=new URLSearchParams(location.search).get("read");if(!path)return false;
 if(!PATH_RULE.test(path)){history.replaceState(null,"",location.pathname);return false}
 var entry=fromPath(path);
 document.body.classList.add("reader-mode");
-document.title=getChapter(entry.slug)+" | Studyshit";
+document.title=getChapter(entry.slug,entry.path)+" | Studyshit";
 document.getElementById("reader-subject").textContent=getSubject(entry.subject);
-document.getElementById("reader-title").textContent=getChapter(entry.slug);
+document.getElementById("reader-title").textContent=getChapter(entry.slug,entry.path);
 document.getElementById("standalone-link").href=path;
-var frame=document.getElementById("reader-frame");frame.title=getChapter(entry.slug);frame.src=path;
+var frame=document.getElementById("reader-frame");frame.title=getChapter(entry.slug,entry.path);frame.src=path;
 saveRecent(entry);return true
 }
 var currentTheme=readStore("studyshit_theme","light");
@@ -225,14 +227,16 @@ if(currentTheme!=="dark")currentTheme="light";
 function setTheme(theme){document.documentElement.setAttribute("data-theme",theme);document.getElementById("theme-toggle").textContent=theme==="dark"?"☀":"☾";document.getElementById("theme-toggle").setAttribute("aria-label",theme==="dark"?"Switch to light mode":"Switch to dark mode")}
 setTheme(currentTheme);
 document.getElementById("theme-toggle").addEventListener("click",function(){currentTheme=currentTheme==="dark"?"light":"dark";setTheme(currentTheme);putStore("studyshit_theme",currentTheme)});
-if(showReader())return;
+if(showReader()){loadCatalog().then(function(){var path=new URLSearchParams(location.search).get("read");if(path&&PATH_RULE.test(path)){var item=fromPath(path);document.title=getChapter(item.slug,item.path)+" | Studyshit";document.getElementById("reader-subject").textContent=getSubject(item.subject);document.getElementById("reader-title").textContent=getChapter(item.slug,item.path)}});return}
 renderRecent();render();search.addEventListener("input",render);
+async function loadCatalog(){try{var response=await fetch("https://raw.githubusercontent.com/"+REPO+"/"+BRANCH+"/portal/catalog.json?nonce="+Date.now(),{cache:"no-store"});if(!response.ok)throw new Error("catalog request failed");var data=await response.json();if(data.version===1&&Array.isArray(data.subjects)&&Array.isArray(data.chapters)){catalog={version:1,subjects:data.subjects.filter(function(s){return s&&typeof s.slug==="string"&&typeof s.title==="string"}),chapters:data.chapters.filter(function(c){return c&&typeof c.path==="string"&&typeof c.title==="string"})}}}catch(e){}renderRecent()}
 async function updateStages(){
 var results=await Promise.allSettled(entries.map(async function(e){var url="https://raw.githubusercontent.com/"+REPO+"/"+BRANCH+"/"+e.path.replace(/study\.html$/,"state.json");var response=await fetch(url);if(!response.ok)throw new Error("no state");var state=await response.json();return {path:e.path,stage:state.stage}}));
 results.forEach(function(r){if(r.status==="fulfilled"&&Number.isInteger(r.value.stage))statusByPath[r.value.path]=r.value.stage});
 render()
 }
 async function refresh(force){
+await loadCatalog();
 if(!force){try{var cached=JSON.parse(sessionStorage.getItem("studyshit_tree_cache")||"null");if(cached&&Date.now()-cached.time<5*60*1000&&Array.isArray(cached.paths)){entries=cached.paths.filter(function(p){return PATH_RULE.test(p)}).map(fromPath);sourceNote.textContent="Synced from GitHub · cached for a few minutes";render();updateStages();return}}catch(e){}}
 sourceNote.textContent="Syncing subjects and chapters from GitHub…";
 try{
