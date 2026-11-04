@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101d2d">
+<meta name="description" content="A living library of interactive finance lectures, organized by subject and chapter.">
+<title>Studyshit | Your study library</title>
+<style>
+:root{color-scheme:light;--bg:#f5f6f3;--paper:#fff;--ink:#182634;--muted:#687683;--line:#e3e7e9;--accent:#087e77;--soft:#e9f5f0;--shadow:0 10px 32px rgba(25,42,50,.045);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.5}
+button,input{font:inherit}
+a{color:inherit;text-decoration:none}
+button{cursor:pointer}
+:focus-visible{outline:3px solid #23bfae;outline-offset:3px}
+.topbar{height:76px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 clamp(18px,4vw,56px);border-bottom:1px solid var(--line);background:var(--paper)}
+.brand{display:inline-flex;align-items:center;gap:11px;font-size:20px;font-weight:850;letter-spacing:-.9px}
+.brand-mark{display:grid;place-items:center;background:#122d35;color:#fff;width:37px;height:37px;border-radius:11px;font-size:20px;transform:rotate(-5deg)}
+.brand span:last-child span{color:var(--accent)}
+.top-actions{display:flex;align-items:center;gap:12px}
+.small-link{font-size:13px;font-weight:700;color:var(--muted);padding:10px}
+.small-link:hover{color:var(--accent)}
+.icon-button{border:1px solid var(--line);background:var(--paper);color:var(--ink);min-width:40px;height:40px;padding:0 12px;border-radius:12px;font-size:18px}
+.icon-button:hover{border-color:var(--accent)}
+.layout{max-width:1490px;margin:0 auto;display:grid;grid-template-columns:230px minmax(0,1fr);gap:54px;padding:36px clamp(18px,4vw,56px) 60px}
+.sidebar{position:sticky;top:28px;align-self:start;padding-top:9px}
+.sidebar-title,.eyebrow{font-size:11px;font-weight:800;letter-spacing:.17em;text-transform:uppercase;color:var(--muted)}
+.sidebar-title{padding:0 12px 13px}
+.subject-nav{display:grid;gap:5px}
+.subject-nav a{display:flex;align-items:center;gap:11px;border-radius:11px;padding:11px 12px;color:var(--muted);font-size:13px;font-weight:650}
+.subject-nav a:hover{background:var(--paper);color:var(--ink)}
+.subject-nav .dot{width:9px;height:9px;border-radius:50%;background:var(--dot,#7c9ead);flex:none}
+.subject-nav .nav-count{margin-left:auto;font-size:11px;color:var(--muted);background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:0 7px}
+.sidebar-divider{height:1px;background:var(--line);margin:23px 12px}
+.recent-list{display:grid;gap:6px}
+.recent-item{padding:10px 12px;font-size:12px;line-height:1.35;color:var(--muted);border-radius:10px;display:block}
+.recent-item:hover{background:var(--paper);color:var(--ink)}
+.recent-item strong{display:block;color:var(--ink);font-size:12px;font-weight:750;margin-bottom:2px}
+.quiet{font-size:12px;color:var(--muted);padding:2px 12px}
+.main{min-width:0}
+.hero{position:relative;overflow:hidden;min-height:275px;border-radius:25px;background:#102532;color:#f6fffa;padding:39px clamp(25px,4.5vw,56px);display:flex;align-items:center;isolation:isolate}
+.hero:before,.hero:after{content:"";position:absolute;z-index:-1;border:1px solid rgba(125,234,199,.17);border-radius:50%;pointer-events:none}
+.hero:before{width:440px;height:440px;right:-100px;top:-90px;box-shadow:0 0 0 60px rgba(133,229,196,.035),0 0 0 130px rgba(133,229,196,.025)}
+.hero:after{width:150px;height:150px;right:95px;top:64px;border-width:30px;opacity:.35}
+.hero .eyebrow{color:#8bd7bd}
+.hero h1{font-size:clamp(31px,4vw,53px);max-width:660px;margin:15px 0 13px;line-height:1.09;font-weight:830;letter-spacing:-.055em}
+.hero h1 em{font-style:normal;color:#91e0c0}
+.hero p{color:#b7ccc9;font-size:14px;max-width:520px;margin:0;line-height:1.65}
+.stats{display:flex;flex-wrap:wrap;gap:24px;margin-top:24px;align-items:center}
+.stat{display:flex;align-items:baseline;gap:7px;color:#b9d0ca;font-size:12px}
+.stat strong{font-weight:850;color:#fff;font-size:25px;letter-spacing:-.03em}
+.content-heading{display:flex;align-items:end;justify-content:space-between;gap:20px;margin:36px 0 20px}
+.content-heading h2{margin:0;font-size:23px;letter-spacing:-.045em}
+.content-heading p{font-size:13px;margin:4px 0 0;color:var(--muted)}
+.search-area{display:flex;align-items:center;gap:10px;max-width:300px;flex:1;background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:0 13px;min-height:45px}
+.search-area:focus-within{border-color:var(--accent)}
+.search-area svg{flex:none;color:var(--muted)}
+.search-area input{width:100%;border:0;outline:0;background:transparent;color:var(--ink);font-size:13px}
+.search-area input::placeholder{color:#92a0a8}
+.subject-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.subject-card{--tone:#12847c;--tint:#eaf8f2;background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:20px;padding:24px;min-width:0;scroll-margin-top:25px}
+.subject-card:hover{border-color:color-mix(in srgb,var(--tone),var(--line) 72%)}
+.card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.subject-icon{width:49px;height:49px;border-radius:14px;background:var(--tint);color:var(--tone);display:grid;place-items:center;font-size:23px;font-weight:800;flex:none}
+.subject-count{color:var(--muted);font-size:11px;font-weight:700;border:1px solid var(--line);border-radius:999px;padding:6px 9px}
+.subject-card h3{font-size:19px;letter-spacing:-.038em;line-height:1.22;margin:20px 0 8px}
+.subject-meta{margin:0 0 18px;color:var(--muted);font-size:12px}
+.chapter-list{border-top:1px solid var(--line)}
+.chapter-row{display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--line);padding:15px 0;min-width:0}
+.chapter-row:last-child{border-bottom:0;padding-bottom:0}
+.chapter-link{flex:1;min-width:0;display:flex;align-items:center;gap:11px}
+.chapter-link:hover .chapter-name{color:var(--tone)}
+.chapter-number{width:31px;height:31px;display:grid;place-items:center;background:var(--tint);border-radius:9px;color:var(--tone);font-size:11px;font-weight:800;flex:none}
+.chapter-info{min-width:0}
+.chapter-name{display:block;font-weight:740;font-size:13px;line-height:1.32}
+.chapter-note{display:block;font-size:11px;color:var(--muted);margin-top:4px}
+.open-plain{font-size:18px;color:var(--muted);padding:5px;border-radius:7px;line-height:1}
+.open-plain:hover{color:var(--tone);background:var(--tint)}
+.empty{background:var(--paper);border:1px dashed var(--line);border-radius:16px;padding:25px;font-size:14px;color:var(--muted);grid-column:1/-1}
+.refresh-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:23px;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.text-button{border:0;background:none;color:var(--accent);font-size:12px;font-weight:800;padding:7px}
+.text-button:hover{text-decoration:underline}
+.footer{max-width:1490px;margin:auto;padding:22px clamp(18px,4vw,56px) 40px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.reader-mode .layout{display:block;padding-top:20px;max-width:1550px}
+.reader-mode .sidebar,.reader-mode .library-view,.reader-mode .footer{display:none}
+.reader-view{display:none}
+.reader-mode .reader-view{display:block}
+.reader-toolbar{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:0 0 15px;flex-wrap:wrap}
+.reader-toolbar h1{margin:4px 0 0;font-size:19px;line-height:1.3}
+.reader-toolbar p{margin:0;font-size:11px;color:var(--muted)}
+.reader-buttons{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.reader-action{border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:10px 13px;font-size:12px;font-weight:750}
+.reader-action:hover{border-color:var(--accent);color:var(--accent)}
+.reader-frame{display:block;width:100%;height:calc(100vh - 194px);min-height:550px;border:1px solid var(--line);border-radius:15px;background:#fff}
+noscript{display:block;margin:18px;font-size:14px}
+noscript a{color:var(--accent);text-decoration:underline}
+[data-theme=dark]{color-scheme:dark;--bg:#101923;--paper:#1b2833;--ink:#ecf4f2;--muted:#a6b9c3;--line:#304350;--accent:#78d8bc;--soft:#243b37;--shadow:none}
+[data-theme=dark] .brand-mark{background:#305950}
+[data-theme=dark] .subject-card{--tint:#263d41}
+[data-theme=dark] .chapter-row .chapter-number{background:#263d41}
+[data-theme=dark] .search-area input::placeholder{color:#91a4ae}
+@media(max-width:1100px){.layout{gap:25px;grid-template-columns:190px minmax(0,1fr)}.subject-grid{grid-template-columns:1fr}.hero{min-height:240px}}
+@media(max-width:720px){.topbar{height:65px;padding:0 18px}.small-link{display:none}.layout{display:block;padding:20px 16px 45px}.sidebar{position:static;padding:0 0 20px}.sidebar-title,.sidebar-divider,.recent-list,.sidebar .quiet{display:none}.subject-nav{display:flex;overflow:auto;gap:8px;padding-bottom:3px;scrollbar-width:thin}.subject-nav a{white-space:nowrap;background:var(--paper);border:1px solid var(--line);padding:8px 11px}.subject-nav .nav-count{display:none}.hero{border-radius:18px;padding:30px 25px;min-height:235px}.hero:before{right:-280px}.hero:after{display:none}.hero h1{font-size:35px}.hero p{font-size:13px}.stats{gap:18px}.stat strong{font-size:22px}.content-heading{display:block;margin-top:30px}.search-area{max-width:none;margin-top:15px}.subject-card{padding:21px}.footer{padding:20px}.reader-mode .layout{padding:15px 10px}.reader-frame{height:calc(100dvh - 210px);min-height:360px;border-radius:10px}.reader-toolbar{padding:0 5px 12px}.reader-toolbar h1{font-size:16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{.topbar,.sidebar,.search-area,.refresh-row,.footer,.reader-view{display:none!important}.layout{display:block}.hero{color:#000;background:#fff;min-height:0;padding:0}.hero h1 em{color:#000}.hero p,.stat,.stat strong{color:#000}.subject-grid{display:block}.subject-card{break-inside:avoid;margin:15px 0;box-shadow:none}}
+</style>
+</head>
+<body>
+<header class="topbar">
+ <a class="brand" href="./" aria-label="Studyshit home"><span class="brand-mark" aria-hidden="true">↗</span><span>study<span>shit</span><span style="font-weight:400">.</span></span></a>
+ <div class="top-actions"><a class="small-link" href="https://github.com/creativeidiot123/studyshit" target="_blank" rel="noopener noreferrer">View repository ↗</a><button class="icon-button" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button></div>
+</header>
+<div class="layout">
+ <aside class="sidebar" aria-label="Library navigation">
+  <div class="sidebar-title">YOUR SUBJECTS</div><nav class="subject-nav" id="subject-nav"><span class="quiet">Loading subjects…</span></nav>
+  <div class="sidebar-divider"></div>
+  <div class="sidebar-title">RECENTLY OPENED</div><div class="recent-list" id="recent-list"><p class="quiet">Your recent chapters will show up here.</p></div>
+ </aside>
+ <main class="main">
+  <div class="library-view" id="library-view">
+   <section class="hero" aria-labelledby="hero-title">
+    <div><div class="eyebrow">THE STUDY LIBRARY • ALWAYS GROWING</div>
+    <h1 id="hero-title">Your semester.<br><em>Less chaos.</em></h1>
+    <p>One place for every subject, every lecture, and the interactive chapters built from your course material. Pick up where you left off.</p>
+    <div class="stats"><div class="stat"><strong id="subject-total">3</strong> subjects</div><div class="stat"><strong id="chapter-total">4</strong> chapters</div><div class="stat"><strong>∞</strong> coffee breaks avoided*</div></div></div>
+   </section>
+   <div class="content-heading"><div><h2>Explore subjects</h2><p id="listing-subtitle">Browse the library, then open a chapter to start reading.</p></div>
+    <label class="search-area" aria-label="Search subjects and chapters">
+     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg>
+     <input id="search" type="search" autocomplete="off" placeholder="Find a subject or chapter…" aria-label="Search subjects and chapters">
+    </label>
+   </div>
+   <div id="subject-grid" class="subject-grid" aria-live="polite"><div class="empty">Loading the library…</div></div>
+   <div class="refresh-row"><span id="source-note">Checking the GitHub repository…</span><button class="text-button" id="refresh-button" type="button">↻ Refresh library</button></div>
+  </div>
+  <section class="reader-view" id="reader-view" aria-label="Chapter reader">
+   <div class="reader-toolbar">
+    <div><p id="reader-subject">YOUR STUDY CHAPTER</p><h1 id="reader-title">Chapter</h1></div>
+    <div class="reader-buttons"><a class="reader-action" href="./">← All subjects</a><a class="reader-action" id="standalone-link" href="./">Open full page ↗</a></div>
+   </div>
+   <iframe class="reader-frame" id="reader-frame" title="Interactive study chapter"></iframe>
+  </section>
+ </main>
+</div>
+<footer class="footer"><span>Studyshit · A living bookshelf, not another folder graveyard.</span><span>*Mathematically unverified. Chapters live in the public GitHub repository.</span></footer>
+<noscript><p>JavaScript is required for the searchable portal. You can still open the existing chapters directly:</p><ul>
+<li><a href="subjects/financial-economics/lectures/central-banks-instruments-of-monetary-policy/study.html">Central Banks: Instruments of Monetary Policy</a></li>
+<li><a href="subjects/financial-market-decisions/lectures/intro-decision-theory-and-irrational-behavior/study.html">Intro: Decision Theory and Irrational Behavior</a></li>
+<li><a href="subjects/financial-market-decisions/lectures/02-modeling-risk-and-uncertainty/study.html">Modeling Risk and Uncertainty</a></li>
+<li><a href="subjects/principles-of-corporate-finance/lectures/lecture-03-valuation-of-bonds/study.html">Valuation of Bonds</a></li>
+</ul></noscript>
+<script>
+(function(){
+"use strict";
+var REPO="creativeidiot123/studyshit";
+var BRANCH="main";
+var TREE_URL="https://api.github.com/repos/"+REPO+"/git/trees/"+BRANCH+"?recursive=1";
+var FALLBACK=[
+"subjects/financial-economics/lectures/central-banks-instruments-of-monetary-policy/study.html",
+"subjects/financial-market-decisions/lectures/intro-decision-theory-and-irrational-behavior/study.html",
+"subjects/financial-market-decisions/lectures/02-modeling-risk-and-uncertainty/study.html",
+"subjects/principles-of-corporate-finance/lectures/lecture-03-valuation-of-bonds/study.html"
+];
+var PATH_RULE=/^subjects\/[a-z0-9][a-z0-9-]*\/lectures\/[a-z0-9][a-z0-9-]*\/study\.html$/;
+var SUBJECT_LABELS={"financial-economics":"Financial Economics","financial-market-decisions":"Financial Market Decisions","principles-of-corporate-finance":"Principles of Corporate Finance"};
+var CHAPTER_LABELS={"central-banks-instruments-of-monetary-policy":"Central Banks: Instruments of Monetary Policy","intro-decision-theory-and-irrational-behavior":"Intro: Decision Theory and Irrational Behavior","02-modeling-risk-and-uncertainty":"Modeling Risk and Uncertainty","lecture-03-valuation-of-bonds":"Valuation of Bonds"};
+var PALETTES=[["#148679","#e7f6f0","◈"],["#526bb5","#ecf0ff","⌁"],["#bd7e37","#fff4e5","◇"],["#9571b5","#f4edfb","◎"],["#3184a7","#e7f4fa","✳"]];
+var entries=FALLBACK.map(fromPath);
+var statusByPath={};
+var search=document.getElementById("search");
+var grid=document.getElementById("subject-grid");
+var nav=document.getElementById("subject-nav");
+var sourceNote=document.getElementById("source-note");
+function readStore(key,fallback){try{return JSON.parse(localStorage.getItem(key))||fallback}catch(e){return fallback}}
+function putStore(key,val){try{localStorage.setItem(key,JSON.stringify(val))}catch(e){}}
+function titleCase(slug){return slug.split("-").map(function(word){return word?word[0].toUpperCase()+word.slice(1):""}).join(" ")}
+function fromPath(path){var p=path.split("/");return {path:path,subject:p[1],slug:p[3]}}
+function getSubject(slug){return SUBJECT_LABELS[slug]||titleCase(slug)}
+function getChapter(slug){return CHAPTER_LABELS[slug]||titleCase(slug.replace(/^lecture-\d+-/,"").replace(/^\d+-/,""))}
+function chapterNumber(slug){var match=slug.match(/^(?:lecture-)?(\d+)-/);return match?String(Number(match[1])).padStart(2,"0"):slug.indexOf("intro")===0?"01":"↗"}
+function sequence(slug){if(slug.indexOf("intro")===0)return 0;var match=slug.match(/^(?:lecture-)?(\d+)-/);return match?Number(match[1]):100}
+function linkFor(path){return "./?read="+encodeURIComponent(path)}
+function node(tag,cls,text){var el=document.createElement(tag);if(cls)el.className=cls;if(text!=null)el.textContent=text;return el}
+function saveRecent(entry){var h=readStore("studyshit_portal_recent",[]).filter(function(item){return item.path!==entry.path});h.unshift({path:entry.path,slug:entry.slug,subject:entry.subject});putStore("studyshit_portal_recent",h.slice(0,6))}
+function renderRecent(){var holder=document.getElementById("recent-list");holder.replaceChildren();var data=readStore("studyshit_portal_recent",[]).filter(function(item){return PATH_RULE.test(item.path)});if(!data.length){holder.appendChild(node("p","quiet","Open a chapter and it will appear here."));return}data.slice(0,4).forEach(function(item){var a=node("a","recent-item");a.href=linkFor(item.path);a.appendChild(node("strong","",getChapter(item.slug)));a.appendChild(node("span","",getSubject(item.subject)));a.addEventListener("click",function(){saveRecent(item)});holder.appendChild(a)})}
+function grouped(){var by={};entries.forEach(function(e){(by[e.subject]||(by[e.subject]=[])).push(e)});return Object.keys(by).sort().map(function(k){return {slug:k,chapters:by[k].sort(function(a,b){return sequence(a.slug)-sequence(b.slug)||a.slug.localeCompare(b.slug,undefined,{numeric:true})})}})}
+function render(){
+var all=grouped(),q=search.value.trim().toLowerCase();
+var visible=all.map(function(s){return {slug:s.slug,chapters:s.chapters.filter(function(e){return getSubject(s.slug).toLowerCase().includes(q)||getChapter(e.slug).toLowerCase().includes(q)||e.slug.includes(q)})}}).filter(function(s){return s.chapters.length});
+document.getElementById("subject-total").textContent=String(all.length);
+document.getElementById("chapter-total").textContent=String(entries.length);
+document.getElementById("listing-subtitle").textContent=q?visible.reduce(function(sum,s){return sum+s.chapters.length},0)+" matching chapters":"Browse the library, then open a chapter to start reading.";
+nav.replaceChildren();grid.replaceChildren();
+all.forEach(function(s,index){var p=PALETTES[index%PALETTES.length],a=node("a");a.href="#subject-"+s.slug;a.style.setProperty("--dot",p[0]);a.appendChild(node("span","dot"));a.appendChild(node("span","",getSubject(s.slug)));a.appendChild(node("span","nav-count",String(s.chapters.length)));nav.appendChild(a)});
+if(!visible.length){grid.appendChild(node("div","empty","No chapters match that search. Try a subject name or a keyword from the lecture."));return}
+visible.forEach(function(s){var index=all.findIndex(function(x){return x.slug===s.slug}),p=PALETTES[index%PALETTES.length];
+var card=node("article","subject-card");card.id="subject-"+s.slug;card.style.setProperty("--tone",p[0]);card.style.setProperty("--tint",p[1]);
+var top=node("div","card-top"),ic=node("div","subject-icon",p[2]);ic.setAttribute("aria-hidden","true");top.appendChild(ic);top.appendChild(node("span","subject-count",s.chapters.length+" "+(s.chapters.length===1?"chapter":"chapters")));card.appendChild(top);
+card.appendChild(node("h3","",getSubject(s.slug)));card.appendChild(node("p","subject-meta","Interactive lecture notes & practice"));
+var list=node("div","chapter-list");
+s.chapters.forEach(function(ch){var row=node("div","chapter-row"),a=node("a","chapter-link");a.href=linkFor(ch.path);
+a.addEventListener("click",function(){saveRecent(ch)});
+a.appendChild(node("span","chapter-number",chapterNumber(ch.slug)));
+var info=node("span","chapter-info");info.appendChild(node("span","chapter-name",getChapter(ch.slug)));
+var stage=statusByPath[ch.path];info.appendChild(node("span","chapter-note",stage===7?"Pipeline: stage 7 of 7":typeof stage==="number"?"Pipeline: stage "+stage+" of 7 complete":"Open interactive study chapter"));a.appendChild(info);row.appendChild(a);
+var standalone=node("a","open-plain","↗");standalone.href=ch.path;standalone.target="_blank";standalone.rel="noopener noreferrer";standalone.title="Open chapter as a standalone page";standalone.setAttribute("aria-label","Open "+getChapter(ch.slug)+" in a new tab");standalone.addEventListener("click",function(){saveRecent(ch)});row.appendChild(standalone);list.appendChild(row)});
+card.appendChild(list);grid.appendChild(card)});
+}
+function showReader(){
+var path=new URLSearchParams(location.search).get("read");if(!path)return false;
+if(!PATH_RULE.test(path)){history.replaceState(null,"",location.pathname);return false}
+var entry=fromPath(path);
+document.body.classList.add("reader-mode");
+document.title=getChapter(entry.slug)+" | Studyshit";
+document.getElementById("reader-subject").textContent=getSubject(entry.subject);
+document.getElementById("reader-title").textContent=getChapter(entry.slug);
+document.getElementById("standalone-link").href=path;
+var frame=document.getElementById("reader-frame");frame.title=getChapter(entry.slug);frame.src=path;
+saveRecent(entry);return true
+}
+var currentTheme=readStore("studyshit_theme","light");
+if(currentTheme!=="dark")currentTheme="light";
+function setTheme(theme){document.documentElement.setAttribute("data-theme",theme);document.getElementById("theme-toggle").textContent=theme==="dark"?"☀":"☾";document.getElementById("theme-toggle").setAttribute("aria-label",theme==="dark"?"Switch to light mode":"Switch to dark mode")}
+setTheme(currentTheme);
+document.getElementById("theme-toggle").addEventListener("click",function(){currentTheme=currentTheme==="dark"?"light":"dark";setTheme(currentTheme);putStore("studyshit_theme",currentTheme)});
+if(showReader())return;
+renderRecent();render();search.addEventListener("input",render);
+async function updateStages(){
+var results=await Promise.allSettled(entries.map(async function(e){var url="https://raw.githubusercontent.com/"+REPO+"/"+BRANCH+"/"+e.path.replace(/study\.html$/,"state.json");var response=await fetch(url);if(!response.ok)throw new Error("no state");var state=await response.json();return {path:e.path,stage:state.stage}}));
+results.forEach(function(r){if(r.status==="fulfilled"&&Number.isInteger(r.value.stage))statusByPath[r.value.path]=r.value.stage});
+render()
+}
+async function refresh(force){
+if(!force){try{var cached=JSON.parse(sessionStorage.getItem("studyshit_tree_cache")||"null");if(cached&&Date.now()-cached.time<5*60*1000&&Array.isArray(cached.paths)){entries=cached.paths.filter(function(p){return PATH_RULE.test(p)}).map(fromPath);sourceNote.textContent="Synced from GitHub · cached for a few minutes";render();updateStages();return}}catch(e){}}
+sourceNote.textContent="Syncing subjects and chapters from GitHub…";
+try{
+var response=await fetch(TREE_URL,{cache:"no-store"});if(!response.ok)throw new Error("GitHub returned "+response.status);
+var data=await response.json();if(!Array.isArray(data.tree)||data.truncated)throw new Error("Incomplete repository listing");
+var paths=data.tree.filter(function(item){return item.type==="blob"&&PATH_RULE.test(item.path)}).map(function(item){return item.path});
+entries=paths.map(fromPath);
+try{sessionStorage.setItem("studyshit_tree_cache",JSON.stringify({time:Date.now(),paths:paths}))}catch(e){}
+sourceNote.textContent="Live from GitHub · new chapters appear automatically";render();updateStages()
+}catch(error){sourceNote.textContent="GitHub sync unavailable; showing the chapters known when this portal was created.";entries=FALLBACK.map(fromPath);render();updateStages()}
+}
+document.getElementById("refresh-button").addEventListener("click",function(){refresh(true)});
+refresh(false);
+})();
+</script>
+</body>
+</html>
