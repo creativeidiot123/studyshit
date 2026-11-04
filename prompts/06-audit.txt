@@ -2,6 +2,8 @@ STUDY PIPELINE STAGE S06 • COMPLETE, ACCURATE, COMPACT CHECK
 
 Read study.html, state.json and original slides/transcript (when accessible). Audit against source ledger L001... and actual slide order/visuals. If original sources are inaccessible, explicitly record that limitation; never claim independent source verification from the ledger alone.
 
+Also check that each chapter keeps exactly one <script defer src="../../../../portal/explain-ai.js"></script> before </body> for the shared optional AI tutor, without exposing the API key or changing the core offline study-js. Missing Worker setup is not a defect in the lecture content.
+
 Check, and fix in place:
 1. Complete: every taught concept, formula, number, warning, lecturer example, student question and exam-relevant visual from the sources is in the notes, without distortion.
 2. Accurate: independently recalculate worked examples, chart points, rates, units, timing, rounding, every quick-check and practice answer (including data-answer values and tolerances), and every "Try it" calculator at its default and at two other inputs. Verify real-world claims against their cited sources; remove or relabel anything unsupported.
