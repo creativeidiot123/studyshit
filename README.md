@@ -35,6 +35,8 @@ subjects/<subject-slug>/lectures/<lecture-slug>/inputs/source-manifest.json
 
 **Privacy:** This repository is public. The generated HTML and source manifest will also be public, potentially exposing coursework or personal data. Prefer a separate private repository for lecture outputs if the materials are not intended for public sharing. Original slide or transcript bytes should not be published here by default.
 
+**Source slide walkthroughs:** Study chapters now require a slide-by-slide "What is going on here?" walkthrough: the actual source slide photo on the left with numbered annotations pointing to graph lines, formulas, labels and important bits; a short, plain-English explanation on the right (stacked on phones). Where publication is permitted, verified optimized images live beside study.html under assets/slides/. Image status is recorded in inputs/source-manifest.json and independently checked by the pipeline. On this PUBLIC site, professor slide screenshots are not published without permission to redistribute them. When permission or rendering/upload is unavailable, the chapter must show a clearly labelled original-image-unavailable panel with source-grounded explanation and may show a separately created schematic. This is a documented fallback, not an actual slide photograph.
+
 The HTML, state and source manifest are versioned through GitHub. A chat-uploaded PPT is **not automatically** a repository upload: input/ contains the provenance manifest; copying original binary sources requires a verified authenticated binary-safe upload method.
 
 ## Protocol
