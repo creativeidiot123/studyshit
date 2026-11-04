@@ -38,14 +38,15 @@
       "topic-t03",
       "topic-t11",
       "topic-t04",
-      "topic-t12"
+      "topic-t12",
+      "topic-t05"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t05",
+  "next_topic": "topic-t06",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -54,7 +55,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T09:33:08Z",
+  "updated_at": "2026-11-04T09:35:32Z",
   "current_stage_status": "S03_in_progress",
   "extraction": {
     "pages": 40,
@@ -74,14 +75,12 @@
   "teaching": {
     "stage": "S03",
     "topics_total": 13,
-    "topics_taught": 7,
-    "last_topic": "topic-t12",
+    "topics_taught": 8,
+    "last_topic": "topic-t05",
     "last_source_ids": [
-      "L024",
-      "L025",
-      "L026"
+      "L027"
     ],
-    "numerical_calculations": "Slide 25: lending 2.90% - deposit 2.50% = 0.40 percentage points (40 bp); MRO 2.65% - deposit 2.50% = 0.15 pp; lending 2.90% - MRO 2.65% = 0.25 pp; ILLUSTRATIVE 2.70% peer loan gives each bank a 0.20 pp incentive under slide-24 corridor assumptions.",
-    "next_topic": "topic-t05"
+    "numerical_calculations": "Slide 27 contains no tender numerical example; ILLUSTRATIVE eligible fixed-rate full-allotment bids A €40m + B €60m = €100m total. Draghi quotation dated 2012; slide supplies no individual launch dates for crisis measures.",
+    "next_topic": "topic-t06"
   }
 }
