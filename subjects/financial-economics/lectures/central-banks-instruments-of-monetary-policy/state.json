@@ -3,7 +3,7 @@
   "subject": "financial-economics",
   "lecture": "central-banks-instruments-of-monetary-policy",
   "html_path": "subjects/financial-economics/lectures/central-banks-instruments-of-monetary-policy/study.html",
-  "stage": 4,
+  "stage": 5,
   "completed_topics": {
     "1": [
       "topic-t01",
@@ -73,12 +73,13 @@
       "topic-t06",
       "topic-t07",
       "topic-t13",
-      "topic-t08"
+      "topic-t08",
+      "topic-t09"
     ],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t09",
+  "next_topic": null,
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -87,8 +88,8 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T10:29:43Z",
-  "current_stage_status": "S05_in_progress",
+  "updated_at": "2026-11-04T10:39:49Z",
+  "current_stage_status": "S05_completed_pending_independent_verification",
   "extraction": {
     "pages": 40,
     "ledger_records": 40,
@@ -135,16 +136,17 @@
   "practice": {
     "stage": "S05",
     "topics_total": 13,
-    "topics_assessed": 12,
+    "topics_assessed": 13,
     "last_batch": [
-      "topic-t07",
-      "topic-t13",
-      "topic-t08"
+      "topic-t09"
     ],
-    "last_batch_question_count": 12,
-    "last_batch_numeric_checks": "ILLUSTRATIVE q-t07-02: €3,400bn + €15bn − €25bn = €3,390bn (net −€10bn); q-t13-02: (300−100)/100 × 100 = 200% indexed growth; q-t08-02: (€100−€70)/€100 × 100 = 30% loss.",
-    "last_batch_review": "Twelve new S05 practice questions, four per topic t07/t13/t08: one numeric with ±0.001 tolerance, three misconception-feedback MC including what-if, two Common questions, and four no-JS worked solutions per topic. Correct/incorrect feedback runtime tests all passed; original 39 quick checks and six calculators preserved.",
-    "mixed_exam_practice_status": "not_started",
-    "next_topic": "topic-t09"
+    "last_batch_question_count": 4,
+    "last_batch_numeric_checks": "q-t09-02: ILLUSTRATIVE −2+1+1+2+2=4 pp. Mixed q-mix-01:27−21=6 people; q-mix-03:110−80=€30m extra; q-mix-05:3400+15−25=€3390bn; q-mix-07:10−2=8 percentage points (drop); q-mix-09:(100−70)/100×100=30% loss. Original S04 six calculator tests remain recorded in earlier build logs.",
+    "last_batch_review": "S05 final: t09 assessed with four questions and two common FAQs; 10-question Mixed exam added with one attempt-tracked running score. All 61 practice questions tested for both wrong/correct feedback, including all 17 numeric answers with process-specific hints. Demonstrated mixed score updating 0/10->10/10->9/10->10/10 and all worked-example steps now shown without Next step gating. 40 sources, 39 original quick checks, 6 calculators and all previous topics preserved.",
+    "mixed_exam_practice_status": "completed_pending_independent_verification",
+    "next_topic": null,
+    "practice_question_count": 61,
+    "mixed_exam_question_count": 10,
+    "verification_status": "awaiting_independent_S05_check"
   }
 }
