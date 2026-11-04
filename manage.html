@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101d2d">
+<meta name="robots" content="noindex,nofollow">
+<title>Manage library | Studyshit</title>
+<style>
+:root{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f5f6f3;color:#192d37;line-height:1.5;--ink:#192d37;--muted:#637785;--accent:#087d74;--border:#dce6e7;--paper:#fff}
+*{box-sizing:border-box}body{margin:0}a{color:var(--accent)}button,input,select{font:inherit}button{cursor:pointer}button:disabled{opacity:.35;cursor:not-allowed}input,select{background:#fff;color:var(--ink);border:1px solid #bacbd0;border-radius:10px;padding:10px 12px;min-width:0}input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #72d7c0;outline-offset:2px}
+header{background:#102532;color:#fff;padding:17px max(20px,calc((100% - 1040px)/2));display:flex;justify-content:space-between;align-items:center;gap:20px}
+header a{color:#c9e5dc;text-decoration:none;font-size:13px;font-weight:750}header strong{font-size:19px;letter-spacing:-.04em}header strong span{color:#8ce0be}
+header .right{display:flex;gap:18px;align-items:center}
+main{max-width:1072px;margin:0 auto;padding:35px 16px 80px}
+h1{font-size:clamp(29px,4vw,41px);letter-spacing:-.05em;line-height:1.15;margin:0 0 10px}h2{font-size:18px;letter-spacing:-.025em;margin:0}h3{font-size:15px;margin:0}.subtext{font-size:14px;color:var(--muted);max-width:720px;margin:0 0 24px}
+.panel{background:var(--paper);border:1px solid var(--border);border-radius:18px;padding:25px;box-shadow:0 12px 28px rgba(29,60,65,.035);margin-bottom:20px}
+button.primary{border:0;background:#087d74;color:white;font-weight:790;padding:12px 17px;border-radius:10px}button.primary:hover{background:#056e67}
+button.secondary{border:1px solid var(--border);background:#fff;color:var(--ink);font-weight:750;padding:10px 13px;border-radius:10px}
+button.secondary:hover{border-color:var(--accent)}
+button.danger{border:1px solid #efc2c0;color:#b34f47;background:#fff8f8;border-radius:9px;padding:8px 10px;font-size:12px;font-weight:750}
+button.danger:hover{background:#ffeae9}
+.small{font-size:12px;color:var(--muted)}
+.callout{border-left:4px solid #16867d;background:#eff9f5;padding:12px 15px;font-size:13px;border-radius:7px;margin:16px 0}
+.warning{border-left-color:#c87950;background:#fff3eb}
+.login-form{display:flex;align-items:end;flex-wrap:wrap;gap:11px}
+.login-form label{display:grid;gap:5px;flex:1;min-width:260px;font-weight:700;font-size:12px}
+.login-form input{width:100%}
+#editor[hidden],#login-card[hidden],[hidden]{display:none!important}
+.status{border-radius:11px;border:1px solid var(--border);padding:12px 15px;background:#f6faf9;font-size:13px;margin-bottom:20px}
+.status.error{border-color:#ecc7c0;color:#923c37;background:#fff2ef}
+.status.ok{border-color:#91cfb6;color:#196848;background:#eaf8ef}
+.editor-actions{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:15px 0 21px}
+.editor-actions .push{margin-left:auto}
+.counter{font-size:12px;color:var(--muted);font-weight:750}
+.section-title{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;margin:0 0 15px}
+.subject-block{background:#fff;border:1px solid var(--border);border-radius:16px;padding:20px;margin-bottom:16px}
+.subject-header{display:flex;align-items:center;gap:11px;flex-wrap:wrap}
+.subject-name{flex:1;min-width:190px}
+.subject-name label,.chapter-name label{font-size:11px;font-weight:800;color:var(--muted);display:block;margin-bottom:4px}
+.subject-name input,.chapter-name input{width:100%;font-weight:740}
+.icon-actions{display:flex;gap:5px;flex-shrink:0;align-items:center}
+.icon-actions button{width:37px;height:37px;border:1px solid var(--border);border-radius:9px;background:#fff;font-size:18px;color:var(--ink)}
+.icon-actions button:hover{border-color:var(--accent);color:var(--accent)}
+.subject-sub{margin:7px 0 0;font-size:11px;color:var(--muted);overflow-wrap:anywhere}
+.chapter-list{margin-top:18px;border-top:1px solid var(--border)}
+.chapter-line{display:flex;align-items:center;gap:10px;padding:13px 0;border-bottom:1px solid #e9eff0;flex-wrap:wrap}
+.chapter-line:last-child{border-bottom:0;padding-bottom:0}
+.chapter-index{font-size:12px;background:#e9f5f0;color:#15796e;border-radius:9px;padding:7px;min-width:35px;text-align:center;font-weight:850}
+.chapter-name{flex:1;min-width:170px}
+.chapter-path{font-size:10px;color:var(--muted);overflow-wrap:anywhere;margin-top:4px;font-family:ui-monospace,Consolas,monospace}
+.chapter-line .icon-actions button{width:33px;height:33px;font-size:16px}
+.tiny-delete{border:1px solid #e9c8c6!important;color:#b4504b!important}
+.form-grid{display:grid;grid-template-columns:1fr 1.8fr;gap:12px;margin:13px 0}
+.form-grid label{font-size:12px;font-weight:760;display:grid;gap:5px}
+.form-grid input,.form-grid select{width:100%}
+.file-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.file-row label{display:grid;gap:4px;font-size:12px;font-weight:750}
+.file-row input{max-width:320px}
+.removed-item{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--border);font-size:12px}
+.removed-item:last-child{border:0}
+.removed-item button{padding:5px 11px}
+.empty-list{font-size:13px;color:var(--muted);margin-top:12px}
+footer{padding:0 16px 30px;max-width:1072px;margin:auto;color:var(--muted);font-size:12px}
+@media(max-width:680px){main{padding-top:24px}.panel,.subject-block{padding:16px}.form-grid{grid-template-columns:1fr}.subject-header{align-items:end}.subject-name{flex-basis:100%}.chapter-name{flex-basis:calc(100% - 50px)}.chapter-line .icon-actions{margin-left:45px}.editor-actions .push{margin-left:0}.login-form label{min-width:100%}}
+</style>
+</head>
+<body>
+<header><a href="./"><strong>study<span>shit</span>.</strong></a><nav class="right"><a href="./">← Library</a><a href="https://github.com/creativeidiot123/studyshit" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav></header>
+<main>
+<h1>Manage your library.</h1>
+<p class="subtext">Rename subjects and chapters, arrange your reading order, add chapters, and remove old ones. Changes are saved as real commits to <strong>creativeidiot123/studyshit</strong>, not just in this browser.</p>
+<div id="message" class="status" role="status" aria-live="polite">Connect your GitHub account to start editing.</div>
+<section class="panel" id="login-card">
+<h2>Connect with a repository access token</h2>
+<p class="small">GitHub Pages can't safely hold a private login secret. Create a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">fine-grained personal access token</a> for <strong>creativeidiot123/studyshit</strong> with only <strong>Contents: Read and write</strong>. Enter it below. It stays in this tab's memory only and is never saved in the repository, local storage, or a cookie.</p>
+<form id="login-form" class="login-form">
+<label>GitHub access token<input id="token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…" required></label>
+<button class="primary" type="submit" id="connect">Connect to GitHub</button>
+</form>
+<div class="callout warning"><strong>Public repo:</strong> New chapter HTML files become publicly accessible. Upload only content you have permission to publish. Display-name changes never rename existing lecture folders, so the study generator's paths remain intact.</div>
+</section>
+<div id="editor" hidden>
+<div class="editor-actions"><span class="counter" id="counts"></span><button class="secondary" id="reload" type="button">↻ Reload from GitHub</button><button class="secondary" id="disconnect" type="button">Disconnect</button><button class="primary push" type="button" id="save" disabled>Commit changes to GitHub</button></div>
+<div class="callout"><strong>Changes are staged until you click Commit.</strong> Renaming and reordering updates <code>portal/catalog.json</code> on GitHub. Creating a chapter adds <code>study.html</code> to a new lecture folder. Deleting a chapter removes <strong>all files in that lecture folder</strong>, including study state and source manifests. GitHub retains commit history for recovery.</div>
+<section class="panel"><div class="section-title"><h2>Subjects and chapters</h2><span class="small">Use ↑ and ↓ to change the order</span></div><div id="subjects"></div></section>
+<div class="form-grid">
+<section class="panel"><h2>Add a subject</h2><p class="small">Add a subject to the library. A folder is created when you add its first chapter.</p><form id="subject-form"><label class="small">Subject name<input id="new-subject" placeholder="e.g. Derivatives and Risk" maxlength="120" required></label><p><button class="secondary" type="submit">+ Add subject</button></p></form></section>
+<section class="panel"><h2>Add a chapter</h2><p class="small">Create a starter chapter, or upload an existing HTML study page to publish it.</p><form id="chapter-form">
+<div class="form-grid"><label>Subject<select id="new-chapter-subject" required></select></label><label>Chapter title<input id="new-chapter" placeholder="e.g. Lecture 4: Options" maxlength="160" required></label></div>
+<div class="file-row"><label>Optional HTML study page<input id="new-chapter-file" type="file" accept=".html,text/html"></label><button class="secondary" type="submit" id="add-chapter">+ Add chapter</button></div>
+</form></section>
+</div>
+<section class="panel" id="removed-panel" hidden><h2>Chapters marked for deletion</h2><p class="small">You can undo a removal before committing. Saving requires typing DELETE to confirm permanent removal from the current branch.</p><div id="removed"></div></section>
+</div>
+</main>
+<footer>Changes use GitHub's versioned Git database. If another editor or the study pipeline updates the repository while you're editing, this tool checks for conflicts before committing.</footer>
+<script>
+(function(){
+"use strict";
+var OWNER="creativeidiot123",REPO="studyshit",BRANCH="main";
+var API="https://api.github.com/repos/"+OWNER+"/"+REPO;
+var RULE=/^subjects\/[a-z0-9][a-z0-9-]*\/lectures\/[a-z0-9][a-z0-9-]*\/study\.html$/;
+var SUBJECT_RULE=/^[a-z0-9][a-z0-9-]*$/;
+var token="",original=null,working=null,dirty=false,busy=false;
+var newFiles=new Map(),removed=new Map();
+var root=document.getElementById("subjects"),msg=document.getElementById("message");
+function el(tag,cls,text){var n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n}
+function notice(message,type){msg.textContent=message;msg.className="status"+(type?" "+type:"")}
+function setBusy(flag){busy=flag;["connect","reload","save","disconnect","add-chapter"].forEach(function(id){var x=document.getElementById(id);if(x)x.disabled=flag||(id==="save"&&!dirty)})}
+function mark(){dirty=true;document.getElementById("save").disabled=false;document.getElementById("counts").textContent=working.subjects.length+" subjects · "+working.chapters.length+" chapters · unsaved changes"}
+function slugify(str){return str.normalize("NFKD").toLowerCase().replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,70)}
+function subjectOf(path){return path.split("/")[1]}
+function chapterSlug(path){return path.split("/")[3]}
+function titlecase(str){return str.split("-").map(function(x){return x?x[0].toUpperCase()+x.slice(1):""}).join(" ")}
+function clone(x){return JSON.parse(JSON.stringify(x))}
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;")}
+function starter(title,subject){var t=esc(title),s=esc(subject);return '<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+t+' | '+s+'</title><style>body{font:17px/1.7 system-ui,Arial,sans-serif;max-width:780px;margin:auto;padding:30px 20px;color:#20313e;background:#f6f8f7}main{background:white;padding:26px;border-radius:15px;border:1px solid #deebe6}a{color:#087e77}</style></head><body><main><p>'+s+'</p><h1>'+t+'</h1><p>This chapter is a new draft. Add your study material to this file in GitHub when ready.</p><p><a href="../../../../../">Back to the study library</a></p></main></body></html>\n'}
+function decodeUtf8Base64(txt){var binary=atob(txt.replace(/\s/g,"")),bytes=new Uint8Array(binary.length);for(var i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);return new TextDecoder().decode(bytes)}
+async function request(path,method,body){
+var options={method:method||"GET",headers:{"Accept":"application/vnd.github+json","Authorization":"Bearer "+token,"X-GitHub-Api-Version":"2022-11-28"},cache:"no-store"};
+if(body!==undefined){options.headers["Content-Type"]="application/json";options.body=JSON.stringify(body)}
+var r=await fetch(API+path,options);var data;try{data=await r.json()}catch(e){data={}};
+if(!r.ok){throw new Error("GitHub "+r.status+": "+String(data.message||"Request failed").slice(0,220))}
+return data
+}
+async function readSnapshot(){
+var ref=await request("/git/ref/heads/"+BRANCH),head=ref.object.sha;
+var commit=await request("/git/commits/"+head);
+var tree=await request("/git/trees/"+commit.tree.sha+"?recursive=1");
+if(tree.truncated||!Array.isArray(tree.tree))throw new Error("Repository tree was incomplete; no edits are allowed.");
+var file=tree.tree.find(function(item){return item.path==="portal/catalog.json"&&item.type==="blob"});
+if(!file)throw new Error("Missing portal/catalog.json; cannot safely edit the library.");
+var contents=await request("/contents/portal/catalog.json?ref="+BRANCH);
+if(contents.sha!==file.sha)throw new Error("Repository changed during loading. Please reload.");
+var catalog=JSON.parse(decodeUtf8Base64(contents.content||""));
+if(catalog.version!==1||!Array.isArray(catalog.subjects)||!Array.isArray(catalog.chapters))throw new Error("Catalog format is not supported.");
+return {head:head,treeSha:commit.tree.sha,tree:tree.tree,catalogSha:file.sha,catalog:catalog}
+}
+function normalizeCatalog(raw,tree){
+var subjectMap=new Map(),chapterMap=new Map(),sub=[],chap=[];
+raw.subjects.forEach(function(item){if(item&&SUBJECT_RULE.test(item.slug)&&typeof item.title==="string"&&!subjectMap.has(item.slug)){subjectMap.set(item.slug,true);sub.push({slug:item.slug,title:item.title})}});
+raw.chapters.forEach(function(item){if(item&&RULE.test(item.path)&&typeof item.title==="string"&&!chapterMap.has(item.path)){chapterMap.set(item.path,true);chap.push({path:item.path,title:item.title})}});
+tree.forEach(function(item){if(item.type==="blob"&&RULE.test(item.path)&&!chapterMap.has(item.path)){chap.push({path:item.path,title:titlecase(chapterSlug(item.path))});chapterMap.set(item.path,true)}});
+chap.forEach(function(item){var s=subjectOf(item.path);if(!subjectMap.has(s)){sub.push({slug:s,title:titlecase(s)});subjectMap.set(s,true)}});
+return {version:1,subjects:sub,chapters:chap.filter(function(item){return tree.some(function(x){return x.path===item.path&&x.type==="blob"})})}
+}
+function withinSubject(slug){return working.chapters.filter(function(x){return subjectOf(x.path)===slug})}
+function swap(items,a,b){var x=items[a];items[a]=items[b];items[b]=x}
+function moveSubject(index,dir){var target=index+dir;if(target<0||target>=working.subjects.length)return;swap(working.subjects,index,target);mark();render()}
+function moveChapter(path,dir){var ch=working.chapters.find(function(x){return x.path===path});if(!ch)return;
+var matches=withinSubject(subjectOf(path));var local=matches.findIndex(function(x){return x.path===path}),other=matches[local+dir];if(!other)return;
+var a=working.chapters.findIndex(function(x){return x.path===path}),b=working.chapters.findIndex(function(x){return x.path===other.path});swap(working.chapters,a,b);mark();render()
+}
+function deleteChapter(path){var index=working.chapters.findIndex(function(x){return x.path===path});if(index<0)return;
+var item=working.chapters[index];working.chapters.splice(index,1);
+if(newFiles.has(path)){newFiles.delete(path)}else{removed.set(path,{path:path,title:item.title,index:index})}
+mark();render()
+}
+function undoDelete(path){var item=removed.get(path);if(!item)return;working.chapters.splice(Math.min(item.index,working.chapters.length),0,{path:item.path,title:item.title});removed.delete(path);mark();render()}
+function control(symbol,title,callback,disabled){var b=el("button","",symbol);b.type="button";b.title=title;b.setAttribute("aria-label",title);b.disabled=!!disabled;b.addEventListener("click",callback);return b}
+function render(){
+root.replaceChildren();
+document.getElementById("counts").textContent=working.subjects.length+" subjects · "+working.chapters.length+" chapters"+(dirty?" · unsaved changes":" · all changes saved");
+var select=document.getElementById("new-chapter-subject");var selected=select.value;select.replaceChildren();
+working.subjects.forEach(function(s){var option=el("option","",s.title);option.value=s.slug;select.appendChild(option)});if(working.subjects.some(function(s){return s.slug===selected}))select.value=selected;
+working.subjects.forEach(function(subject,index){
+var block=el("section","subject-block");
+var heading=el("div","subject-header"),name=el("div","subject-name"),label=el("label","", "SUBJECT "+String(index+1).padStart(2,"0"));
+var input=el("input");input.value=subject.title;input.maxLength=120;input.setAttribute("aria-label","Subject display name for "+subject.slug);
+input.addEventListener("input",function(){subject.title=input.value;mark();var option=Array.from(select.options).find(function(op){return op.value===subject.slug});if(option)option.textContent=subject.title});
+name.append(label,input);heading.appendChild(name);
+var buttons=el("div","icon-actions");buttons.append(control("↑","Move subject up",function(){moveSubject(index,-1)},index===0));buttons.append(control("↓","Move subject down",function(){moveSubject(index,1)},index===working.subjects.length-1));
+if(withinSubject(subject.slug).length===0){buttons.append(control("×","Remove empty subject",function(){working.subjects.splice(index,1);mark();render()}))}
+heading.appendChild(buttons);block.appendChild(heading);block.appendChild(el("p","subject-sub","Stable GitHub folder: subjects/"+subject.slug+"/"));
+var chapters=withinSubject(subject.slug),list=el("div","chapter-list");
+if(!chapters.length)list.appendChild(el("p","empty-list","No chapters yet. Add one using the form below."));
+chapters.forEach(function(ch,i){
+var row=el("div","chapter-line"),indexEl=el("span","chapter-index",String(i+1).padStart(2,"0")),nameEl=el("div","chapter-name");
+var lab=el("label","",newFiles.has(ch.path)?"NEW CHAPTER":"CHAPTER TITLE"),chapterInput=el("input");chapterInput.value=ch.title;chapterInput.maxLength=160;chapterInput.setAttribute("aria-label","Chapter display name for "+ch.path);
+chapterInput.addEventListener("input",function(){ch.title=chapterInput.value;mark()});
+nameEl.append(lab,chapterInput,el("div","chapter-path",ch.path));row.append(indexEl,nameEl);
+var chapterBtns=el("div","icon-actions");chapterBtns.append(control("↑","Move chapter up",function(){moveChapter(ch.path,-1)},i===0));chapterBtns.append(control("↓","Move chapter down",function(){moveChapter(ch.path,1)},i===chapters.length-1));
+var del=control("×","Mark chapter for deletion",function(){deleteChapter(ch.path)});del.classList.add("tiny-delete");chapterBtns.appendChild(del);row.appendChild(chapterBtns);list.appendChild(row)});
+block.appendChild(list);root.appendChild(block)
+});
+var removePanel=document.getElementById("removed-panel"),removedList=document.getElementById("removed");removePanel.hidden=removed.size===0;removedList.replaceChildren();
+removed.forEach(function(item,path){var row=el("div","removed-item");row.appendChild(el("span","",item.title+" · "+path));var undo=el("button","secondary","Undo");undo.type="button";undo.addEventListener("click",function(){undoDelete(path)});row.appendChild(undo);removedList.appendChild(row)});
+document.getElementById("save").disabled=!dirty||busy
+}
+function validate(){
+var slugs=new Set(),paths=new Set();
+for(var s of working.subjects){if(!SUBJECT_RULE.test(s.slug)||!s.title.trim()||s.title.trim().length>120||slugs.has(s.slug))throw new Error("Every subject needs a unique slug and a nonempty name.");slugs.add(s.slug);s.title=s.title.trim()}
+for(var c of working.chapters){if(!RULE.test(c.path)||!slugs.has(subjectOf(c.path))||!c.title.trim()||c.title.trim().length>160||paths.has(c.path))throw new Error("Every chapter needs a valid path, subject and nonempty unique entry.");paths.add(c.path);c.title=c.title.trim()}
+}
+async function connect(event){
+event.preventDefault();token=document.getElementById("token").value.trim();document.getElementById("token").value="";if(!token)return;
+setBusy(true);notice("Reading the current repository…");
+try{
+var data=await readSnapshot();original=data;working=normalizeCatalog(data.catalog,data.tree);newFiles.clear();removed.clear();dirty=false;
+document.getElementById("login-card").hidden=true;document.getElementById("editor").hidden=false;render();notice("Connected. Changes will be committed to the main branch only when you click Commit.","ok")
+}catch(err){token="";notice("Could not connect: "+err.message,"error")}
+finally{setBusy(false)}
+}
+async function reload(){
+if(dirty&&!confirm("Discard unsaved changes and reload the current GitHub catalog?"))return;
+setBusy(true);notice("Reloading the latest GitHub version…");
+try{original=await readSnapshot();working=normalizeCatalog(original.catalog,original.tree);newFiles.clear();removed.clear();dirty=false;render();notice("Library reloaded from GitHub.","ok")}
+catch(err){notice("Reload failed: "+err.message,"error")}finally{setBusy(false)}
+}
+async function addChapter(event){
+event.preventDefault();var subject=document.getElementById("new-chapter-subject").value,title=document.getElementById("new-chapter").value.trim();
+if(!title||!working.subjects.some(function(x){return x.slug===subject}))return;
+var base=slugify(title)||"new-chapter",slug=base,n=2;
+function pathFor(s){return "subjects/"+subject+"/lectures/"+s+"/study.html"}
+var occupied=new Set(original.tree.map(function(x){return x.path}).concat(working.chapters.map(function(x){return x.path})).concat(Array.from(removed.keys())));
+while(occupied.has(pathFor(slug)))slug=base+"-"+n++;
+var path=pathFor(slug),fileInput=document.getElementById("new-chapter-file"),file=fileInput.files[0],contents;
+try{
+if(file){if(file.size>2*1024*1024)throw new Error("HTML file is above the 2 MB safety limit.");contents=await file.text();if(!/<html[\s>]/i.test(contents))throw new Error("Upload a complete HTML page with an <html> tag.");}
+else{var sub=working.subjects.find(function(x){return x.slug===subject});contents=starter(title,sub.title)}
+newFiles.set(path,contents);working.chapters.push({path:path,title:title});mark();render();
+document.getElementById("new-chapter").value="";fileInput.value="";notice("Chapter staged: "+title+". Click Commit changes to publish it.","ok")
+}catch(err){notice("Could not add chapter: "+err.message,"error")}
+}
+async function save(){
+if(!dirty||busy)return;try{validate()}catch(err){notice(err.message,"error");return}
+var deleteList=Array.from(removed.keys()),addList=Array.from(newFiles.keys());
+if(deleteList.length){
+var paths=original.tree.filter(function(item){return deleteList.some(function(path){return item.path.startsWith(path.slice(0,-"study.html".length))&&item.type==="blob"})});
+var answer=prompt("DANGER: Permanently remove "+deleteList.length+" chapter folder(s) and "+paths.length+" repository file(s) from main, including state and source manifests?\n\nGit history remains available for recovery.\n\nType DELETE to proceed:");
+if(answer!=="DELETE"){notice("Deletion cancelled. No changes were committed.");return}
+}
+setBusy(true);notice("Checking for new GitHub commits and preparing your changes…");
+try{
+var latest=await readSnapshot();
+if(latest.catalogSha!==original.catalogSha)throw new Error("Someone changed portal/catalog.json since you connected. Reload, then reapply your edits.");
+var existing=new Set(latest.tree.filter(function(x){return x.type==="blob"}).map(function(x){return x.path}));
+for(var path of addList)if(existing.has(path))throw new Error("New chapter path already exists in GitHub: "+path);
+for(var path of deleteList)if(!existing.has(path))throw new Error("Chapter was already removed by another commit: "+path);
+var changes=[{path:"portal/catalog.json",mode:"100644",type:"blob",content:JSON.stringify(working,null,2)+"\n"}];
+for(var path of addList)changes.push({path:path,mode:"100644",type:"blob",content:newFiles.get(path)});
+for(var path of deleteList){
+var prefix=path.slice(0,-"study.html".length),files=latest.tree.filter(function(x){return x.type==="blob"&&x.path.startsWith(prefix)});
+if(!files.length)throw new Error("Cannot find files to remove for "+path);
+for(var file of files)changes.push({path:file.path,mode:"100644",type:"blob",sha:null})
+}
+notice("Writing one atomic Git commit with "+changes.length+" file changes…");
+var tree=await request("/git/trees","POST",{base_tree:latest.treeSha,tree:changes});
+var summary="Manage portal: "+(addList.length?"add "+addList.length+" chapter(s); ":"")+(deleteList.length?"delete "+deleteList.length+" chapter(s); ":"")+"update library catalog";
+var commit=await request("/git/commits","POST",{message:summary,tree:tree.sha,parents:[latest.head]});
+await request("/git/refs/heads/"+BRANCH,"PATCH",{sha:commit.sha,force:false});
+notice("GitHub accepted the commit. Verifying the saved catalog and chapter files…");
+var verify=await readSnapshot(),v=verify.catalog;
+if(JSON.stringify(v)!==JSON.stringify(working))throw new Error("Commit was created, but the catalog verification differs. Reload to inspect the latest state.");
+for(var path of addList)if(!verify.tree.some(function(x){return x.type==="blob"&&x.path===path}))throw new Error("New chapter missing after commit: "+path);
+for(var path of deleteList)if(verify.tree.some(function(x){return x.type==="blob"&&x.path.startsWith(path.slice(0,-"study.html".length))}))throw new Error("Deleted chapter still has files after commit: "+path);
+original=verify;working=normalizeCatalog(v,verify.tree);newFiles.clear();removed.clear();dirty=false;render();
+var link="https://github.com/"+OWNER+"/"+REPO+"/commit/"+commit.sha;notice("Saved and verified on GitHub! Commit: "+commit.sha.slice(0,10)+". GitHub Pages may take a moment to deploy.","ok");
+var anchor=el("a","","View commit ↗");anchor.href=link;anchor.target="_blank";anchor.rel="noopener noreferrer";msg.append(" ",anchor)
+}catch(err){notice("Changes were not confirmed: "+err.message+". Do not retry blindly; reload to check GitHub's latest state.","error")}
+finally{setBusy(false);document.getElementById("save").disabled=!dirty}
+}
+document.getElementById("login-form").addEventListener("submit",connect);
+document.getElementById("reload").addEventListener("click",reload);
+document.getElementById("save").addEventListener("click",save);
+document.getElementById("disconnect").addEventListener("click",function(){if(dirty&&!confirm("Disconnect and discard unsaved changes?"))return;token="";original=null;working=null;newFiles.clear();removed.clear();dirty=false;document.getElementById("editor").hidden=true;document.getElementById("login-card").hidden=false;notice("Disconnected. No token is stored in your browser.")});
+document.getElementById("subject-form").addEventListener("submit",function(e){e.preventDefault();var input=document.getElementById("new-subject"),title=input.value.trim(),base=slugify(title)||"subject",slug=base,n=2;if(!title)return;while(working.subjects.some(function(s){return s.slug===slug}))slug=base+"-"+n++;working.subjects.push({slug:slug,title:title});input.value="";mark();render();notice("Subject staged: "+title+". Save to publish it.","ok")});
+document.getElementById("chapter-form").addEventListener("submit",addChapter);
+window.addEventListener("beforeunload",function(e){if(!dirty)return;e.preventDefault();e.returnValue=""});
+})();
+</script>
+</body>
+</html>
