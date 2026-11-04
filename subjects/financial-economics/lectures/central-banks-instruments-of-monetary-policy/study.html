@@ -445,11 +445,76 @@
 <details class="source-notes"><summary>Lecture details (3 slides)</summary><ul><li><a href="#L021">Slide 21</a>: Bank ↔ ECB schematic: ECB supplies euros/liquidity to bank; bank supplies interest plus eligible collateral subject to minimum collateral requirements.</li><li><a href="#L022">Slide 22</a>: ECB monetary-policy operations: open-market operations with maturities of one week or more; overnight standing facilities (marginal lending, deposit facility). Open-market operations, especially main refinancing operations (MROs), steer interest rates, manage liquidity and signal stance; standing facilities supply/absorb overnight liquidity and curb short-rate volatility.</li><li><a href="#L023">Slide 23</a>: Pre-crisis main refinancing operations (MROs): weekly auctions; ECB announced total one-week funds and minimum MRO interest rate; banks bid amounts and rates; highest interest-rate bids receive allotments first.</li></ul></details>
 <label class="got-it"><input type="checkbox" class="got-it-box" data-topic="topic-t04"> Got it</label>
 </section>
-<section id="topic-t12" class="topic" data-format="compact-v2" data-progress="structured" data-source-ids="L024 L025 L026">
+<section id="topic-t12" class="topic" data-format="compact-v2" data-progress="taught" data-source-ids="L024 L025 L026">
 <div class="eyebrow">Topic 07 · slides 24–26</div>
-<h2>Use standing facilities to interpret overnight interest rates</h2><p class="hook">Why are overnight interbank rates bounded by ECB facility rates?</p>
-<p>The overnight marginal lending facility and deposit facility define a rate corridor in the lecture’s EONIA discussion. Slide 25 traces ECB lending, MRO and deposit rates, with labelled values 2.90%, 2.65% and 2.50%; slide 26 compares rates across major central banks.</p><details class="source-notes"><summary>Lecture details (3 slides)</summary><ul><li><a href="#L024">Slide 24</a>: Marginal lending facility: banks borrow overnight from ECB at overnight lending rate. Deposit facility: banks deposit overnight at overnight deposit rate. Slide describes these as a corridor limiting EONIA interbank overnight rate: borrow from peers below ECB lending rate; lend to peers above ECB deposit rate.</li><li><a href="#L025">Slide 25</a>: ECB key rates time-series chart, Jan 1999 to roughly Jan 2027; vertical axis percentages approximately −1% to 6%; three series: overnight deposit (blue), MRO (red), overnight lending (green). Labels on slide: MRO 2.65%; overnight lending 2.90%; overnight deposit 2.50%. Rates fell near/below zero after crisis and rose sharply around 2022–23.</li><li><a href="#L026">Slide 26</a>: Interest-rate evolution comparing central banks. Left graphic (The Economist 06.09.2014) shows Federal Reserve, Bank of England, ECB, Bank of Japan policy-rate paths roughly 2000–2014. Right graphic (Financial Times 2022) shows tightening paths roughly 2007–2022, including Bank of England, US Fed, ECB and Bank of Canada.</li></ul></details>
-<div class="takeaways"><strong>Extraction checkpoints</strong><p>These slide-grounded notes are the structured outline. The detailed claims, numbers, visuals and cautions remain linked in the source ledger. Teaching and practice are added in later stages.</p></div>
+<h2>Use standing facilities to interpret overnight interest rates</h2>
+<p class="hook">Why would a bank borrow overnight from another bank instead of paying the ECB’s lending rate?</p>
+
+<h3>1. Understand the overnight interest-rate corridor</h3>
+<p>The <strong>marginal lending facility</strong> lets banks borrow from the ECB overnight at its lending rate. The <strong>deposit facility</strong> lets banks place surplus funds at the ECB overnight at its deposit rate. Slide 24 describes these rates as a <strong>corridor</strong> for <strong>EONIA</strong>, the interbank overnight interest rate named in the lecture. A bank generally prefers borrowing from peers below the ECB lending rate; another prefers lending to peers above the ECB deposit rate. The corridor limits short-rate volatility.</p>
+<figure class="visual"><table><thead><tr><th scope="col">Bank’s overnight choice</th><th scope="col">ECB alternative</th><th scope="col">Interbank incentive (slide 24)</th></tr></thead><tbody>
+<tr><td>Needs funds</td><td>Borrow at marginal lending rate</td><td>Borrow from another bank at a lower rate</td></tr>
+<tr><td>Has excess funds</td><td>Deposit at ECB deposit rate</td><td>Lend to another bank at a higher rate</td></tr>
+</tbody></table><figcaption>The simplified corridor logic from slide 24. EONIA is the historical interbank measure used by the slide.</figcaption></figure>
+<div class="example" data-reveal><strong>ILLUSTRATIVE · Both banks prefer the market</strong><ol>
+<li data-step>The ECB lending rate is 2.90%, while its deposit rate is 2.50% (the labels on slide 25).</li>
+<li data-step>Suppose an interbank overnight loan is offered at 2.70% per year. A borrowing bank pays 0.20 percentage points less than the 2.90% ECB alternative.</li>
+<li data-step>The lending bank receives 0.20 percentage points more than the 2.50% deposit alternative. Both prefer the illustrative 2.70% deal, ignoring other constraints.</li>
+</ol><button type="button" data-next hidden>Next step</button></div>
+<div class="quick-check" data-quiz data-why="A bank with excess funds can deposit at the ECB. To prefer a peer loan in the slide’s simple corridor, it needs a rate above the ECB deposit rate.">
+<strong>Quick check:</strong> Why might a bank lend funds overnight to another bank?
+<div class="quiz-options"><button type="button" data-correct="false">To earn less than the ECB deposit rate</button><button type="button" data-correct="true">To earn more than the ECB deposit rate</button><button type="button" data-correct="false">Because overnight deposits at the ECB are forbidden</button></div>
+<p data-feedback hidden role="status" aria-live="polite"></p><details><summary>Answer without JavaScript</summary><p>To earn a rate above the ECB deposit rate, the slide’s lower corridor boundary.</p></details></div>
+
+<h3>2. Read the three labelled ECB policy rates</h3>
+<p>Slide 25 plots the <strong>deposit rate</strong> (blue), <strong>main refinancing operation (MRO) rate</strong> (red), and <strong>overnight lending rate</strong> (green). The time axis runs approximately January 1999 to January 2027; the annual-percentage axis spans roughly −1% to 6%. Its labelled rate snapshot is <strong>2.50%</strong>, <strong>2.65%</strong>, and <strong>2.90%</strong>, respectively. The historical series falls toward or below zero after the financial crisis, then rises sharply around 2022–2023.</p>
+<figure class="visual"><svg role="img" aria-labelledby="t12-rate-title t12-rate-desc" viewBox="0 0 680 220" style="width:100%;height:auto;display:block">
+<title id="t12-rate-title">ECB rate labels from slide 25, displayed on a numerical rate axis</title><desc id="t12-rate-desc">Deposit facility 2.50 percent, MRO 2.65 percent, marginal lending 2.90 percent. Higher rates appear higher on the chart. The overnight corridor width is 0.40 percentage points.</desc>
+<g font-family="system-ui,sans-serif" font-size="12" fill="#415b70">
+<text x="10" y="18" font-weight="700">Rate (annual %)</text>
+<path d="M77 33 V194" stroke="#6d8296" stroke-width="1.5"/>
+<g stroke="#d5e1e9" stroke-width="1" stroke-dasharray="4 4"><path d="M77 166 H656"/><path d="M77 114 H656"/><path d="M77 62 H656"/></g>
+<text x="44" y="170">2.5</text><text x="44" y="118">2.7</text><text x="44" y="66">2.9</text>
+<rect x="88" y="62" width="550" height="104" rx="5" fill="#e9f2fa" opacity=".55"/>
+<path d="M88 166 H639" stroke="#2574a8" stroke-width="3"/><path d="M88 127 H639" stroke="#c04442" stroke-width="3"/><path d="M88 62 H639" stroke="#2b845f" stroke-width="3"/>
+<g font-size="14" font-weight="700"><text x="98" y="55" fill="#236949">Lending: 2.90%</text><text x="98" y="120" fill="#a83935">MRO: 2.65%</text><text x="98" y="158" fill="#215e96">Deposit: 2.50%</text></g>
+<text x="88" y="207">Labels are a slide snapshot, not today’s rates or a reconstructed time series.</text>
+</g></svg><figcaption>Rates to scale on the vertical axis, based only on slide 25’s three labels. The full historical chart remains described in <a href="#L025">L025</a>.</figcaption></figure>
+<div class="example" data-reveal><strong>Worked example · Calculate the slide’s rate gaps</strong><ol>
+<li data-step>Top of the corridor: 2.90%; bottom: 2.50%.</li>
+<li data-step>Corridor width: 2.90 − 2.50 = <strong>0.40 percentage points</strong> (40 basis points).</li>
+<li data-step>Distance from deposit to MRO: 2.65 − 2.50 = <strong>0.15 pp</strong>. Distance from MRO to lending: 2.90 − 2.65 = <strong>0.25 pp</strong>.</li>
+<li data-step>Check: 0.15 + 0.25 = 0.40 pp. Here MRO is not exactly at the corridor midpoint.</li>
+</ol><button type="button" data-next hidden>Next step</button></div>
+<div class="fact-check"><strong>Slide-date caution:</strong> Slide 25 labels MRO at 2.65%, but slide 40 calls 2.15% “currently”. The as-of dates are not reconciled in the slides, so neither number should be treated as a live quotation.</div>
+<div class="quick-check" data-quiz data-why="The slide labels 2.90% lending and 2.50% deposit. Subtracting gives 0.40 percentage points, or 40 basis points.">
+<strong>Quick check:</strong> How wide is the corridor using the labelled slide 25 rates?
+<div class="quiz-options"><button type="button" data-correct="false">0.15 percentage points</button><button type="button" data-correct="true">0.40 percentage points</button><button type="button" data-correct="false">2.65 percentage points</button></div>
+<p data-feedback hidden role="status" aria-live="polite"></p><details><summary>Answer without JavaScript</summary><p>2.90% − 2.50% = 0.40 percentage points = 40 basis points.</p></details></div>
+
+<h3>3. Compare interest-rate histories without mixing their dates</h3>
+<p>Slide 26 offers two comparisons, not a single synchronized dataset. The <em>Economist</em> graphic dated 6 September 2014 compares the Federal Reserve, Bank of England, ECB, and Bank of Japan over roughly 2000–2014. The <em>Financial Times</em> 2022 graphic covers roughly 2007–2022 and includes the Bank of England, US Federal Reserve, ECB, and Bank of Canada. Read their legends and time ranges before drawing comparisons; the second chart does not label the Bank of Japan.</p>
+<figure class="visual"><table><thead><tr><th scope="col">Slide 26 graphic</th><th scope="col">Approx. period</th><th scope="col">Central banks shown</th></tr></thead><tbody>
+<tr><td><em>The Economist</em>, 06.09.2014</td><td>2000–2014</td><td>Fed, Bank of England, ECB, Bank of Japan</td></tr>
+<tr><td><em>Financial Times</em>, 2022</td><td>2007–2022</td><td>Bank of England, Fed, ECB, Bank of Canada</td></tr>
+</tbody></table><figcaption>Comparison-chart legends and time ranges from slide 26; no unlabelled rate values are inferred.</figcaption></figure>
+<div class="example" data-reveal><strong>ILLUSTRATIVE · Read a comparison correctly</strong><ol>
+<li data-step>You want to identify the Bank of Japan in slide 26: use the 2014 <em>Economist</em> chart.</li>
+<li data-step>You want to compare policy tightening through 2022: inspect the separate <em>Financial Times</em> chart.</li>
+<li data-step>Do not treat the two graphics as having the same end date or identical central-bank lists.</li>
+</ol><button type="button" data-next hidden>Next step</button></div>
+<div class="quick-check" data-quiz data-why="The slide 26 right-hand Financial Times graphic includes the Bank of Canada. The left Economist graphic includes the Bank of Japan instead.">
+<strong>Quick check:</strong> Which bank appears in the 2022 Financial Times legend on slide 26?
+<div class="quiz-options"><button type="button" data-correct="true">Bank of Canada</button><button type="button" data-correct="false">Bank of Japan</button><button type="button" data-correct="false">Swiss National Bank</button></div>
+<p data-feedback hidden role="status" aria-live="polite"></p><details><summary>Answer without JavaScript</summary><p>Bank of Canada, not Bank of Japan, on the 2022 Financial Times chart shown on the right.</p></details></div>
+
+<div class="takeaways"><strong>Remember</strong><ul>
+<li>Marginal lending supplies overnight funds; the deposit facility absorbs them.</li>
+<li>In slide 24’s EONIA framework, the two facility rates form a simple overnight-rate corridor.</li>
+<li>Slide 25 labels deposit 2.50%, MRO 2.65%, lending 2.90%: width 0.40 percentage points.</li>
+<li><strong>Watch out:</strong> chart labels are historical snapshots; slide 26’s two international comparisons differ in dates and countries.</li>
+</ul></div>
+<details class="source-notes"><summary>Lecture details (3 slides)</summary><ul><li><a href="#L024">Slide 24</a>: Marginal lending facility: banks borrow overnight from ECB at overnight lending rate. Deposit facility: banks deposit overnight at overnight deposit rate. Slide describes these as a corridor limiting EONIA interbank overnight rate: borrow from peers below ECB lending rate; lend to peers above ECB deposit rate.</li><li><a href="#L025">Slide 25</a>: ECB key rates time-series chart, Jan 1999 to roughly Jan 2027; vertical axis percentages approximately −1% to 6%; three series: overnight deposit (blue), MRO (red), overnight lending (green). Labels on slide: MRO 2.65%; overnight lending 2.90%; overnight deposit 2.50%. Rates fell near/below zero after crisis and rose sharply around 2022–23.</li><li><a href="#L026">Slide 26</a>: Interest-rate evolution comparing central banks. Left graphic (The Economist 06.09.2014) shows Federal Reserve, Bank of England, ECB, Bank of Japan policy-rate paths roughly 2000–2014. Right graphic (Financial Times 2022) shows tightening paths roughly 2007–2022, including Bank of England, US Fed, ECB and Bank of Canada.</li></ul></details>
 <label class="got-it"><input type="checkbox" class="got-it-box" data-topic="topic-t12"> Got it</label>
 </section>
 <section id="topic-t05" class="topic" data-format="compact-v2" data-progress="structured" data-source-ids="L027">
