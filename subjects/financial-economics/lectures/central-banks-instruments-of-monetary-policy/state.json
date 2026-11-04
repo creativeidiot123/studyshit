@@ -3,7 +3,7 @@
   "subject": "financial-economics",
   "lecture": "central-banks-instruments-of-monetary-policy",
   "html_path": "subjects/financial-economics/lectures/central-banks-instruments-of-monetary-policy/study.html",
-  "stage": 2,
+  "stage": 3,
   "completed_topics": {
     "1": [
       "topic-t01",
@@ -43,14 +43,15 @@
       "topic-t06",
       "topic-t07",
       "topic-t13",
-      "topic-t08"
+      "topic-t08",
+      "topic-t09"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t09",
+  "next_topic": null,
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -59,8 +60,8 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T09:48:44Z",
-  "current_stage_status": "S03_in_progress",
+  "updated_at": "2026-11-04T09:51:01Z",
+  "current_stage_status": "S03_completed_pending_independent_verification",
   "extraction": {
     "pages": 40,
     "ledger_records": 40,
@@ -79,14 +80,15 @@
   "teaching": {
     "stage": "S03",
     "topics_total": 13,
-    "topics_taught": 12,
-    "last_topic": "topic-t08",
+    "topics_taught": 13,
+    "last_topic": "topic-t09",
     "last_source_ids": [
-      "L035",
-      "L036",
-      "L037"
+      "L038",
+      "L039",
+      "L040"
     ],
-    "numerical_calculations": "ILLUSTRATIVE default-risk scenario: €100 bond value falls to €70, implying €30 or 30% asset-value loss, not automatic taxpayer charge. QE benefits stated as aims, risks unquantified; slide 37 primary versus secondary wording conflict flagged.",
-    "next_topic": "topic-t09"
+    "numerical_calculations": "Approximate slide-38 inflation fall: 10% to 2% = 8 percentage points, not deflation. Illustrative HICP contributions: 4+1+1+2+2 = 10 pp; illustrative portfolio runoff €20bn matured without reinvestment = €20bn fall ignoring other changes. Slide-40 MRO 4.50% (09/2023) and undated 'currently 2.15%' preserved; slide-25 2.65% unreconciled.",
+    "next_topic": null,
+    "verification_status": "awaiting_independent_S03_check"
   }
 }
