@@ -41,14 +41,15 @@
       "topic-t12",
       "topic-t05",
       "topic-t06",
-      "topic-t07"
+      "topic-t07",
+      "topic-t13"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t13",
+  "next_topic": "topic-t08",
   "source_complete": true,
   "issues": [
     "Slide 9 retains dated below-but-close-to-2% ECB wording.",
@@ -57,7 +58,7 @@
     "Slide 37 contains a contradictory phrase about secondary-market purchases.",
     "Slide 31 labels declining APP holdings as cumulated purchases."
   ],
-  "updated_at": "2026-11-04T09:43:22Z",
+  "updated_at": "2026-11-04T09:46:33Z",
   "current_stage_status": "S03_in_progress",
   "extraction": {
     "pages": 40,
@@ -77,13 +78,14 @@
   "teaching": {
     "stage": "S03",
     "topics_total": 13,
-    "topics_taught": 10,
-    "last_topic": "topic-t07",
+    "topics_taught": 11,
+    "last_topic": "topic-t13",
     "last_source_ids": [
-      "L030",
-      "L031"
+      "L032",
+      "L033",
+      "L034"
     ],
-    "numerical_calculations": "Illustrative monthly flow: €15bn purchases − €25bn matured without replacement = −€10bn net. Illustrative stock €3,400bn − €10bn = €3,390bn (ignoring valuation/accounting effects). Slide 30 net flow and slide 31 declining holdings separated; caption 'Cumulated Purchases' flagged.",
-    "next_topic": "topic-t13"
+    "numerical_calculations": "Slide 32 axis EUR millions: 9,000,000 million = €9 trillion upper axis (not peak). Slide 33 USD millions: 8,000,000 million = $8 trillion illustrative tick. January 2007 index 100 to hypothetical 300: 3x baseline, +200%. No historical level fabricated.",
+    "next_topic": "topic-t08"
   }
 }
