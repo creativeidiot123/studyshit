@@ -6,6 +6,7 @@ Turn the extracted notes into a clear learning path:
 - Small topics: one main idea each, usually 1-4 slides. Split topics that mix unrelated ideas; merge tiny fragments that cannot stand alone.
 - Order: basics first, then the formulas and applications that build on them. Group scattered references to the same concept.
 - Each topic gets a plain-language title that says what the student can do, and its source IDs.
+- Assign each substantive original slide to exactly one primary topic for a future side-by-side image + annotated explanation walkthrough (linked to L-IDs and original slide numbers). Reserve slide-walkthrough slots without uploading screenshots or writing invented annotation positions. Any repeated references in other topics should link to the primary slide walkthrough instead of duplicating the image. The gallery must not reorder original slide numbers within a topic.
 - Group topics into a few parts with one-sentence part intros, and add a short "How to use these notes" box at the top (read the hook, step through the example, answer the quick checks, tick "Got it", then do the practice).
 - Update the ToC to match.
 
