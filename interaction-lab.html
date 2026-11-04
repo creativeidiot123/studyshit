@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Studyshit | Interactive learning lab</title>
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#213044;background:#f7f9fc;color-scheme:light}
+*{box-sizing:border-box}body{margin:0}.wrap{max-width:980px;margin:auto;padding:26px 18px 70px}header{padding:15px 0 24px}h1{font-size:clamp(1.8rem,4vw,2.6rem);margin:.2em 0}h2{font-size:1.28rem;margin:.2em 0 .65em}p,li{line-height:1.55}small,.muted{color:#58677c}a{color:#1358a8}section{border:1px solid #d6e0ec;background:#fff;border-radius:16px;margin:18px 0;padding:clamp(16px,3vw,27px)}.kicker{text-transform:uppercase;letter-spacing:.11em;font-weight:750;color:#325d98;font-size:.72rem}.example{background:#f1f5fa;border-radius:12px;padding:12px 18px}.example ol{padding-left:24px;margin-bottom:6px}.example li{margin:7px 0}.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}label{display:block;font-weight:650;margin:10px 0 5px}input[type=number]{width:min(100%,260px);padding:11px;border:1px solid #9eafc6;border-radius:9px;font:inherit}input[type=range]{width:100%;accent-color:#125fbb;min-height:32px}button{border-radius:10px;border:1px solid #7e98b8;padding:10px 14px;background:#eaf2fb;color:#183b64;font:inherit;font-weight:650;cursor:pointer;margin:3px}button:hover{background:#d9eafa}button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #ffac46;outline-offset:3px}.feedback{min-height:1.6em;font-weight:600;margin:12px 0}details{background:#f4f7fb;border:1px solid #dbe3ee;border-radius:10px;padding:11px 14px;margin-top:12px}summary{cursor:pointer;font-weight:650}.choice-group{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}.choice-group button[aria-pressed=true]{background:#c5e0ff;border:2px solid #205b9a}.formula{font-variant-numeric:tabular-nums;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere}.model{border:1px solid #dbe3ef;border-radius:12px;padding:13px;background:#f9fbfd}svg{display:block;width:100%;height:auto}.a11y{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.stat{font-size:1.35rem;font-weight:770;font-variant-numeric:tabular-nums}.pill{display:inline-block;border:1px solid #cbdbe9;background:#f1f5fa;border-radius:99px;padding:3px 11px;font-size:.8rem}@media(max-width:710px){.two{grid-template-columns:1fr}}@media print{body{background:white}section{break-inside:avoid}button,input[type=range],.no-print{display:none!important}details>*{display:block!important}details summary{display:none}section{border:1px solid #bbb}.wrap{padding:0}}
+</style>
+</head>
+<body><main class="wrap">
+<header>
+<p class="kicker">Studyshit · Working prototype</p>
+<h1>Less click-through. More actual learning.</h1>
+<p class="muted">One readable worked example, one piece to solve yourself, a live model to experiment with, and an error to diagnose. Finance examples are <strong>ILLUSTRATIVE</strong>, not professor slides. Nothing here needs an account or a network connection.</p>
+<p><a href="./">← Back to study library</a></p>
+</header>
+<section id="worked">
+<p class="kicker">1 · Understand first</p><h2>The whole example, not a click marathon</h2>
+<p>A two-year bond has a €1,000 face value, pays €50 each year, and investors require a 6% annual yield. What price makes sense today?</p>
+<div class="example"><ol>
+<li>The year-one payment is €50, worth <span class="formula">50 / 1.06 = €47.17</span> today.</li>
+<li>At year two, you get the €50 coupon AND the €1,000 principal: <span class="formula">1,050 / (1.06)² = €934.50</span>.</li>
+<li>Add the present values: <span class="formula">€47.17 + €934.50 = €981.67</span> (rounded at the end).</li>
+<li>Because the bond's €50 coupon is below the €60 income you'd want from €1,000 at 6%, it trades below face value.</li>
+</ol></div>
+<p class="muted">Every step stays on screen, with or without JavaScript.</p>
+</section>
+<section id="finish">
+<p class="kicker">2 · Finish it</p><h2>Now do the meaningful bit</h2>
+<p>Same bond, but investors now require <strong>5% annual yield</strong>. What is its new price? Calculate it before checking.</p>
+<label for="price-answer">Your bond price, in €</label>
+<input id="price-answer" type="number" step="any" inputmode="decimal" aria-describedby="price-help">
+<button type="button" id="price-check">Check answer</button>
+<p id="price-help" class="muted">Hint: discount €50 for one year, then €1,050 for two years.</p>
+<p class="feedback" id="price-feedback" role="status" aria-live="polite"></p>
+<details><summary>Show the full answer</summary><p class="formula">50/1.05 + 1050/(1.05)² = 47.6190 + 952.3810 = €1,000.00.</p><p>A 5% coupon rate exactly equals the 5% required yield, so the bond sells at face value.</p></details>
+</section>
+<section id="predict">
+<p class="kicker">3 · Predict → explore → explain</p><h2>Move the yield. Watch the price.</h2>
+<p>For a five-year bond with €50 annual coupons and €1,000 principal, what happens to the price when the required yield rises from 5% to 8%?</p>
+<div class="choice-group" role="group" aria-label="Prediction for a higher yield">
+<button type="button" data-prediction="up" aria-pressed="false">Price rises</button>
+<button type="button" data-prediction="down" aria-pressed="false">Price falls</button>
+<button type="button" data-prediction="same" aria-pressed="false">No change</button>
+</div>
+<p id="prediction-feedback" class="feedback" role="status" aria-live="polite"></p>
+<div class="two">
+<div class="model">
+<label for="yield">Required yield: <output id="yield-label" for="yield">5.0%</output></label>
+<input id="yield" type="range" min="1" max="12" value="5" step=".5">
+<p>Price now: <output class="stat" id="bond-price">€1,000.00</output></p>
+<p id="price-delta">Compared with 5% yield: €0.00</p>
+<button type="button" id="reset-yield">Reset to 5%</button>
+</div>
+<div class="model">
+<svg id="yield-chart" viewBox="0 0 560 260" role="img" aria-label="Bond price falls as required yield increases; curve from yields of one to twelve percent">
+<rect x="1" y="1" width="558" height="258" rx="8" fill="#fff"/>
+<line x1="53" y1="20" x2="53" y2="219" stroke="#75869a" stroke-width="1.5"/>
+<line x1="53" y1="219" x2="533" y2="219" stroke="#75869a" stroke-width="1.5"/>
+<polyline id="yield-curve" fill="none" stroke="#2566ae" stroke-width="3" stroke-linejoin="round" points=""/>
+<circle id="yield-dot" cx="0" cy="0" r="7" fill="#df6938" stroke="#fff" stroke-width="2"/>
+<text x="53" y="14" font-size="14" fill="#40536b">Price (€)</text>
+<text x="430" y="247" font-size="14" fill="#40536b">Yield (%)</text>
+<text x="20" y="50" font-size="12" fill="#40536b">1200</text>
+<text x="20" y="217" font-size="12" fill="#40536b">700</text>
+<text x="48" y="238" font-size="12" fill="#40536b">1</text>
+<text x="520" y="238" font-size="12" fill="#40536b">12</text>
+</svg>
+<small>ILLUSTRATIVE five-year, annual-pay bond. The graph and price use the same present-value calculation.</small>
+</div>
+</div>
+<p id="model-why">At 5% required yield, the €50 coupon matches the required return on €1,000, so price equals face value.</p>
+<details><summary>Why does the curve slope downward?</summary><p>When investors require a higher return, the bond's fixed future payments must be bought for less today. Every future cash flow is divided by a larger discount factor.</p></details>
+</section>
+<section id="spot">
+<p class="kicker">4 · Spot the mistake</p><h2>Which calculation breaks the time-value rule?</h2>
+<p>Return to the two-year 6% bond. A student proposes these price formulas. Which is incorrect <em>because it discounts the year-two cash flow for only one year</em>?</p>
+<div class="choice-group" role="group" aria-label="Find the incorrect bond pricing formula">
+<button type="button" data-error-choice="correct">€50/1.06 + €1,050/(1.06)²</button>
+<button type="button" data-error-choice="wrong">€50/1.06 + €1,050/1.06</button>
+</div>
+<p id="error-feedback" class="feedback" aria-live="polite" role="status"></p>
+<details><summary>See the reasoning</summary><p>The second formula is wrong. The €1,050 comes in two years, so its discount factor must be <span class="formula">(1.06)²</span>. Using just 1.06 overprices the bond by pretending year two is year one.</p></details>
+</section>
+<section id="revisit">
+<p class="kicker">5 · Come back later</p><h2>Review without streak anxiety</h2>
+<p>Save the bond question for tomorrow. You can also retry it right now. Only this browser's local storage is used, and the schedule is a reminder, not a scientifically optimal interval.</p>
+<button type="button" id="review-save">Review tomorrow</button><button type="button" id="review-now">Review now</button><button type="button" id="review-clear">Clear reminder</button>
+<p id="review-status" aria-live="polite" role="status"></p>
+<details><summary>Storage not working?</summary><p>You can still study normally and retry every problem. This optional reminder is not required.</p></details>
+</section>
+<footer><p class="muted">Prototype teaching patterns only. Actual lecture chapters must preserve their source numbers and may only add source-grounded interactions.</p></footer>
+</main>
+<script id="study-js">
+(function(){'use strict';
+const by=id=>document.getElementById(id);
+const money=n=>'€'+n.toLocaleString('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2});
+const twoYear=y=>50/(1+y)+1050/Math.pow(1+y,2);
+const num=by('price-answer'),feedback=by('price-feedback');
+function check(){if(!num.value.trim()||!Number.isFinite(num.valueAsNumber)){feedback.textContent='Enter a price in euros first.';return;}let v=num.valueAsNumber,correct=twoYear(.05),ok=Math.abs(v-correct)<=.02;feedback.textContent=ok?'Correct. €1,000.00: the coupon rate matches the required yield.':'Not quite. Discount the year-one €50 once and year-two €1,050 twice. Then add both present values. Use the hint if needed.';}
+by('price-check').addEventListener('click',check);num.addEventListener('keydown',e=>{if(e.key==='Enter')check()});
+document.querySelectorAll('[data-prediction]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-prediction]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));const right=b.dataset.prediction==='down';by('prediction-feedback').textContent=(right?'Correct. ':'Not quite. ')+'With fixed cash flows, a higher required yield means a lower present value. Try 8% on the slider.';}));
+function bond(y){let p=0;for(let t=1;t<=5;t++)p+=(t===5?1050:50)/Math.pow(1+y,t);return p}
+const base=bond(.05),slider=by('yield');
+function draw(){const rate=Number(slider.value),p=bond(rate/100),delta=p-base;by('yield-label').textContent=rate.toFixed(1)+'%';by('bond-price').textContent=money(p);by('price-delta').textContent='Compared with 5% yield: '+(delta>0?'+':delta<0?'−':'')+money(Math.abs(delta));by('model-why').textContent=rate===5?'At 5% yield, the coupon rate matches the yield, so price equals face value.':(rate>5?'Higher':'Lower')+' yield means '+(rate>5?'larger':'smaller')+' discount factors and a '+(rate>5?'lower':'higher')+' bond price.';
+const x=r=>53+(r-1)/11*480,y=v=>219-(v-700)/550*185;let points=[];for(let r=1;r<=12.001;r+=.25)points.push(x(r).toFixed(2)+','+y(bond(r/100)).toFixed(2));by('yield-curve').setAttribute('points',points.join(' '));by('yield-dot').setAttribute('cx',x(rate));by('yield-dot').setAttribute('cy',y(p));}
+slider.addEventListener('input',draw);by('reset-yield').addEventListener('click',()=>{slider.value=5;draw();slider.focus()});draw();
+document.querySelectorAll('[data-error-choice]').forEach(b=>b.addEventListener('click',()=>{let right=b.dataset.errorChoice==='wrong';by('error-feedback').textContent=right?'Exactly. The year-two €1,050 is wrongly discounted for only one year.':'That one is actually correct: it discounts €50 for one year and €1,050 for two years. Try the other expression.';}));
+const key='studyshit:review:two-year-bond';
+function reviewStatus(){let due=null;try{due=localStorage.getItem(key)}catch(e){}if(!due){by('review-status').textContent='No saved reminder. You can review anytime.';return}let parsed=Date.parse(due);by('review-status').textContent=!Number.isFinite(parsed)?'Saved review timestamp is invalid. Clear to reset.':Date.now()>=parsed?'Your review is due. Use Review now.':'Saved for '+new Date(parsed).toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'})+'.';}
+by('review-save').addEventListener('click',()=>{try{localStorage.setItem(key,new Date(Date.now()+86400000).toISOString());reviewStatus()}catch(e){by('review-status').textContent='Local storage unavailable. Review now still works.'}});
+by('review-now').addEventListener('click',()=>{num.value='';feedback.textContent='';by('finish').scrollIntoView({behavior:'auto'});num.focus()});
+by('review-clear').addEventListener('click',()=>{try{localStorage.removeItem(key)}catch(e){}reviewStatus()});reviewStatus();
+})();
+</script></body></html>
