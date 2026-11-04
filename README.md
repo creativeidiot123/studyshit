@@ -14,6 +14,20 @@ One uploaded lecture deck (plus optional transcript) becomes one versioned, rigo
 
 The read-only independent reviewer is [08-verify-stage.txt](prompts/08-verify-stage.txt). Prompts are standalone .txt files in [prompts/](prompts/). [00-shared.txt](prompts/00-shared.txt) sets the invariant rules.
 
+## GitHub Pages library portal
+
+The repository root `index.html` is the reader portal, and `manage.html` is the owner-operated library editor. Enable GitHub Pages from the `main` branch at `/(root)`, then open `https://creativeidiot123.github.io/studyshit/`.
+
+The portal discovers chapters automatically from `subjects/*/lectures/*/study.html` and reads `portal/catalog.json` for custom subject/chapter display names and ordering. It also provides search, a chapter reader, recent chapters, and light/dark mode. The existing lecture generation stages and state format do not depend on the catalog.
+
+**Editing the library:** Open **Manage** from the portal. Supply a fine-grained GitHub personal access token restricted to this repository with **Contents: Read and write**. The token is used only in this browser tab's memory and is sent to the GitHub API for authorized read/write operations; the project does not save it. Keep it short-lived and revoke it when no longer needed. There is no embedded GitHub token or secret in the public site.
+
+Changes are staged in the editor. **Commit changes to GitHub** creates a single versioned Git commit that updates the catalog and any new/deleted chapter files. A new chapter can be an HTML upload or a starter HTML page. Removing an existing chapter deletes all files in its lecture folder after an explicit typed confirmation; restore them from Git history if needed. The editor also checks for concurrent updates.
+
+**Stability:** Renames change the visible title in `portal/catalog.json`, not the `subjects/.../lectures/...` folder slugs or original lecture HTML headings. This intentionally preserves existing study pipeline paths and source ledgers. Chapters manually created through the editor do not automatically acquire pipeline state or source grounding. Their content should be added separately before treating them as complete lecture notes.
+
+**Privacy:** The repo and GitHub Pages website are public. Do not upload private course materials, transcripts, or sensitive information without the right to publish them.
+
 ## Subject structure
 subjects/<subject-slug>/lectures/<lecture-slug>/study.html
 subjects/<subject-slug>/lectures/<lecture-slug>/state.json
