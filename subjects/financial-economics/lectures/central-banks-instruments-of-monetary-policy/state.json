@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "subject": "financial-economics",
+  "lecture": "central-banks-instruments-of-monetary-policy",
+  "html_path": "subjects/financial-economics/lectures/central-banks-instruments-of-monetary-policy/study.html",
+  "stage": 1,
+  "completed_topics": {
+    "1": [
+      "topic-t01",
+      "topic-t02",
+      "topic-t03",
+      "topic-t04",
+      "topic-t05",
+      "topic-t06",
+      "topic-t07",
+      "topic-t08",
+      "topic-t09"
+    ],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": []
+  },
+  "next_topic": null,
+  "source_complete": true,
+  "issues": [
+    "Slide 9 retains dated below-but-close-to-2% ECB wording.",
+    "Slide 18 states a lower-ranked-country count of 14, whereas slide 17 says 16.",
+    "Slides 25 and 40 label differing MRO rates without a unified as-of date.",
+    "Slide 37 contains a contradictory phrase about secondary-market purchases.",
+    "Slide 31 labels declining APP holdings as cumulated purchases."
+  ],
+  "updated_at": "2026-11-04T10:00:00+01:00",
+  "current_stage_status": "awaiting_independent_verification",
+  "extraction": {
+    "pages": 40,
+    "ledger_records": 40,
+    "topics": 9,
+    "original_uploaded_to_public_repo": false
+  }
+}
