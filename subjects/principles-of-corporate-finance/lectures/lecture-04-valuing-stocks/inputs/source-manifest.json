@@ -123,7 +123,10 @@
       "image_status": "blocked-rights",
       "image_path": null,
       "rights_evidence": null,
-      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository.",
+      "quantitative_details_inspected": true,
+      "extracted_figures_present_in_html": true,
+      "source_ledger_page": "L005"
     },
     {
       "page": 6,
@@ -144,7 +147,10 @@
       "image_status": "blocked-rights",
       "image_path": null,
       "rights_evidence": null,
-      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository.",
+      "quantitative_details_inspected": true,
+      "extracted_figures_present_in_html": true,
+      "source_ledger_page": "L006"
     },
     {
       "page": 7,
@@ -164,7 +170,10 @@
       "image_status": "blocked-rights",
       "image_path": null,
       "rights_evidence": null,
-      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository.",
+      "quantitative_details_inspected": true,
+      "extracted_figures_present_in_html": true,
+      "source_ledger_page": "L007"
     },
     {
       "page": 8,
@@ -184,7 +193,10 @@
       "image_status": "blocked-rights",
       "image_path": null,
       "rights_evidence": null,
-      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository.",
+      "quantitative_details_inspected": true,
+      "extracted_figures_present_in_html": true,
+      "source_ledger_page": "L008"
     },
     {
       "page": 9,
@@ -204,7 +216,10 @@
       "image_status": "blocked-rights",
       "image_path": null,
       "rights_evidence": null,
-      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository.",
+      "quantitative_details_inspected": true,
+      "extracted_figures_present_in_html": true,
+      "source_ledger_page": "L009"
     },
     {
       "page": 10,
@@ -225,7 +240,10 @@
       "image_status": "blocked-rights",
       "image_path": null,
       "rights_evidence": null,
-      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository.",
+      "quantitative_details_inspected": true,
+      "extracted_figures_present_in_html": true,
+      "source_ledger_page": "L010"
     },
     {
       "page": 11,
@@ -245,7 +263,10 @@
       "image_status": "blocked-rights",
       "image_path": null,
       "rights_evidence": null,
-      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository.",
+      "quantitative_details_inspected": true,
+      "extracted_figures_present_in_html": true,
+      "source_ledger_page": "L011"
     },
     {
       "page": 12,
@@ -324,7 +345,10 @@
       "image_status": "blocked-rights",
       "image_path": null,
       "rights_evidence": null,
-      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository.",
+      "quantitative_details_inspected": true,
+      "extracted_figures_present_in_html": true,
+      "source_ledger_page": "L015"
     },
     {
       "page": 16,
@@ -403,7 +427,10 @@
       "image_status": "blocked-rights",
       "image_path": null,
       "rights_evidence": null,
-      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository.",
+      "quantitative_details_inspected": true,
+      "extracted_figures_present_in_html": true,
+      "source_ledger_page": "L019"
     },
     {
       "page": 20,
@@ -1399,5 +1426,9 @@
       "page": 65,
       "issue": "WACC is listed as an objective/key term, but no numerical weighting formula is shown in the supplied lecture."
     }
-  ]
+  ],
+  "source_page_count": 68,
+  "extracted_pages": 68,
+  "original_sha256_verified": true,
+  "audit_note": "S01 repair: source PDF checked against page mapping; screenshot-derived quantitative data restored for slides 5–11, 15 and 19. The PDF is preserved only as a conversation attachment."
 }
