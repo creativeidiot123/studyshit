@@ -110,7 +110,7 @@
       "source_ids": [
         "L005"
       ],
-      "topic_id": "topic-t01",
+      "topic_id": "topic-t11",
       "content_type": "website",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -133,7 +133,7 @@
       "source_ids": [
         "L006"
       ],
-      "topic_id": "topic-t01",
+      "topic_id": "topic-t11",
       "content_type": "website",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -157,7 +157,7 @@
       "source_ids": [
         "L007"
       ],
-      "topic_id": "topic-t01",
+      "topic_id": "topic-t12",
       "content_type": "website",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -180,7 +180,7 @@
       "source_ids": [
         "L008"
       ],
-      "topic_id": "topic-t01",
+      "topic_id": "topic-t12",
       "content_type": "website",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -203,7 +203,7 @@
       "source_ids": [
         "L009"
       ],
-      "topic_id": "topic-t01",
+      "topic_id": "topic-t12",
       "content_type": "website",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -226,7 +226,7 @@
       "source_ids": [
         "L010"
       ],
-      "topic_id": "topic-t01",
+      "topic_id": "topic-t13",
       "content_type": "website",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -250,7 +250,7 @@
       "source_ids": [
         "L011"
       ],
-      "topic_id": "topic-t01",
+      "topic_id": "topic-t13",
       "content_type": "website",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -331,7 +331,7 @@
       "source_ids": [
         "L015"
       ],
-      "topic_id": "topic-t02",
+      "topic_id": "topic-t27",
       "content_type": "table",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -355,7 +355,7 @@
       "source_ids": [
         "L016"
       ],
-      "topic_id": "topic-t02",
+      "topic_id": "topic-t14",
       "content_type": "definition",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -375,7 +375,7 @@
       "source_ids": [
         "L017"
       ],
-      "topic_id": "topic-t02",
+      "topic_id": "topic-t15",
       "content_type": "definition",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -415,7 +415,7 @@
       "source_ids": [
         "L019"
       ],
-      "topic_id": "topic-t03",
+      "topic_id": "topic-t16",
       "content_type": "table",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -437,7 +437,7 @@
       "source_ids": [
         "L020"
       ],
-      "topic_id": "topic-t03",
+      "topic_id": "topic-t16",
       "content_type": "table",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -516,7 +516,7 @@
       "source_ids": [
         "L024"
       ],
-      "topic_id": "topic-t04",
+      "topic_id": "topic-t17",
       "content_type": "formula",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -535,7 +535,7 @@
       "source_ids": [
         "L025"
       ],
-      "topic_id": "topic-t04",
+      "topic_id": "topic-t17",
       "content_type": "example",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -553,7 +553,7 @@
       "source_ids": [
         "L026"
       ],
-      "topic_id": "topic-t04",
+      "topic_id": "topic-t17",
       "content_type": "definition",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -572,7 +572,7 @@
       "source_ids": [
         "L027"
       ],
-      "topic_id": "topic-t04",
+      "topic_id": "topic-t18",
       "content_type": "formula",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -591,7 +591,7 @@
       "source_ids": [
         "L028"
       ],
-      "topic_id": "topic-t04",
+      "topic_id": "topic-t18",
       "content_type": "example",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -610,7 +610,7 @@
       "source_ids": [
         "L029"
       ],
-      "topic_id": "topic-t04",
+      "topic_id": "topic-t18",
       "content_type": "formula",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -629,7 +629,7 @@
       "source_ids": [
         "L030"
       ],
-      "topic_id": "topic-t04",
+      "topic_id": "topic-t18",
       "content_type": "example",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -648,7 +648,7 @@
       "source_ids": [
         "L031"
       ],
-      "topic_id": "topic-t04",
+      "topic_id": "topic-t19",
       "content_type": "table",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -669,7 +669,7 @@
       "source_ids": [
         "L032"
       ],
-      "topic_id": "topic-t04",
+      "topic_id": "topic-t19",
       "content_type": "chart",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -690,7 +690,7 @@
       "source_ids": [
         "L033"
       ],
-      "topic_id": "topic-t04",
+      "topic_id": "topic-t19",
       "content_type": "formula",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -747,7 +747,7 @@
       "source_ids": [
         "L036"
       ],
-      "topic_id": "topic-t05",
+      "topic_id": "topic-t20",
       "content_type": "exercise",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -766,7 +766,7 @@
       "source_ids": [
         "L037"
       ],
-      "topic_id": "topic-t05",
+      "topic_id": "topic-t20",
       "content_type": "example",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -784,7 +784,7 @@
       "source_ids": [
         "L038"
       ],
-      "topic_id": "topic-t05",
+      "topic_id": "topic-t20",
       "content_type": "example",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -863,7 +863,7 @@
       "source_ids": [
         "L042"
       ],
-      "topic_id": "topic-t06",
+      "topic_id": "topic-t21",
       "content_type": "table",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -883,7 +883,7 @@
       "source_ids": [
         "L043"
       ],
-      "topic_id": "topic-t06",
+      "topic_id": "topic-t26",
       "content_type": "warning",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -985,7 +985,7 @@
       "source_ids": [
         "L048"
       ],
-      "topic_id": "topic-t07",
+      "topic_id": "topic-t22",
       "content_type": "exercise",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -1005,7 +1005,7 @@
       "source_ids": [
         "L049"
       ],
-      "topic_id": "topic-t07",
+      "topic_id": "topic-t22",
       "content_type": "example",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -1025,7 +1025,7 @@
       "source_ids": [
         "L050"
       ],
-      "topic_id": "topic-t07",
+      "topic_id": "topic-t22",
       "content_type": "formula",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -1104,7 +1104,7 @@
       "source_ids": [
         "L054"
       ],
-      "topic_id": "topic-t08",
+      "topic_id": "topic-t23",
       "content_type": "formula",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -1124,7 +1124,7 @@
       "source_ids": [
         "L055"
       ],
-      "topic_id": "topic-t08",
+      "topic_id": "topic-t23",
       "content_type": "example",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -1145,7 +1145,7 @@
       "source_ids": [
         "L056"
       ],
-      "topic_id": "topic-t08",
+      "topic_id": "topic-t23",
       "content_type": "example",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -1164,7 +1164,7 @@
       "source_ids": [
         "L057"
       ],
-      "topic_id": "topic-t08",
+      "topic_id": "topic-t24",
       "content_type": "example",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -1185,7 +1185,7 @@
       "source_ids": [
         "L058"
       ],
-      "topic_id": "topic-t08",
+      "topic_id": "topic-t24",
       "content_type": "formula",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -1205,7 +1205,7 @@
       "source_ids": [
         "L059"
       ],
-      "topic_id": "topic-t08",
+      "topic_id": "topic-t24",
       "content_type": "exercise",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -1287,7 +1287,7 @@
       "source_ids": [
         "L063"
       ],
-      "topic_id": "topic-t09",
+      "topic_id": "topic-t25",
       "content_type": "example",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -1307,7 +1307,7 @@
       "source_ids": [
         "L064"
       ],
-      "topic_id": "topic-t09",
+      "topic_id": "topic-t25",
       "content_type": "example",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -1430,5 +1430,265 @@
   "source_page_count": 68,
   "extracted_pages": 68,
   "original_sha256_verified": true,
-  "audit_note": "S01 repair: source PDF checked against page mapping; screenshot-derived quantitative data restored for slides 5–11, 15 and 19. The PDF is preserved only as a conversation attachment."
+  "audit_note": "S01 repair: source PDF checked against page mapping; screenshot-derived quantitative data restored for slides 5–11, 15 and 19. The PDF is preserved only as a conversation attachment.",
+  "s02_topic_map": [
+    {
+      "topic_id": "topic-t01",
+      "title": "Explain why stock valuation starts with market information",
+      "primary_slide_pages": [
+        1,
+        2,
+        3,
+        4,
+        12
+      ],
+      "part": 1
+    },
+    {
+      "topic_id": "topic-t11",
+      "title": "Read an equity index quote and its history",
+      "primary_slide_pages": [
+        5,
+        6
+      ],
+      "part": 1
+    },
+    {
+      "topic_id": "topic-t12",
+      "title": "Find a sector and the underlying stock",
+      "primary_slide_pages": [
+        7,
+        8,
+        9
+      ],
+      "part": 1
+    },
+    {
+      "topic_id": "topic-t13",
+      "title": "Read company profitability and cash-flow tables",
+      "primary_slide_pages": [
+        10,
+        11
+      ],
+      "part": 1
+    },
+    {
+      "topic_id": "topic-t02",
+      "title": "Distinguish primary and secondary stock markets",
+      "primary_slide_pages": [
+        13,
+        14
+      ],
+      "part": 1
+    },
+    {
+      "topic_id": "topic-t27",
+      "title": "Decode a stock quote and its valuation ratios",
+      "primary_slide_pages": [
+        15
+      ],
+      "part": 1
+    },
+    {
+      "topic_id": "topic-t14",
+      "title": "Compare ETFs with buying individual shares",
+      "primary_slide_pages": [
+        16
+      ],
+      "part": 1
+    },
+    {
+      "topic_id": "topic-t15",
+      "title": "Distinguish accounting book value from market value",
+      "primary_slide_pages": [
+        17
+      ],
+      "part": 1
+    },
+    {
+      "topic_id": "topic-t03",
+      "title": "Choose between comparable and intrinsic valuation",
+      "primary_slide_pages": [
+        18
+      ],
+      "part": 2
+    },
+    {
+      "topic_id": "topic-t16",
+      "title": "Compare a share with its valuation peers",
+      "primary_slide_pages": [
+        19,
+        20
+      ],
+      "part": 2
+    },
+    {
+      "topic_id": "topic-t04",
+      "title": "Calculate shareholder return from dividends and capital gains",
+      "primary_slide_pages": [
+        21,
+        22,
+        23
+      ],
+      "part": 2
+    },
+    {
+      "topic_id": "topic-t17",
+      "title": "Price next year's dividend and resale value today",
+      "primary_slide_pages": [
+        24,
+        25,
+        26
+      ],
+      "part": 2
+    },
+    {
+      "topic_id": "topic-t18",
+      "title": "Extend dividend valuation across several years",
+      "primary_slide_pages": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "part": 2
+    },
+    {
+      "topic_id": "topic-t19",
+      "title": "Track dividends versus resale value over long horizons",
+      "primary_slide_pages": [
+        31,
+        32,
+        33
+      ],
+      "part": 2
+    },
+    {
+      "topic_id": "topic-t05",
+      "title": "Price a share under constant dividend growth",
+      "primary_slide_pages": [
+        34,
+        35
+      ],
+      "part": 3
+    },
+    {
+      "topic_id": "topic-t20",
+      "title": "Estimate cost of equity from dividends and growth",
+      "primary_slide_pages": [
+        36,
+        37,
+        38
+      ],
+      "part": 3
+    },
+    {
+      "topic_id": "topic-t06",
+      "title": "Link retained earnings, ROE and dividend growth",
+      "primary_slide_pages": [
+        39,
+        40,
+        41
+      ],
+      "part": 3
+    },
+    {
+      "topic_id": "topic-t21",
+      "title": "Cross-check required returns using comparable-risk companies",
+      "primary_slide_pages": [
+        42
+      ],
+      "part": 3
+    },
+    {
+      "topic_id": "topic-t26",
+      "title": "Spot an unsustainable perpetual growth forecast",
+      "primary_slide_pages": [
+        43
+      ],
+      "part": 3
+    },
+    {
+      "topic_id": "topic-t07",
+      "title": "Value a business with two dividend-growth stages",
+      "primary_slide_pages": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "part": 4
+    },
+    {
+      "topic_id": "topic-t22",
+      "title": "Calculate Phoenix's multistage dividend value",
+      "primary_slide_pages": [
+        48,
+        49,
+        50
+      ],
+      "part": 4
+    },
+    {
+      "topic_id": "topic-t08",
+      "title": "Test whether reinvestment creates shareholder value",
+      "primary_slide_pages": [
+        51,
+        52,
+        53
+      ],
+      "part": 4
+    },
+    {
+      "topic_id": "topic-t23",
+      "title": "Separate no-growth equity value from PVGO",
+      "primary_slide_pages": [
+        54,
+        55,
+        56
+      ],
+      "part": 4
+    },
+    {
+      "topic_id": "topic-t24",
+      "title": "Value growth opportunities and classify growth stocks",
+      "primary_slide_pages": [
+        57,
+        58,
+        59
+      ],
+      "part": 4
+    },
+    {
+      "topic_id": "topic-t09",
+      "title": "Value a company from free cash flow and terminal value",
+      "primary_slide_pages": [
+        60,
+        61,
+        62
+      ],
+      "part": 5
+    },
+    {
+      "topic_id": "topic-t25",
+      "title": "Cross-check enterprise terminal value in three ways",
+      "primary_slide_pages": [
+        63,
+        64
+      ],
+      "part": 5
+    },
+    {
+      "topic_id": "topic-t10",
+      "title": "Revisit the core valuation formulas and reading",
+      "primary_slide_pages": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "part": 5
+    }
+  ],
+  "last_structured_at": "2026-11-09T10:47:44+01:00"
 }
