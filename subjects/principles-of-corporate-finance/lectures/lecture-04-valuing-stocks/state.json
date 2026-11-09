@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "subject": "principles-of-corporate-finance",
+  "lecture": "lecture-04-valuing-stocks",
+  "html_path": "subjects/principles-of-corporate-finance/lectures/lecture-04-valuing-stocks/study.html",
+  "stage": 1,
+  "completed_topics": {
+    "S01": [
+      "topic-t01",
+      "topic-t02",
+      "topic-t03",
+      "topic-t04",
+      "topic-t05",
+      "topic-t06",
+      "topic-t07",
+      "topic-t08",
+      "topic-t09",
+      "topic-t10"
+    ]
+  },
+  "next_topic": null,
+  "source_complete": true,
+  "issues": [
+    "No lecturer transcript supplied; slides are sole primary source.",
+    "Original PDF and slide screenshots not uploaded to public repository without sharing permission.",
+    "WACC appears in objectives and terms, but these slides supply no weighted average formula.",
+    "Review and fact-check source rounding and conceptual cautions in slides 15,17,21,41,57 during S06."
+  ],
+  "updated_at": "2026-11-09T10:01:00+01:00"
+}
