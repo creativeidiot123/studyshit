@@ -6,7 +6,8 @@
   "stage": 2,
   "completed_topics": {
     "3": [
-      "topic-t01"
+      "topic-t01",
+      "topic-t11"
     ],
     "S01": [
       "topic-t01",
@@ -67,10 +68,11 @@
       "topic-t10"
     ],
     "S03": [
-      "topic-t01"
+      "topic-t01",
+      "topic-t11"
     ]
   },
-  "next_topic": "topic-t11",
+  "next_topic": "topic-t12",
   "source_complete": true,
   "issues": [
     "No lecturer transcript supplied; slides are sole primary source.",
@@ -79,7 +81,7 @@
     "Historical screenshot figures restored for slides 5–11, 15, 19; preserve original rounding and audit caveats in slides 15, 17, 21, 41 and 57.",
     "S02 was initiated with an explicit human go-ahead; a separate independent S01 verifier PASS was not evidenced by the manually typed marker."
   ],
-  "updated_at": "2026-11-09T09:53:24Z",
+  "updated_at": "2026-11-09T09:58:34Z",
   "source_page_count": 68,
   "extracted_pages": 68
 }
