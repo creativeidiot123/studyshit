@@ -1,0 +1,1403 @@
+{
+  "schema_version": 1,
+  "source_complete": true,
+  "created_at": "2026-11-09T10:01:00+01:00",
+  "repository_public": true,
+  "lecture": "Lecture 4: Valuing Stocks (Equity Markets)",
+  "subject": "Principles of Corporate Finance",
+  "files": [
+    {
+      "original_filename": "IBF 1 Principles in CF STORY BOOK L4.pdf",
+      "role": "slides",
+      "type": "application/pdf",
+      "page_count": 68,
+      "size_bytes": 3534195,
+      "sha256": "13297da18f039bde192b8f020d4acb611bce808b2a56df56deea76b0f6866a1d",
+      "provenance": "User-uploaded ChatGPT conversation attachment file_00000000f0e4820a8a97bd2ef41c52f6",
+      "attachment_sandbox_path": "/mnt/data/IBF 1 Principles in CF STORY BOOK L4.pdf",
+      "stored_in_repository": false,
+      "storage_note": "Source PDF remains solely in the ChatGPT conversation; not published or copied to public GitHub repository.",
+      "sharing_permission_established": false
+    }
+  ],
+  "transcript": {
+    "available": false,
+    "teacher_speech_invented": false
+  },
+  "screenshot_policy": {
+    "repository_public": true,
+    "permission_to_republish": false,
+    "decision": "Blocked rights: no professor slide screenshots committed or linked",
+    "note": "Rendered locally for inspection; source content in public HTML is paraphrased factual extraction and newly written explanatory annotations."
+  },
+  "slide_inventory": [
+    {
+      "page": 1,
+      "source_ids": [
+        "L001"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "administrative",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Wall Street sign, title and lecturer"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 2,
+      "source_ids": [
+        "L002"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "hook",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Bull/upward movement at center",
+        "AI graphic at upper right"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 3,
+      "source_ids": [
+        "L003"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "transition",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Electronic quotation displays"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 4,
+      "source_ids": [
+        "L004"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "website",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "FT header",
+        "navigation toward Markets/Markets Data"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 5,
+      "source_ids": [
+        "L005"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "website",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Markets/Markets Data navigation",
+        "chart-selection rectangle",
+        "global index table"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 6,
+      "source_ids": [
+        "L006"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "website",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Indices label",
+        "S&P 500 quotation and 1-year/52-week range",
+        "one-year line with trough",
+        "volume bars"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 7,
+      "source_ids": [
+        "L007"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "website",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Sectors & Industries navigation",
+        "ten sector names",
+        "colored percentage changes"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 8,
+      "source_ids": [
+        "L008"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "website",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Equities Screener menu",
+        "Netflix quote circled",
+        "last price/change columns"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 9,
+      "source_ids": [
+        "L009"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "website",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "NFLX:NSQ identifier",
+        "tabs",
+        "historical price chart axes and time"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 10,
+      "source_ids": [
+        "L010"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "website",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Financials tab",
+        "income-statement revenue/net-income charts",
+        "margins",
+        "cash-flow and balance-sheet indicators"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 11,
+      "source_ids": [
+        "L011"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "website",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Selected Financials tab",
+        "income statement 2020–24 table",
+        "Total revenue and Operating income rows"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 12,
+      "source_ids": [
+        "L012"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "objective",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Learning objectives bullet list",
+        "WACC objective",
+        "footstep graphic"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 13,
+      "source_ids": [
+        "L013"
+      ],
+      "topic_id": "topic-t02",
+      "content_type": "definition",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Primary market definition",
+        "secondary market distinction",
+        "ownership definition"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 14,
+      "source_ids": [
+        "L014"
+      ],
+      "topic_id": "topic-t02",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Seven logos in a grouped collage"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 15,
+      "source_ids": [
+        "L015"
+      ],
+      "topic_id": "topic-t02",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Price and daily change",
+        "range/volume/market cap rows",
+        "EPS/P-E/dividend/beta",
+        "inset earnings table"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 16,
+      "source_ids": [
+        "L016"
+      ],
+      "topic_id": "topic-t02",
+      "content_type": "definition",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "ETF bullets",
+        "SPDR definition",
+        "comparison with closed-end mutual funds"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 17,
+      "source_ids": [
+        "L017"
+      ],
+      "topic_id": "topic-t02",
+      "content_type": "definition",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Book value and accounting conventions",
+        "dividend",
+        "P/E",
+        "market-value balance sheet"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 18,
+      "source_ids": [
+        "L018"
+      ],
+      "topic_id": "topic-t03",
+      "content_type": "framework",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Multiples box",
+        "intrinsic valuation box and two subroutes"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 19,
+      "source_ids": [
+        "L019"
+      ],
+      "topic_id": "topic-t03",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Trading-multiple table",
+        "circled comparison values"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 20,
+      "source_ids": [
+        "L020"
+      ],
+      "topic_id": "topic-t03",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Company/stock/P-E/P-B header",
+        "circled target ratios",
+        "peer averages"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 21,
+      "source_ids": [
+        "L021"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Equity approach header",
+        "infinite dividend sum",
+        "variable definitions",
+        "highlighted valuation statement"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 22,
+      "source_ids": [
+        "L022"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Expected return formula below US flag",
+        "numerator dividend and capital gain"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 23,
+      "source_ids": [
+        "L023"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Assumption $100/$110/$5",
+        "fraction calculation =15%"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 24,
+      "source_ids": [
+        "L024"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Single-period PV formula",
+        "dividend and resale price together"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 25,
+      "source_ids": [
+        "L025"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Present-value fraction (5+110)/1.15=100"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 26,
+      "source_ids": [
+        "L026"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "definition",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "List of four names for r",
+        "risk-equivalence footnote"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 27,
+      "source_ids": [
+        "L027"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "P1 recurrence",
+        "P0 substitution and 2-year exponents"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 28,
+      "source_ids": [
+        "L028"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "P1 computation =110",
+        "both P0 approaches =100"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 29,
+      "source_ids": [
+        "L029"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "H-year formula",
+        "terminal price P_H discounted to year 0"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 30,
+      "source_ids": [
+        "L030"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Two cash-flow terms",
+        "$100 conclusion"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 31,
+      "source_ids": [
+        "L031"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Horizon-year column 0–100",
+        "dividend and future price",
+        "PV dividends rising and PV resale price falling",
+        "total 100"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 32,
+      "source_ids": [
+        "L032"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "chart",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Horizontal horizon axis",
+        "vertical $ present value",
+        "dark PV dividend segment",
+        "white PV resale-price segment"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 33,
+      "source_ids": [
+        "L033"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Infinite sum",
+        "lower highlighted 'discounted stream of dividends' statement"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 34,
+      "source_ids": [
+        "L034"
+      ],
+      "topic_id": "topic-t05",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "P0 fraction",
+        "r = dividend yield + growth equation"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 35,
+      "source_ids": [
+        "L035"
+      ],
+      "topic_id": "topic-t05",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Arrows/highlight on g and sensitivity",
+        "pair of related formulas"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 36,
+      "source_ids": [
+        "L036"
+      ],
+      "topic_id": "topic-t05",
+      "content_type": "exercise",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Two problem panels $49.43/$2.00 and 7.7% growth",
+        "workshop question"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 37,
+      "source_ids": [
+        "L037"
+      ],
+      "topic_id": "topic-t05",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Dividend yield fraction 2.00/49.43 and rounded 4.1%"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 38,
+      "source_ids": [
+        "L038"
+      ],
+      "topic_id": "topic-t05",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Dividend-yield-plus-growth formula",
+        "7.7% g",
+        "11.8% cost of equity",
+        "growth sensitivity"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 39,
+      "source_ids": [
+        "L039"
+      ],
+      "topic_id": "topic-t06",
+      "content_type": "definition",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Payout ratio definition",
+        "plowback definition",
+        "future dividend effect"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 40,
+      "source_ids": [
+        "L040"
+      ],
+      "topic_id": "topic-t06",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Plowback calculation",
+        "ROE fraction and 11%"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 41,
+      "source_ids": [
+        "L041"
+      ],
+      "topic_id": "topic-t06",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Growth calculation 4.4%",
+        "dividend yield 4.1% + growth 4.4% = r 8.5%"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 42,
+      "source_ids": [
+        "L042"
+      ],
+      "topic_id": "topic-t06",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Price and annual dividend",
+        "yield and long-run growth columns",
+        "two DCF cost-of-equity columns and average 9.5% versus 8.7%"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 43,
+      "source_ids": [
+        "L043"
+      ],
+      "topic_id": "topic-t06",
+      "content_type": "warning",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "12.5% g question",
+        "2.6% dividend yield",
+        "15.1% result",
+        "railway background"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 44,
+      "source_ids": [
+        "L044"
+      ],
+      "topic_id": "topic-t07",
+      "content_type": "exercise",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "$0.50, $50, 80% and 25% assumptions",
+        "questions about future growth and r"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 45,
+      "source_ids": [
+        "L045"
+      ],
+      "topic_id": "topic-t07",
+      "content_type": "warning",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "0.80×0.25=20%",
+        "r=21%",
+        "'reasonable?' caveat"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 46,
+      "source_ids": [
+        "L046"
+      ],
+      "topic_id": "topic-t07",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Four forecast columns",
+        "year-3 ROE 16% and payout 50% circled",
+        "red outline dividend row",
+        "92% and 8% growth"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 47,
+      "source_ids": [
+        "L047"
+      ],
+      "topic_id": "topic-t07",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Three discounted dividends",
+        "P3=Div4/(r−.08)",
+        "terminal discounted for 3 periods",
+        "r≈9.9%"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 48,
+      "source_ids": [
+        "L048"
+      ],
+      "topic_id": "topic-t07",
+      "content_type": "exercise",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "First three dividends",
+        "year-four dividend",
+        "4% growth and 10% discount rate"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 49,
+      "source_ids": [
+        "L049"
+      ],
+      "topic_id": "topic-t07",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Three annual dividend fractions",
+        "terminal fraction .67/(.10−.04)",
+        "total 9.13"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 50,
+      "source_ids": [
+        "L050"
+      ],
+      "topic_id": "topic-t07",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "General DCF finite horizon equation",
+        "horizon value Div_(H+1)/(r−g)"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 51,
+      "source_ids": [
+        "L051"
+      ],
+      "topic_id": "topic-t08",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Dividend yield/earnings yield equality",
+        "$10 dividend, $100 value, 10% discount"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 52,
+      "source_ids": [
+        "L052"
+      ],
+      "topic_id": "topic-t08",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "$10 investment at year 1",
+        "future $1 perpetuity",
+        "NPV=0"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 53,
+      "source_ids": [
+        "L053"
+      ],
+      "topic_id": "topic-t08",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Rows 5/10/15/20% project returns",
+        "red 10% row",
+        "project NPV and impact on share price",
+        "EPS yield changes"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 54,
+      "source_ids": [
+        "L054"
+      ],
+      "topic_id": "topic-t08",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "PV no-growth earnings term",
+        "PVGO add-on",
+        "earnings-price identity"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 55,
+      "source_ids": [
+        "L055"
+      ],
+      "topic_id": "topic-t08",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Constant-growth $100 formula",
+        "payout 60%",
+        "40%×25%=10%",
+        "no-growth $55.56"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 56,
+      "source_ids": [
+        "L056"
+      ],
+      "topic_id": "topic-t08",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "No-growth $55.56 and growth $100",
+        "PVGO $44.44 difference"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 57,
+      "source_ids": [
+        "L057"
+      ],
+      "topic_id": "topic-t08",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "NPV1 $2.22 circled",
+        "reinvestment $3.33",
+        "ROE 25%",
+        "NPV2 $2.44 circled"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 58,
+      "source_ids": [
+        "L058"
+      ],
+      "topic_id": "topic-t08",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "First PV $55.56",
+        "PVGO $44.44",
+        "share price $100"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 59,
+      "source_ids": [
+        "L059"
+      ],
+      "topic_id": "topic-t08",
+      "content_type": "exercise",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Historic share quote $139",
+        "forward EPS $5.24",
+        "cost equity 8%",
+        "PVGO question"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 60,
+      "source_ids": [
+        "L060"
+      ],
+      "topic_id": "topic-t09",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Ten year columns",
+        "FCF row and circled 1.09 year7",
+        "growth-rate 0.06 circled around year8",
+        "net-investment row"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 61,
+      "source_ids": [
+        "L061"
+      ],
+      "topic_id": "topic-t09",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "FCF definition bullets",
+        "PV free cash flows plus PV horizon value equation"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 62,
+      "source_ids": [
+        "L062"
+      ],
+      "topic_id": "topic-t09",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Terminal calculation 1.09/(.10−.06)",
+        "(1.1)^6 discount",
+        "first six FCF terms",
+        "total 16.3m"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 63,
+      "source_ids": [
+        "L063"
+      ],
+      "topic_id": "topic-t09",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Two side-by-side P-E versus market-book panels",
+        "11×2.18 and 1.5×16.69",
+        "values 14.4m, 15.0m"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 64,
+      "source_ids": [
+        "L064"
+      ],
+      "topic_id": "topic-t09",
+      "content_type": "example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "PV6=earnings7/r if PVGO=0",
+        "present value 12.3m and business 13.2m"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 65,
+      "source_ids": [
+        "L065"
+      ],
+      "topic_id": "topic-t10",
+      "content_type": "recap",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Key-terms vertical list"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 66,
+      "source_ids": [
+        "L066"
+      ],
+      "topic_id": "topic-t10",
+      "content_type": "recap",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Infinite dividend PV formula",
+        "one-period stock-price formula",
+        "equilibrium explanation"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 67,
+      "source_ids": [
+        "L067"
+      ],
+      "topic_id": "topic-t10",
+      "content_type": "recap",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Gordon formula",
+        "dividend yield + growth",
+        "PVGO",
+        "corporate FCF link"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    },
+    {
+      "page": 68,
+      "source_ids": [
+        "L068"
+      ],
+      "topic_id": "topic-t10",
+      "content_type": "bibliography",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Four complete local contact sheets of original 68-page PDF; targeted high-resolution inspection for complex data tables",
+      "key_visible_objects": [
+        "Books list",
+        "Chapter 4 and pages 84–118",
+        "supplementary section"
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No permission supplied to publish copyrighted lecture slide images in public repository."
+    }
+  ],
+  "source_flags": [
+    {
+      "page": 15,
+      "issue": "Historical slide prints 'Market cap (m$) $4.267' with ambiguous unit; interpret only after verifying source unit."
+    },
+    {
+      "page": 17,
+      "issue": "Slide associates book value with liquidation value; accounting book equity does not necessarily equal realized liquidation proceeds."
+    },
+    {
+      "page": 21,
+      "issue": "Introductory valuation principle refers to firm FCF while formula is equity dividends; keep cash-flow definition and discount rate consistent."
+    },
+    {
+      "page": 41,
+      "issue": "Final 8.5% is total required expected return, not 'Dividend Yield' alone; 4.1% is dividend yield."
+    },
+    {
+      "page": 57,
+      "issue": "Second incremental NPV $2.44 is sensitive to rounded $0.83 input: literal displayed numbers produce about $2.42."
+    },
+    {
+      "page": 65,
+      "issue": "WACC is listed as an objective/key term, but no numerical weighting formula is shown in the supplied lecture."
+    }
+  ]
+}
