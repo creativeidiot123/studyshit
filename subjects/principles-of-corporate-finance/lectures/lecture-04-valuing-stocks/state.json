@@ -3,7 +3,7 @@
   "subject": "principles-of-corporate-finance",
   "lecture": "lecture-04-valuing-stocks",
   "html_path": "subjects/principles-of-corporate-finance/lectures/lecture-04-valuing-stocks/study.html",
-  "stage": 2,
+  "stage": 3,
   "completed_topics": {
     "3": [
       "topic-t01",
@@ -31,7 +31,8 @@
       "topic-t23",
       "topic-t24",
       "topic-t09",
-      "topic-t25"
+      "topic-t25",
+      "topic-t10"
     ],
     "S01": [
       "topic-t01",
@@ -117,10 +118,11 @@
       "topic-t23",
       "topic-t24",
       "topic-t09",
-      "topic-t25"
+      "topic-t25",
+      "topic-t10"
     ]
   },
-  "next_topic": "topic-t10",
+  "next_topic": null,
   "source_complete": true,
   "issues": [
     "No lecturer transcript supplied; slides are sole primary source.",
@@ -129,7 +131,7 @@
     "Historical screenshot figures restored for slides 5–11, 15, 19; preserve original rounding and audit caveats in slides 15, 17, 21, 41 and 57.",
     "S02 was initiated with an explicit human go-ahead; a separate independent S01 verifier PASS was not evidenced by the manually typed marker."
   ],
-  "updated_at": "2026-11-10T09:57:19Z",
+  "updated_at": "2026-11-10T10:02:14Z",
   "source_page_count": 68,
   "extracted_pages": 68
 }
