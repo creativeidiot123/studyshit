@@ -108,7 +108,7 @@
       "source_ids": [
         "L005"
       ],
-      "topic_id": "topic-t01",
+      "topic_id": "topic-t13",
       "content_type": "diagram",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -126,7 +126,7 @@
       "source_ids": [
         "L006"
       ],
-      "topic_id": "topic-t01",
+      "topic_id": "topic-t13",
       "content_type": "chart",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -144,7 +144,7 @@
       "source_ids": [
         "L007"
       ],
-      "topic_id": "topic-t01",
+      "topic_id": "topic-t13",
       "content_type": "principles",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -306,7 +306,7 @@
       "source_ids": [
         "L016"
       ],
-      "topic_id": "topic-t05",
+      "topic_id": "topic-t14",
       "content_type": "chart",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
@@ -324,7 +324,7 @@
       "source_ids": [
         "L017"
       ],
-      "topic_id": "topic-t05",
+      "topic_id": "topic-t14",
       "content_type": "rule",
       "rendered_image_available": true,
       "rendered_image_inspected": true,
