@@ -3,7 +3,7 @@
   "subject": "principles-of-corporate-finance",
   "lecture": "lecture-05-1-valuing-projects-npv-and-other-investment-criteria",
   "html_path": "subjects/principles-of-corporate-finance/lectures/lecture-05-1-valuing-projects-npv-and-other-investment-criteria/study.html",
-  "stage": 2,
+  "stage": 3,
   "completed_topics": {
     "1": [
       "topic-t01",
@@ -48,7 +48,8 @@
       "topic-t08",
       "topic-t09",
       "topic-t11",
-      "topic-t10"
+      "topic-t10",
+      "topic-t12"
     ],
     "S01": [
       "topic-t01",
@@ -93,17 +94,18 @@
       "topic-t08",
       "topic-t09",
       "topic-t11",
-      "topic-t10"
+      "topic-t10",
+      "topic-t12"
     ]
   },
-  "next_topic": "topic-t12",
+  "next_topic": null,
   "source_complete": true,
   "issues": [
     "Original slides reviewed, but professor screenshots blocked from publication in the public GitHub repository without sharing permission.",
     "No transcript was provided; only slide-grounded facts are included.",
     "Source fact checks retained for slide 20 multiple-IRR wording, slide 25 reinvestment claim and slide 27 PI optimality qualifier. Slide 24 crossover-marker interpretation was verified and corrected in S01 repair."
   ],
-  "updated_at": "2026-11-16T09:47:49.708Z",
+  "updated_at": "2026-11-16T09:59:51.351Z",
   "source_pages": 32,
   "source_ids": [
     "L001",
