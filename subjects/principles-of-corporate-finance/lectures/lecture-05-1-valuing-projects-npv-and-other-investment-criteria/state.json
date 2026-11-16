@@ -3,7 +3,7 @@
   "subject": "principles-of-corporate-finance",
   "lecture": "lecture-05-1-valuing-projects-npv-and-other-investment-criteria",
   "html_path": "subjects/principles-of-corporate-finance/lectures/lecture-05-1-valuing-projects-npv-and-other-investment-criteria/study.html",
-  "stage": 1,
+  "stage": 2,
   "completed_topics": {
     "1": [
       "topic-t01",
@@ -19,6 +19,22 @@
       "topic-t11",
       "topic-t12"
     ],
+    "2": [
+      "topic-t01",
+      "topic-t13",
+      "topic-t02",
+      "topic-t03",
+      "topic-t04",
+      "topic-t05",
+      "topic-t14",
+      "topic-t06",
+      "topic-t07",
+      "topic-t08",
+      "topic-t09",
+      "topic-t11",
+      "topic-t10",
+      "topic-t12"
+    ],
     "S01": [
       "topic-t01",
       "topic-t02",
@@ -32,6 +48,22 @@
       "topic-t10",
       "topic-t11",
       "topic-t12"
+    ],
+    "S02": [
+      "topic-t01",
+      "topic-t13",
+      "topic-t02",
+      "topic-t03",
+      "topic-t04",
+      "topic-t05",
+      "topic-t14",
+      "topic-t06",
+      "topic-t07",
+      "topic-t08",
+      "topic-t09",
+      "topic-t11",
+      "topic-t10",
+      "topic-t12"
     ]
   },
   "next_topic": "topic-t01",
@@ -41,7 +73,7 @@
     "No transcript was provided; only slide-grounded facts are included.",
     "Source fact checks retained for slide 20 multiple-IRR wording, slide 25 reinvestment claim and slide 27 PI optimality qualifier. Slide 24 crossover-marker interpretation was verified and corrected in S01 repair."
   ],
-  "updated_at": "2026-11-16T07:49:20.293Z",
+  "updated_at": "2026-11-16T07:56:21.490Z",
   "source_pages": 32,
   "source_ids": [
     "L001",
@@ -77,5 +109,22 @@
     "L031",
     "L032"
   ],
-  "topic_count": 12
+  "topic_count": 14,
+  "topic_order": [
+    "topic-t01",
+    "topic-t13",
+    "topic-t02",
+    "topic-t03",
+    "topic-t04",
+    "topic-t05",
+    "topic-t14",
+    "topic-t06",
+    "topic-t07",
+    "topic-t08",
+    "topic-t09",
+    "topic-t11",
+    "topic-t10",
+    "topic-t12"
+  ],
+  "part_count": 4
 }
