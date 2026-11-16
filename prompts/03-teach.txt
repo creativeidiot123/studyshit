@@ -14,7 +14,7 @@ QUANT TEACHING (mandatory for every numerical or equation-bearing topic): Use th
 
 
 Choose at most ONE high-value learning interaction beyond the existing quick check (e.g., numeric completion or scenario choice) per topic. Preserve fully visible numbered worked solutions, and avoid unnecessary JS for straightforward explanation. Use learner-error feedback specific to the actual formula/idea. Do not render a Next step control or hide any solution steps.
-Prose 200-450 words, hard cap 550 (see LIMITS for what counts). Recalculate every number in examples, visuals, quick checks and the calculator; a "Try it" calculator must reproduce the lecturer's example result at its default inputs.
+Prose 200-450 words, hard cap 550 (see LIMITS for what counts). Recalculate every number in examples, visuals, quick checks and the calculator; a "Try it" calculator must reproduce the independently recalculated correct result for the lecturer's example inputs; explicitly flag any discrepancy with the original printed result in a Fact check.
 
 On completion set the topic to data-progress=taught and data-format="compact-v2", record it in state.json completed_topics["3"], persist both files to GitHub and re-fetch them. If more topics still need compact teaching: [[STUDY_STEP_MORE:S03]]. If every source-bearing topic is taught in the compact format: state.stage=3 and [[STUDY_STEP_DONE:S03]]. If blocked: [[STUDY_WAIT_FOR_HUMAN]]. Last line is the marker only.
 INDEPENDENT VERIFIER REPAIR MODE:
