@@ -17,6 +17,12 @@ QUANTITATIVE / CALCULATION-FIRST CONTRACT (apply per TOPIC whenever the sources 
 - Prioritize ONE excellent worked example plus a close numerical variant, a meaningful parameter/sensitivity experiment where helpful, and exam practice. Avoid a forest of equations or repeated examples; never sacrifice the lecturer's original calculations, critical derivations or caveats to hit a prose target. Quant-intensive topics may have more numbered calculation lines, not more filler paragraphs.
 
 
+QUANT PROBLEM-SOLVING & PRESENTATION RULES:
+- Teach FORMULA SELECTION as well as substitution: where the lecture offers similar equations, show the decision cue that distinguishes them (e.g., single cash flow vs annuity, nominal vs effective, sample vs population), then work the selected method. Distinguish any necessary rearrangement from an entirely different formula. Avoid memorizing equations without knowing the conditions for using them.
+- Keep expressions copyable and legible on mobile/print: use semantic inline equations with meaningful superscripts/subscripts, reliable plain-text alternatives or tested native MathML, and label graphs/tables with all units. No unreadable raw LaTeX strings, image-only formulas, ambiguous missing parentheses or unlabelled axes. If native formula rendering is untested, prefer readable HTML/text with explicit grouping rather than decorative notation.
+- Numerical feedback cannot know the student's reasoning from a final number alone. Say a specific misconception is LIKELY only if the entered value actually matches the corresponding incorrect computation within a justified tolerance; otherwise say which steps to review without asserting which one was wrong. Preserve retries and full worked answers. When the answer is numerically equivalent but formatted differently, accept it if the task allows it; keep sign and units logically consistent.
+- Prefer teaching a transferable procedure: identify unknown and givens, select formula and applicable convention, convert inputs, solve, interpret and validate. Distinguish an algebraic identity from a model assumption and an approximation from an exact formula. Do not multiply widgets or prose simply because a lecture is numerically dense.
+
 LEARNING FORMAT (every stage follows this; it overrides any wording elsewhere that asks for more depth):
 Each topic is one <section id="topic-tNN" data-format="compact-v2"> built from these parts, in this order:
 1. Plain title that says what the student can do (for example "Pricing a bond from its cash flows").
