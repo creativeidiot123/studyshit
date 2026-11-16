@@ -456,12 +456,13 @@
       "rendered_image_inspected": true,
       "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
       "key_visible_objects": [
-        "Two declining NPV curves, teal F crossing ~33.3%, red G with 15.6% annotation, crossover near 15%."
+        "Two descending NPV curves: teal Project F crosses the zero-NPV line at 33.3%, red Project G crosses at 20%, and the 15.6% arrow marks their positive-NPV intersection (crossover). Axes: discount rate (%) and NPV ($)."
       ],
       "image_status": "blocked-rights",
       "image_path": null,
       "rights_evidence": null,
-      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository.",
+      "chart_interpretation_note": "The 15.6% arrow labels the point where the F and G NPV curves intersect, not G's IRR. F IRR≈33.3%; G IRR≈20%. Crossover discount rate from slide-23 cash flows is 15.6307%, and NPV for each alternative is approximately +$2,515.78 there."
     },
     {
       "page": 25,
@@ -684,10 +685,6 @@
     {
       "page": 20,
       "note": "Slide heading 'more than one change in sign will lead to multiple IRRs' overstates; correct possibility is multiple or no real IRRs, as slide 31 also says."
-    },
-    {
-      "page": 24,
-      "note": "Graph labels 15.6% for red G and 33.3% for F, inconsistent with slide 23 reporting G≈20% and incremental G−F≈15.6%; preserve slide markings and table separately."
     },
     {
       "page": 25,
