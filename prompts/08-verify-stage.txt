@@ -86,6 +86,8 @@ QUANT-SPECIFIC INDEPENDENT GATES (apply in addition to every stage's hard gates 
 - Never PASS a mathematical check based solely on an earlier agent's asserted verification. Where executable testing is unavailable, report exactly what was checked by independent arithmetic/manual reasoning, what was not checked, and whether the missing evidence prevents a defensible PASS.
 
 
+SECOND-PASS QUANT QUALITY GATE: Inspect at least one question in a quantitative topic where the student must CHOOSE a formula or convention rather than substitute mechanically, if source breadth supports it. Verify a diagnostic wrong-answer message only fires for an independently computed wrong-result signature; no confident step-level diagnosis from arbitrary incorrect numbers. Confirm formula notation retains exponents/subscripts/parentheses and graph units through HTML rendering or structural inspection. Test a valid-domain invariant (reverse substitution, conserved total, or monotonic relation when warranted) and report the values, not merely an "invariant passed" assertion. If a source has only trivial arithmetic, don't manufacture artificial complexity to satisfy this gate.
+
 VERDICT RULES:
 - PASS only if the claimed stage is COMPLETE and verified from the available relevant evidence.
 - FAIL if any substantive required work is missing, stage state is inconsistent, content is demonstrably erroneous, or repository persistence cannot be corroborated despite access.
