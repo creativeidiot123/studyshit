@@ -42,7 +42,7 @@ S03 COMPACT TEACHING:
 - Each topic has: title, hook, 1-4 concept blocks, a fully visible step-by-step worked example where the topic has numbers, a visual where the idea has numbers/time/process/relationship, an instant-feedback quick check with a no-JS fallback, Remember bullets including a "Watch out", and a "Got it" checkbox.
 - Terms are defined inline once; there are no definition lists. Prose is within the 550-word cap per topic (formulas, tables, visuals, example steps, interactive parts and questions do not count). Spot-count the longest-looking topics.
 - Lecturer examples, numbers, notation, formulas, warnings and source IDs remain; condensing must not have dropped source facts.
-- Recalculate a sample of example steps, quick-check answers and any calculator default output; the calculator default must equal the lecturer's example result.
+- Recalculate a sample of example steps, quick-check answers and any calculator default output; the calculator default must equal the independently recalculated correct result for the lecturer's example inputs; a differing lecturer answer requires a Fact check.
 
 S04 VISUALS, TRY-IT AND EXAMPLES:
 - Every substantive slide mapped to the topic has a correctly numbered annotated source-slide walkthrough, with 1-4 visible markers pointing to actual elements and matching readable, concrete side notes; published slide screenshots must match the source, have established public sharing rights and be verified committed assets. Missing screenshots must have a visible, honest placeholder and a manifest reason instead, never a dead link or an AI-fabricated image.
