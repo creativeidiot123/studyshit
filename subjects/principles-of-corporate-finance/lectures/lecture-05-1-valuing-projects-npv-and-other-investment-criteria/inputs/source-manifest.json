@@ -1,0 +1,701 @@
+{
+  "schema_version": 1,
+  "source_complete": true,
+  "created_at": "2026-11-16T08:32:00+01:00",
+  "repository_public": true,
+  "subject": "Principles of Corporate Finance",
+  "lecture": "Lecture 5-1: Valuing Projects, NPV & Other Investment Criteria",
+  "files": [
+    {
+      "original_filename": "IBF 1 Principles in CF STORY BOOK L5a.pdf",
+      "role": "slides",
+      "type": "application/pdf",
+      "page_count": 32,
+      "size_bytes": 1493223,
+      "sha256": "34ae461039a655eb4759ed0705702055ef08b081615fdf1ca2d1d66ae4b0466b",
+      "provenance": "User-uploaded ChatGPT conversation attachment file_00000000dd3c8210af989838b6fc8bff",
+      "attachment_sandbox_path": "/mnt/data/IBF 1 Principles in CF STORY BOOK L5a.pdf",
+      "stored_in_repository": false,
+      "storage_note": "Source PDF remains in this ChatGPT conversation; original copyrighted source bytes are not in public GitHub.",
+      "sharing_permission_established": false
+    }
+  ],
+  "transcript": {
+    "available": false,
+    "teacher_speech_invented": false
+  },
+  "screenshot_policy": {
+    "repository_public": true,
+    "permission_to_republish": false,
+    "decision": "blocked-rights; no slide screenshots copied to public repository",
+    "note": "All 32 slide images were inspected via local PDF render contact sheet; complex tables including slides 23 and 26 inspected at enlarged resolution. No slide asset is published without authorization."
+  },
+  "slide_inventory": [
+    {
+      "page": 1,
+      "source_ids": [
+        "L001"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "administrative",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Cover image: Wall Street sign and exact lecture title."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 2,
+      "source_ids": [
+        "L002"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "objectives",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Four diamond-bullet learning goals beside footprint photograph."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 3,
+      "source_ids": [
+        "L003"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Discounted-cash-flow equation framed under 'The NPV Rule'."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 4,
+      "source_ids": [
+        "L004"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Two-column market-value balance table, $ millions, rejecting versus accepting project X."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 5,
+      "source_ids": [
+        "L005"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "diagram",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Cash box; arrows between Project X, financial manager, shareholder, financial asset; lower alternatives."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 6,
+      "source_ids": [
+        "L006"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "chart",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Horizontal five-bar chart, axis 0–100%, one bar per criterion."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 7,
+      "source_ids": [
+        "L007"
+      ],
+      "topic_id": "topic-t01",
+      "content_type": "principles",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Three numbered statements, highlighted cash-flow/discount-rate wording and additivity equation."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 8,
+      "source_ids": [
+        "L008"
+      ],
+      "topic_id": "topic-t02",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Fraction 'book income / book assets' and three definitional bullets."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 9,
+      "source_ids": [
+        "L009"
+      ],
+      "topic_id": "topic-t03",
+      "content_type": "rule",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Payback heading; definition, acceptance rule and two numbered limitations."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 10,
+      "source_ids": [
+        "L010"
+      ],
+      "topic_id": "topic-t03",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Three-row cash-flow table for A/B/C, columns C0 to C3, decision questions at right."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 11,
+      "source_ids": [
+        "L011"
+      ],
+      "topic_id": "topic-t03",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Same A/B/C cash-flow table plus payback-year and NPV at 10% columns."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 12,
+      "source_ids": [
+        "L012"
+      ],
+      "topic_id": "topic-t04",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Discounted CF table with C0–C3, discounted payback period, NPV(r=10%)."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 13,
+      "source_ids": [
+        "L013"
+      ],
+      "topic_id": "topic-t05",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Three boxed single-period formulas, investment/payoff fraction and zero-NPV equation."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 14,
+      "source_ids": [
+        "L014"
+      ],
+      "topic_id": "topic-t05",
+      "content_type": "formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "General multiperiod NPV=0 equation, T-period cash-flow notation."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 15,
+      "source_ids": [
+        "L015"
+      ],
+      "topic_id": "topic-t05",
+      "content_type": "worked-example",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Two-year cash-flow equation, highlighted 28.08% solution and Excel formula cloud."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 16,
+      "source_ids": [
+        "L016"
+      ],
+      "topic_id": "topic-t05",
+      "content_type": "chart",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Downward-sloping red NPV curve and IRR≈28% x-axis crossing; positive/negative regions."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 17,
+      "source_ids": [
+        "L017"
+      ],
+      "topic_id": "topic-t05",
+      "content_type": "rule",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Centred text stating opportunity cost less than IRR."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 18,
+      "source_ids": [
+        "L018"
+      ],
+      "topic_id": "topic-t06",
+      "content_type": "pitfall-table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Two-row cash-flow table contrasting opposite signs, shared IRR=50%, opposite NPVs at 10%."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 19,
+      "source_ids": [
+        "L019"
+      ],
+      "topic_id": "topic-t07",
+      "content_type": "pitfall-table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Table with C0=-30, C1=10, ellipsis to C9=10, C10=-65; title two discount rates."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 20,
+      "source_ids": [
+        "L020"
+      ],
+      "topic_id": "topic-t07",
+      "content_type": "chart",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Non-monotone inverted-U NPV curve; y-axis approximately -8 to +4 A$bn; x-axis 0–35%."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 21,
+      "source_ids": [
+        "L021"
+      ],
+      "topic_id": "topic-t07",
+      "content_type": "pitfall-table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "One-row table headed cash flows $, IRR None, NPV 10% +339."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 22,
+      "source_ids": [
+        "L022"
+      ],
+      "topic_id": "topic-t08",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Two-project table comparing first expenditure, next-period payoff, IRR and 10% NPV."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 23,
+      "source_ids": [
+        "L023"
+      ],
+      "topic_id": "topic-t08",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Upper E−D incremental table, lower F/G/G−F multi-period cash-flow table with ellipses."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 24,
+      "source_ids": [
+        "L024"
+      ],
+      "topic_id": "topic-t08",
+      "content_type": "chart",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Two declining NPV curves, teal F crossing ~33.3%, red G with 15.6% annotation, crossover near 15%."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 25,
+      "source_ids": [
+        "L025"
+      ],
+      "topic_id": "topic-t09",
+      "content_type": "pitfall-formula",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Constant-discount-rate equation; 'Term Structure Assumption' with stable-rate and reinvestment bullets."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 26,
+      "source_ids": [
+        "L026"
+      ],
+      "topic_id": "topic-t10",
+      "content_type": "table",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "A/B/C/D table: C0,C1,C2, NPV at 10%, PI; large boxed PI fraction."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 27,
+      "source_ids": [
+        "L027"
+      ],
+      "topic_id": "topic-t10",
+      "content_type": "principles",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Three bullet explanation next to circular profit dial graphic."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 28,
+      "source_ids": [
+        "L028"
+      ],
+      "topic_id": "topic-t11",
+      "content_type": "definitions",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Three named categories and one definition beneath each."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 29,
+      "source_ids": [
+        "L029"
+      ],
+      "topic_id": "topic-t12",
+      "content_type": "key-terms",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Eight-item key-term list, no formulas or explanations."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 30,
+      "source_ids": [
+        "L030"
+      ],
+      "topic_id": "topic-t12",
+      "content_type": "summary",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Three paragraph-like bullets with accounting, payback and IRR summary, begins four-pitfall list."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 31,
+      "source_ids": [
+        "L031"
+      ],
+      "topic_id": "topic-t12",
+      "content_type": "summary",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Continuation of four IRR pitfalls and PI/multi-period capital-rationing caution."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    },
+    {
+      "page": 32,
+      "source_ids": [
+        "L032"
+      ],
+      "topic_id": "topic-t12",
+      "content_type": "bibliography",
+      "rendered_image_available": true,
+      "rendered_image_inspected": true,
+      "inspected_via": "Original 32-page PDF; 32-slide visual contact sheet, with additional enlarged inspection of key financial tables",
+      "key_visible_objects": [
+        "Required and supplementary bibliographic entries."
+      ],
+      "image_status": "blocked-rights",
+      "image_path": null,
+      "rights_evidence": null,
+      "blocked_reason": "No authorization to republish professor's original slide screenshots in this public GitHub repository."
+    }
+  ],
+  "source_coverage": {
+    "expected_pages": 32,
+    "covered_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "uncovered_pages": [],
+    "ledger_ids": [
+      "L001",
+      "L002",
+      "L003",
+      "L004",
+      "L005",
+      "L006",
+      "L007",
+      "L008",
+      "L009",
+      "L010",
+      "L011",
+      "L012",
+      "L013",
+      "L014",
+      "L015",
+      "L016",
+      "L017",
+      "L018",
+      "L019",
+      "L020",
+      "L021",
+      "L022",
+      "L023",
+      "L024",
+      "L025",
+      "L026",
+      "L027",
+      "L028",
+      "L029",
+      "L030",
+      "L031",
+      "L032"
+    ]
+  },
+  "known_source_discrepancies": [
+    {
+      "page": 20,
+      "note": "Slide heading 'more than one change in sign will lead to multiple IRRs' overstates; correct possibility is multiple or no real IRRs, as slide 31 also says."
+    },
+    {
+      "page": 24,
+      "note": "Graph labels 15.6% for red G and 33.3% for F, inconsistent with slide 23 reporting G≈20% and incremental G−F≈15.6%; preserve slide markings and table separately."
+    },
+    {
+      "page": 25,
+      "note": "Slide's blanket 'all funds reinvested at IRR' is an interpretive claim, not a mathematical requirement for calculating IRR."
+    },
+    {
+      "page": 27,
+      "note": "Highest weighted average PI only under additional assumptions; multi-period/indivisible allocations require optimization."
+    }
+  ]
+}
