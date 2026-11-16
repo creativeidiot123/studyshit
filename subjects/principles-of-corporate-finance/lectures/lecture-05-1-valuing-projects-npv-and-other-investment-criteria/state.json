@@ -44,7 +44,8 @@
       "topic-t05",
       "topic-t14",
       "topic-t06",
-      "topic-t07"
+      "topic-t07",
+      "topic-t08"
     ],
     "S01": [
       "topic-t01",
@@ -85,17 +86,18 @@
       "topic-t05",
       "topic-t14",
       "topic-t06",
-      "topic-t07"
+      "topic-t07",
+      "topic-t08"
     ]
   },
-  "next_topic": "topic-t08",
+  "next_topic": "topic-t09",
   "source_complete": true,
   "issues": [
     "Original slides reviewed, but professor screenshots blocked from publication in the public GitHub repository without sharing permission.",
     "No transcript was provided; only slide-grounded facts are included.",
     "Source fact checks retained for slide 20 multiple-IRR wording, slide 25 reinvestment claim and slide 27 PI optimality qualifier. Slide 24 crossover-marker interpretation was verified and corrected in S01 repair."
   ],
-  "updated_at": "2026-11-16T09:15:09.568Z",
+  "updated_at": "2026-11-16T09:26:40.504Z",
   "source_pages": 32,
   "source_ids": [
     "L001",
