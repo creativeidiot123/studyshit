@@ -468,10 +468,10 @@
 <p class="hook">What if a project's first-year money needs 5% return, but its second-year money needs 15%?</p>
 <div class="concept-block" data-source-ids="L025">
 <h3>Recognise when one required return is not enough</h3>
-<p>Slide 25 calls this <strong>IRR Pitfall 4: More Than One Cost of Capital</strong>. When a question gives different rates for early and late cash flows, do not compare one IRR with a made-up single required return. Use <strong>NPV</strong> with the correct discount factors for each date. The <strong>term structure</strong> refers here to required rates that differ across the project's life.</p>
+<p>Slide 25 calls this <strong>IRR Pitfall 4: More Than One Cost of Capital</strong>. When early and late cash flows need different required rates, use <strong>NPV</strong> with each date's correct discount factor, not a single-rate IRR comparison. The <strong>term structure</strong> describes those changing rates.</p>
 <p>The lecturer displays the ordinary constant-rate formula. It works when the appropriate discount rate <strong>r</strong> is the same every year:</p>
 <div class="formula" role="math" aria-label="Net present value equals C zero plus C one divided by one plus r plus C two divided by one plus r squared plus C three divided by one plus r cubed and so on">NPV = C<sub>0</sub> + C<sub>1</sub>/(1+r) + C<sub>2</sub>/(1+r)<sup>2</sup> + C<sub>3</sub>/(1+r)<sup>3</sup> + …</div>
-<p><strong>C<sub>0</sub></strong> is cash now, <strong>C<sub>t</sub></strong> is cash at the end of year t, and <strong>r</strong> is an annual decimal rate. All cash amounts use the same currency; rates must exceed −100%. The denominator's power records the number of years, not the amount of cash received.</p>
+<p><strong>C<sub>0</sub></strong> is cash now, <strong>C<sub>t</sub></strong> cash at year t, and <strong>r</strong> the annual decimal rate (greater than −100%). Cash units match; the exponent counts years.</p>
 <div class="quick-check" data-quiz id="check-t09-period-rates"><p><strong>Quick check:</strong> If successive one-year discount rates are 5% and 15%, what is the correct year-2 discount factor?</p><div class="choices">
 <button type="button" data-correct="false" data-feedback="1.15² would treat 15% as the same rate applying to both years. The first year's rate is 5%.">1.15 × 1.15</button>
 <button type="button" data-correct="true" data-feedback="Correct. Apply the 5% rate over year 1, then the 15% rate over year 2: 1.05 × 1.15 = 1.2075.">1.05 × 1.15 = 1.2075</button>
@@ -480,7 +480,7 @@
 </div>
 <div class="concept-block" data-source-ids="L025">
 <h3>Value each year at its own opportunity cost</h3>
-<p><strong>Teaching bridge, ILLUSTRATIVE:</strong> slide 25 has no numeric example. Suppose the relevant rates are <em>successive one-year rates</em>, 5% for year 1 and 15% for year 2. Then a year-2 receipt is discounted through both periods. Do not confuse these with quoted two-year <em>spot rates</em>, which have a different denominator convention.</p>
+<p><strong>Teaching bridge, ILLUSTRATIVE:</strong> slide 25 gives no numbers. Assume <em>successive one-year rates</em>: 5% for year 1, 15% for year 2. Discount a year-2 receipt through both periods. Two-year <em>spot rates</em> use a different convention.</p>
 <div class="formula" role="math" aria-label="NPV for two successive one-year discount rates equals C zero plus C one divided by one plus r one plus C two divided by the product of one plus r one and one plus r two">NPV = C<sub>0</sub> + C<sub>1</sub>/(1+r<sub>1</sub>) + C<sub>2</sub>/[(1+r<sub>1</sub>)(1+r<sub>2</sub>)]</div>
 <div class="example" data-source-ids="L025"><h4>ILLUSTRATIVE two-year investment: full calculation</h4><ol class="calc-spine">
 <li><strong>GIVEN and dates.</strong> C<sub>0</sub> = −€1,000 now (t=0); C<sub>1</sub> = +€600 at the end of year 1; C<sub>2</sub> = +€600 at the end of year 2. Successive one-year opportunity costs: r<sub>1</sub> = 5%, r<sub>2</sub> = 15%.</li>
@@ -520,7 +520,7 @@
 <li><strong>Term Structure Assumption:</strong> the main diamond states that the IRR rule assumes stable discount rates during the project; different early and late opportunity costs make comparison against one fixed rate troublesome.</li>
 <li><strong>Indented claims:</strong> the lecturer writes “Implies all funds reinvested at IRR” and “False assumption.” Preserve this warning, while reading the separate <a href="#t09-fact-check">Fact check</a>: computing IRR does not itself require a reinvestment plan.</li>
 </ol></figcaption></figure>
-<p class="source-note" data-source-ids="L025">Original slide 25 statements and the fixed-rate equation remain in the <a href="#ledger-L025">L025 source ledger</a>. The lecturer's slide screenshot is not published without distribution rights.</p>
+
 <div class="got-it"><label><input type="checkbox" data-got-it aria-label="I understand when to use time-varying discount rates instead of a single IRR comparison">Got it</label></div>
 </section>
 
