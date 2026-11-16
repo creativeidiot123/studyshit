@@ -75,6 +75,17 @@ S07 FINAL PUBLICATION:
 - Source slides have a coherent image + beside-it explanation walkthrough: verify marker-label correspondence and accurate original slide numbers/L-IDs, published image URLs, alt text, and correct mobile stacking. No public lecturer screenshot was published without established rights. If actual photos could not be published, the HTML and manifest clearly reveal that limitation, and the final report does not claim photo inclusion.
 - The final release is a coherent, compact, interactive study chapter, not a corrupted or truncated document.
 
+QUANT-SPECIFIC INDEPENDENT GATES (apply in addition to every stage's hard gates whenever source material contains mathematical/examinable numbers):
+- S01: Compare original formulas, symbols, inputs, indices, numerical results and chart/table units to the ledger; flag unreadable expressions explicitly, and do not treat copied values as independently checked.
+- S02: Confirm that each complete lecturer derivation and worked-calculation chain remains in one coherent teaching path with original inputs, outcomes, L-IDs and necessary prerequisites.
+- S03: For sampled numerical topics inspect all visible calculation-spine components (GIVEN, unit/period conversion, substitute, compute, unit-bearing result, interpretation, sanity check). Independently calculate the sampled result and note the actual inputs and expected output; check original lecturer derivations survived.
+- S04: Independently compute and compare the lecturer-default calculator case plus two other valid cases, including graph values, and inspect handling of an invalid or boundary input when feasible; confirm outputs/feedback do not silently reproduce a known lecturer error.
+- S05: Quant-heavy topics must have at least two distinct numerical/algebraic demands within the 3–5 question cap. Recompute EVERY numeric answer key and review tolerance, units, intermediate steps and specific misconception feedback; quantitative mixed-practice sets must have at least half calculations.
+- S06: Require a concrete source-indexed math audit trail: formulas/results/units/conventions, independently recalculated worked examples, numeric answers and calculator default/two-variant/boundary tests. Check the original evidence rather than trusting "verified" labels; any unresolved material mathematical error blocks a PASS.
+- S07: Formula sheet must match source and taught equations, include critical units/conventions and correct links; previously audited quantitative values and interactions remain intact after final edits.
+- Never PASS a mathematical check based solely on an earlier agent's asserted verification. Where executable testing is unavailable, report exactly what was checked by independent arithmetic/manual reasoning, what was not checked, and whether the missing evidence prevents a defensible PASS.
+
+
 VERDICT RULES:
 - PASS only if the claimed stage is COMPLETE and verified from the available relevant evidence.
 - FAIL if any substantive required work is missing, stage state is inconsistent, content is demonstrably erroneous, or repository persistence cannot be corroborated despite access.
