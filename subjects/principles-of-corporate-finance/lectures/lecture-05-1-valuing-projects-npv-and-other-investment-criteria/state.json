@@ -39,9 +39,9 @@
   "issues": [
     "Original slides reviewed, but professor screenshots blocked from publication in the public GitHub repository without sharing permission.",
     "No transcript was provided; only slide-grounded facts are included.",
-    "Source fact checks retained for slide 20 multiple-IRR wording, slide 24 graph label, slide 25 reinvestment claim and slide 27 PI optimality qualifier."
+    "Source fact checks retained for slide 20 multiple-IRR wording, slide 25 reinvestment claim and slide 27 PI optimality qualifier. Slide 24 crossover-marker interpretation was verified and corrected in S01 repair."
   ],
-  "updated_at": "2026-11-16T08:32:00+01:00",
+  "updated_at": "2026-11-16T07:49:20.293Z",
   "source_pages": 32,
   "source_ids": [
     "L001",
