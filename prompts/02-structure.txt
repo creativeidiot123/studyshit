@@ -10,6 +10,9 @@ Turn the extracted notes into a clear learning path:
 - Group topics into a few parts with one-sentence part intros, and add a short "How to use these notes" box at the top (read the hook, step through the example, answer the quick checks, tick "Got it", then do the practice).
 - Update the ToC to match.
 
+QUANT LEARNING ORDER: If calculation is central, organize prerequisites as quantities/units and timing → intuition → formula/derivation → solved source example → sensitivity/interpretation → practice, without fragmenting one calculation across unrelated topics. Preserve the complete numeric chain (original inputs, intermediate expressions, derivation steps, lecturer output, assumptions, L-IDs) and link related equations coherently. Distinguish a general formula from a special-case approximation or different compounding/sample convention. Do not teach or invent new examples at S02.
+
+
 Preserve the COMPLETE source ledger and one primary teaching location for each L-identifier. Keep original examples, warnings, numbers, formulas, equations, graphs and factual qualifications. When relocating content preserve data-source-ids and stable anchors; only add or rename an anchor when necessary. Mark sections structured.
 
 No teaching prose, external research or questions in this stage. Review every L-identifier against resulting topics. Verify HTML and links; persist and re-fetch study.html then state.json. Set state.stage=2 only when all sections are organized. If too large, checkpoint and use [[STUDY_STEP_MORE:S02]]; otherwise [[STUDY_STEP_DONE:S02]]. If blocked use [[STUDY_WAIT_FOR_HUMAN]]. Terminal marker final standalone line.
