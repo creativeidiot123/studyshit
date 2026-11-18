@@ -72,10 +72,13 @@
       "topic-t04",
       "topic-t13",
       "topic-t05",
-      "topic-t14"
+      "topic-t14",
+      "topic-t15",
+      "topic-t06",
+      "topic-t07"
     ]
   },
-  "next_topic": "topic-t15",
+  "next_topic": "topic-t16",
   "source_complete": true,
   "next_slide": null,
   "extracted_through": 68,
