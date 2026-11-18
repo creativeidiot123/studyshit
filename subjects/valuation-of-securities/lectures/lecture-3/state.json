@@ -4,7 +4,7 @@
   "lecture": "lecture-3",
   "title": "Lecture 3: Valuation of Bonds",
   "html_path": "subjects/valuation-of-securities/lectures/lecture-3/study.html",
-  "stage": 2,
+  "stage": 3,
   "completed_topics": {
     "1": [
       "topic-t01",
@@ -63,14 +63,15 @@
       "topic-t06",
       "topic-t16",
       "topic-t17",
-      "topic-t07"
+      "topic-t07",
+      "topic-t18"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t18",
+  "next_topic": null,
   "source_complete": true,
   "source_pages": 52,
   "source_pages_processed": 52,
