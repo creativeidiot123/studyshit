@@ -15,5 +15,7 @@
     "Full numerical audit pending; source rounding and ambiguities flagged in ledger/build log.",
     "Original PDF and screenshots not published; no verified binary-safe upload."
   ],
-  "updated_at": "2026-11-18"
+  "updated_at": "2026-11-18",
+  "extracted_pages": 68,
+  "source_page_count": 68
 }
