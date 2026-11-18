@@ -66,12 +66,17 @@
       "topic-t07",
       "topic-t18"
     ],
-    "4": [],
+    "4": [
+      "topic-t01",
+      "topic-t08",
+      "topic-t09",
+      "topic-t10"
+    ],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": null,
+  "next_topic": "topic-t02",
   "source_complete": true,
   "source_pages": 52,
   "source_pages_processed": 52,
