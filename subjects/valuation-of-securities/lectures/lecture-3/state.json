@@ -48,14 +48,15 @@
     ],
     "3": [
       "topic-t01",
-      "topic-t08"
+      "topic-t08",
+      "topic-t09"
     ],
     "4": [],
     "5": [],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t09",
+  "next_topic": "topic-t10",
   "source_complete": true,
   "source_pages": 52,
   "source_pages_processed": 52,
