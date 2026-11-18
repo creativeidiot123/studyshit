@@ -26,10 +26,11 @@
       "topic-t17"
     ],
     "3": [
-      "topic-t01"
+      "topic-t01",
+      "topic-t02"
     ]
   },
-  "next_topic": "topic-t02",
+  "next_topic": "topic-t11",
   "source_complete": true,
   "next_slide": null,
   "extracted_through": 68,
