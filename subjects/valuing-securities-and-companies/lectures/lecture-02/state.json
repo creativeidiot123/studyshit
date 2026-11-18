@@ -4,7 +4,7 @@
   "lecture": "lecture-02",
   "title": "Lecture 2: Valuation Principles: NPV, IRR and Cost of Capital",
   "html_path": "subjects/valuing-securities-and-companies/lectures/lecture-02/study.html",
-  "stage": 3,
+  "stage": 4,
   "completed_topics": {
     "1": [
       "t01",
@@ -61,10 +61,11 @@
       "t06",
       "t07",
       "t08",
-      "t09"
+      "t09",
+      "t10"
     ]
   },
-  "next_topic": "t10",
+  "next_topic": null,
   "source_complete": true,
   "source_pages": 41,
   "covered_pages": [
@@ -145,7 +146,7 @@
       "detail": "Corrected three ledger links, explained slide 24 rounded-sum discrepancy, and repaired corrupted dollar amounts across other source notes."
     }
   ],
-  "updated_at": "2026-11-18T01:27:44Z",
+  "updated_at": "2026-11-18T01:30:29Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
