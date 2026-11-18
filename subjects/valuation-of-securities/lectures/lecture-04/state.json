@@ -4,7 +4,7 @@
   "lecture": "lecture-04",
   "title": "Lecture 4: Valuing Stocks (Equity Markets)",
   "html_path": "subjects/valuation-of-securities/lectures/lecture-04/study.html",
-  "stage": 2,
+  "stage": 3,
   "completed_topics": {
     "2": [
       "topic-t01",
@@ -41,10 +41,11 @@
       "topic-t16",
       "topic-t08",
       "topic-t09",
-      "topic-t10"
+      "topic-t10",
+      "topic-t17"
     ]
   },
-  "next_topic": "topic-t17",
+  "next_topic": null,
   "source_complete": true,
   "next_slide": null,
   "extracted_through": 68,
