@@ -206,7 +206,7 @@
       "detail": "Executed actual committed core script in simulated DOM. Chromium rendered representative exact t10 markup/CSS, native solution and A4 print; live whole chapter not fetchable locally (DNS); no full deployment/browser/AI integration test. Source photos remain unpublished."
     }
   ],
-  "updated_at": "2026-11-18T02:03:30Z",
+  "updated_at": "2026-11-18T02:12:36Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
@@ -349,5 +349,6 @@
     40,
     41
   ],
-  "audit_mixed_complete": true
+  "audit_mixed_complete": true,
+  "release_prepared": true
 }
