@@ -63,9 +63,14 @@
       "t08",
       "t09",
       "t10"
+    ],
+    "5": [
+      "t01",
+      "t12",
+      "t11"
     ]
   },
-  "next_topic": null,
+  "next_topic": "t02",
   "source_complete": true,
   "source_pages": 41,
   "covered_pages": [
@@ -147,7 +152,7 @@
     },
     {
       "type": "S04_verifier_repair",
-      "status": "repaired_pending_independent_verification",
+      "status": "verified_repaired",
       "source_ids": [
         "L015",
         "L016",
@@ -161,7 +166,7 @@
       "detail": "Aligned IRR inclusive lower bound with USD cent input; finite-sum annuity and mortgage plus savings recurrence handle all legal nonnegative rates including subnormal rates. Tested actual updater with mock elements and preserved all 13 defaults."
     }
   ],
-  "updated_at": "2026-11-18T01:36:17Z",
+  "updated_at": "2026-11-18T01:39:17Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
