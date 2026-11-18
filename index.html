@@ -145,27 +145,17 @@ noscript a{color:var(--accent);text-decoration:underline}
  </main>
 </div>
 <footer class="footer"><span>Studyshit · A living bookshelf, not another folder graveyard.</span><span>*Mathematically unverified. Chapters live in the public GitHub repository.</span></footer>
-<noscript><p>JavaScript is required for the searchable portal. You can still open the existing chapters directly:</p><ul>
-<li><a href="subjects/financial-economics/lectures/central-banks-instruments-of-monetary-policy/study.html">Central Banks: Instruments of Monetary Policy</a></li>
-<li><a href="subjects/financial-market-decisions/lectures/intro-decision-theory-and-irrational-behavior/study.html">Intro: Decision Theory and Irrational Behavior</a></li>
-<li><a href="subjects/financial-market-decisions/lectures/02-modeling-risk-and-uncertainty/study.html">Modeling Risk and Uncertainty</a></li>
-<li><a href="subjects/principles-of-corporate-finance/lectures/lecture-03-valuation-of-bonds/study.html">Valuation of Bonds</a></li>
-</ul></noscript>
+<noscript><p>JavaScript is required to browse the study library.</p></noscript>
 <script>
 (function(){
 "use strict";
 var REPO="creativeidiot123/studyshit";
 var BRANCH="main";
 var TREE_URL="https://api.github.com/repos/"+REPO+"/git/trees/"+BRANCH+"?recursive=1";
-var FALLBACK=[
-"subjects/financial-economics/lectures/central-banks-instruments-of-monetary-policy/study.html",
-"subjects/financial-market-decisions/lectures/intro-decision-theory-and-irrational-behavior/study.html",
-"subjects/financial-market-decisions/lectures/02-modeling-risk-and-uncertainty/study.html",
-"subjects/principles-of-corporate-finance/lectures/lecture-03-valuation-of-bonds/study.html"
-];
+var FALLBACK=[];
 var PATH_RULE=/^subjects\/[a-z0-9][a-z0-9-]*\/lectures\/[a-z0-9][a-z0-9-]*\/study\.html$/;
 var SUBJECT_LABELS={"financial-economics":"Financial Economics","financial-market-decisions":"Financial Market Decisions","principles-of-corporate-finance":"Principles of Corporate Finance"};
-var CHAPTER_LABELS={"central-banks-instruments-of-monetary-policy":"Central Banks: Instruments of Monetary Policy","intro-decision-theory-and-irrational-behavior":"Intro: Decision Theory and Irrational Behavior","02-modeling-risk-and-uncertainty":"Modeling Risk and Uncertainty","lecture-03-valuation-of-bonds":"Valuation of Bonds"};
+var CHAPTER_LABELS={};
 var PALETTES=[["#148679","#e7f6f0","◈"],["#526bb5","#ecf0ff","⌁"],["#bd7e37","#fff4e5","◇"],["#9571b5","#f4edfb","◎"],["#3184a7","#e7f4fa","✳"]];
 var entries=FALLBACK.map(fromPath);
 var catalog={version:1,subjects:[],chapters:[]};
@@ -184,8 +174,8 @@ function chapterNumber(slug){var match=slug.match(/^(?:lecture-)?(\d+)-/);return
 function sequence(slug){if(slug.indexOf("intro")===0)return 0;var match=slug.match(/^(?:lecture-)?(\d+)-/);return match?Number(match[1]):100}
 function linkFor(path){return "./?read="+encodeURIComponent(path)}
 function node(tag,cls,text){var el=document.createElement(tag);if(cls)el.className=cls;if(text!=null)el.textContent=text;return el}
-function saveRecent(entry){var h=readStore("studyshit_portal_recent",[]).filter(function(item){return item.path!==entry.path});h.unshift({path:entry.path,slug:entry.slug,subject:entry.subject});putStore("studyshit_portal_recent",h.slice(0,6))}
-function renderRecent(){var holder=document.getElementById("recent-list");holder.replaceChildren();var data=readStore("studyshit_portal_recent",[]).filter(function(item){return PATH_RULE.test(item.path)});if(!data.length){holder.appendChild(node("p","quiet","Open a chapter and it will appear here."));return}data.slice(0,4).forEach(function(item){var a=node("a","recent-item");a.href=linkFor(item.path);a.appendChild(node("strong","",getChapter(item.slug,item.path)));a.appendChild(node("span","",getSubject(item.subject)));a.addEventListener("click",function(){saveRecent(item)});holder.appendChild(a)})}
+function saveRecent(entry){var h=readStore("studyshit_portal_recent_v2",[]).filter(function(item){return item.path!==entry.path});h.unshift({path:entry.path,slug:entry.slug,subject:entry.subject});putStore("studyshit_portal_recent_v2",h.slice(0,6))}
+function renderRecent(){var holder=document.getElementById("recent-list");holder.replaceChildren();var data=readStore("studyshit_portal_recent_v2",[]).filter(function(item){return PATH_RULE.test(item.path)});if(!data.length){holder.appendChild(node("p","quiet","Open a chapter and it will appear here."));return}data.slice(0,4).forEach(function(item){var a=node("a","recent-item");a.href=linkFor(item.path);a.appendChild(node("strong","",getChapter(item.slug,item.path)));a.appendChild(node("span","",getSubject(item.subject)));a.addEventListener("click",function(){saveRecent(item)});holder.appendChild(a)})}
 function grouped(){var by={};entries.forEach(function(e){(by[e.subject]||(by[e.subject]=[])).push(e)});catalog.subjects.forEach(function(s){if(!by[s.slug])by[s.slug]=[]});return Object.keys(by).sort(function(a,b){var ai=catalog.subjects.findIndex(function(s){return s.slug===a}),bi=catalog.subjects.findIndex(function(s){return s.slug===b});return (ai<0?100000:ai)-(bi<0?100000:bi)||a.localeCompare(b)}).map(function(k){return {slug:k,chapters:by[k].sort(function(a,b){var ai=catalog.chapters.findIndex(function(c){return c.path===a.path}),bi=catalog.chapters.findIndex(function(c){return c.path===b.path});if(ai>=0&&bi>=0)return ai-bi;if(ai>=0)return -1;if(bi>=0)return 1;return sequence(a.slug)-sequence(b.slug)||a.slug.localeCompare(b.slug,undefined,{numeric:true})})}})}
 function render(){
 var all=grouped(),q=search.value.trim().toLowerCase();
@@ -240,16 +230,16 @@ await loadCatalog();
 var known=catalog.chapters.filter(function(c){return c&&typeof c.path==="string"&&PATH_RULE.test(c.path)}).map(function(c){return c.path});
 var catalogKey=JSON.stringify(catalog);
 if(known.length){entries=known.map(fromPath);sourceNote.textContent="Showing saved library catalog while checking for additional chapters";render()}
-if(!force){try{var cached=JSON.parse(sessionStorage.getItem("studyshit_tree_cache")||"null");if(cached&&cached.catalogKey===catalogKey&&Date.now()-cached.time<5*60*1000&&Array.isArray(cached.paths)){entries=cached.paths.filter(function(p){return PATH_RULE.test(p)}).map(fromPath);sourceNote.textContent="Synced from GitHub · cached for a few minutes";render();updateStages();return}}catch(e){}}
+if(!force){try{var cached=JSON.parse(sessionStorage.getItem("studyshit_tree_cache_v2")||"null");if(cached&&cached.catalogKey===catalogKey&&Date.now()-cached.time<5*60*1000&&Array.isArray(cached.paths)){entries=cached.paths.filter(function(p){return PATH_RULE.test(p)}).map(fromPath);sourceNote.textContent="Synced from GitHub · cached for a few minutes";render();updateStages();return}}catch(e){}}
 sourceNote.textContent="Syncing subjects and chapters from GitHub…";
 try{
 var response=await fetch(TREE_URL,{cache:"no-store"});if(!response.ok)throw new Error("GitHub returned "+response.status);
 var data=await response.json();if(!Array.isArray(data.tree)||data.truncated)throw new Error("Incomplete repository listing");
 var paths=data.tree.filter(function(item){return item.type==="blob"&&PATH_RULE.test(item.path)}).map(function(item){return item.path});
 entries=paths.map(fromPath);
-try{sessionStorage.setItem("studyshit_tree_cache",JSON.stringify({time:Date.now(),catalogKey:catalogKey,paths:paths}))}catch(e){}
+try{sessionStorage.setItem("studyshit_tree_cache_v2",JSON.stringify({time:Date.now(),catalogKey:catalogKey,paths:paths}))}catch(e){}
 sourceNote.textContent="Live from GitHub · new chapters appear automatically";render();updateStages()
-}catch(error){sourceNote.textContent=known.length?"GitHub listing unavailable; showing chapters from your saved GitHub catalog.":"GitHub listing and catalog unavailable; showing the original chapter links.";entries=(known.length?known:FALLBACK).map(fromPath);render();updateStages()}
+}catch(error){sourceNote.textContent=known.length?"GitHub listing unavailable; showing chapters from your saved GitHub catalog.":"GitHub listing unavailable; no saved chapters to show.";entries=(known.length?known:FALLBACK).map(fromPath);render();updateStages()}
 }
 document.getElementById("refresh-button").addEventListener("click",function(){refresh(true)});
 refresh(false);

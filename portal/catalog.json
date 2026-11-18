@@ -14,22 +14,5 @@
       "title": "Valuation of Securities"
     }
   ],
-  "chapters": [
-    {
-      "path": "subjects/financial-economics/lectures/central-banks-instruments-of-monetary-policy/study.html",
-      "title": "Central Banks: Instruments of Monetary Policy"
-    },
-    {
-      "path": "subjects/financial-market-decisions/lectures/intro-decision-theory-and-irrational-behavior/study.html",
-      "title": "Intro: Decision Theory and Irrational Behavior"
-    },
-    {
-      "path": "subjects/financial-market-decisions/lectures/02-modeling-risk-and-uncertainty/study.html",
-      "title": "Modeling Risk and Uncertainty"
-    },
-    {
-      "path": "subjects/principles-of-corporate-finance/lectures/lecture-03-valuation-of-bonds/study.html",
-      "title": "Valuation of Bonds"
-    }
-  ]
+  "chapters": []
 }
