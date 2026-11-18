@@ -48,9 +48,15 @@
       "t08",
       "t09",
       "t10"
+    ],
+    "4": [
+      "t01",
+      "t12",
+      "t11",
+      "t02"
     ]
   },
-  "next_topic": null,
+  "next_topic": "t13",
   "source_complete": true,
   "source_pages": 41,
   "covered_pages": [
@@ -121,7 +127,7 @@
     },
     {
       "type": "S03_verifier_repair",
-      "status": "repaired_pending_independent_verification",
+      "status": "verified_repaired",
       "source_ids": [
         "L006",
         "L007",
@@ -131,7 +137,7 @@
       "detail": "Corrected three ledger links, explained slide 24 rounded-sum discrepancy, and repaired corrupted dollar amounts across other source notes."
     }
   ],
-  "updated_at": "2026-11-18T01:19:01Z",
+  "updated_at": "2026-11-18T01:22:03Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
