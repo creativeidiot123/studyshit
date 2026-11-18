@@ -174,9 +174,19 @@
         "L030"
       ],
       "detail": "Aligned IRR inclusive lower bound with USD cent input; finite-sum annuity and mortgage plus savings recurrence handle all legal nonnegative rates including subnormal rates. Tested actual updater with mock elements and preserved all 13 defaults."
+    },
+    {
+      "type": "S05_verifier_repair",
+      "status": "repaired_pending_independent_verification",
+      "source_ids": [
+        "L033",
+        "L034",
+        "L031"
+      ],
+      "detail": "q-t10-02 first payment at end of year 1, four annual payments, equal positive growth/discount rates, explicit finite sum solution."
     }
   ],
-  "updated_at": "2026-11-18T01:48:43Z",
+  "updated_at": "2026-11-18T01:53:49Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
