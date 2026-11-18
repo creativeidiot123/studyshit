@@ -92,12 +92,15 @@
       "topic-t09",
       "topic-t10",
       "topic-t02",
-      "topic-t11"
+      "topic-t11",
+      "topic-t03",
+      "topic-t12",
+      "topic-t13"
     ],
     "6": [],
     "7": []
   },
-  "next_topic": "topic-t03",
+  "next_topic": "topic-t04",
   "source_complete": true,
   "source_pages": 52,
   "source_pages_processed": 52,
