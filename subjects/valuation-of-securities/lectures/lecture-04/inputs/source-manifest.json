@@ -567,162 +567,198 @@
     },
     {
       "page": 51,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L051"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Two equalities for yield and value.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 52,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L052"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Year-1 investment; perpetual increment and zero NPV.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 53,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L053"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Return rows and highlighted zero-NPV case.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 54,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L054"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Arrows to no-growth part and growth component; earnings-yield formula.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 55,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L055"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Four formulas connecting price, payout, growth and no-growth value.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 56,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L056"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Bracket comparing no-growth and growth prices; boxed difference.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 57,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L057"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Arrows from retained investment to ROE and growth; circled NPV₁ and NPV₂.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 58,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L058"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Three boxed equations; circled NPV₁ numerator.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 59,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L059"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Historical inputs and two open questions.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 60,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L060"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Ten-year financial forecast; highlighted 1.09 FCF and .06 growth.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 61,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L061"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Braces under explicit cash flows and discounted horizon value.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 62,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L062"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Nested horizon formula, year-6 versus year-0 labels and final value.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 63,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L063"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Two side-by-side cross-check formulas.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 64,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L064"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Formula with PVGO zero, earnings year 7, six-year discount.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 65,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L065"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Key terms checklist.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 66,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L066"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Two summary formula boxes and equilibrium mechanism.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 67,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L067"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Three formula boxes and stock-versus-enterprise distinction.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 68,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L068"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Reading list; no substantive graph.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
