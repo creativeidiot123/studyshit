@@ -57,10 +57,14 @@
       "t13",
       "t03",
       "t04",
-      "t05"
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09"
     ]
   },
-  "next_topic": "t06",
+  "next_topic": "t10",
   "source_complete": true,
   "source_pages": 41,
   "covered_pages": [
@@ -141,7 +145,7 @@
       "detail": "Corrected three ledger links, explained slide 24 rounded-sum discrepancy, and repaired corrupted dollar amounts across other source notes."
     }
   ],
-  "updated_at": "2026-11-18T01:25:04Z",
+  "updated_at": "2026-11-18T01:27:44Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
