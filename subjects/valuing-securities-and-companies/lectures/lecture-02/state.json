@@ -144,9 +144,24 @@
         "L024"
       ],
       "detail": "Corrected three ledger links, explained slide 24 rounded-sum discrepancy, and repaired corrupted dollar amounts across other source notes."
+    },
+    {
+      "type": "S04_verifier_repair",
+      "status": "repaired_pending_independent_verification",
+      "source_ids": [
+        "L015",
+        "L016",
+        "L023",
+        "L024",
+        "L025",
+        "L027",
+        "L029",
+        "L030"
+      ],
+      "detail": "Aligned IRR inclusive lower bound with USD cent input; finite-sum annuity and mortgage plus savings recurrence handle all legal nonnegative rates including subnormal rates. Tested actual updater with mock elements and preserved all 13 defaults."
     }
   ],
-  "updated_at": "2026-11-18T01:30:29Z",
+  "updated_at": "2026-11-18T01:36:17Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
