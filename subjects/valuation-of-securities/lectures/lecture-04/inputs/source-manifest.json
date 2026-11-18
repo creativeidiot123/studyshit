@@ -87,7 +87,7 @@
         "L007"
       ],
       "rendered_image_inspected": true,
-      "annotation_targets": "Circled sectors and industries; sector rows and mini charts.",
+      "annotation_targets": "Circled sectors and industries; count columns, sparklines, daily %; fully transcribed at enlarged resolution.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
@@ -237,270 +237,330 @@
     },
     {
       "page": 21,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L021"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Equity approach arrow, summation and symbol labels.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 22,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L022"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Formula numerator dividend and price gain, denominator initial price.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 23,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L023"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Single-period input and return equation.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 24,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L024"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "One-period discount formula.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 25,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L025"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Numerator and discount factor.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 26,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L026"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Equivalent risk class assertion and four synonyms.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 27,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L027"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Arrows from P₁ to substitution; exponent 2.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 28,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L028"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Three boxed formulas and timing discrepancy.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 29,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L029"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Expanded terms and summation, separate terminal price.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 30,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L030"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Two-year exam question and solution.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 31,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L031"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Table groups expected future values versus present values; exact rows for chart.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 32,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L032"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Axes, stacked colors, brackets and year-100 price strip.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 33,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L033"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Red arrow to infinite summation limit.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 34,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L034"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Two boxed formulas.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 35,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L035"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Sensitivity arrows to g in both equations.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 36,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L036"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Two Northwest scenarios.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 37,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L037"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Fraction and percentage answer.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 38,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L038"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Boxed yield-plus-growth result; warning.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 39,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L039"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Payout versus plowback labels.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 40,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L040"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Two ratio formulas.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 41,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L041"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Dashed growth equation and second cost-of-equity result.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 42,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L042"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Table columns and average row; arrows to yield and growth methodology.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 43,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L043"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "g=12.5% question and railroad example.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 44,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L044"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Inputs and repeated questions.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 45,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L045"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "20% and 21% calculations; 'REASONABLE?'.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 46,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L046"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Circled year-3 ROE .16, payout .50; dividend row and 8% growth.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 47,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L047"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Horizon value substitution and circled r=9.9%.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 48,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L048"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Given dividends and rates.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 49,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L049"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Brackets distinguish explicit PV and horizon PV.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
     },
     {
       "page": 50,
-      "source_ids": [],
-      "rendered_image_inspected": false,
-      "annotation_targets": "Pending extraction",
+      "source_ids": [
+        "L050"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "General DCF and horizon formula boxes.",
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
