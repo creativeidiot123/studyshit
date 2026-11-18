@@ -15,7 +15,7 @@
     }
   ],
   "recordings": 0,
-  "rights_permission_evidence": "Study project states permission received to use slides in project; no independent confirmation of unrestricted public redistribution.",
+  "rights_permission_evidence": "User explicitly confirmed permission to publish the original lecture slide screenshots in the public GitHub repository on 2026-11-18, in response to the S07 publication permission question.",
   "slide_images": [
     {
       "page": 1,
@@ -35,9 +35,27 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Seven learning objectives.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-002.webp",
+      "sha": "800f5b99c705798cdd6d50c597336423c48bd79c",
+      "size_bytes": 140834,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 30,
+          "y_percent": 28
+        },
+        {
+          "number": 2,
+          "x_percent": 30,
+          "y_percent": 44
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 3,
@@ -46,9 +64,27 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Three breakout questions; no slide answers.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-003.webp",
+      "sha": "2cd9fca03fa0892bca0f51399773f0d2b8f3bd9b",
+      "size_bytes": 75758,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 49,
+          "y_percent": 35
+        },
+        {
+          "number": 2,
+          "x_percent": 49,
+          "y_percent": 65
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 4,
@@ -57,9 +93,27 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Cash-flow table; dashed arrows link coupon payments and final principal to discounted terms.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-004.webp",
+      "sha": "b705d8c8f772f19c10cfb8cb3baa6537d495c71f",
+      "size_bytes": 100740,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 33,
+          "y_percent": 55
+        },
+        {
+          "number": 2,
+          "x_percent": 33,
+          "y_percent": 67
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 5,
@@ -68,9 +122,27 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Annuity and principal formula; highlighted Excel function. Exact PV €112.1140; components €23.2962 and €88.8178.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-005.webp",
+      "sha": "3fb26f41a6e6ec9363b2abfd4a7104820793cb10",
+      "size_bytes": 84444,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 30,
+          "y_percent": 59
+        },
+        {
+          "number": 2,
+          "x_percent": 87,
+          "y_percent": 74
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 6,
@@ -79,9 +151,32 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Arrows connect y in each discount factor; French case y≈2.4%.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-006.webp",
+      "sha": "a5de365919a60904835a6ba530730aeee6713662",
+      "size_bytes": 74772,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 94,
+          "y_percent": 60
+        },
+        {
+          "number": 2,
+          "x_percent": 50,
+          "y_percent": 65
+        },
+        {
+          "number": 3,
+          "x_percent": 5,
+          "y_percent": 30
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 7,
