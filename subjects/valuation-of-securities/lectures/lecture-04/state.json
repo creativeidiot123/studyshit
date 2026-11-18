@@ -4,7 +4,7 @@
   "lecture": "lecture-04",
   "title": "Lecture 4: Valuing Stocks (Equity Markets)",
   "html_path": "subjects/valuation-of-securities/lectures/lecture-04/study.html",
-  "stage": 5,
+  "stage": 6,
   "completed_topics": {
     "2": [
       "topic-t01",
@@ -108,8 +108,9 @@
   "extracted_through": 68,
   "total_slides": 68,
   "issues": [
-    "Full numerical audit pending; source rounding and ambiguities flagged in ledger/build log.",
-    "Original PDF and screenshots not published; no verified binary-safe upload."
+    "Source rounding and historical input limitations documented in audit ledger.",
+    "Original PDF and screenshots not published; no verified binary-safe upload.",
+    "Full-chapter browser/print/keyboard rendering not independently tested; actual script simulations and representative rendering passed."
   ],
   "updated_at": "2026-11-18",
   "extracted_pages": 68,
@@ -257,13 +258,25 @@
       "L067",
       "L068"
     ],
-    "remaining": [
-      "global structure, prose, actual shared-script event and print/mobile fallback review"
-    ],
+    "remaining": [],
     "limitations": [
       "Historical provider ratios/series lacking denominators or time series cannot be independently reconstructed.",
       "Slide screenshots not published; no verified binary upload.",
-      "Utility sample underlying unrounded inputs, plowback/ROE and multistage forecasts absent; quoted rates retained."
-    ]
+      "Utility sample underlying unrounded inputs, plowback/ROE and multistage forecasts absent; quoted rates retained.",
+      "Full GitHub HTML could not be loaded into local Chromium (DNS); actual inline JS tested using mock DOM, representative copied-content mobile and no-JS print tested in Chromium, not entire render or actual keyboard navigation.",
+      "Optional AI tutor Worker not exercised; flashcards added at S07."
+    ],
+    "global_checks": {
+      "numeric": 61,
+      "quiz": 55,
+      "calculators": 16,
+      "mixed": 10,
+      "sourceWalkthroughs": 65,
+      "prose_max": 381,
+      "script_bytes": 5359,
+      "mock_dom": true,
+      "representative_render": true,
+      "full_chapter_render": false
+    }
   }
 }
