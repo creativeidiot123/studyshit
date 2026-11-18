@@ -176,8 +176,8 @@
     },
     {
       "type": "image",
-      "status": "blocked-rights",
-      "detail": "No public source photos or PDF copied; project use permission only; binary upload unverified."
+      "status": "resolved-published-verified",
+      "detail": "User explicitly authorized public slide publishing; 37 original images (pp. 3–39) committed and verified; four administrative pages included as ledger/overview only; original PDF not copied."
     },
     {
       "type": "S03_verifier_repair",
@@ -224,9 +224,14 @@
       "type": "S07_runtime_limit",
       "status": "disclosed_nonblocking",
       "detail": "Local reproduction of cheat sheet rendered and tested; full live deployment browser and optional AI backend not tested; original photos withheld per manifest. Pending independent S07 verification."
+    },
+    {
+      "type": "post_release_slide_publication",
+      "status": "committed-assets",
+      "detail": "37 published original WebP images; 78 visual callouts. Full live deployment and rendered end-to-end layout not yet verified."
     }
   ],
-  "updated_at": "2026-11-18T02:16:55Z",
+  "updated_at": "2026-11-18T04:21:31Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
@@ -371,5 +376,12 @@
   ],
   "audit_mixed_complete": true,
   "release_prepared": true,
-  "release_checks_complete": true
+  "release_checks_complete": true,
+  "slide_publication": {
+    "requested_at": "2026-11-18T02:27:25Z",
+    "asset_commit": "45583a33a93665712524d744cc5d8c3dbdb85613",
+    "count": 37,
+    "annotation_count": 78,
+    "verified": "Directory readback git blob SHA and byte-size matching local source archive, individual sample binary re-fetch; original renders inspected for callout alignment."
+  }
 }

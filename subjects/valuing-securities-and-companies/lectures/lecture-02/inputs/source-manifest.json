@@ -13,7 +13,7 @@
       "provenance": "ChatGPT conversation attachment",
       "stored_in_repository": false,
       "location": "original remains in conversation",
-      "permission_evidence": "User states permission for slides within Study project; public redistribution not explicitly confirmed."
+      "permission_evidence": "Project permission stated; on 18 Nov 2026 user expressly requested slide publication to public study repository and autonomous upload. Only rendered substantive slide WebP images published; original PDF remains in conversation."
     }
   ],
   "recordings": 0,
@@ -25,8 +25,8 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Title and lecture number",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "not-published-administrative",
+      "image_reason": "Title, objectives, key terms or reference list covered in overview/source ledger. No substantive walkthrough required; not included in the 37-image publication."
     },
     {
       "page": 2,
@@ -35,8 +35,8 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Five learning-objective bullets",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "not-published-administrative",
+      "image_reason": "Title, objectives, key terms or reference list covered in overview/source ledger. No substantive walkthrough required; not included in the 37-image publication."
     },
     {
       "page": 3,
@@ -45,8 +45,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Two green formula boxes",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-003.webp",
+      "git_blob_sha": "5650567e88f3806385c7fedd7e1245f164dbc142",
+      "image_size_bytes": 93858,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 26,
+          "y": 63
+        },
+        {
+          "number": 2,
+          "x": 75,
+          "y": 60
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 4,
@@ -55,8 +74,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Timeline, exponent, two multiplication steps",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-004.webp",
+      "git_blob_sha": "ebc806d02dee8da666c32756fb87e3651ec58ed3",
+      "image_size_bytes": 89698,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 45,
+          "y": 56
+        },
+        {
+          "number": 2,
+          "x": 25,
+          "y": 76
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 5,
@@ -65,8 +103,32 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Rate legend, flat line, steep 15% curve, $265/$673 tags",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-005.webp",
+      "git_blob_sha": "16a7f03657aa0d47085b24021a1dccdd681d1640",
+      "image_size_bytes": 92820,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 3,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 12,
+          "y": 88
+        },
+        {
+          "number": 2,
+          "x": 79,
+          "y": 43
+        },
+        {
+          "number": 3,
+          "x": 94,
+          "y": 56
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 6,
@@ -75,8 +137,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Reversed equation and red discount-rate/factor callouts",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-006.webp",
+      "git_blob_sha": "fc522486158526243388fc90b0cfc770ccb785fa",
+      "image_size_bytes": 83300,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 20,
+          "y": 43
+        },
+        {
+          "number": 2,
+          "x": 84,
+          "y": 80
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 7,
@@ -85,8 +166,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Definition and factor box",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-007.webp",
+      "git_blob_sha": "02b0f27bd82910c0e87e6d48a192c425f02aa2d9",
+      "image_size_bytes": 88566,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 12,
+          "y": 45
+        },
+        {
+          "number": 2,
+          "x": 38,
+          "y": 84
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 8,
@@ -95,8 +195,32 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Axes, descending curves, $38/$15 labels",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-008.webp",
+      "git_blob_sha": "5cc0b1527e44bf6d47fd44fbf7fc8ba0beaa8bb1",
+      "image_size_bytes": 79584,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 3,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 13,
+          "y": 87
+        },
+        {
+          "number": 2,
+          "x": 58,
+          "y": 35
+        },
+        {
+          "number": 3,
+          "x": 96,
+          "y": 70
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 9,
@@ -105,8 +229,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Cost and sale amounts; equal-risk 7% benchmark",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-009.webp",
+      "git_blob_sha": "093b16508a89745b64fecff4ee2938f90a7ffc04",
+      "image_size_bytes": 99808,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 6,
+          "y": 63
+        },
+        {
+          "number": 2,
+          "x": 6,
+          "y": 80
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 10,
@@ -115,8 +258,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "PV and NPV boxes",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-010.webp",
+      "git_blob_sha": "4d4fd8981bd7153c1cd5ada21516e3889731199d",
+      "image_size_bytes": 99638,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 20,
+          "y": 61
+        },
+        {
+          "number": 2,
+          "x": 23,
+          "y": 86
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 11,
@@ -125,8 +287,22 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Two equivalent expressions",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-011.webp",
+      "git_blob_sha": "ae6c75044cfc9d7ecd90030b5377b11f5ea481f2",
+      "image_size_bytes": 60122,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 1,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 19,
+          "y": 57
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 12,
@@ -135,8 +311,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Risk statements and PV fraction",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-012.webp",
+      "git_blob_sha": "c5ba1f8f24758cb94e02f6df0e53975832375191",
+      "image_size_bytes": 70706,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 13,
+          "y": 44
+        },
+        {
+          "number": 2,
+          "x": 26,
+          "y": 68
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 13,
@@ -145,8 +340,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Three rate cases, red 7% highlight",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-013.webp",
+      "git_blob_sha": "fde02a571fd6c4e03771b54db8a5f88af64b46a0",
+      "image_size_bytes": 74154,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 21,
+          "y": 36
+        },
+        {
+          "number": 2,
+          "x": 17,
+          "y": 69
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 14,
@@ -155,8 +369,22 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Red rule and office-building calculation",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-014.webp",
+      "git_blob_sha": "f7a2be09fc1660d6cf356afe20d5da25f4f1afec",
+      "image_size_bytes": 92596,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 1,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 17,
+          "y": 70
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 15,
@@ -165,8 +393,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "IRR rule and profit/investment fraction",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-015.webp",
+      "git_blob_sha": "8184ba2e50556d2677f8f860f767ab9795763ad9",
+      "image_size_bytes": 95896,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 5,
+          "y": 41
+        },
+        {
+          "number": 2,
+          "x": 12,
+          "y": 76
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 16,
@@ -175,8 +422,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Two numbered rules",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-016.webp",
+      "git_blob_sha": "f74305e7e3d7de63fc9919be663564c846036b78",
+      "image_size_bytes": 139840,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 4,
+          "y": 77
+        },
+        {
+          "number": 2,
+          "x": 4,
+          "y": 86
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 17,
@@ -185,8 +451,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "PV sum and red NPV sum box",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-017.webp",
+      "git_blob_sha": "6d3254d68c6c2762f40ef60b0b8aba887edcff71",
+      "image_size_bytes": 66954,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 2,
+          "y": 49
+        },
+        {
+          "number": 2,
+          "x": 27,
+          "y": 70
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 18,
@@ -195,8 +480,32 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Cash-flow arrows, dotted discount arrows, NPV total",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-018.webp",
+      "git_blob_sha": "5553ca8463ac0cfb92352fb588a4d261fe869c0b",
+      "image_size_bytes": 75930,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 3,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 45,
+          "y": 43
+        },
+        {
+          "number": 2,
+          "x": 61,
+          "y": 82
+        },
+        {
+          "number": 3,
+          "x": 45,
+          "y": 91
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 19,
@@ -205,8 +514,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Forever definition and return fraction",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-019.webp",
+      "git_blob_sha": "4ed49b8490d3fdf69106edccb2aede5ec5d9d3bd",
+      "image_size_bytes": 74444,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 5,
+          "y": 49
+        },
+        {
+          "number": 2,
+          "x": 32,
+          "y": 68
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 20,
@@ -215,8 +543,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Ordinary and due formula boxes",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-020.webp",
+      "git_blob_sha": "acdb0f7f1977ecdcad3f1e709c93a9864c089be5",
+      "image_size_bytes": 61814,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 35,
+          "y": 59
+        },
+        {
+          "number": 2,
+          "x": 35,
+          "y": 85
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 21,
@@ -225,8 +572,22 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Annual cash flow and $10bn box",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-021.webp",
+      "git_blob_sha": "b420e6d853b8f79929b14ccd795e3b15903c8ceb",
+      "image_size_bytes": 68042,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 1,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 32,
+          "y": 50
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 22,
@@ -235,8 +596,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Delay factor and −25% annotation",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-022.webp",
+      "git_blob_sha": "82ba67e313df08af12ddcf913d7cc94ebf77de12",
+      "image_size_bytes": 68884,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 24,
+          "y": 55
+        },
+        {
+          "number": 2,
+          "x": 58,
+          "y": 68
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 23,
@@ -245,8 +625,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Payment columns, two perpetuities and difference",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-023.webp",
+      "git_blob_sha": "56962fe96c35e6a4cfda2e837b48b082a945c640",
+      "image_size_bytes": 105898,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 58,
+          "y": 67
+        },
+        {
+          "number": 2,
+          "x": 57,
+          "y": 85
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 24,
@@ -255,8 +654,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Five payment arrows, PV column, shortcut",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-024.webp",
+      "git_blob_sha": "059c252684c49d218ac9737803d117ecce00dedf",
+      "image_size_bytes": 88346,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 38,
+          "y": 39
+        },
+        {
+          "number": 2,
+          "x": 30,
+          "y": 78
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 25,
@@ -265,8 +683,22 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Equivalent expressions and red factor brackets",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-025.webp",
+      "git_blob_sha": "32212ad29e7823648d988249ff95e565fd8f4be8",
+      "image_size_bytes": 59610,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 1,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 40,
+          "y": 72
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 26,
@@ -275,8 +707,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Lottery headline, annuity-factor bracket and result",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-026.webp",
+      "git_blob_sha": "5e9cdaf36fee6b19b53011f83659a22fa0bede41",
+      "image_size_bytes": 72790,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 3,
+          "y": 29
+        },
+        {
+          "number": 2,
+          "x": 40,
+          "y": 50
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 27,
@@ -285,8 +736,32 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Mortgage rearrangement, factor and payment",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-027.webp",
+      "git_blob_sha": "3a9e0c92bb154e6c024eef78dc856881da24d7b4",
+      "image_size_bytes": 122502,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 3,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 17,
+          "y": 57
+        },
+        {
+          "number": 2,
+          "x": 15,
+          "y": 78
+        },
+        {
+          "number": 3,
+          "x": 22,
+          "y": 89
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 28,
@@ -295,8 +770,32 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Six-column amortization table; interest and principal portions",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-028.webp",
+      "git_blob_sha": "3c00ad7a8348fbb39a94f7ecc8697a247721a1f8",
+      "image_size_bytes": 110058,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 3,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 3,
+          "y": 55
+        },
+        {
+          "number": 2,
+          "x": 39,
+          "y": 77
+        },
+        {
+          "number": 3,
+          "x": 95,
+          "y": 94
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 29,
@@ -305,8 +804,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Nested factor/PV/FV braces",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-029.webp",
+      "git_blob_sha": "4cdc964828841191780d70f24dfd7ec3f93ef649",
+      "image_size_bytes": 57570,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 35,
+          "y": 63
+        },
+        {
+          "number": 2,
+          "x": 63,
+          "y": 80
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 30,
@@ -315,8 +833,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Five-year savings formula",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-030.webp",
+      "git_blob_sha": "ee21c4c7d2bff503d55ef9e0151997b106d2669a",
+      "image_size_bytes": 66762,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 3,
+          "y": 28
+        },
+        {
+          "number": 2,
+          "x": 22,
+          "y": 50
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 31,
@@ -325,8 +862,32 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Expanded series, denominator r−g, terminal-value thought bubble",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-031.webp",
+      "git_blob_sha": "5a50d9fb1dfade5c464fb01c787c11de26b646b7",
+      "image_size_bytes": 85888,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 3,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 5,
+          "y": 43
+        },
+        {
+          "number": 2,
+          "x": 23,
+          "y": 80
+        },
+        {
+          "number": 3,
+          "x": 60,
+          "y": 72
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 32,
@@ -335,8 +896,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Growth-adjusted denominator",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-032.webp",
+      "git_blob_sha": "3807849b7cfc2095d1db0b9cb21b57e3b523161f",
+      "image_size_bytes": 66378,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 4,
+          "y": 27
+        },
+        {
+          "number": 2,
+          "x": 27,
+          "y": 47
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 33,
@@ -345,8 +925,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Boxed correct formula and bottom substitution line",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-033.webp",
+      "git_blob_sha": "8a52e4c07a3c15ac386eb8e308cf4b1932057131",
+      "image_size_bytes": 100858,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 4,
+          "y": 43
+        },
+        {
+          "number": 2,
+          "x": 13,
+          "y": 66
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 34,
@@ -355,8 +954,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Two growing streams and shortened stream; right-hand PV boxes",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-034.webp",
+      "git_blob_sha": "8ef52d2d1c8f4d2484ae02e929590bc2bc4204bf",
+      "image_size_bytes": 88724,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 69,
+          "y": 64
+        },
+        {
+          "number": 2,
+          "x": 66,
+          "y": 85
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 35,
@@ -365,8 +983,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Cash-flow date columns and five PV-labelled factor rows",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-035.webp",
+      "git_blob_sha": "db63abac4ac6db4bd9e9544c81dd4c4114f14dab",
+      "image_size_bytes": 69000,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 40,
+          "y": 41
+        },
+        {
+          "number": 2,
+          "x": 70,
+          "y": 67
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 36,
@@ -375,8 +1012,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "EAR and APR definitions",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-036.webp",
+      "git_blob_sha": "5afa4a7074a35493cafc5a6f709cab2b8eb3c0d3",
+      "image_size_bytes": 65522,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 3,
+          "y": 51
+        },
+        {
+          "number": 2,
+          "x": 3,
+          "y": 65
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 37,
@@ -385,8 +1041,32 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Monthly example, general EAR formula, exponential discount box",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-037.webp",
+      "git_blob_sha": "07f3dc80bfdb38c5391b54ad61a489461fe01cb4",
+      "image_size_bytes": 96696,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 3,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 2,
+          "y": 60
+        },
+        {
+          "number": 2,
+          "x": 63,
+          "y": 61
+        },
+        {
+          "number": 3,
+          "x": 31,
+          "y": 87
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 38,
@@ -395,8 +1075,32 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Three numbered conclusions and NPV equation",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-038.webp",
+      "git_blob_sha": "b37ee44040be5a6595c95147a58b738ef08b8c4a",
+      "image_size_bytes": 240982,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 3,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 31,
+          "y": 43
+        },
+        {
+          "number": 2,
+          "x": 31,
+          "y": 65
+        },
+        {
+          "number": 3,
+          "x": 31,
+          "y": 84
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 39,
@@ -405,8 +1109,27 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Capital-market comparison and shortcut bullets",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "published-verified",
+      "image_reason": "User explicitly requested public publication of slides; original rendered WebP committed and Git blob hash verified against local archive.",
+      "image_path": "assets/slides/slide-039.webp",
+      "git_blob_sha": "5afdc165f4d4bbc22e0622769c424996c6d1af2b",
+      "image_size_bytes": 216206,
+      "width": 1600,
+      "height": 1200,
+      "annotation_count": 2,
+      "annotation_positions_percent": [
+        {
+          "number": 1,
+          "x": 31,
+          "y": 33
+        },
+        {
+          "number": 2,
+          "x": 31,
+          "y": 56
+        }
+      ],
+      "annotation_verified": "Visually aligned with actual original slide using percentage-grid render and corresponding existing numbered notes."
     },
     {
       "page": 40,
@@ -415,8 +1138,8 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Key-term list",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "not-published-administrative",
+      "image_reason": "Title, objectives, key terms or reference list covered in overview/source ledger. No substantive walkthrough required; not included in the 37-image publication."
     },
     {
       "page": 41,
@@ -425,8 +1148,15 @@
       ],
       "rendered_image_inspected": true,
       "visual_targets": "Required reading and supplementary references",
-      "image_status": "blocked-rights",
-      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+      "image_status": "not-published-administrative",
+      "image_reason": "Title, objectives, key terms or reference list covered in overview/source ledger. No substantive walkthrough required; not included in the 37-image publication."
     }
-  ]
+  ],
+  "slide_publication": {
+    "requested_at": "2026-11-18T02:27:25Z",
+    "asset_commit": "45583a33a93665712524d744cc5d8c3dbdb85613",
+    "count": 37,
+    "annotation_count": 78,
+    "verified": "Directory readback git blob SHA and byte-size matching local source archive, individual sample binary re-fetch; original renders inspected for callout alignment."
+  }
 }
