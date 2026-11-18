@@ -34,11 +34,28 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Bull graphic and AI logo; question.",
-      "image_status": "unavailable-upload",
-      "image_path": null,
-      "reason": "Project permission to use slides reported; no verified binary-safe publication performed.",
+      "image_status": "published",
+      "image_path": "assets/slides/slide-002.jpg",
+      "reason": "Actual PDF page 2 rendered locally; JPEG Git SHA matched binary transfer.",
       "s04_visual_review": "Re-rendered from original lecture PDF and inspected in S04; no verified binary-safe publication.",
-      "s06_visual_review": "Rendered and visually inspected original PDF in S06 batch 1; source-grounded numbered explanation or title/divider; no screenshot published."
+      "s06_visual_review": "Rendered and visually inspected original PDF in S06 batch 1; source-grounded numbered explanation or title/divider; no screenshot published.",
+      "sha": "88cbe1ef6ce9c57cbbec5069f313161c9b5825a7",
+      "size_bytes": 106573,
+      "width": 1500,
+      "height": 1125,
+      "authorization": "Project user grants permission to use lecture slides; S07 explicitly authorizes original screenshot publication where rights established.",
+      "annotation_markers": [
+        {
+          "n": 1,
+          "x": 12,
+          "y": 9
+        },
+        {
+          "n": 2,
+          "x": 60,
+          "y": 50
+        }
+      ]
     },
     {
       "page": 3,
