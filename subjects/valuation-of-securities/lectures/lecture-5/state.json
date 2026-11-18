@@ -23,7 +23,9 @@
     "Original PDF and slide photos not uploaded; binary transfer unverified.",
     "L020 multiple-IRR headline overgeneralizes; L025 reinvestment assertion needs qualification; L026 D PI denominator unclear; L027/L031 project-ranking and programming qualifications; L029 MIRR only named."
   ],
-  "updated_at": "2026-11-18T00:42:42.810Z",
+  "updated_at": "2026-11-18T00:44:20.571Z",
   "total_slides": 32,
-  "extracted_through": 32
+  "extracted_through": 32,
+  "extracted_pages": 32,
+  "source_page_count": 32
 }
