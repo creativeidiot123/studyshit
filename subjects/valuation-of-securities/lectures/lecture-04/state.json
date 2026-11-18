@@ -86,10 +86,14 @@
       "topic-t01",
       "topic-t02",
       "topic-t11",
-      "topic-t12"
+      "topic-t12",
+      "topic-t03",
+      "topic-t04",
+      "topic-t13",
+      "topic-t05"
     ]
   },
-  "next_topic": "topic-t03",
+  "next_topic": "topic-t14",
   "source_complete": true,
   "next_slide": null,
   "extracted_through": 68,
@@ -192,11 +196,28 @@
       "L015",
       "L016",
       "L017",
-      "L065"
+      "L065",
+      "L018",
+      "L019",
+      "L020",
+      "L021",
+      "L022",
+      "L023",
+      "L024",
+      "L025",
+      "L026",
+      "L027",
+      "L028",
+      "L029",
+      "L030",
+      "L031",
+      "L032",
+      "L033",
+      "L066"
     ],
     "remaining": [
-      "L018–L064",
-      "L066–L068",
+      "L034–L064",
+      "L067–L068",
       "global mixed exam/HTML/browser/print checks"
     ],
     "limitations": [
