@@ -263,7 +263,8 @@
           "image_inspected": true,
           "annotation_targets": "Equation and term-structure bullets",
           "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "reason": "No authenticated binary upload and re-fetch verification performed.",
+          "s04_walkthrough_status": "text-rechecked-image-unavailable"
         },
         {
           "page": 26,
@@ -273,7 +274,8 @@
           "image_inspected": true,
           "annotation_targets": "Four project rows and boxed ratio",
           "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "reason": "No authenticated binary upload and re-fetch verification performed.",
+          "s04_walkthrough_status": "source-image-rechecked-not-published"
         },
         {
           "page": 27,
@@ -283,7 +285,8 @@
           "image_inspected": true,
           "annotation_targets": "Three selection bullets",
           "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "reason": "No authenticated binary upload and re-fetch verification performed.",
+          "s04_walkthrough_status": "source-image-rechecked-not-published"
         },
         {
           "page": 28,
@@ -293,7 +296,8 @@
           "image_inspected": true,
           "annotation_targets": "Three definitions",
           "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "reason": "No authenticated binary upload and re-fetch verification performed.",
+          "s04_walkthrough_status": "text-rechecked-image-unavailable"
         },
         {
           "page": 29,
@@ -303,7 +307,8 @@
           "image_inspected": true,
           "annotation_targets": "Key terms list",
           "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "reason": "No authenticated binary upload and re-fetch verification performed.",
+          "s04_walkthrough_status": "source-image-rechecked-not-published"
         },
         {
           "page": 30,
@@ -323,7 +328,8 @@
           "image_inspected": true,
           "annotation_targets": "Pitfalls 2–4 and rationing summary",
           "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "reason": "No authenticated binary upload and re-fetch verification performed.",
+          "s04_walkthrough_status": "source-image-rechecked-not-published"
         },
         {
           "page": 32,
