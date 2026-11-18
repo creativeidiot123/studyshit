@@ -320,9 +320,27 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Dates imply five years.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-012.webp",
+      "sha": "de9b70c81e339e7e3b8f7bd5cffb23b1917f85c7",
+      "size_bytes": 50364,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 55,
+          "y_percent": 29
+        },
+        {
+          "number": 2,
+          "x_percent": 55,
+          "y_percent": 43
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 13,
@@ -331,9 +349,27 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Five coupon/principal terms and overlaid Yen231. Recomputed 5-year ¥230.72984; 4-year ¥225.11268 if exactly four periods; retain both source date versions, not ¥243.57 as correct.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-013.webp",
+      "sha": "4e9f25f22e1e9483c6c6e3ce9c54c316ff5ebe58",
+      "size_bytes": 69832,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 8,
+          "y_percent": 30
+        },
+        {
+          "number": 2,
+          "x_percent": 89,
+          "y_percent": 58
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 14,
@@ -342,9 +378,27 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Prompt over Federal Reserve image; rate per half-year, not annual.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-014.webp",
+      "sha": "e618bc8675c31efe0df96465111d812842715b76",
+      "size_bytes": 120354,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 61,
+          "y_percent": 5
+        },
+        {
+          "number": 2,
+          "x_percent": 54,
+          "y_percent": 36
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 15,
@@ -353,9 +407,27 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Six half-year terms; recomputed $1,331.41335, $1,331.41 rounded; underlying amount differs by 1 cent, overlay incorrect.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-015.webp",
+      "sha": "6320d1f8fc7a8805b5abe6399ee65cdc2dc7d63f",
+      "size_bytes": 115508,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 19,
+          "y_percent": 50
+        },
+        {
+          "number": 2,
+          "x_percent": 92,
+          "y_percent": 47
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 16,
@@ -364,9 +436,32 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Three upward curves; roughly 4.0–4.1% at 1M and 5.4–5.7% at 30Y; week-ago line highest at long end. Historical screenshot; approximate visual readings only.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-016.webp",
+      "sha": "41cb965d61529d393fc7132d584febdd36b2e872",
+      "size_bytes": 108160,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 54,
+          "y_percent": 87
+        },
+        {
+          "number": 2,
+          "x_percent": 84,
+          "y_percent": 64
+        },
+        {
+          "number": 3,
+          "x_percent": 29,
+          "y_percent": 9
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 17,
