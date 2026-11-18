@@ -40,10 +40,11 @@
       "topic-t07",
       "topic-t16",
       "topic-t08",
-      "topic-t09"
+      "topic-t09",
+      "topic-t10"
     ]
   },
-  "next_topic": "topic-t10",
+  "next_topic": "topic-t17",
   "source_complete": true,
   "next_slide": null,
   "extracted_through": 68,
