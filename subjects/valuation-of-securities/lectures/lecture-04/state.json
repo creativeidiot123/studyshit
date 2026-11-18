@@ -4,17 +4,16 @@
   "lecture": "lecture-04",
   "title": "Lecture 4: Valuing Stocks (Equity Markets)",
   "html_path": "subjects/valuation-of-securities/lectures/lecture-04/study.html",
-  "stage": 0,
+  "stage": 1,
   "completed_topics": {},
-  "next_topic": null,
-  "source_complete": false,
-  "next_slide": 51,
-  "extracted_through": 50,
+  "next_topic": "topic-t01",
+  "source_complete": true,
+  "next_slide": null,
+  "extracted_through": 68,
   "total_slides": 68,
   "issues": [
-    "Numerical verification pending.",
-    "Slide images not uploaded; verified binary publication pending.",
-    "Slides 51–68 remain; full numerical audit pending."
+    "Full numerical audit pending; source rounding and ambiguities flagged in ledger/build log.",
+    "Original PDF and screenshots not published; no verified binary-safe upload."
   ],
   "updated_at": "2026-11-18"
 }
