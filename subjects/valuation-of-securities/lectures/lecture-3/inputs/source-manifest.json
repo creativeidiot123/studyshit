@@ -185,9 +185,22 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Boxed general cash-flow formula.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-007.webp",
+      "sha": "ceffd0d75c753d82b6e6aad2f83486a4ba13da0f",
+      "size_bytes": 40602,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 80,
+          "y_percent": 53
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 8,
@@ -196,9 +209,27 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Summation bounds, variable labels; constant YTM discounting.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-008.webp",
+      "sha": "6efa62fee4a7725bb9d475a27e0822f709195da0",
+      "size_bytes": 71118,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 24,
+          "y_percent": 60
+        },
+        {
+          "number": 2,
+          "x_percent": 4,
+          "y_percent": 79
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 9,
@@ -207,9 +238,22 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Boxed shortcut; level coupons.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-009.webp",
+      "sha": "d76fb157233bab40ddb11728cea13b1d6c1d2ea4",
+      "size_bytes": 59422,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 47,
+          "y_percent": 64
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 10,
@@ -218,9 +262,27 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Coupon, face, dates, rating and discount yield in prompt.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-010.webp",
+      "sha": "2fdf0b747947e9d7dcb58891dc33637ab84d1578",
+      "size_bytes": 47284,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 53,
+          "y_percent": 35
+        },
+        {
+          "number": 2,
+          "x_percent": 53,
+          "y_percent": 51
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 11,
@@ -229,9 +291,27 @@
       ],
       "rendered_image_inspected": true,
       "annotation_targets": "Five discount terms; verified $1,161.835396.",
-      "image_status": "unavailable-upload",
-      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
-      "substantive": true
+      "image_status": "published",
+      "image_reason": "Authorized original PDF page rendered locally and committed; base64 re-fetched with matching Git SHA and byte size.",
+      "substantive": true,
+      "asset_path": "assets/slides/slide-011.webp",
+      "sha": "b14374fafde6be58ae51767f18271336d278d731",
+      "size_bytes": 62960,
+      "width": 1400,
+      "height": 1050,
+      "annotation_positions": [
+        {
+          "number": 1,
+          "x_percent": 61,
+          "y_percent": 52
+        },
+        {
+          "number": 2,
+          "x_percent": 86,
+          "y_percent": 64
+        }
+      ],
+      "authorization": "User confirmed public screenshot publication 2026-11-18"
     },
     {
       "page": 12,
