@@ -3,7 +3,7 @@
   "subject": "valuation-of-securities",
   "lecture": "lecture-5",
   "html_path": "subjects/valuation-of-securities/lectures/lecture-5/study.html",
-  "stage": 6,
+  "stage": 7,
   "completed_topics": {
     "3": [
       "t01",
@@ -42,6 +42,18 @@
       "t09"
     ],
     "6": [
+      "t01",
+      "t10",
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09"
+    ],
+    "7": [
       "t01",
       "t10",
       "t02",
@@ -123,6 +135,18 @@
       "t07",
       "t08",
       "t09"
+    ],
+    "S07": [
+      "t01",
+      "t10",
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09"
     ]
   },
   "next_topic": null,
@@ -132,7 +156,7 @@
     "L020 multiple-IRR headline overgeneralizes; L025 reinvestment assertion needs qualification; L026 D PI denominator unclear; L027/L031 project-ranking and programming qualifications; L029 MIRR only named.",
     "Real browser/mobile/print rendering not performed; local environment cannot retrieve committed HTML. Structural and simulated DOM tests passed."
   ],
-  "updated_at": "2026-11-18T01:52:28.179Z",
+  "updated_at": "2026-11-18T01:59:22.261Z",
   "total_slides": 32,
   "extracted_through": 32,
   "extracted_pages": 32,
@@ -260,5 +284,17 @@
         "t09": 397
       }
     }
+  },
+  "release": {
+    "status": "committed-pending-independent-verification",
+    "html_path": "subjects/valuation-of-securities/lectures/lecture-5/study.html",
+    "formula_rows": 11,
+    "flashcards": 22,
+    "takeaways": 10,
+    "numeric_keys_rechecked": 37,
+    "calculator_defaults_rechecked": 9,
+    "script_bytes": 7187,
+    "original_slide_images_published": 0,
+    "rendered_browser_test": false
   }
 }
