@@ -30,7 +30,7 @@
           "image_height": 810,
           "annotation_count": 0,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 2,
@@ -47,7 +47,7 @@
           "image_height": 810,
           "annotation_count": 1,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 3,
@@ -64,7 +64,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 4,
@@ -81,7 +81,7 @@
           "image_height": 810,
           "annotation_count": 3,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 5,
@@ -98,7 +98,7 @@
           "image_height": 810,
           "annotation_count": 3,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 6,
@@ -115,7 +115,7 @@
           "image_height": 810,
           "annotation_count": 3,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 7,
@@ -132,7 +132,7 @@
           "image_height": 810,
           "annotation_count": 3,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 8,
@@ -149,7 +149,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 9,
@@ -166,7 +166,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 10,
@@ -183,7 +183,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 11,
@@ -200,7 +200,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 12,
@@ -217,7 +217,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 13,
@@ -234,7 +234,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 14,
@@ -251,7 +251,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 15,
@@ -268,7 +268,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 16,
@@ -285,7 +285,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 17,
@@ -302,7 +302,7 @@
           "image_height": 810,
           "annotation_count": 1,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 18,
@@ -319,7 +319,7 @@
           "image_height": 810,
           "annotation_count": 3,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 19,
@@ -336,7 +336,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 20,
@@ -353,7 +353,7 @@
           "image_height": 810,
           "annotation_count": 3,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 21,
@@ -370,7 +370,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 22,
@@ -387,7 +387,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 23,
@@ -404,7 +404,7 @@
           "image_height": 810,
           "annotation_count": 3,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 24,
@@ -421,7 +421,7 @@
           "image_height": 810,
           "annotation_count": 3,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 25,
@@ -440,7 +440,7 @@
           "image_height": 810,
           "annotation_count": 3,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 26,
@@ -458,7 +458,7 @@
           "image_height": 810,
           "annotation_count": 3,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 27,
@@ -476,7 +476,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 28,
@@ -495,7 +495,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 29,
@@ -513,7 +513,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 30,
@@ -530,7 +530,7 @@
           "image_height": 810,
           "annotation_count": 3,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 31,
@@ -548,7 +548,7 @@
           "image_height": 810,
           "annotation_count": 2,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         },
         {
           "page": 32,
@@ -565,7 +565,7 @@
           "image_height": 810,
           "annotation_count": 0,
           "publication_authorization": "User requested actual original slides in the existing public repository.",
-          "post_release_status": "rendered-original-and-blob-checksum-matched"
+          "post_release_status": "rendered-original-committed-binary-refetched-sha-size-signature-verified"
         }
       ]
     }

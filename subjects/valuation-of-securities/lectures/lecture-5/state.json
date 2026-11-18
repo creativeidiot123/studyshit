@@ -156,7 +156,7 @@
     "Real browser/mobile/print rendering not performed; local environment cannot retrieve committed HTML. Structural and simulated DOM tests passed.",
     "Original PDF remains in conversation; all 32 original page screenshots now committed. Pages deployment/browser rendering not tested."
   ],
-  "updated_at": "2026-11-18T02:18:35.249Z",
+  "updated_at": "2026-11-18T02:23:04.700Z",
   "total_slides": 32,
   "extracted_through": 32,
   "extracted_pages": 32,
@@ -297,6 +297,17 @@
     "original_slide_images_published": 32,
     "rendered_browser_test": false,
     "slide_walkthroughs_annotated": 30,
-    "image_repair": "32 original PDF page images, Git blob checksums matched"
+    "image_repair": "32 original PDF page images, Git blob checksums matched",
+    "image_binary_refetch": {
+      "verified_count": 32,
+      "total_bytes": 3185271,
+      "checks": [
+        "Git blob SHA",
+        "decoded byte size",
+        "JPEG signature",
+        "committed path"
+      ],
+      "live_pages_rendered": false
+    }
   }
 }
