@@ -35,10 +35,11 @@
       "t10"
     ],
     "3": [
-      "t01"
+      "t01",
+      "t12"
     ]
   },
-  "next_topic": "t12",
+  "next_topic": "t11",
   "source_complete": true,
   "source_pages": 41,
   "covered_pages": [
@@ -107,7 +108,7 @@
       "detail": "No public source photos or PDF copied; project use permission only; binary upload unverified."
     }
   ],
-  "updated_at": "2026-11-18T00:47:36Z",
+  "updated_at": "2026-11-18T00:50:11Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
