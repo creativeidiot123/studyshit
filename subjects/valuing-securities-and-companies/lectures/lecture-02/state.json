@@ -4,7 +4,7 @@
   "lecture": "lecture-02",
   "title": "Lecture 2: Valuation Principles: NPV, IRR and Cost of Capital",
   "html_path": "subjects/valuing-securities-and-companies/lectures/lecture-02/study.html",
-  "stage": 5,
+  "stage": 6,
   "completed_topics": {
     "1": [
       "t01",
@@ -199,9 +199,14 @@
         "L031"
       ],
       "detail": "q-t10-02 first payment at end of year 1, four annual payments, equal positive growth/discount rates, explicit finite sum solution."
+    },
+    {
+      "type": "S06_runtime_limit",
+      "status": "disclosed_nonblocking",
+      "detail": "Executed actual committed core script in simulated DOM. Chromium rendered representative exact t10 markup/CSS, native solution and A4 print; live whole chapter not fetchable locally (DNS); no full deployment/browser/AI integration test. Source photos remain unpublished."
     }
   ],
-  "updated_at": "2026-11-18T01:59:34Z",
+  "updated_at": "2026-11-18T02:03:30Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
@@ -344,5 +349,5 @@
     40,
     41
   ],
-  "audit_mixed_complete": false
+  "audit_mixed_complete": true
 }
