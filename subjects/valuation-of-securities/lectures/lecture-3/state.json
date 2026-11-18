@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "subject": "valuation-of-securities",
+  "lecture": "lecture-3",
+  "title": "Lecture 3: Valuation of Bonds",
+  "html_path": "subjects/valuation-of-securities/lectures/lecture-3/study.html",
+  "stage": 1,
+  "completed_topics": {
+    "1": [
+      "topic-t01",
+      "topic-t02",
+      "topic-t03",
+      "topic-t04",
+      "topic-t05",
+      "topic-t06",
+      "topic-t07"
+    ],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": []
+  },
+  "next_topic": "topic-t01",
+  "source_complete": true,
+  "source_pages": 52,
+  "source_pages_processed": 52,
+  "issues": [
+    "No transcript provided; slides authoritative.",
+    "Source conflicts recorded in ledger; quantitative rechecks outstanding for detailed tables.",
+    "No verified public binary image upload; use manifest and honest walkthrough placeholders unless permitted assets verified."
+  ],
+  "updated_at": "2026-11-18"
+}
