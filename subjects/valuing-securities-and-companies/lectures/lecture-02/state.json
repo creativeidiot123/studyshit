@@ -4,7 +4,7 @@
   "lecture": "lecture-02",
   "title": "Lecture 2: Valuation Principles: NPV, IRR and Cost of Capital",
   "html_path": "subjects/valuing-securities-and-companies/lectures/lecture-02/study.html",
-  "stage": 4,
+  "stage": 5,
   "completed_topics": {
     "1": [
       "t01",
@@ -76,10 +76,11 @@
       "t06",
       "t07",
       "t08",
-      "t09"
+      "t09",
+      "t10"
     ]
   },
-  "next_topic": "t10",
+  "next_topic": null,
   "source_complete": true,
   "source_pages": 41,
   "covered_pages": [
@@ -175,7 +176,7 @@
       "detail": "Aligned IRR inclusive lower bound with USD cent input; finite-sum annuity and mortgage plus savings recurrence handle all legal nonnegative rates including subnormal rates. Tested actual updater with mock elements and preserved all 13 defaults."
     }
   ],
-  "updated_at": "2026-11-18T01:46:23Z",
+  "updated_at": "2026-11-18T01:48:43Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
