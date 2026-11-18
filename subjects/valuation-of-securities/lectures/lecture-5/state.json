@@ -6,7 +6,8 @@
   "stage": 2,
   "completed_topics": {
     "3": [
-      "t01"
+      "t01",
+      "t10"
     ],
     "S01": [
       "t01",
@@ -32,13 +33,13 @@
       "t09"
     ]
   },
-  "next_topic": "t10",
+  "next_topic": "t02",
   "source_complete": true,
   "issues": [
     "Original PDF and slide photos not uploaded; binary transfer unverified.",
     "L020 multiple-IRR headline overgeneralizes; L025 reinvestment assertion needs qualification; L026 D PI denominator unclear; L027/L031 project-ranking and programming qualifications; L029 MIRR only named."
   ],
-  "updated_at": "2026-11-18T00:50:28.674Z",
+  "updated_at": "2026-11-18T00:52:20.042Z",
   "total_slides": 32,
   "extracted_through": 32,
   "extracted_pages": 32,
