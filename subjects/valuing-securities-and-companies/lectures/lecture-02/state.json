@@ -4,7 +4,7 @@
   "lecture": "lecture-02",
   "title": "Lecture 2: Valuation Principles: NPV, IRR and Cost of Capital",
   "html_path": "subjects/valuing-securities-and-companies/lectures/lecture-02/study.html",
-  "stage": 2,
+  "stage": 3,
   "completed_topics": {
     "1": [
       "t01",
@@ -46,10 +46,11 @@
       "t06",
       "t07",
       "t08",
-      "t09"
+      "t09",
+      "t10"
     ]
   },
-  "next_topic": "t10",
+  "next_topic": null,
   "source_complete": true,
   "source_pages": 41,
   "covered_pages": [
@@ -118,7 +119,7 @@
       "detail": "No public source photos or PDF copied; project use permission only; binary upload unverified."
     }
   ],
-  "updated_at": "2026-11-18T01:11:28Z",
+  "updated_at": "2026-11-18T01:13:53Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
