@@ -38,10 +38,11 @@
       "topic-t15",
       "topic-t06",
       "topic-t07",
-      "topic-t16"
+      "topic-t16",
+      "topic-t08"
     ]
   },
-  "next_topic": "topic-t08",
+  "next_topic": "topic-t09",
   "source_complete": true,
   "next_slide": null,
   "extracted_through": 68,
