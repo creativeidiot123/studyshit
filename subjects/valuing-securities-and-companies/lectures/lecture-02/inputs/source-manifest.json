@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "subject": "valuing-securities-and-companies",
+  "lecture": "lecture-02",
+  "sources": [
+    {
+      "filename": "IBF 1 Principles in CF LECTURE 2 v1.pdf",
+      "role": "slides",
+      "type": "application/pdf",
+      "size_bytes": 1700820,
+      "page_count": 41,
+      "attachment_id": "file_00000000c770820ab4201da397fc46c9",
+      "provenance": "ChatGPT conversation attachment",
+      "stored_in_repository": false,
+      "location": "original remains in conversation",
+      "permission_evidence": "User states permission for slides within Study project; public redistribution not explicitly confirmed."
+    }
+  ],
+  "recordings": 0,
+  "slide_inventory": [
+    {
+      "page": 1,
+      "source_ids": [
+        "L001"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Title and lecture number",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 2,
+      "source_ids": [
+        "L002"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Five learning-objective bullets",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 3,
+      "source_ids": [
+        "L003"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Two green formula boxes",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 4,
+      "source_ids": [
+        "L004"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Timeline, exponent, two multiplication steps",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 5,
+      "source_ids": [
+        "L005"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Rate legend, flat line, steep 15% curve, $265/$673 tags",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 6,
+      "source_ids": [
+        "L006"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Reversed equation and red discount-rate/factor callouts",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 7,
+      "source_ids": [
+        "L007"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Definition and factor box",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 8,
+      "source_ids": [
+        "L008"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Axes, descending curves, $38/$15 labels",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 9,
+      "source_ids": [
+        "L009"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Cost and sale amounts; equal-risk 7% benchmark",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 10,
+      "source_ids": [
+        "L010"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "PV and NPV boxes",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 11,
+      "source_ids": [
+        "L011"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Two equivalent expressions",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 12,
+      "source_ids": [
+        "L012"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Risk statements and PV fraction",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 13,
+      "source_ids": [
+        "L013"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Three rate cases, red 7% highlight",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 14,
+      "source_ids": [
+        "L014"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Red rule and office-building calculation",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 15,
+      "source_ids": [
+        "L015"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "IRR rule and profit/investment fraction",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 16,
+      "source_ids": [
+        "L016"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Two numbered rules",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 17,
+      "source_ids": [
+        "L017"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "PV sum and red NPV sum box",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 18,
+      "source_ids": [
+        "L018"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Cash-flow arrows, dotted discount arrows, NPV total",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 19,
+      "source_ids": [
+        "L019"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Forever definition and return fraction",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 20,
+      "source_ids": [
+        "L020"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Ordinary and due formula boxes",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 21,
+      "source_ids": [
+        "L021"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Annual cash flow and $10bn box",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 22,
+      "source_ids": [
+        "L022"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Delay factor and −25% annotation",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 23,
+      "source_ids": [
+        "L023"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Payment columns, two perpetuities and difference",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 24,
+      "source_ids": [
+        "L024"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Five payment arrows, PV column, shortcut",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 25,
+      "source_ids": [
+        "L025"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Equivalent expressions and red factor brackets",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 26,
+      "source_ids": [
+        "L026"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Lottery headline, annuity-factor bracket and result",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 27,
+      "source_ids": [
+        "L027"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Mortgage rearrangement, factor and payment",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 28,
+      "source_ids": [
+        "L028"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Six-column amortization table; interest and principal portions",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 29,
+      "source_ids": [
+        "L029"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Nested factor/PV/FV braces",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 30,
+      "source_ids": [
+        "L030"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Five-year savings formula",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 31,
+      "source_ids": [
+        "L031"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Expanded series, denominator r−g, terminal-value thought bubble",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 32,
+      "source_ids": [
+        "L032"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Growth-adjusted denominator",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 33,
+      "source_ids": [
+        "L033"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Boxed correct formula and bottom substitution line",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 34,
+      "source_ids": [
+        "L034"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Two growing streams and shortened stream; right-hand PV boxes",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 35,
+      "source_ids": [
+        "L035"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Cash-flow date columns and five PV-labelled factor rows",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 36,
+      "source_ids": [
+        "L036"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "EAR and APR definitions",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 37,
+      "source_ids": [
+        "L037"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Monthly example, general EAR formula, exponential discount box",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 38,
+      "source_ids": [
+        "L038"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Three numbered conclusions and NPV equation",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 39,
+      "source_ids": [
+        "L039"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Capital-market comparison and shortcut bullets",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 40,
+      "source_ids": [
+        "L040"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Key-term list",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    },
+    {
+      "page": 41,
+      "source_ids": [
+        "L041"
+      ],
+      "rendered_image_inspected": true,
+      "visual_targets": "Required reading and supplementary references",
+      "image_status": "blocked-rights",
+      "image_reason": "Project-use permission stated; public photo redistribution not confirmed and no binary asset upload verified."
+    }
+  ]
+}
