@@ -4,7 +4,7 @@
   "lecture": "lecture-3",
   "title": "Lecture 3: Valuation of Bonds",
   "html_path": "subjects/valuation-of-securities/lectures/lecture-3/study.html",
-  "stage": 5,
+  "stage": 6,
   "completed_topics": {
     "1": [
       "topic-t01",
@@ -122,18 +122,21 @@
       "topic-t15",
       "topic-t06",
       "topic-t16",
-      "topic-t17"
+      "topic-t17",
+      "topic-t07",
+      "topic-t18"
     ],
     "7": []
   },
-  "next_topic": "topic-t07",
+  "next_topic": null,
   "source_complete": true,
   "source_pages": 52,
   "source_pages_processed": 52,
   "issues": [
     "No transcript provided; slides authoritative.",
-    "Source conflicts recorded; L020 and L024 independently recalculated in S01 repair; remaining detailed-table numerical checks pending.",
-    "No verified public binary image upload; use manifest and honest walkthrough placeholders unless permitted assets verified."
+    "Lecturer numerical conflicts preserved and independently recalculated; historical chart readings are approximate without raw data; historical corporate quotes cannot be independently repriced without settlement dates/conventions.",
+    "No verified public binary image upload; source manifest and honest walkthrough placeholders retained.",
+    "Local Chromium representative mobile/desktop and no-JS print sample tested; full deployed page browser/keyboard/print test unavailable. Shared script executed with simulated controls."
   ],
   "updated_at": "2026-11-18",
   "extracted_pages": 52,
