@@ -110,16 +110,28 @@
         "L034",
         "L035",
         "L040",
-        "L037"
+        "L037",
+        "L024"
       ]
     },
     {
       "type": "image",
       "status": "blocked-rights",
       "detail": "No public source photos or PDF copied; project use permission only; binary upload unverified."
+    },
+    {
+      "type": "S03_verifier_repair",
+      "status": "repaired_pending_independent_verification",
+      "source_ids": [
+        "L006",
+        "L007",
+        "L008",
+        "L024"
+      ],
+      "detail": "Corrected three ledger links, explained slide 24 rounded-sum discrepancy, and repaired corrupted dollar amounts across other source notes."
     }
   ],
-  "updated_at": "2026-11-18T01:13:53Z",
+  "updated_at": "2026-11-18T01:19:01Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
