@@ -90,10 +90,14 @@
       "topic-t03",
       "topic-t04",
       "topic-t13",
-      "topic-t05"
+      "topic-t05",
+      "topic-t14",
+      "topic-t15",
+      "topic-t06",
+      "topic-t07"
     ]
   },
-  "next_topic": "topic-t14",
+  "next_topic": "topic-t16",
   "source_complete": true,
   "next_slide": null,
   "extracted_through": 68,
@@ -213,16 +217,31 @@
       "L031",
       "L032",
       "L033",
-      "L066"
+      "L066",
+      "L034",
+      "L035",
+      "L036",
+      "L037",
+      "L038",
+      "L039",
+      "L040",
+      "L041",
+      "L042",
+      "L043",
+      "L044",
+      "L045",
+      "L046",
+      "L047"
     ],
     "remaining": [
-      "L034–L064",
+      "L048–L064",
       "L067–L068",
       "global mixed exam/HTML/browser/print checks"
     ],
     "limitations": [
       "Historical provider ratios/series lacking denominators or time series cannot be independently reconstructed.",
-      "Slide screenshots not published; no verified binary upload."
+      "Slide screenshots not published; no verified binary upload.",
+      "Utility sample underlying unrounded inputs, plowback/ROE and multistage forecasts absent; quoted rates retained."
     ]
   }
 }
