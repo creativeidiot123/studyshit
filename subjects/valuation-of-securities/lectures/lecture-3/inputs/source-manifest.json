@@ -232,7 +232,7 @@
         "L020"
       ],
       "rendered_image_inspected": true,
-      "annotation_targets": "Two cash-flow/price tables and percent-change comparison. Verified prices; relative increases (1000/939.97945−1)=6.3853%, (1373.81698/1300.10273−1)=5.6706%; 6.38 visual truncation vs ~6.39 conventional rounding.",
+      "annotation_targets": "Two cash-flow/price tables and percent-change comparison. Verified prices; relative increases (1000/939.97945−1)=6.3853%, (1373.81698/1300.10273−1)=5.669878% (5.67% rounded); 6.38 visual truncation vs ~6.39 conventional rounding.",
       "image_status": "unavailable-upload",
       "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
       "substantive": true
@@ -276,7 +276,7 @@
         "L024"
       ],
       "rendered_image_inspected": true,
-      "annotation_targets": "Semiannual timing in years with 2% annual discount exponent; currency not labelled. Rounding/underlying coupon precision may explain totals; preserve original and check later.",
+      "annotation_targets": "Semiannual timing in years with effective annual discount rate 2%; currency not labelled. Fact check: using the displayed 5.63 payments, terminal 105.63 and times t=k/2, k=1…12, full-precision PV=152.18304938 (152.18 rounded), D=Σ(t×PV(C_t))/PV=4.83002842 years (4.8300 rounded). Lecturer's 152.11 and 4.83 retained separately; original underlying precision is not established.",
       "image_status": "unavailable-upload",
       "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
       "substantive": true
