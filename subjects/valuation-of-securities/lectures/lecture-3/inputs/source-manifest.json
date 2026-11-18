@@ -1,0 +1,593 @@
+{
+  "schema_version": 1,
+  "subject": "valuation-of-securities",
+  "lecture": "lecture-3",
+  "sources": [
+    {
+      "filename": "IBF 1 Principles in CF LECTURE 3.pdf",
+      "role": "slides",
+      "size_bytes": 3286169,
+      "pages": 52,
+      "location": "ChatGPT conversation attachment",
+      "attachment_id": "file_00000000a8e4820a9dacb859bc40fea3",
+      "original_uploaded_to_repository": false,
+      "original_storage_reason": "Chat attachment retained; public-repo binary transfer not verified."
+    }
+  ],
+  "recordings": 0,
+  "rights_permission_evidence": "Study project states permission received to use slides in project; no independent confirmation of unrestricted public redistribution.",
+  "slide_images": [
+    {
+      "page": 1,
+      "source_ids": [
+        "L001"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Title and course identification.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": false
+    },
+    {
+      "page": 2,
+      "source_ids": [
+        "L002"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Seven learning objectives.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 3,
+      "source_ids": [
+        "L003"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Three breakout questions; no slide answers.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 4,
+      "source_ids": [
+        "L004"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Cash-flow table; dashed arrows link coupon payments and final principal to discounted terms.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 5,
+      "source_ids": [
+        "L005"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Annuity and principal formula; highlighted Excel function. Exact PV €112.1140; components €23.2962 and €88.8178.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 6,
+      "source_ids": [
+        "L006"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Arrows connect y in each discount factor; French case y≈2.4%.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 7,
+      "source_ids": [
+        "L007"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Boxed general cash-flow formula.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 8,
+      "source_ids": [
+        "L008"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Summation bounds, variable labels; constant YTM discounting.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 9,
+      "source_ids": [
+        "L009"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Boxed shortcut; level coupons.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 10,
+      "source_ids": [
+        "L010"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Coupon, face, dates, rating and discount yield in prompt.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 11,
+      "source_ids": [
+        "L011"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Five discount terms; verified $1,161.835396.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 12,
+      "source_ids": [
+        "L012"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Dates imply five years.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 13,
+      "source_ids": [
+        "L013"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Five coupon/principal terms and overlaid Yen231. Recomputed 5-year ¥230.72984; 4-year ¥225.11268 if exactly four periods; retain both source date versions, not ¥243.57 as correct.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 14,
+      "source_ids": [
+        "L014"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Prompt over Federal Reserve image; rate per half-year, not annual.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 15,
+      "source_ids": [
+        "L015"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Six half-year terms; recomputed $1,331.41335, $1,331.41 rounded; underlying amount differs by 1 cent, overlay incorrect.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 16,
+      "source_ids": [
+        "L016"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Three upward curves; roughly 4.0–4.1% at 1M and 5.4–5.7% at 30Y; week-ago line highest at long end. Historical screenshot; approximate visual readings only.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 17,
+      "source_ids": [
+        "L017"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Higher discount denominators. Recomputed $1,085.18472; both displayed results differ; original conclusion direction holds.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 18,
+      "source_ids": [
+        "L018"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "30-year curve descends much more steeply at low yields; curves cross at par; at sufficiently high yields long bond below short bond.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 19,
+      "source_ids": [
+        "L019"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Graph and formula overlay; source omits negative sign/relative price convention; for conventional positive modified duration, ΔP/P≈−D_mod Δy, with Δy decimal; final C_t includes principal.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 20,
+      "source_ids": [
+        "L020"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Two cash-flow/price tables and percent-change comparison. Verified prices; relative increases (1000/939.97945−1)=6.3853%, (1373.81698/1300.10273−1)=5.6706%; 6.38 visual truncation vs ~6.39 conventional rounding.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 21,
+      "source_ids": [
+        "L021"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Two boxed formulas; T is terminal time; weights are fractions of total PV.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 22,
+      "source_ids": [
+        "L022"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Final payment accounts for .6371 of PV; duration sum 5.69. Recomputed D=5.688417 years.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 23,
+      "source_ids": [
+        "L023"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Original percentages inconsistent (sum 5.374%); recomputed exact prices $1265.17154 and $1336.29992, changes −2.6868%, +2.7842% vs $1300.10273; D_mod=5.46963, linear ±2.7348% at ±0.5pp.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 24,
+      "source_ids": [
+        "L024"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Semiannual timing in years with 2% annual discount exponent; currency not labelled. Rounding/underlying coupon precision may explain totals; preserve original and check later.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 25,
+      "source_ids": [
+        "L025"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Downward convex teal curve; gray tangent line illustrates slope; slope magnitude changes with yield.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 26,
+      "source_ids": [
+        "L026"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Lines cross around 9 years/6.3%; historical chart visual estimates.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 27,
+      "source_ids": [
+        "L027"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Two cash-flow-specific rates versus one common yield. Recomputed PV=1.895429999; YTM approximately 3.66%.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 28,
+      "source_ids": [
+        "L028"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Four bullets linking spot structure, price and yield.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 29,
+      "source_ids": [
+        "L029"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Year columns, downward arrows, highlighted YTM cells; discount factors rounded, price in Excel per 100 face.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 30,
+      "source_ids": [
+        "L030"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Three schematic curves without numerical y-values; spot rate has specific maturity.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 31,
+      "source_ids": [
+        "L031"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Rises from about .15% to 3.4%, flattening at long maturities; printed historical chart, approximate visual readings; TIPS label retained.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 32,
+      "source_ids": [
+        "L032"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Three enumerated motives.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 33,
+      "source_ids": [
+        "L033"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Three theory bullets; horizon matching and risk.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 34,
+      "source_ids": [
+        "L034"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Two strategies and question; exact implied forward return 9.038095%.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 35,
+      "source_ids": [
+        "L035"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Highlighted equilibrium assertion; model assumption.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 36,
+      "source_ids": [
+        "L036"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Bars below zero in early 1920s and early 1930s (~−10%); high positive peaks ~20% in late 1910s, later positive spikes; title/date mismatch retained, no exact series provided.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 37,
+      "source_ids": [
+        "L037"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Approx bars Switzerland ~2.4%, US ~3.1%, Italy ~10.8%; Germany excludes 1922/23; date ranges differ; estimates, not original data series.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 38,
+      "source_ids": [
+        "L038"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Both formulas; π inflation rate per year/period consistently; constant π in CF expression.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 39,
+      "source_ids": [
+        "L039"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Exact and approximate formulas; 'proportional' wording needs qualification: fixed real rate yields Δr_nominal=(1+r_real)Δπ, approximately one-for-one percentage points at small rates.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 40,
+      "source_ids": [
+        "L040"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Nominal blue line peaks ~13% around 1990 and falls toward 4–5%; real pale line generally ~1–4.5%, lower and smoother; late volatility; historical approximate readings.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 41,
+      "source_ids": [
+        "L041"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Graph y=r, x=$ Qty; upward capital supply, downward capital demand, crossing at real r; horizontal equilibrium guide; no tick values.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 42,
+      "source_ids": [
+        "L042"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Inflation blue spike ~25% in mid-1970s vs Treasury bill return orange ~12%; bill rates later higher at times; both decline with time, near-zero bills toward end. Historical approximate.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 43,
+      "source_ids": [
+        "L043"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Treasury bill return orange peaks ~13% around 1981; inflation blue peaks ~12% around 1980, dips below zero in late period; both generally lower thereafter; rates not identical.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 44,
+      "source_ids": [
+        "L044"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Treasury bill return orange peaks ~11% around 1982 and ~10% early 1990s; inflation blue peaks ~7.6% mid-1970s, dips negative in 1950s and mid-1980s. Both trend lower later; historical approximate.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 45,
+      "source_ids": [
+        "L045"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Three breakout questions over Moody's photo.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 46,
+      "source_ids": [
+        "L046"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Three highlighted points; promised yield distinct from realized return.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 47,
+      "source_ids": [
+        "L047"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Boundary between Baa/BBB and Ba/BB; descending credit quality; simplified broad categories.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 48,
+      "source_ids": [
+        "L048"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Historical comparison, same stated maturity year; worsening rating associated with higher promised yield; price differs from coupon and face. Exact prices not independently reconstructible without settlement dates/conventions.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 49,
+      "source_ids": [
+        "L049"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Foreign currency exposure and default; borrowing dollars does not guarantee default, source wording overbroad.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 50,
+      "source_ids": [
+        "L050"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Own currency vs Eurozone constraint; no guarantee against default/inflation or institutional constraints.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 51,
+      "source_ids": [
+        "L051"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Key-term review; liquidity-preference/premium and realized return named here but not formally developed in slide text.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": true
+    },
+    {
+      "page": 52,
+      "source_ids": [
+        "L052"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Reading references only; Moodle articles not supplied.",
+      "image_status": "unavailable-upload",
+      "image_reason": "No authenticated verified binary upload/re-fetch of screenshot performed; do not link an unpublished image.",
+      "substantive": false
+    }
+  ]
+}
