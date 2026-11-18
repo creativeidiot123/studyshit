@@ -28,8 +28,10 @@
   "source_pages_processed": 52,
   "issues": [
     "No transcript provided; slides authoritative.",
-    "Source conflicts recorded in ledger; quantitative rechecks outstanding for detailed tables.",
+    "Source conflicts recorded; L020 and L024 independently recalculated in S01 repair; remaining detailed-table numerical checks pending.",
     "No verified public binary image upload; use manifest and honest walkthrough placeholders unless permitted assets verified."
   ],
-  "updated_at": "2026-11-18"
+  "updated_at": "2026-11-18",
+  "extracted_pages": 52,
+  "source_page_count": 52
 }
