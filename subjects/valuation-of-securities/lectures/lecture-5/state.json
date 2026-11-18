@@ -3,7 +3,7 @@
   "subject": "valuation-of-securities",
   "lecture": "lecture-5",
   "html_path": "subjects/valuation-of-securities/lectures/lecture-5/study.html",
-  "stage": 3,
+  "stage": 4,
   "completed_topics": {
     "3": [
       "t01",
@@ -25,7 +25,9 @@
       "t04",
       "t05",
       "t06",
-      "t07"
+      "t07",
+      "t08",
+      "t09"
     ],
     "S01": [
       "t01",
@@ -70,16 +72,18 @@
       "t04",
       "t05",
       "t06",
-      "t07"
+      "t07",
+      "t08",
+      "t09"
     ]
   },
-  "next_topic": "t08",
+  "next_topic": null,
   "source_complete": true,
   "issues": [
     "Original PDF and slide photos not uploaded; binary transfer unverified.",
     "L020 multiple-IRR headline overgeneralizes; L025 reinvestment assertion needs qualification; L026 D PI denominator unclear; L027/L031 project-ranking and programming qualifications; L029 MIRR only named."
   ],
-  "updated_at": "2026-11-18T01:19:05.599Z",
+  "updated_at": "2026-11-18T01:21:06.321Z",
   "total_slides": 32,
   "extracted_through": 32,
   "extracted_pages": 32,
