@@ -264,7 +264,8 @@
           "annotation_targets": "Equation and term-structure bullets",
           "image_status": "unavailable-upload",
           "reason": "No authenticated binary upload and re-fetch verification performed.",
-          "s04_walkthrough_status": "text-rechecked-image-unavailable"
+          "s04_walkthrough_status": "text-rechecked-image-unavailable",
+          "s06_walkthrough_status": "local-original-pdf-render-visually-inspected-not-published"
         },
         {
           "page": 26,
@@ -297,7 +298,8 @@
           "annotation_targets": "Three definitions",
           "image_status": "unavailable-upload",
           "reason": "No authenticated binary upload and re-fetch verification performed.",
-          "s04_walkthrough_status": "text-rechecked-image-unavailable"
+          "s04_walkthrough_status": "text-rechecked-image-unavailable",
+          "s06_walkthrough_status": "local-original-pdf-render-visually-inspected-not-published"
         },
         {
           "page": 29,
