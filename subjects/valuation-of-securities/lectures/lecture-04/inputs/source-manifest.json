@@ -1,0 +1,672 @@
+{
+  "schema_version": 1,
+  "subject": "valuation-of-securities",
+  "lecture": "lecture-04",
+  "sources": [
+    {
+      "filename": "IBF 1 Principles in CF STORY BOOK L4.pdf",
+      "role": "slides",
+      "size_bytes": 3534195,
+      "page_count": 68,
+      "provenance": "Original ChatGPT conversation attachment",
+      "attachment_id": "file_0000000068e8820aa6a4958100ab0f43",
+      "repository_copy": false,
+      "reason": "Original PDF remains in the conversation; no verified binary upload."
+    }
+  ],
+  "slide_images": [
+    {
+      "page": 1,
+      "source_ids": [
+        "L001"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Title and Wall Street sign; decorative.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 2,
+      "source_ids": [
+        "L002"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Bull graphic and AI logo; question.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 3,
+      "source_ids": [
+        "L003"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Market ticker background; section opener.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 4,
+      "source_ids": [
+        "L004"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "FT masthead, markets data navigation; historical screenshot, not live.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 5,
+      "source_ids": [
+        "L005"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Circled Markets Data, mini charts, intraday lines, market table.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 6,
+      "source_ids": [
+        "L006"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Circled Indices, historical chart, volume, quote/range fields.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 7,
+      "source_ids": [
+        "L007"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Circled sectors and industries; sector rows and mini charts.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 8,
+      "source_ids": [
+        "L008"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Circled screener and Netflix row.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 9,
+      "source_ids": [
+        "L009"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Ticker search, historical price and volume.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 10,
+      "source_ids": [
+        "L010"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Financials tab, revenue/profit bars, cash-flow and cash bars, ratio panels.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 11,
+      "source_ids": [
+        "L011"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Financials/forecasts tabs and annual income statement table.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 12,
+      "source_ids": [
+        "L012"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Five learning objectives; WACC is an objective, not yet a derived formula.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 13,
+      "source_ids": [
+        "L013"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Three labels primary, secondary, common stock.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 14,
+      "source_ids": [
+        "L014"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Seven company logos; historical group.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 15,
+      "source_ids": [
+        "L015"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Quote table and inset financials. Flag beta terminology and ambiguous market-cap unit.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 16,
+      "source_ids": [
+        "L016"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "ETF, SPDR and closed-end funds bullet groups.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 17,
+      "source_ids": [
+        "L017"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Four terms; book-value caveat.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 18,
+      "source_ids": [
+        "L018"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Two route boxes.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 19,
+      "source_ids": [
+        "L019"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Red dashed circles around target and peer multiples; actual page rendered locally.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 20,
+      "source_ids": [
+        "L020"
+      ],
+      "rendered_image_inspected": true,
+      "annotation_targets": "Circled Apache P/B, Dow P/E, Union Pacific P/E and P/B.",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 21,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 22,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 23,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 24,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 25,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 26,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 27,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 28,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 29,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 30,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 31,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 32,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 33,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 34,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 35,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 36,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 37,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 38,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 39,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 40,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 41,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 42,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 43,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 44,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 45,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 46,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 47,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 48,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 49,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 50,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 51,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 52,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 53,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 54,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 55,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 56,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 57,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 58,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 59,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 60,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 61,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 62,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 63,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 64,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 65,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 66,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 67,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    },
+    {
+      "page": 68,
+      "source_ids": [],
+      "rendered_image_inspected": false,
+      "annotation_targets": "Pending extraction",
+      "image_status": "unavailable-upload",
+      "image_path": null,
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+    }
+  ],
+  "recordings": 0
+}
