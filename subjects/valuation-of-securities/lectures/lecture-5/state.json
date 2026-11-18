@@ -3,7 +3,7 @@
   "subject": "valuation-of-securities",
   "lecture": "lecture-5",
   "html_path": "subjects/valuation-of-securities/lectures/lecture-5/study.html",
-  "stage": 1,
+  "stage": 2,
   "completed_topics": {
     "S01": [
       "t01",
@@ -15,17 +15,73 @@
       "t07",
       "t08",
       "t09"
+    ],
+    "S02": [
+      "t01",
+      "t10",
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09"
     ]
   },
-  "next_topic": null,
+  "next_topic": "t01",
   "source_complete": true,
   "issues": [
     "Original PDF and slide photos not uploaded; binary transfer unverified.",
     "L020 multiple-IRR headline overgeneralizes; L025 reinvestment assertion needs qualification; L026 D PI denominator unclear; L027/L031 project-ranking and programming qualifications; L029 MIRR only named."
   ],
-  "updated_at": "2026-11-18T00:44:20.571Z",
+  "updated_at": "2026-11-18T00:47:29.634Z",
   "total_slides": 32,
   "extracted_through": 32,
   "extracted_pages": 32,
-  "source_page_count": 32
+  "source_page_count": 32,
+  "topic_order": [
+    "t01",
+    "t10",
+    "t02",
+    "t03",
+    "t04",
+    "t05",
+    "t06",
+    "t07",
+    "t08",
+    "t09"
+  ],
+  "primary_slide_topics": {
+    "2": "t01",
+    "3": "t01",
+    "4": "t01",
+    "5": "t01",
+    "6": "t10",
+    "7": "t10",
+    "8": "t02",
+    "9": "t03",
+    "10": "t03",
+    "11": "t03",
+    "12": "t03",
+    "13": "t04",
+    "14": "t04",
+    "15": "t04",
+    "16": "t04",
+    "17": "t04",
+    "18": "t05",
+    "19": "t06",
+    "20": "t06",
+    "21": "t06",
+    "22": "t07",
+    "23": "t07",
+    "24": "t07",
+    "25": "t08",
+    "26": "t09",
+    "27": "t09",
+    "28": "t09",
+    "29": "t09",
+    "30": "t02",
+    "31": "t09"
+  }
 }
