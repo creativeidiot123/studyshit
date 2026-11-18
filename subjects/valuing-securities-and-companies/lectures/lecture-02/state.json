@@ -4,7 +4,7 @@
   "lecture": "lecture-02",
   "title": "Lecture 2: Valuation Principles: NPV, IRR and Cost of Capital",
   "html_path": "subjects/valuing-securities-and-companies/lectures/lecture-02/study.html",
-  "stage": 6,
+  "stage": 7,
   "completed_topics": {
     "1": [
       "t01",
@@ -80,6 +80,21 @@
       "t10"
     ],
     "6": [
+      "t01",
+      "t12",
+      "t11",
+      "t02",
+      "t13",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09",
+      "t10"
+    ],
+    "7": [
       "t01",
       "t12",
       "t11",
@@ -204,9 +219,14 @@
       "type": "S06_runtime_limit",
       "status": "disclosed_nonblocking",
       "detail": "Executed actual committed core script in simulated DOM. Chromium rendered representative exact t10 markup/CSS, native solution and A4 print; live whole chapter not fetchable locally (DNS); no full deployment/browser/AI integration test. Source photos remain unpublished."
+    },
+    {
+      "type": "S07_runtime_limit",
+      "status": "disclosed_nonblocking",
+      "detail": "Local reproduction of cheat sheet rendered and tested; full live deployment browser and optional AI backend not tested; original photos withheld per manifest. Pending independent S07 verification."
     }
   ],
-  "updated_at": "2026-11-18T02:12:36Z",
+  "updated_at": "2026-11-18T02:16:55Z",
   "source_page_count": 41,
   "extracted_pages": 41,
   "topic_order": [
@@ -350,5 +370,6 @@
     41
   ],
   "audit_mixed_complete": true,
-  "release_prepared": true
+  "release_prepared": true,
+  "release_checks_complete": true
 }
