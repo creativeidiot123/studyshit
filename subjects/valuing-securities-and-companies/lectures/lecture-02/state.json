@@ -79,7 +79,8 @@
         "L033",
         "L034",
         "L035",
-        "L040"
+        "L040",
+        "L037"
       ]
     },
     {
@@ -88,5 +89,7 @@
       "detail": "No public source photos or PDF copied; project use permission only; binary upload unverified."
     }
   ],
-  "updated_at": "2026-11-18"
+  "updated_at": "2026-11-18T00:43:04Z",
+  "source_page_count": 41,
+  "extracted_pages": 41
 }
