@@ -3,7 +3,7 @@
   "subject": "valuation-of-securities",
   "lecture": "lecture-5",
   "html_path": "subjects/valuation-of-securities/lectures/lecture-5/study.html",
-  "stage": 5,
+  "stage": 6,
   "completed_topics": {
     "3": [
       "t01",
@@ -129,9 +129,10 @@
   "source_complete": true,
   "issues": [
     "Original PDF and slide photos not uploaded; binary transfer unverified.",
-    "L020 multiple-IRR headline overgeneralizes; L025 reinvestment assertion needs qualification; L026 D PI denominator unclear; L027/L031 project-ranking and programming qualifications; L029 MIRR only named."
+    "L020 multiple-IRR headline overgeneralizes; L025 reinvestment assertion needs qualification; L026 D PI denominator unclear; L027/L031 project-ranking and programming qualifications; L029 MIRR only named.",
+    "Real browser/mobile/print rendering not performed; local environment cannot retrieve committed HTML. Structural and simulated DOM tests passed."
   ],
-  "updated_at": "2026-11-18T01:49:10.682Z",
+  "updated_at": "2026-11-18T01:52:28.179Z",
   "total_slides": 32,
   "extracted_through": 32,
   "extracted_pages": 32,
@@ -238,8 +239,26 @@
       31,
       32
     ],
-    "pending": [
-      "technical interaction, accessibility and layout audit"
-    ]
+    "pending": [],
+    "technical": {
+      "simulated_assertions": 332,
+      "question_containers": 70,
+      "models": 9,
+      "script_bytes": 6849,
+      "real_browser_rendered": false,
+      "limit": "Committed HTML not accessible in local rendering environment; static and simulated checks performed.",
+      "prose_words": {
+        "t01": 306,
+        "t10": 231,
+        "t02": 289,
+        "t03": 365,
+        "t04": 290,
+        "t05": 315,
+        "t06": 252,
+        "t07": 241,
+        "t08": 312,
+        "t09": 397
+      }
+    }
   }
 }
