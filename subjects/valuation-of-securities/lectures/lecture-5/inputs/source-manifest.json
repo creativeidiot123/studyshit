@@ -13,7 +13,7 @@
       "attachment_id": "file_0000000092cc820a8c2f3630be10625c",
       "location": "ChatGPT conversation",
       "original_upload_status": "not-uploaded",
-      "rights": "Project instruction says permission received to use slides; binary publication not verified",
+      "rights": "User explicitly authorized publishing the slide screenshots in this public Study repository; original PDF not uploaded.",
       "slides": [
         {
           "page": 1,
@@ -22,8 +22,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Wall Street cover and title",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-001.jpg",
+          "image_blob_sha": "1156ed6c1408d019c04d2e4fb482a0f557fe85c8",
+          "image_size_bytes": 136537,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 0,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 2,
@@ -32,8 +39,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Four learning objectives",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-002.jpg",
+          "image_blob_sha": "6c940dc31f098927efd1c323d5644d800fe15a88",
+          "image_size_bytes": 142095,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 1,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 3,
@@ -42,8 +56,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Boxed equation",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-003.jpg",
+          "image_blob_sha": "30832e7c78afd8c82266852f73d6cb58856bbed3",
+          "image_size_bytes": 48960,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 4,
@@ -52,8 +73,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Reject/accept columns and total row",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-004.jpg",
+          "image_blob_sha": "29a173b4a01579f2367d323633ae0600a00e62bc",
+          "image_size_bytes": 85136,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 3,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 5,
@@ -62,8 +90,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Cash, manager, project, shareholder and alternative-investment arrows",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-005.jpg",
+          "image_blob_sha": "a4285ee4598ae52091456d0001f8df4e8fd04f56",
+          "image_size_bytes": 128955,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 3,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 6,
@@ -72,8 +107,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Bar lengths and percentage labels",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-006.jpg",
+          "image_blob_sha": "8c16ff561c36de29260278242c530863dd333a4c",
+          "image_size_bytes": 73211,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 3,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 7,
@@ -82,8 +124,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Numbered principles and additivity equation",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-007.jpg",
+          "image_blob_sha": "0a987b0000eb3fcffa651a50421b8916346936dc",
+          "image_size_bytes": 134259,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 3,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 8,
@@ -92,8 +141,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Ratio and accounting warning",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-008.jpg",
+          "image_blob_sha": "3d6f6181c17559d2652d9cbde6a7e3e52116f01b",
+          "image_size_bytes": 114605,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 9,
@@ -102,8 +158,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Payback rule and two omissions",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-009.jpg",
+          "image_blob_sha": "32d3638fd1339218b2c305f51735029a80dfa33c",
+          "image_size_bytes": 123574,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 10,
@@ -112,8 +175,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Cash flow table and task",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-010.jpg",
+          "image_blob_sha": "18bcf168d9e26b83e44387fce85a807d53d3b662",
+          "image_size_bytes": 75621,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 11,
@@ -122,8 +192,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Payback and NPV columns",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-011.jpg",
+          "image_blob_sha": "8750c389e891165d49e19f3328090540d517ed66",
+          "image_size_bytes": 65514,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 12,
@@ -132,8 +209,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Discounted flows and payback columns",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-012.jpg",
+          "image_blob_sha": "a1a130a0971852691dc1874a4d9e8d2d4c92531f",
+          "image_size_bytes": 84332,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 13,
@@ -142,8 +226,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Three derivation boxes",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-013.jpg",
+          "image_blob_sha": "6da79f742a91fdd5ef35483a3b6974149c42f1d8",
+          "image_size_bytes": 96297,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 14,
@@ -152,8 +243,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Full IRR equation",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-014.jpg",
+          "image_blob_sha": "ab6a7f980bac13ecd54419cf088d79ef963f49d0",
+          "image_size_bytes": 78622,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 15,
@@ -162,8 +260,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Equation, result and Excel bubble",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-015.jpg",
+          "image_blob_sha": "f97ad324eda524409b5c0e689ad86bfbc22062aa",
+          "image_size_bytes": 96832,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 16,
@@ -172,8 +277,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Axes, crossing and inequality labels",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-016.jpg",
+          "image_blob_sha": "c6021b30540960804c75c58506b1bece44e93a8e",
+          "image_size_bytes": 88062,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 17,
@@ -182,8 +294,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Decision statement",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-017.jpg",
+          "image_blob_sha": "195a4bfa40f4698664b3deae644de3a2cf724011",
+          "image_size_bytes": 56165,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 1,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 18,
@@ -192,8 +311,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Two opposite signed cash flow rows",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-018.jpg",
+          "image_blob_sha": "c314d5908aea29e71595517ac830d1ed09c8be4d",
+          "image_size_bytes": 132849,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 3,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 19,
@@ -202,8 +328,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Cash flow table with terminal outflow",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-019.jpg",
+          "image_blob_sha": "35793bd3f1cc97d3b7019a090d7e0e15d48d1998",
+          "image_size_bytes": 79490,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 20,
@@ -212,8 +345,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Two zero crossings and hump",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-020.jpg",
+          "image_blob_sha": "bfce0124612ea3a7e7256608bef3463ffe668ba2",
+          "image_size_bytes": 78654,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 3,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 21,
@@ -222,8 +362,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "No-IRR table",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-021.jpg",
+          "image_blob_sha": "d8785818299ec85d1f9683f6eb524099a323f05b",
+          "image_size_bytes": 72625,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 22,
@@ -232,8 +379,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Scale comparison table",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-022.jpg",
+          "image_blob_sha": "1cec95bb97cc4d54047ef19ef0ca982518791e07",
+          "image_size_bytes": 82302,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 23,
@@ -242,8 +396,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Incremental cash flow tables and ellipses",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-023.jpg",
+          "image_blob_sha": "9fd492e1bab51aa53dc548ab6ce802bfc5933101",
+          "image_size_bytes": 109534,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 3,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 24,
@@ -252,8 +413,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Two curves, intersection 15.6%, F IRR 33.3%",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-024.jpg",
+          "image_blob_sha": "cd873f5a88bcd55454bd78094cb5ace9f6d03d0c",
+          "image_size_bytes": 94005,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 3,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 25,
@@ -262,10 +430,17 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Equation and term-structure bullets",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed.",
+          "image_status": "published",
           "s04_walkthrough_status": "text-rechecked-image-unavailable",
-          "s06_walkthrough_status": "local-original-pdf-render-visually-inspected-not-published"
+          "s06_walkthrough_status": "local-original-pdf-render-visually-inspected-not-published",
+          "image_path": "assets/slides/slide-025.jpg",
+          "image_blob_sha": "c9c9b27bb0a44cd708797c90891ad070a2360a23",
+          "image_size_bytes": 83054,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 3,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 26,
@@ -274,9 +449,16 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Four project rows and boxed ratio",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed.",
-          "s04_walkthrough_status": "source-image-rechecked-not-published"
+          "image_status": "published",
+          "s04_walkthrough_status": "source-image-rechecked-not-published",
+          "image_path": "assets/slides/slide-026.jpg",
+          "image_blob_sha": "b87f741123bf76d341f67c95b46e5b205cc7477c",
+          "image_size_bytes": 97699,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 3,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 27,
@@ -285,9 +467,16 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Three selection bullets",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed.",
-          "s04_walkthrough_status": "source-image-rechecked-not-published"
+          "image_status": "published",
+          "s04_walkthrough_status": "source-image-rechecked-not-published",
+          "image_path": "assets/slides/slide-027.jpg",
+          "image_blob_sha": "66ef6e3c39e4842a8dfb2412e5eab2f329ffc71c",
+          "image_size_bytes": 116699,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 28,
@@ -296,10 +485,17 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Three definitions",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed.",
+          "image_status": "published",
           "s04_walkthrough_status": "text-rechecked-image-unavailable",
-          "s06_walkthrough_status": "local-original-pdf-render-visually-inspected-not-published"
+          "s06_walkthrough_status": "local-original-pdf-render-visually-inspected-not-published",
+          "image_path": "assets/slides/slide-028.jpg",
+          "image_blob_sha": "34ca25bd4e014d65c394b5b3669ab3241d00b568",
+          "image_size_bytes": 53928,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 29,
@@ -308,9 +504,16 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Key terms list",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed.",
-          "s04_walkthrough_status": "source-image-rechecked-not-published"
+          "image_status": "published",
+          "s04_walkthrough_status": "source-image-rechecked-not-published",
+          "image_path": "assets/slides/slide-029.jpg",
+          "image_blob_sha": "2e4cfc0a64aa9b77bbb9ba546875a085f4a946f1",
+          "image_size_bytes": 77224,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 30,
@@ -319,8 +522,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Three criteria and first IRR pitfall",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-030.jpg",
+          "image_blob_sha": "74430c02847dfb477d6bd5037bcb3b527855fd1d",
+          "image_size_bytes": 195188,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 3,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 31,
@@ -329,9 +539,16 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Pitfalls 2–4 and rationing summary",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed.",
-          "s04_walkthrough_status": "source-image-rechecked-not-published"
+          "image_status": "published",
+          "s04_walkthrough_status": "source-image-rechecked-not-published",
+          "image_path": "assets/slides/slide-031.jpg",
+          "image_blob_sha": "c203d55cef2816d6f1f25855d1c71724f21aebd9",
+          "image_size_bytes": 191562,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 2,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         },
         {
           "page": 32,
@@ -340,8 +557,15 @@
           ],
           "image_inspected": true,
           "annotation_targets": "Literature list",
-          "image_status": "unavailable-upload",
-          "reason": "No authenticated binary upload and re-fetch verification performed."
+          "image_status": "published",
+          "image_path": "assets/slides/slide-032.jpg",
+          "image_blob_sha": "8b37cd93d4dcd8690f9bacf754ddbe72d1b502d4",
+          "image_size_bytes": 91681,
+          "image_width": 1080,
+          "image_height": 810,
+          "annotation_count": 0,
+          "publication_authorization": "User requested actual original slides in the existing public repository.",
+          "post_release_status": "rendered-original-and-blob-checksum-matched"
         }
       ]
     }

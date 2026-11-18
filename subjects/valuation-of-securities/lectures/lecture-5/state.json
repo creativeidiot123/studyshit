@@ -152,11 +152,11 @@
   "next_topic": null,
   "source_complete": true,
   "issues": [
-    "Original PDF and slide photos not uploaded; binary transfer unverified.",
     "L020 multiple-IRR headline overgeneralizes; L025 reinvestment assertion needs qualification; L026 D PI denominator unclear; L027/L031 project-ranking and programming qualifications; L029 MIRR only named.",
-    "Real browser/mobile/print rendering not performed; local environment cannot retrieve committed HTML. Structural and simulated DOM tests passed."
+    "Real browser/mobile/print rendering not performed; local environment cannot retrieve committed HTML. Structural and simulated DOM tests passed.",
+    "Original PDF remains in conversation; all 32 original page screenshots now committed. Pages deployment/browser rendering not tested."
   ],
-  "updated_at": "2026-11-18T01:59:22.261Z",
+  "updated_at": "2026-11-18T02:18:35.249Z",
   "total_slides": 32,
   "extracted_through": 32,
   "extracted_pages": 32,
@@ -294,7 +294,9 @@
     "numeric_keys_rechecked": 37,
     "calculator_defaults_rechecked": 9,
     "script_bytes": 7187,
-    "original_slide_images_published": 0,
-    "rendered_browser_test": false
+    "original_slide_images_published": 32,
+    "rendered_browser_test": false,
+    "slide_walkthroughs_annotated": 30,
+    "image_repair": "32 original PDF page images, Git blob checksums matched"
   }
 }
