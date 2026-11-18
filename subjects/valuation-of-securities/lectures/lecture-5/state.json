@@ -41,6 +41,12 @@
       "t08",
       "t09"
     ],
+    "6": [
+      "t01",
+      "t10",
+      "t02",
+      "t03"
+    ],
     "S01": [
       "t01",
       "t02",
@@ -99,15 +105,21 @@
       "t07",
       "t08",
       "t09"
+    ],
+    "S06": [
+      "t01",
+      "t10",
+      "t02",
+      "t03"
     ]
   },
-  "next_topic": null,
+  "next_topic": "t04",
   "source_complete": true,
   "issues": [
     "Original PDF and slide photos not uploaded; binary transfer unverified.",
     "L020 multiple-IRR headline overgeneralizes; L025 reinvestment assertion needs qualification; L026 D PI denominator unclear; L027/L031 project-ranking and programming qualifications; L029 MIRR only named."
   ],
-  "updated_at": "2026-11-18T01:37:49.349Z",
+  "updated_at": "2026-11-18T01:43:08.292Z",
   "total_slides": 32,
   "extracted_through": 32,
   "extracted_pages": 32,
@@ -166,5 +178,37 @@
   "mixed_practice": {
     "questions": 10,
     "numeric": 7
+  },
+  "audit": {
+    "completed_topics": [
+      "t01",
+      "t10",
+      "t02",
+      "t03"
+    ],
+    "source_pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      30
+    ],
+    "pending": [
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09",
+      "mixed practice and interaction/rendering audit"
+    ]
   }
 }
