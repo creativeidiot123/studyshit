@@ -790,7 +790,8 @@
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed.",
-      "s04_visual_review": "Re-rendered from original lecture PDF and visually inspected in S04; no verified binary-safe publication."
+      "s04_visual_review": "Re-rendered from original lecture PDF and visually inspected in S04; no verified binary-safe publication.",
+      "s06_visual_review": "Rendered and visually inspected original PDF in S06 batch 5; source-linked numbered explanation or literature-only slide; no screenshot published."
     },
     {
       "page": 61,
@@ -802,7 +803,8 @@
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed.",
-      "s04_visual_review": "Re-rendered from original lecture PDF and visually inspected in S04; no verified binary-safe publication."
+      "s04_visual_review": "Re-rendered from original lecture PDF and visually inspected in S04; no verified binary-safe publication.",
+      "s06_visual_review": "Rendered and visually inspected original PDF in S06 batch 5; source-linked numbered explanation or literature-only slide; no screenshot published."
     },
     {
       "page": 62,
@@ -814,7 +816,8 @@
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed.",
-      "s04_visual_review": "Re-rendered from original lecture PDF and visually inspected in S04; no verified binary-safe publication."
+      "s04_visual_review": "Re-rendered from original lecture PDF and visually inspected in S04; no verified binary-safe publication.",
+      "s06_visual_review": "Rendered and visually inspected original PDF in S06 batch 5; source-linked numbered explanation or literature-only slide; no screenshot published."
     },
     {
       "page": 63,
@@ -826,7 +829,8 @@
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed.",
-      "s04_visual_review": "Re-rendered from original lecture PDF and visually inspected in S04; no verified binary-safe publication."
+      "s04_visual_review": "Re-rendered from original lecture PDF and visually inspected in S04; no verified binary-safe publication.",
+      "s06_visual_review": "Rendered and visually inspected original PDF in S06 batch 5; source-linked numbered explanation or literature-only slide; no screenshot published."
     },
     {
       "page": 64,
@@ -838,7 +842,8 @@
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed.",
-      "s04_visual_review": "Re-rendered from original lecture PDF and visually inspected in S04; no verified binary-safe publication."
+      "s04_visual_review": "Re-rendered from original lecture PDF and visually inspected in S04; no verified binary-safe publication.",
+      "s06_visual_review": "Rendered and visually inspected original PDF in S06 batch 5; source-linked numbered explanation or literature-only slide; no screenshot published."
     },
     {
       "page": 65,
@@ -876,7 +881,8 @@
       "image_status": "unavailable-upload",
       "image_path": null,
       "reason": "Project permission to use slides reported; no verified binary-safe publication performed.",
-      "s04_visual_review": "Re-rendered from original lecture PDF and visually inspected in S04; no verified binary-safe publication."
+      "s04_visual_review": "Re-rendered from original lecture PDF and visually inspected in S04; no verified binary-safe publication.",
+      "s06_visual_review": "Rendered and visually inspected original PDF in S06 batch 5; source-linked numbered explanation or literature-only slide; no screenshot published."
     },
     {
       "page": 68,
@@ -887,7 +893,8 @@
       "annotation_targets": "Reading list; no substantive graph.",
       "image_status": "unavailable-upload",
       "image_path": null,
-      "reason": "Project permission to use slides reported; no verified binary-safe publication performed."
+      "reason": "Project permission to use slides reported; no verified binary-safe publication performed.",
+      "s06_visual_review": "Rendered and visually inspected original PDF in S06 batch 5; source-linked numbered explanation or literature-only slide; no screenshot published."
     }
   ],
   "recordings": 0
