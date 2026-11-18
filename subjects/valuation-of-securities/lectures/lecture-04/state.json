@@ -24,9 +24,12 @@
       "topic-t09",
       "topic-t10",
       "topic-t17"
+    ],
+    "3": [
+      "topic-t01"
     ]
   },
-  "next_topic": "topic-t01",
+  "next_topic": "topic-t02",
   "source_complete": true,
   "next_slide": null,
   "extracted_through": 68,
