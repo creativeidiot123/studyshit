@@ -8,13 +8,13 @@
   "completed_topics": {},
   "next_topic": null,
   "source_complete": false,
-  "next_slide": 21,
-  "extracted_through": 20,
+  "next_slide": 51,
+  "extracted_through": 50,
   "total_slides": 68,
   "issues": [
-    "Slide 7 fine print requires enlarged visual transcription.",
     "Numerical verification pending.",
-    "Slide images not uploaded; verified binary publication pending."
+    "Slide images not uploaded; verified binary publication pending.",
+    "Slides 51–68 remain; full numerical audit pending."
   ],
   "updated_at": "2026-11-18"
 }
