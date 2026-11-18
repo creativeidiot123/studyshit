@@ -97,10 +97,12 @@
       "topic-t07",
       "topic-t16",
       "topic-t08",
-      "topic-t09"
+      "topic-t09",
+      "topic-t10",
+      "topic-t17"
     ]
   },
-  "next_topic": "topic-t10",
+  "next_topic": null,
   "source_complete": true,
   "next_slide": null,
   "extracted_through": 68,
@@ -203,7 +205,6 @@
       "L015",
       "L016",
       "L017",
-      "L065",
       "L018",
       "L019",
       "L020",
@@ -220,7 +221,6 @@
       "L031",
       "L032",
       "L033",
-      "L066",
       "L034",
       "L035",
       "L036",
@@ -246,12 +246,19 @@
       "L056",
       "L057",
       "L058",
-      "L059"
+      "L059",
+      "L060",
+      "L061",
+      "L062",
+      "L063",
+      "L064",
+      "L065",
+      "L066",
+      "L067",
+      "L068"
     ],
     "remaining": [
-      "L060–L064",
-      "L067–L068",
-      "global mixed exam/HTML/browser/print checks"
+      "global structure, prose, actual shared-script event and print/mobile fallback review"
     ],
     "limitations": [
       "Historical provider ratios/series lacking denominators or time series cannot be independently reconstructed.",
