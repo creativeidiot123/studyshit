@@ -3,7 +3,7 @@
   "subject": "valuation-of-securities",
   "lecture": "lecture-5",
   "html_path": "subjects/valuation-of-securities/lectures/lecture-5/study.html",
-  "stage": 4,
+  "stage": 5,
   "completed_topics": {
     "3": [
       "t01",
@@ -38,7 +38,8 @@
       "t05",
       "t06",
       "t07",
-      "t08"
+      "t08",
+      "t09"
     ],
     "S01": [
       "t01",
@@ -96,16 +97,17 @@
       "t05",
       "t06",
       "t07",
-      "t08"
+      "t08",
+      "t09"
     ]
   },
-  "next_topic": "t09",
+  "next_topic": null,
   "source_complete": true,
   "issues": [
     "Original PDF and slide photos not uploaded; binary transfer unverified.",
     "L020 multiple-IRR headline overgeneralizes; L025 reinvestment assertion needs qualification; L026 D PI denominator unclear; L027/L031 project-ranking and programming qualifications; L029 MIRR only named."
   ],
-  "updated_at": "2026-11-18T01:30:25.948Z",
+  "updated_at": "2026-11-18T01:37:49.349Z",
   "total_slides": 32,
   "extracted_through": 32,
   "extracted_pages": 32,
@@ -160,5 +162,9 @@
       "t04 variant NPV residual corrected using modified stream",
       "t09 weighted-average PI objective clarified with B versus B+C example"
     ]
+  },
+  "mixed_practice": {
+    "questions": 10,
+    "numeric": 7
   }
 }
