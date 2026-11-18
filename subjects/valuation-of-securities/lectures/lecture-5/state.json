@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "subject": "valuation-of-securities",
+  "lecture": "lecture-5",
+  "html_path": "subjects/valuation-of-securities/lectures/lecture-5/study.html",
+  "stage": 1,
+  "completed_topics": {
+    "S01": [
+      "t01",
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09"
+    ]
+  },
+  "next_topic": null,
+  "source_complete": true,
+  "issues": [
+    "Original PDF and slide photos not uploaded; binary transfer unverified.",
+    "L020 multiple-IRR headline overgeneralizes; L025 reinvestment assertion needs qualification; L026 D PI denominator unclear; L027/L031 project-ranking and programming qualifications; L029 MIRR only named."
+  ],
+  "updated_at": "2026-11-18T00:42:42.810Z",
+  "total_slides": 32,
+  "extracted_through": 32
+}
